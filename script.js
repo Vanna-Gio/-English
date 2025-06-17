@@ -1,5 +1,6 @@
 // script.js
 
+
 // Game Data - Moved to separate object for better organization
 const gameData = {
     vocab: [
@@ -20,6 +21,7 @@ const gameData = {
         { word: "hoisting", meaning: "JavaScript's default behavior of moving declarations to the top.", khmer: "អាកប្បកិរិយាលំនាំដើមរបស់ JavaScript ក្នុងការផ្លាស់ប្តូរការប្រកាសទៅខាងលើ", audio: "audio/hoisting.mp3" },
         { word: "asynchronous", meaning: "Operations that don't block the main thread.", khmer: "ប្រតិបត្តិការដែលមិនរាំងស្ទះខ្សែស្រឡាយសំខាន់", audio: "audio/asynchronous.mp3" }
     ],
+
 
     grammar: {
         tenses: {
@@ -158,7 +160,160 @@ const gameData = {
                 ]
             },
         },
+       BasicSentencePatterns: {
+                "1. Subject + Verb (S + V)": {
+                description: "This is the simplest type of sentence. It has a subject doing an action, but the action doesn't transfer to an object.",
+                structure: "Subject + Verb (S + V)",
+                examples: [
+                    { type: "correct", "sentence": "She sings." },
+                    { type: "correct", "sentence": "The baby cried." },
+                    { type: "correct", "sentence": "I agree." }
+                ],
+                quizQuestions: [
+                    {
+                    type: "multiple-choice",
+                    question: "Which of the following is a correct 'Subject + Verb' sentence?",
+                    options: [
+                        { text: "He is happy.", "correct": false },
+                        { text: "They swim.", "correct": true, explanation: "👉 'They' is the subject and 'swim' is the verb. There is no object." },
+                        { text: "She reads a book.", "correct": false }
+                    ]
+                    },
+                    {
+                    type: "fill-in-blank",
+                    question: "The dog ______.",
+                    correctAnswer: "barks",
+                    explanation: "👉 'barks' is a verb that completes the S+V pattern. Other answers like 'runs' or 'sleeps' are also correct."
+                    }
+                ]
+                },
+                "2. Subject + Verb + Object (S + V + O)": {
+                description: "This is the most common sentence pattern in English. The action of the verb is passed on to an object.",
+                structure: "Subject + Verb + Object (S + V + O)",
+                examples: [
+                    { type: "correct", "sentence": "I like coffee. (What do I like? Coffee.)" },
+                    { type: "correct", "sentence": "He reads books. (What does he read? Books.)" },
+                    { type: "correct", "sentence": "My brother fixed the car. (What did my brother fix? The car.)" }
+                ],
+                quizQuestions: [
+                    {
+                    type: "multiple-choice",
+                    question: "Which sentence follows the 'Subject + Verb + Object' pattern?",
+                    options: [
+                        { text: "The sun shines.", "correct": false },
+                        { text: "We ate pizza.", "correct": true, explanation: "👉 'We' (S) 'ate' (V) 'pizza' (O). The action of eating is done to the pizza." },
+                        { text: "She seems tired.", "correct": false }
+                    ]
+                    },
+                    {
+                    type: "fill-in-blank",
+                    question: "The student answered ______.",
+                    correctAnswer: "the question",
+                    explanation: "👉 'the question' is the object that receives the action of the verb 'answered'."
+                    }
+                ]
+                },
+                "3. Subject + Verb + Adjective (S + V + Adjective)": {
+                description: "This pattern uses an adjective to describe the subject. The verb is often a 'linking verb' like is, am, are, feels, seems, looks, tastes.",
+                structure: "Subject + Verb + Adjective (S + V + Adjective)",
+                examples: [
+                    { type: "correct", "sentence": "He is tall. (Tall describes him.)" },
+                    { type: "correct", "sentence": "I feel happy. (Happy describes me.)" },
+                    { type: "correct", "sentence": "The food tastes delicious. (Delicious describes the food.)" }
+                ],
+                quizQuestions: [
+                    {
+                    type: "multiple-choice",
+                    question: "Which sentence correctly uses a 'Subject + Verb + Adjective' structure?",
+                    options: [
+                        { text: "She runs quickly.", "correct": false },
+                        { text: "This soup is hot.", "correct": true, explanation: "👉 'Hot' is an adjective that describes the subject 'soup'." },
+                        { text: "He is a lawyer.", "correct": false }
+                    ]
+                    },
+                    {
+                    type: "fill-in-blank",
+                    question: "The children seem ______.",
+                    correctAnswer: "excited",
+                    explanation: "👉 'Excited' is an adjective describing the children's state."
+                    }
+                ]
+                },
+                "4. Subject + Verb + Adverb (S + V + Adverb)": {
+                description: "This pattern uses an adverb to describe how, when, or where the action is done.",
+                structure: "Subject + Verb + Adverb (S + V + Adverb)",
+                examples: [
+                    { type: "correct", "sentence": "She speaks fluently. (How does she speak? Fluently.)" },
+                    { type: "correct", "sentence": "They arrived yesterday. (When did they arrive? Yesterday.)" },
+                    { type: "correct", "sentence": "The cat is sleeping there. (Where is the cat sleeping? There.)" }
+                ],
+                quizQuestions: [
+                    {
+                    type: "multiple-choice",
+                    question: "Which sentence contains an adverb describing *how* an action is done?",
+                    options: [
+                        { text: "He will be here.", "correct": false },
+                        { text: "The man shouted loudly.", "correct": true, explanation: "👉 'Loudly' is an adverb that describes how the man shouted." },
+                        { type: "correct", "sentence": "The movie was interesting.", "correct": false }
+                    ]
+                    },
+                    {
+                    type: "fill-in-blank",
+                    question: "Please walk ______.",
+                    correctAnswer: "carefully",
+                    explanation: "👉 'Carefully' is an adverb that modifies the verb 'walk', telling how the action should be done."
+                    }
+                ]
+                },
+                "5. Subject + Verb + Noun (S + V + Noun)": {
+                description: "This pattern uses a second noun to rename or identify the subject. The verb is usually a form of 'to be' (is, am, are, was, were).",
+                structure: "Subject + Verb + Noun (S + V + Noun)",
+                examples: [
+                    { type: "correct", "sentence": "She is a doctor. ('A doctor' identifies her.)" },
+                    { type: "correct", "sentence": "My father was a great teacher. ('A great teacher' renames my father.)" },
+                    { type: "correct", "sentence": "They are my friends. ('My friends' identifies them.)" }
+                ],
+                quizQuestions: [
+                    {
+                    type: "multiple-choice",
+                    question: "Which sentence uses a noun to rename the subject?",
+                    options: [
+                        { text: "That building is tall.", "correct": false },
+                        { text: "Mr. Smith is our teacher.", "correct": true, explanation: "👉 'Our teacher' is a noun that renames the subject 'Mr. Smith'." },
+                        { text: "I want a new car.", "correct": false }
+                    ]
+                    },
+                    {
+                    type: "fill-in-blank",
+                    question: "Her brother became ______.",
+                    correctAnswer: "an engineer",
+                    explanation: "👉 'an engineer' is a noun that identifies what her brother became."
+                    }
+                ]
+                },
+                "How to Practice": {
+                    description: "How to Practice<br>Listen and Identify: When you listen to English speakers, try to identify the S, V, and O in their sentences.<br>Start Simple: Create your own simple sentences using each of the five patterns above. Say them out loud.<br>Expand Your Sentences: Once you are comfortable, add more details using prepositions (in, on, at, for) and conjunctions (and, but, so, because).<br>S+V+O: I bought a shirt.<br>Expanded: I bought a new shirt at the mall yesterday because I needed it for the party.<br>By focusing on these core structures, your speaking will become more logical, clear, and correct.",
+                    quizQuestions: [
+                        {
+                        type: "multiple-choice",
+                        question: "In the sentence 'The little girl happily chased the butterfly,' what is the Object?",
+                        options: [
+                            { text: "The little girl", "correct": false },
+                            { text: "the butterfly", "correct": true, explanation: "👉 'The butterfly' is the object that receives the action of being chased." },
+                            { text: "happily", "correct": false }
+                        ]
+                        },
+                        {
+                        type: "fill-in-blank",
+                        question: "Expand this S+V sentence by adding more details (like an object, adverb, or place): 'He painted ______.'",
+                        correctAnswer: "a beautiful picture in his studio",
+                        explanation: "👉 This is one example. Any answer that adds details like an object, place, or time is correct (e.g., 'the fence yesterday')."
+                        }
+                    ]
+                }
+            }
     },
+
 
     shadowing: {
         "Beginner Sentences": [
@@ -176,6 +331,7 @@ const gameData = {
             { sentence: "Break a leg!", khmer: "សូមសំណាងល្អ!", explanation: "Meaning: Good luck! (Used especially in theater)." }
         ]
     },
+
 
     // Added Q&A based on the original data structure
     "qna-html": [
@@ -240,6 +396,7 @@ const gameData = {
     ]
 };
 
+
 // Game State Management
 const gameState = {
     mode: null,
@@ -258,6 +415,7 @@ const gameState = {
     recognitionActive: false // Track if speech recognition is active
 };
 
+
 // DOM Elements
 const elements = {
     modeSelection: document.getElementById("modeSelection"),
@@ -269,14 +427,17 @@ const elements = {
     navContainer: document.querySelector(".nav-container") // Added for profile image insertion
 };
 
+
 // Initialize SpeechSynthesis voices
 window.speechSynthesis.onvoiceschanged = () => {
     gameState.voices = gameState.synth.getVoices();
 };
 
+
 // Event Listeners (using delegated events for mode selection for efficiency)
 elements.homeLink.addEventListener("click", goHome);
 elements.aboutLink.addEventListener("click", () => showInfoModal("About Us", "This is an interactive English learning game designed to help you improve your language skills through various challenges: Vocabulary, Grammar, Shadowing, and Q&A."));
+
 
 // Add profile image dynamically
 const profileImage = document.createElement("img");
@@ -288,8 +449,10 @@ profileImage.addEventListener("click", () => {
 });
 elements.navContainer.prepend(profileImage); // Use prepend to place it before other nav items
 
+
 elements.contactLink.addEventListener("click", () => showInfoModal("Contact", "For support or feedback, please email us at: <a href='mailto:rasovanna785@gmail.com'>rasovanna785@gmail.com</a>"));
 elements.resourcesLink.addEventListener("click", () => showInfoModal("Resources", "Check out these helpful resources:<br><ul><li><a href='https://dictionary.cambridge.org/' target='_blank'>Cambridge Dictionary</a></li><li><a href='https://www.bbc.co.uk/learningenglish/' target='_blank'>BBC Learning English</a></li><li><a href='https://www.duolingo.com/' target='_blank'>Duolingo</a></li></ul>"));
+
 
 // Use event delegation for mode selection buttons
 elements.modeSelection.addEventListener('click', (event) => {
@@ -300,6 +463,7 @@ elements.modeSelection.addEventListener('click', (event) => {
         }
     }
 });
+
 
 // Utility Functions
 function showInfoModal(title, content) {
@@ -316,9 +480,11 @@ function showInfoModal(title, content) {
     elements.modeSelection.style.display = "none";
 }
 
+
 function shuffleArray(array) {
     return [...array].sort(() => 0.5 - Math.random());
 }
+
 
 function createButton(text, onClick, className = "btn btn-primary") {
     const button = document.createElement("button");
@@ -328,6 +494,7 @@ function createButton(text, onClick, className = "btn btn-primary") {
     return button;
 }
 
+
 function speakText(text, lang = 'en-US') {
     if (!gameState.synth) {
         console.warn("SpeechSynthesis not supported or not ready.");
@@ -335,6 +502,7 @@ function speakText(text, lang = 'en-US') {
     }
     // Cancel any ongoing speech
     gameState.synth.cancel();
+
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang;
@@ -345,15 +513,18 @@ function speakText(text, lang = 'en-US') {
     gameState.synth.speak(utterance);
 }
 
+
 function playAudio(path) {
     const audio = new Audio(path);
     audio.play().catch(e => console.error("Error playing audio:", e));
 }
 
+
 function startTimer(duration, onTick, onComplete) {
     clearInterval(gameState.timerInterval); // Clear any existing timer
     gameState.timeLeft = duration;
     onTick(gameState.timeLeft); // Initial call
+
 
     gameState.timerInterval = setInterval(() => {
         gameState.timeLeft--;
@@ -365,10 +536,12 @@ function startTimer(duration, onTick, onComplete) {
     }, 1000);
 }
 
+
 function stopTimer() {
     clearInterval(gameState.timerInterval);
     gameState.timerInterval = null;
 }
+
 
 // Core Game Functions
 function goHome() {
@@ -377,6 +550,7 @@ function goHome() {
     elements.gameArea.innerHTML = "";
     document.querySelector('h1').textContent = "Master English: Your Interactive Learning Journey";
 }
+
 
 function resetGameState() {
     stopTimer(); // Ensure timer is stopped
@@ -396,6 +570,7 @@ function resetGameState() {
     gameState.currentLevel = null;
     gameState.synth.cancel(); // Stop any ongoing speech
 }
+
 
 function selectMode(mode) {
     resetGameState(); // Reset state when a new mode is selected
@@ -431,6 +606,7 @@ function selectMode(mode) {
     }, 500);
 }
 
+
 function displayGameEndScreen() {
     stopTimer(); // Ensure timer is stopped
     elements.gameArea.innerHTML = `
@@ -444,11 +620,13 @@ function displayGameEndScreen() {
     `;
 }
 
+
 function restartCurrentMode() {
     const mode = gameState.mode; // Get the current mode before resetting
     resetGameState(); // Reset game state
     selectMode(mode); // Re-initialize the game mode
 }
+
 
 function renderScoreAndButtons() {
     return `
@@ -459,6 +637,7 @@ function renderScoreAndButtons() {
     `;
 }
 
+
 // --- Vocabulary Game ---
 function initVocabGame() {
     gameState.currentPool = shuffleArray(gameData.vocab);
@@ -466,6 +645,7 @@ function initVocabGame() {
     gameState.score = 0;
     renderVocabQuestion();
 }
+
 
 function renderVocabQuestion() {
     if (gameState.currentIndex >= gameState.currentPool.length) {
@@ -478,9 +658,11 @@ function renderVocabQuestion() {
         .map(w => w.meaning);
     const options = shuffleArray([currentWord.meaning, ...incorrectOptions]);
 
+
     let timerBarHtml = '';
     // Always show timer for vocab game
     timerBarHtml = `<div class="timer-bar-container"><div id="timerBar" class="timer-bar"></div></div>`;
+
 
     elements.gameArea.innerHTML = `
         <div class="container">
@@ -493,10 +675,11 @@ function renderVocabQuestion() {
                 ${options.map(option => `<button class="btn btn-block" data-answer="${option}">${option}</button>`).join('')}
             </div>
             <div id="feedback" class="feedback"></div>
-            <div id="explanation" class="explanation-box" style="display: none;"></div>
+            <div id=explanation class="explanation-box" style="display: none;"></div>
             ${renderScoreAndButtons()}
         </div>
     `;
+
 
     document.getElementById('optionsContainer').addEventListener('click', (event) => {
         if (event.target.classList.contains('btn-block')) {
@@ -504,15 +687,17 @@ function renderVocabQuestion() {
         }
     });
 
+
     startTimer(gameState.timeLeft, updateTimerBar, () => {
         document.getElementById('feedback').className = 'feedback feedback-error';
         document.getElementById('feedback').textContent = "Time's up! The correct meaning was: " + currentWord.meaning;
         showExplanation(currentWord.explanation || `The word "${currentWord.word}" means "${currentWord.meaning}" (${currentWord.khmer}).`);
         disableOptions();
-        setTimeout(nextVocabQuestion, 3000);
+        setTimeout(nextVocabQuestion, 5000);
     });
     speakText(`What does "${currentWord.word}" mean?`); // Speak the question
 }
+
 
 function updateTimerBar(timeLeft) {
     const timerBar = document.getElementById('timerBar');
@@ -523,17 +708,21 @@ function updateTimerBar(timeLeft) {
     }
 }
 
+
 function varCSSValue(variableName) {
     // This function assumes style.css has these CSS variables defined
     return getComputedStyle(document.documentElement).getPropertyValue(variableName).trim();
 }
+
 
 function checkVocabAnswer(selectedAnswer, correctAnswer, word) {
     stopTimer(); // Stop timer immediately on answer
     const feedbackElement = document.getElementById('feedback');
     const options = document.querySelectorAll('#optionsContainer .btn-block');
 
+
     disableOptions(); // Disable all options after selection
+
 
     if (selectedAnswer === correctAnswer) {
         feedbackElement.className = 'feedback feedback-success';
@@ -563,16 +752,19 @@ function checkVocabAnswer(selectedAnswer, correctAnswer, word) {
     setTimeout(nextVocabQuestion, 5000); // Wait 5 seconds before next question
 }
 
+
 function disableOptions() {
     document.querySelectorAll('#optionsContainer .btn-block').forEach(btn => {
         btn.disabled = true;
     });
 }
 
+
 function nextVocabQuestion() {
     gameState.currentIndex++;
     renderVocabQuestion();
 }
+
 
 function updateScoreDisplay() {
     const scoreElement = document.querySelector('.score-display');
@@ -580,6 +772,7 @@ function updateScoreDisplay() {
         scoreElement.textContent = `Score: ${gameState.score}`;
     }
 }
+
 
 function showExplanation(explanationText) {
     const explanationElement = document.getElementById('explanation');
@@ -589,6 +782,7 @@ function showExplanation(explanationText) {
     }
 }
 
+
 // --- Grammar Game ---
 function initGrammarGame() {
     gameState.currentRule = null;
@@ -597,9 +791,12 @@ function initGrammarGame() {
     renderGrammarMenu();
 }
 
+
 function renderGrammarMenu() {
     const tenses = Object.keys(gameData.grammar.tenses);
     const structures = Object.keys(gameData.grammar.structureQuiz);
+    const BasicStructures = Object.keys(gameData.grammar.BasicSentencePatterns);
+
 
     elements.gameArea.innerHTML = `
         <div class="container">
@@ -611,6 +808,10 @@ function renderGrammarMenu() {
             <h3>Structures</h3>
             <div class="sub-menu-buttons" style="margin-top: 1rem;">
                 ${structures.map(structure => `<button class="btn btn-primary sub-menu-btn" data-type="structure" data-rule="${structure}">${structure}</button>`).join('')}
+            </div>
+             <h3>The 5 Basic Sentence Patterns</h3>
+            <div class="sub-menu-buttons" style="margin-top: 1rem;">
+                ${BasicStructures.map(structure => `<button class="btn btn-primary sub-menu-btn" data-type="structure" data-rule="${structure}">${structure}</button>`).join('')}
             </div>
             <button class="btn btn-secondary" onclick="goHome()" style="margin-top: 1.5rem;">Back to Main Menu</button>
         </div>
@@ -630,6 +831,7 @@ function renderGrammarMenu() {
         });
     });
 }
+
 
 function renderGrammarConcept(ruleData) {
     elements.gameArea.innerHTML = `
@@ -654,11 +856,13 @@ function renderGrammarConcept(ruleData) {
     speakText(`${gameState.currentRule}. ${ruleData.description}`);
 }
 
+
 function startGrammarQuiz() {
     gameState.currentIndex = 0;
     gameState.score = 0;
     renderGrammarQuestion();
 }
+
 
 function renderGrammarQuestion() {
     if (gameState.currentIndex >= gameState.currentPool.length) {
@@ -668,6 +872,7 @@ function renderGrammarQuestion() {
     const questionData = gameState.currentPool[gameState.currentIndex];
     let questionHtml = '';
 
+
     if (questionData.type === "multiple-choice") {
         questionHtml = `
             <div class="question-box">${questionData.question}</div>
@@ -675,7 +880,7 @@ function renderGrammarQuestion() {
                 ${questionData.options.map(opt => `<button class="btn btn-block" data-answer="${opt.text}">${opt.text}</button>`).join('')}
             </div>
             <div id="feedback" class="feedback"></div>
-            <div id="explanation" class="explanation-box" style="display: none;"></div>
+            <div id=explanation class="explanation-box" style="display: none;"></div>
         `;
     } else if (questionData.type === "fill-in-blank") {
         const parts = questionData.question.split('______');
@@ -687,9 +892,10 @@ function renderGrammarQuestion() {
                 <button class="btn btn-primary" onclick="checkFillInBlankAnswer('${questionData.correctAnswer.replace(/'/g, "\\'")}', '${questionData.explanation.replace(/'/g, "\\'")}')">Check Answer</button>
             </div>
             <div id="feedback" class="feedback"></div>
-            <div id="explanation" class="explanation-box" style="display: none;"></div>
+            <div id=explanation class="explanation-box" style="display: none;"></div>
         `;
     }
+
 
     elements.gameArea.innerHTML = `
         <div class="container">
@@ -698,6 +904,7 @@ function renderGrammarQuestion() {
             ${renderScoreAndButtons()}
         </div>
     `;
+
 
     if (questionData.type === "multiple-choice") {
         document.getElementById('optionsContainer').addEventListener('click', (event) => {
@@ -709,12 +916,15 @@ function renderGrammarQuestion() {
     speakText(questionData.question);
 }
 
+
 function checkGrammarMultipleChoice(selectedAnswer, questionData) {
     const feedbackElement = document.getElementById('feedback');
     const options = document.querySelectorAll('#optionsContainer .btn-block');
     const correctOption = questionData.options.find(opt => opt.correct);
 
+
     disableOptions();
+
 
     if (selectedAnswer === correctOption.text) {
         feedbackElement.className = 'feedback feedback-success';
@@ -744,12 +954,15 @@ function checkGrammarMultipleChoice(selectedAnswer, questionData) {
     setTimeout(nextGrammarQuestion, 2000);
 }
 
+
 function checkFillInBlankAnswer(correctAnswer, explanation) {
     const inputElement = document.getElementById('fillInBlankInput');
     const userAnswer = inputElement.value.trim();
     const feedbackElement = document.getElementById('feedback');
 
+
     inputElement.disabled = true; // Disable input after submission
+
 
     if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
         feedbackElement.className = 'feedback feedback-success';
@@ -768,10 +981,12 @@ function checkFillInBlankAnswer(correctAnswer, explanation) {
     setTimeout(nextGrammarQuestion, 2000);
 }
 
+
 function nextGrammarQuestion() {
     gameState.currentIndex++;
     renderGrammarQuestion();
 }
+
 
 // --- Shadowing Game ---
 function initShadowingGame() {
@@ -780,6 +995,7 @@ function initShadowingGame() {
     gameState.score = 0;
     renderShadowingMenu();
 }
+
 
 function renderShadowingMenu() {
     const levels = Object.keys(gameData.shadowing);
@@ -802,12 +1018,14 @@ function renderShadowingMenu() {
     });
 }
 
+
 function startShadowingPractice() {
     if (gameState.currentIndex >= gameState.currentPool.length) {
         displayGameEndScreen();
         return;
     }
     const currentSentence = gameState.currentPool[gameState.currentIndex];
+
 
     elements.gameArea.innerHTML = `
         <div class="container">
@@ -829,13 +1047,16 @@ function startShadowingPractice() {
         </div>
     `;
 
+
     const listenBtn = document.getElementById('listenBtn');
     const recordBtn = document.getElementById('recordBtn');
     const playRecordingBtn = document.getElementById('playRecordingBtn');
     const nextSentenceBtn = document.getElementById('nextSentenceBtn');
     const feedbackElement = document.getElementById('feedback');
 
+
     listenBtn.addEventListener('click', () => speakText(currentSentence.sentence));
+
 
     recordBtn.addEventListener('click', async () => {
         if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
@@ -844,14 +1065,17 @@ function startShadowingPractice() {
             return;
         }
 
+
         try {
             const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
             gameState.audioRecorder = new MediaRecorder(stream);
             gameState.audioChunks = [];
 
+
             gameState.audioRecorder.ondataavailable = event => {
                 gameState.audioChunks.push(event.data);
             };
+
 
             gameState.audioRecorder.onstop = () => {
                 const audioBlob = new Blob(gameState.audioChunks, { type: 'audio/wav' });
@@ -868,6 +1092,7 @@ function startShadowingPractice() {
                 // Optional: You could add a "check pronunciation" feature here using a backend API
             };
 
+
             gameState.audioRecorder.start();
             recordBtn.textContent = '⏹️ Stop Recording';
             feedbackElement.className = 'feedback feedback-info';
@@ -877,6 +1102,7 @@ function startShadowingPractice() {
             playRecordingBtn.style.display = 'none';
             nextSentenceBtn.style.display = 'none';
 
+
             // Stop recording after a certain duration (e.g., 5 seconds)
             setTimeout(() => {
                 if (gameState.audioRecorder.state === 'recording') {
@@ -885,6 +1111,7 @@ function startShadowingPractice() {
                 }
             }, 5000); // Record for 5 seconds
 
+
         } catch (err) {
             console.error('Error accessing microphone:', err);
             feedbackElement.className = 'feedback feedback-error';
@@ -892,13 +1119,17 @@ function startShadowingPractice() {
         }
     });
 
+
     nextSentenceBtn.addEventListener('click', nextShadowingSentence);
 }
+
 
 function nextShadowingSentence() {
     gameState.currentIndex++;
     startShadowingPractice();
 }
+
+
 
 
 // --- Q&A Game (for HTML, CSS, JS) ---
@@ -914,12 +1145,14 @@ function initQnAGame(mode) {
     renderQnaQuestion();
 }
 
+
 function renderQnaQuestion() {
     if (gameState.currentIndex >= gameState.currentPool.length) {
         displayGameEndScreen();
         return;
     }
     const currentQuestion = gameState.currentPool[gameState.currentIndex];
+
 
     elements.gameArea.innerHTML = `
         <div class="container">
@@ -931,10 +1164,11 @@ function renderQnaQuestion() {
                 ${currentQuestion.options.map(option => `<button class="btn btn-block" data-answer="${option}">${option}</button>`).join('')}
             </div>
             <div id="feedback" class="feedback"></div>
-            <div id="explanation" class="explanation-box" style="display: none;"></div>
+            <div id=explanation class="explanation-box" style="display: none;"></div>
             ${renderScoreAndButtons()}
         </div>
     `;
+
 
     document.getElementById('optionsContainer').addEventListener('click', (event) => {
         if (event.target.classList.contains('btn-block')) {
@@ -942,15 +1176,19 @@ function renderQnaQuestion() {
         }
     });
 
+
     speakText(currentQuestion.question);
 }
+
 
 function checkQnaAnswer(selectedAnswer, questionData) {
     stopTimer(); // Ensure timer is stopped for Q&A as well if you add one later
     const feedbackElement = document.getElementById('feedback');
     const options = document.querySelectorAll('#optionsContainer .btn-block');
 
+
     disableOptions(); // Disable all options after selection
+
 
     if (selectedAnswer === questionData.answer) {
         feedbackElement.className = 'feedback feedback-success';
@@ -980,7 +1218,10 @@ function checkQnaAnswer(selectedAnswer, questionData) {
     setTimeout(nextQnaQuestion, 5000); // Wait 5 seconds before next question
 }
 
+
 function nextQnaQuestion() {
     gameState.currentIndex++;
     renderQnaQuestion();
 }
+
+
