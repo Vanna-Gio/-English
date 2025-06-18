@@ -552,6 +552,29 @@
                     ]
                 },
 
+                conversation: {
+                    "Routines": [
+                        { speaker: "A", text: "Hi! What time do you usually wake up in the morning?" },
+                        { speaker: "B", text: "I usually wake up at 6 o’clock." },
+                        { speaker: "A", text: "What do you do after you wake up?" },
+                        { speaker: "B", text: "First, I go to the bathroom. I wash my hands and face, brush my teeth, and take a shower." },
+                        { speaker: "A", text: "What do you eat for breakfast?" },
+                        { speaker: "B", text: "I eat a fried egg with pickles and rice." },
+                        { speaker: "A", text: "What time do you come home in the afternoon?" },
+                        { speaker: "B", text: "I usually come back at 2:30 p.m." },
+                        { speaker: "A", text: "Do you make lunch yourself?" },
+                        { speaker: "B", text: "Yes, I prepare lunch by myself and eat at 3:00 p.m." },
+                        { speaker: "A", text: "What do you do if you have free time?" },
+                        { speaker: "B", text: "I watch a movie or play with my friends." },
+                        { speaker: "A", text: "What’s your evening routine like?" },
+                        { speaker: "B", text: "In the evening, I take a shower around 5 o’clock. Then, I eat dinner and watch a movie while eating." },
+                        { speaker: "A", text: "What do you do after dinner?" },
+                        { speaker: "B", text: "I review my homework or read a book, then I relax by listening to music or watching YouTube." },
+                        { speaker: "A", text: "What do you do before bed?" },
+                        { speaker: "B", text: "I brush my teeth and prepare my clothes for the next day." }
+                    ]
+                },
+
 
                 // Added Q&A based on the original data structure
                 "qna-html": [
@@ -805,6 +828,7 @@
                     case 'vocab': headingText = '📚 Vocabulary Challenge'; break;
                     case 'grammar': headingText = '📝 Grammar Guru'; break;
                     case 'shadowing': headingText = '🗣️ Shadowing Practice'; break;
+                    case 'conversation': headingText = '💬 Conversation Activity'; break;
                     case 'qna-html': headingText = '❓ HTML Quiz'; break;
                     case 'qna-css': headingText = '❓ CSS Quiz'; break;
                     case 'qna-js': headingText = '❓ JavaScript Quiz'; break;
@@ -824,6 +848,8 @@
                         initGrammarGame();
                     } else if (mode === "shadowing") {
                         initShadowingGame();
+                    } else if (mode === "conversation") {
+                        initConversationGame();
                     } else if (mode.startsWith("qna-")) {
                         initQnAGame(mode);
                     }
@@ -868,6 +894,10 @@
                     message = `Shadowing Practice Complete!`;
                     message += `<p>You practiced ${gameState.currentIndex} sentences.</p>`;
                     message += `<p class="info-message">Keep practicing to improve your pronunciation and fluency!</p>`;
+                } else if (gameState.mode === 'conversation') {
+                    message = `Conversation Activity Complete!`;
+                    message += `<p>You went through ${gameState.currentIndex} lines of dialogue.</p>`;
+                    message += `<p class="info-message">Keep practicing conversations to improve your speaking and listening skills!</p>`;
                 } else {
                     message = `Challenge Complete!`;
                     message += `<p>Your final score: <span class="score-display">${finalScore}</span></p>`;
@@ -1504,6 +1534,127 @@
                 // In a real application, you'd send the recording to a speech recognition API here
                 // and compare the result with `expectedText`.
                 // For this example, we just stop.
+            }
+
+            // Conversation Game Functions
+            function initConversationGame() {
+                console.log("Initializing Conversation Activity...");
+                const conversationTopics = Object.keys(gameData.conversation);
+                elements.gameArea.innerHTML = `
+                    <div class="container conversation-selection">
+                        <h2 class="text-center text-blue-600">Select a Conversation Topic</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                            ${conversationTopics.map(topic => `
+                                <div class="card bg-orange-100 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+                                    <h5 class="text-xl font-semibold text-orange-800 mb-2">${topic}</h5>
+                                    <p class="text-gray-700 text-sm mb-4">Practice a conversation about ${topic.toLowerCase()}.</p>
+                                    <button class="btn btn-primary w-full" onclick="startConversationTopic('${topic}')">Start Conversation</button>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <button class="btn btn-secondary mt-8" onclick="goHome()">Back to Home</button>
+                    </div>
+                `;
+            }
+
+            function startConversationTopic(topicName) {
+                gameState.currentPool = gameData.conversation[topicName];
+                gameState.currentIndex = 0;
+                displayConversationLine();
+            }
+
+            function displayConversationLine() {
+                stopTimer(); // No timer for conversation activity lines unless explicitly needed
+                if (gameState.currentIndex >= gameState.currentPool.length) {
+                    displayGameEndScreen(); // Conversation complete
+                    return;
+                }
+
+                const currentLine = gameState.currentPool[gameState.currentIndex];
+                const speakerClass = `speaker-${currentLine.speaker.toLowerCase()}`;
+                const speakerLabel = currentLine.speaker === 'A' ? '👩 A' : '👦 B'; // Using emojis for fun
+
+                elements.gameArea.innerHTML = `
+                    <div class="container conversation-activity">
+                        <h2 class="text-center text-blue-600 mb-4">Conversation Practice</h2>
+                        <div class="conversation-line ${speakerClass}">
+                            <span class="speaker-label">${speakerLabel}:</span>
+                            <span class="text-lg">${currentLine.text}</span>
+                        </div>
+                        <div class="flex flex-col gap-4 mt-6">
+                            <button class="btn btn-info btn-lg" id="listenBtn"><i class="fas fa-volume-up mr-2"></i>Listen</button>
+                            <button class="btn btn-warning btn-lg" id="recordBtn"><i class="fas fa-microphone mr-2"></i>Start Recording</button>
+                            <button class="btn btn-danger btn-lg hidden" id="stopRecordBtn"><i class="fas fa-stop-circle mr-2"></i>Stop Recording</button>
+                            <div class="mt-3 text-gray-700" id="recordingStatus"></div>
+                            <audio id="recordedAudioPlayback" controls class="hidden w-full mt-2"></audio>
+                        </div>
+                        <div class="flex flex-col md:flex-row gap-4 justify-center mt-8">
+                            <button class="btn btn-primary" onclick="nextConversationLine()"><i class="fas fa-arrow-right mr-2"></i>Next Line</button>
+                            <button class="btn btn-secondary" onclick="goHome()"><i class="fas fa-times-circle mr-2"></i>End Conversation</button>
+                        </div>
+                    </div>
+                `;
+
+                document.getElementById('listenBtn').addEventListener('click', () => {
+                    speakText(currentLine.text);
+                });
+
+                const recordBtn = document.getElementById('recordBtn');
+                const stopRecordBtn = document.getElementById('stopRecordBtn');
+                const recordingStatus = document.getElementById('recordingStatus');
+                const recordedAudioPlayback = document.getElementById('recordedAudioPlayback');
+
+                recordBtn.addEventListener('click', () => startRecordingConversation(recordingStatus, recordBtn, stopRecordBtn, recordedAudioPlayback));
+                stopRecordBtn.addEventListener('click', () => stopRecordingConversation(recordingStatus, recordBtn, stopRecordBtn, recordedAudioPlayback));
+            }
+
+            async function startRecordingConversation(statusElement, recordBtn, stopRecordBtn, audioPlaybackElement) {
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    gameState.audioRecorder = new MediaRecorder(stream);
+                    gameState.audioChunks = [];
+
+                    gameState.audioRecorder.ondataavailable = event => {
+                        gameState.audioChunks.push(event.data);
+                    };
+
+                    gameState.audioRecorder.onstop = () => {
+                        const audioBlob = new Blob(gameState.audioChunks, { type: 'audio/webm' });
+                        const audioUrl = URL.createObjectURL(audioBlob);
+                        audioPlaybackElement.src = audioUrl;
+                        audioPlaybackElement.classList.remove('hidden'); // Show audio controls
+                        statusElement.innerHTML = '<p class="success-message">Recording stopped. You can play it back.</p>';
+                    };
+
+                    gameState.audioRecorder.start();
+                    recordBtn.classList.add('hidden');
+                    stopRecordBtn.classList.remove('hidden');
+                    audioPlaybackElement.classList.add('hidden'); // Hide playback during recording
+                    statusElement.innerHTML = '<p class="info-message">Recording... Speak your line!</p>';
+                } catch (err) {
+                    console.error('Error accessing microphone:', err);
+                    statusElement.innerHTML = '<p class="error-message">Error accessing microphone. Please allow microphone access.</p>';
+                }
+            }
+
+            function stopRecordingConversation(statusElement, recordBtn, stopRecordBtn, audioPlaybackElement) {
+                if (gameState.audioRecorder && gameState.audioRecorder.state === 'recording') {
+                    gameState.audioRecorder.stop();
+                    gameState.audioRecorder.stream.getTracks().forEach(track => track.stop()); // Stop microphone access
+                }
+                recordBtn.classList.remove('hidden');
+                stopRecordBtn.classList.add('hidden');
+                // The onstop event handler will show the audio playback
+            }
+
+            function nextConversationLine() {
+                stopTimer(); // Ensure any recording timer is stopped
+                if (gameState.audioRecorder && gameState.audioRecorder.state === 'recording') {
+                    gameState.audioRecorder.stop();
+                    gameState.audioRecorder.stream.getTracks().forEach(track => track.stop()); // Stop microphone access
+                }
+                gameState.currentIndex++;
+                displayConversationLine();
             }
 
 
