@@ -1,4 +1,4 @@
-   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f0f2f5;
@@ -314,4 +314,26 @@
                 width: 100%; /* Full width dropzone */
                 margin-left: 0;
             }
+        }
+
+        /* Conversation specific styles */
+        .conversation-line {
+            text-align: left;
+            margin-bottom: 1rem;
+            padding: 0.8rem 1.2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .conversation-line.speaker-a {
+            background-color: #e0f2f7; /* Light blue */
+            border-left: 5px solid #38b2ac;
+        }
+        .conversation-line.speaker-b {
+            background-color: #f7e0f2; /* Light pink */
+            border-left: 5px solid #a052e0;
+        }
+        .speaker-label {
+            font-weight: bold;
+            margin-right: 0.5rem;
+            color: #2d3748;
         }
