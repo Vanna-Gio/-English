@@ -7,33 +7,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav>
-        <div class="nav-container">
-            <ul>
-                <li><a href="#" id="homeLink">Home</a></li>
-                <li><a href="#" id="aboutLink">About Us</a></li>
-                <li><a href="#" id="contactLink">Contact</a></li>
-                <li><a href="#" id="resourcesLink">Resources</a></li>
-            </ul>
-        </div>
-    </nav>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+    <header class="nav-container">
+        <nav class="flex items-center space-x-4">
+            <a href="#" id="homeLink" class="text-gray-700 hover:text-blue-600 font-semibold">Home</a>
+            <a href="#" id="aboutLink" class="text-gray-700 hover:text-blue-600 font-semibold">About</a>
+            <a href="#" id="contactLink" class="text-gray-700 hover:text-blue-600 font-semibold">Contact</a>
+            <a href="#" id="resourcesLink" class="text-gray-700 hover:text-blue-600 font-semibold">Resources</a>
+        </nav>
+    </header>
 
-    <main>
-        <h1>Master English: Your Interactive Learning Journey</h1>
-        <div class="container">
-            <div id="modeSelection">
-                <h2 class="text-center">Choose Your Learning Path</h2>
-                <div class="sub-menu-buttons">
-                    <button class="btn btn-success sub-menu-btn" data-mode="vocab">📚 Vocabulary Challenge</button>
-                    <button class="btn btn-success sub-menu-btn" data-mode="grammar">📝 Grammar Guru</button>
-                    <button class="btn btn-success sub-menu-btn" data-mode="shadowing">🗣️ Shadowing Practice</button>
-                    <button class="btn btn-success sub-menu-btn" data-mode="qna-html">❓ HTML Q&A</button>
-                    <button class="btn btn-success sub-menu-btn" data-mode="qna-css">❓ CSS Q&A</button>
-                    <button class="btn btn-success sub-menu-btn" data-mode="qna-js">❓ JavaScript Q&A</button>
-                </div>
+    <main class="flex-grow">
+        <h1 class="text-center my-6 text-blue-800">Master English: Your Interactive Learning Journey</h1>
+
+        <div id="modeSelection" class="container">
+            <h2 class="text-blue-600 mb-6">Choose Your Learning Mode</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="vocab">📚 Vocabulary Challenge</button>
+                <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="grammar">📝 Grammar Guru</button>
+                <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="shadowing">🗣️ Shadowing Practice</button>
+                <button class="btn btn-info p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="qna-html">❓ HTML Q&A</button>
+                <button class="btn btn-info p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="qna-css">❓ CSS Q&A</button>
+                <button class="btn btn-info p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="qna-js">❓ JavaScript Q&A</button>
             </div>
-            <div id="gameArea"></div>
+        </div>
+
+        <div id="gameArea" class="container hidden">
+            <!-- Game content will be rendered here -->
         </div>
     </main>
 
