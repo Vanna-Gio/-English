@@ -109,6 +109,75 @@
                             }
                         ]
                     },
+                    "🗣️1. Yes/No Questions": {
+                        description: "Used for actions happening now, temporary actions, or planned future actions.<br>💡 Remember: <br>Use “Do” with I, you, we, they <br>Use “Does” with he, she, it <br>The verb stays in base form (don’t add -s in the question)",
+                        structure: "Do/Does + Subject + Base Verb + …? → to ask questions <br>Subject + Base Verb (or Verb+s) → to answer",
+                        examples: [
+                            { type: "correct", sentence: "Do you play football? ", explanation: "→ Yes, I do. / No, I don’t." },
+                            { type: "correct", sentence: "Does she like coffee?", explanation: "→ Yes, she does. / No, she doesn’t." }
+                        ],
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Do you like English?",
+                                options: [
+                                    { text: "Yes, I like English because it helps me find information on the internet for my assignments", correct: true },
+                                    { text: "Yes, I like English. It’s fun and useful.", correct: true, explanation: "✅" },
+                                    { text: "Yes, I am", correct: false}
+                                ]
+                            },
+                            
+                        ]
+                    },
+                    "🗣️ 2. Wh- Questions": {
+                        description: "Used for actions happening now, temporary actions, or planned future actions.<br>🧠 Common Wh- question words:<br>What = thing<br>Where = place<br>When = time<br>Who = person<br>Why = reason<br>How = way/method",
+                        structure: "Wh-word + do/does + subject + verb?",
+                        examples: [
+                            { type: "correct", sentence: "What do you eat for breakfast? ", explanation: "→ I eat rice and fried egg." },
+                            { type: "correct", sentence: "When do you go to school?", explanation: "→  I go to school at 7 a.m." },
+                            { type: "correct", sentence: "Where does he live?", explanation: "→ He lives in Phnom Penh." },
+                            { type: "correct", sentence: "Why do you study English?", explanation: "→  → I study English because I want to get a good job." },
+                            
+                        ],
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "What do you do on the weekend?",
+                                options: [
+                                    { text: "On the weekend, I usually relax at home, watch movies, and sometimes go out with my friends.", correct: true, explanation: "✅" },
+                                    { text: "On the weekend, I usually get up late, around 8 o’clock.I do the homework assigned by my teacher, and sometimes I go out with my friends to do fun activities like watching a movie or going on a picnic.", correct: true},
+                                    { text: "Yes, I do", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "❓When do you do your homework?",
+                                options: [
+                                    { text: "I usually do my homework at 6 o’clock after dinner.", correct: true },
+                                    { text: "I usually do my homework in the evening after dinner.", correct: true, explanation: "✅"},
+                                    { text: "Yes, I do", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "❓Where do you go after school?",
+                                options: [
+                                    { text: "On the weekend, I usually relax at home, watch movies, and sometimes go out with my friends.", correct:false },
+                                    { text: " After school, I go home and take a rest, or sometimes I go to the market with my friends.", correct: true},
+                                    { text: "After school, I go home and rest, or sometimes I go to the library.", correct: true, explanation: "✅"}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "❓Why do you learn English?",
+                                options: [
+                                    { text: "I learn English because it helps me get better opportunities and communicate with people from other contries.", correct: true, explanation: "✅"  },
+                                    { text: "I usually do my homework in the evening after dinner.", correct: false},
+                                    { text: "I learn English because I want to improve my skills, get a good job, and be able to communicate with people from around the world.", correct: true }
+                                ]
+                            },
+                        ]
+                    },
                     "Routines": {
                         description: `📄 Printable Practice Sheet – “My Daily Routine”
                                         <br>
@@ -674,7 +743,67 @@
                 },
 
 
-               
+                // Added Q&A based on the original data structure
+                "qna-html": [
+                    {
+                        question: "What does HTML stand for?",
+                        options: ["Hyper Text Markup Language", "High-level Text Machine Language", "Hyperlink and Text Markup Language", "Home Tool Markup Language"],
+                        answer: "Hyper Text Markup Language",
+                        explanation: "HTML is the standard markup language for documents designed to be displayed in a web browser."
+                    },
+                    {
+                        question: "Which HTML tag is used to define an internal style sheet?",
+                        options: ["<style>", "<script>", "<css>", "<link>"],
+                        answer: "<style>",
+                        explanation: "The <style> tag is used to define style information (CSS) for a document."
+                    },
+                    {
+                        question: "Which attribute is used to provide an advisory text about an element or its contents?",
+                        options: ["tip", "hint", "title", "info"],
+                        answer: "title",
+                        explanation: "The 'title' attribute provides extra information about an element (tooltip)."
+                    }
+                ],
+                "qna-css": [
+                    {
+                        question: "What does CSS stand for?",
+                        options: ["Cascading Style Sheets", "Creative Style Solutions", "Computer Style Syntax", "Colorful Styling System"],
+                        answer: "Cascading Style Sheets",
+                        explanation: "CSS is used to describe the look and formatting of a document written in HTML."
+                    },
+                    {
+                        question: "Which CSS property is used to change the background color of an element?",
+                        options: ["color", "bgcolor", "background-color", "background"],
+                        answer: "background-color",
+                        explanation: "The 'background-color' property sets the background color of an element."
+                    },
+                    {
+                        question: "How do you select an element with id 'header' in CSS?",
+                        options: [".header", "#header", "header", "*header"],
+                        answer: "#header",
+                        explanation: "The '#' symbol is used to select elements by their ID."
+                    }
+                ],
+                "qna-js": [
+                    {
+                        question: "What does JavaScript primarily add to web pages?",
+                        options: ["Styling and layout", "Structure and content", "Interactivity and dynamic behavior", "Server-side logic"],
+                        answer: "Interactivity and dynamic behavior",
+                        explanation: "JavaScript is a programming language that enables interactive web pages."
+                    },
+                    {
+                        question: "Which of the following is a correct way to declare a JavaScript variable?",
+                        options: ["variable myVar;", "var myVar;", "v myVar;", "string myVar;"],
+                        answer: "var myVar;",
+                        explanation: "The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred)."
+                    },
+                    {
+                        question: "What is the purpose of 'console.log()' in JavaScript?",
+                        options: ["To display a message in an alert box", "To write data to the document", "To print messages to the browser console for debugging", "To send data to a server"],
+                        answer: "To print messages to the browser console for debugging",
+                        explanation: "console.log() is a function in JavaScript used to output messages or values to the web console."
+                    }
+                ]
             };
 
 
@@ -1829,4 +1958,4 @@
 
             // Initial call to set up the game
             document.addEventListener("DOMContentLoaded", goHome);
-
+    
