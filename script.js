@@ -82,11 +82,46 @@
                                     { stem: "He rarely", correctOption: "drives to work." },
                                     { stem: "I", correctOption: "love to read books." }
                                 ]
-                            }
+                            },
+                            {
+                                type: "match-the-words",
+                                question: "Match the beginning of the sentence on the left with the correct ending on the right.",
+                                pairs: [
+                                    { stem: "comb ⬜", correctOption: "H. To brush and arrange hair" },
+                                    { stem: "towel ⬜", correctOption: "B. A cloth used for drying the body." },
+                                    { stem: "nap ⬜", correctOption: "A. A short sleep during the day" },
+                                    { stem: "prepare ⬜", correctOption: "G. To get ready or set up in advance" },
+                                    { stem: "review ⬜", correctOption: "C. To look at something again, like homework." },
+                                    { stem: "housework ⬜", correctOption: "F. Work done to keep the home clean" },
+                                    { stem: "pickles ⬜", correctOption: "E. Food made from vegetables in vinegar or salty water" },
+                                    { stem: "routine ⬜", correctOption: "D. A regular set of actions you do every day." }
+                                ]
+                            },
                         ]
                     },
                     "Present Continuous": {
-                        description: "Used for actions happening now, temporary actions, or planned future actions.",
+                        description: `Used for actions happening now, temporary actions, or planned future actions.<br>🧠 Use Present Continuous for:
+
+                                    <br>Actions happening now:
+                                      <br>→ She is talking on the phone right now.
+
+                                    <br>Temporary actions:
+                                     <br> → I’m living with my aunt this month.
+
+                                    <br>Actions happening around now (not this exact moment):
+                                    <br>  → I’m learning English this year.
+
+                                    <br>Annoying habits (with “always”):
+                                    <br>→ He is always forgetting his homework.
+                                    <br>❓Question Form:
+
+                                    <br>Are you studying now?
+
+                                    <br>Is she eating lunch?
+
+                                    <br>What are you doing?
+
+                                    <br>Where is he going?`,
                         structure: "Subject + am/is/are + Verb-ing",
                         examples: [
                             { type: "correct", sentence: "I am studying English right now.", explanation: "Action happening now: 'am studying'." },
@@ -106,7 +141,27 @@
                                 question: "Look! The cat ______ (sleep) on the sofa.",
                                 correctAnswer: "is sleeping",
                                 explanation: "This describes an action happening now, so we use Present Continuous: 'is sleeping'."
-                            }
+                            },
+                            {
+                                type: "fill-in-blank",
+                                question: "My mom  ______(cook )in the kitchen.",
+                                correctAnswer: "is cooking",
+                                explanation: "My mom is cooking in the kitchen."
+                            },
+                            {
+                                type: "match-the-words",
+                                question: "Match the beginning of the sentence on the left with the correct ending on the right.",
+                                pairs: [
+                                    { stem: "I am  ", correctOption: " chatting with you now." },
+                                    { stem: "I am  ", correctOption: "sitting at my desk.  "},
+                                    { stem: "I’m ", correctOption: "reading a book." },
+                                    { stem: "My family ", correctOption: " is eating dinner." },
+                                    { stem: "I'm ", correctOption: " not watching TV." },
+                                    { stem: " He's", correctOption: "playing a game." },
+                                    { stem: "My brother ", correctOption: "is playing a game." },
+                                    { stem: "I'm not", correctOption: "watching TV at the moment." }
+                                ]
+                            },
                         ]
                     },
                     "🗣️1. Yes/No Questions": {
@@ -123,7 +178,7 @@
                                 options: [
                                     { text: "Yes, I like English because it helps me find information on the internet for my assignments", correct: true },
                                     { text: "Yes, I like English. It’s fun and useful.", correct: true, explanation: "✅" },
-                                    { text: "Yes, I am", correct: false}
+                                    { text: "→ Yes, I like English because it helps me find information on the internet for my assignments.", correct: true}
                                 ]
                             },
                             
