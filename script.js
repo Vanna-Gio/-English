@@ -379,7 +379,80 @@
                                 explanation: "👉 Inversion is needed because 'Not only' starts the sentence. Auxiliary 'does' comes before 'she' and 'speak'."
                             }
                         ]
-                    }
+                    },
+                           "Although / Even though / Though": {
+                                description: `You want to say two ideas that don’t match — one is surprising or opposite to the other.
+                                                <br>✅ Tips:
+                                                <br> "Even though"  is a bit stronger/more emphatic than ' although.' <br>' Though'  is more casual and often used at the end of a sentence too:" <br>
+                                  
+                                       🔹  "I didn’t like the movie. It was well made, though." 
+                                 `,
+                                structure: "Although / Even though / Though + subject + verb, main clause. <br>OR <br>Main clause + although / even though / though + subject + verb.",
+                                examples: [
+                                    { type: "correct", sentence: "Although it was raining, we went for a walk",explanation: "👉 It's surprising to walk in the rain. " },
+                                    { type: "correct", sentence: "Even though he was tired, he kept studying." },
+                                    { type: "correct", sentence: "Though she didn’t like the food, she smiled politely." },
+                                    { type: "correct", sentence: "I went to the party, even though I didn’t feel well." },
+                                    { type: "correct", sentence: "They finished the game, although they were losing at first." },
+                                    { type: "correct", sentence: "He went to work, though he wasn’t feeling well.",explanation: ` 🔹 "feeling not well" → in natural English, we say "wasn’t feeling well"`},
+        
+                                ],
+                               
+                               
+                                quizQuestions: [
+                                    {
+                                        type: "multiple-choice",
+                                        question: "Which sentence correctly Although / Even though / Though'?",
+                                        options: [
+                                            { text: "Although I feeling sleepy, I tried to learn.", correct: false },
+                                            { text: "Although I was feeling sleepy, I tried to learn.", correct: true, explanation: "✅ This sentence is clear, correct, and sounds great after the fix!" },
+                                            { text: " I was feeling sleepy, I tried to learn.", correct: false}
+                                        ]
+                                    },
+                                    {
+                                        type: "multiple-choice",
+                                        question: "Which sentence correctly Although / Even though / Though'?",
+                                        options: [
+                                            { text: " she was on her phone, she didn’t forget to eat rice", correct: false },
+                                            { text: "Even though she was on her phone, she didn’t forget to eat rice", correct: true, explanation: "✅ This sentence is clear, correct, and sounds great after the fix!" },
+                                            { text: "Even though she on her phone, she didn’t forget to eat rice", correct: false}
+                                        ]
+                                    },
+                                    {
+                                        type: "multiple-choice",
+                                        question: "Which sentence correctly Although / Even though / Though'?",
+                                        options: [
+                                            { text: "He went to work, he wasn’t feeling well", correct: false },
+                                            { text: "He went to work, even though he wasn’t feeling well", correct: true},
+                                            { text: " He went to work, though he wasn’t feeling well", correct: true}
+                                        ]
+                                    },
+                                    {
+                                        type: "fill-in-blank",
+                                        question: "They finished the game, ______ they were losing at first.",
+                                        correctAnswer: "although",
+                                        
+                                    },
+                                    {
+                                        type: "fill-in-blank",
+                                        question: " ______she didn’t like the food, she smiled politely.",
+                                        correctAnswer: "Though",
+                                        
+                                    },
+                                    {
+                                        type: "fill-in-blank",
+                                        question: "I went to the party, ______ I didn’t feel well.",
+                                        correctAnswer: "even though",
+                                        
+                                    },
+                                    {
+                                        type: "fill-in-blank",
+                                        question: "______ he was tired, he kept studying",
+                                        correctAnswer: "Even though",
+                                        
+                                    }
+                                ]
+                            },
                 },
                 BasicSentencePatterns: {
                         "1. Subject + Verb (S + V)": {
