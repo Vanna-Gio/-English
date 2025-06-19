@@ -1,23 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master English: Interactive Learning Journey</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 0;
+            background-color: #e2e8f0;
+            border-bottom: 1px solid #cbd5e1;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border-radius: 0 0 12px 12px;
+        }
+        .nav-container a, .nav-container .profile-image {
+            margin: 0 1rem;
+            color: #4a5568;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease-in-out;
+        }
+        .nav-container a:hover {
+            color: #2b6cb0;
+        }
+        .profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #a0aec0;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .profile-image:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            color: #2c5282;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            color: #3182ce;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .sub-menu-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #3182ce;
+            color: #fff;
+            border: 1px solid #3182ce;
+        }
+        .btn-primary:hover {
+            background-color: #2c5282;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background-color: #a0aec0;
+            color: #fff;
+            border: 1px solid #a0aec0;
+        }
+        .btn-secondary:hover {
+            background-color: #718096;
+            transform: translateY(-2px);
+        }
+        .btn-info {
+            background-color: #38b2ac;
+            color: #fff;
+            border: 1px solid #38b2ac;
+        }
+        .btn-info:hover {
+            background-color: #2c7a7b;
+            transform: translateY(-2px);
+        }
+        .btn-success {
+            background-color: #48bb78;
+            color: #fff;
+            border: 1px solid #48bb78;
+        }
+        .btn-success:hover {
+            background-color: #38a169;
+            transform: translateY(-2px);
+        }
+        .btn-warning {
+            background-color: #ecc94b;
+            color: #333;
+            border: 1px solid #ecc94b;
+        }
+        .btn-warning:hover {
+            background-color: #d69e2e;
+            transform: translateY(-2px);
+        }
+        .btn-danger {
+            background-color: #f56565;
+            color: #fff;
+            border: 1px solid #f56565;
+        }
+        .btn-danger:hover {
+            background-color: #e53e3e;
+            transform: translateY(-2px);
+        }
+        .btn-block {
+            width: 100%;
+            max-width: 350px;
+        }
+        .btn-lg {
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+        }
+        .btn-outline-primary {
+            background-color: transparent;
+            color: #3182ce;
+            border: 2px solid #3182ce;
+        }
+        .btn-outline-primary:hover {
+            background-color: #3182ce;
+            color: #fff;
+        }
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            box-shadow: none;
+            transform: none;
+        }
 
+        .question-box {
+            background-color: #edf2f7;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        .question-box h3 {
+            color: #2d3748;
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+        .khmer-meaning {
+            color: #718096;
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        .feedback-message {
+            font-weight: 600;
+            margin-top: 1rem;
+            padding: 0.8rem;
+            border-radius: 8px;
+            opacity: 0; /* Hidden by default */
+            transition: opacity 0.3s ease-in-out;
+        }
+        .feedback-message.show {
+            opacity: 1;
+        }
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .info-message {
+            background-color: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .score-timer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        .score-timer-container span {
+            color: #3182ce;
+        }
+
+        /* Match the Words Specific Styles */
+        .match-the-words-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .stems-column, .options-pool {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            min-height: 200px; /* Ensure columns have height for dropping */
+            padding: 10px;
+            border: 1px dashed #cbd5e1;
+            border-radius: 8px;
+        }
+
+        .stems-column {
+            background-color: #e2e8f0;
+            border-color: #a0aec0;
+        }
+        .options-pool {
+            background-color: #f7fafc;
+        }
+
+        .stem-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            font-weight: 500;
+            color: #2d3748;
+            flex-grow: 1; /* Allow stem to grow */
+        }
+
+        .dropzone {
+            flex-shrink: 0; /* Don't shrink */
+            width: 150px; /* Fixed width for dropzone next to stem */
+            min-height: 40px; /* Minimum height for dropzone */
+            border: 2px dashed #a0aec0;
+            background-color: #f7fafc;
+            border-radius: 8px;
+            margin-left: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s, border-color 0.2s;
+            overflow: hidden; /* Hide overflow for dropped items */
+        }
+
+        .dropzone.drag-over {
+            background-color: #bfdbfe; /* Light blue */
+            border-color: #3b82f6; /* Blue border */
+        }
+
+        .draggable-option {
+            padding: 0.75rem 1rem;
+            background-color: #63b3ed; /* Blue for draggable items */
+            color: #fff;
+            border-radius: 8px;
+            cursor: grab;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s, opacity 0.2s, background-color 0.3s;
+            font-weight: 500;
+            text-align: center;
+            flex-shrink: 0; /* Prevents shrinking */
+        }
+
+        .draggable-option:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .draggable-option.dragging {
+            opacity: 0.5;
+            border: 2px dashed #3182ce;
+        }
+        
+        /* Feedback for dropped items */
+        .draggable-option.correct {
+            background-color: #48bb78; /* Green */
+        }
+        .draggable-option.incorrect {
+            background-color: #f56565; /* Red */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .match-the-words-grid {
+                grid-template-columns: 1fr; /* Stack columns on small screens */
+            }
+            .stem-item {
+                flex-direction: column; /* Stack stem and dropzone vertically */
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            .dropzone {
+                width: 100%; /* Full width dropzone */
+                margin-left: 0;
+            }
+        }
+
+        /* Conversation specific styles */
+        .conversation-line {
+            text-align: left;
+            margin-bottom: 1rem;
+            padding: 0.8rem 1.2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .conversation-line.speaker-a {
+            background-color: #e0f2f7; /* Light blue */
+            border-left: 5px solid #38b2ac;
+        }
+        .conversation-line.speaker-b {
+            background-color: #f7e0f2; /* Light pink */
+            border-left: 5px solid #a052e0;
+        }
+        .speaker-label {
+            font-weight: bold;
+            margin-right: 0.5rem;
+            color: #2d3748;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+    <header class="nav-container">
+        <nav class="flex items-center space-x-4">
+            <a href="#" id="homeLink" class="text-gray-700 hover:text-blue-600 font-semibold">Home</a>
+            <a href="#" id="aboutLink" class="text-gray-700 hover:text-blue-600 font-semibold">About</a>
+            <a href="#" id="contactLink" class="text-gray-700 hover:text-blue-600 font-semibold">Contact</a>
+            <a href="#" id="resourcesLink" class="text-gray-700 hover:text-blue-600 font-semibold">Resources</a>
+        </nav>
+    </header>
+
+    <main class="flex-grow">
+        <h1 class="text-center my-6 text-blue-800">Master English: Your Interactive Learning Journey</h1>
+
+        <div id="modeSelection" class="container">
+            <h2 class="text-blue-600 mb-6">Choose Your Learning Mode</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="vocab">📚 Vocabulary Challenge</button>
+                <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="grammar">📝 Grammar Guru</button>
+                <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="shadowing">🗣️ Shadowing Practice</button>
+                <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="conversation">💬 Conversation Activity</button>
+                <!-- <button class="btn btn-info p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="qna-html">❓ HTML Q&A</button>
+                <button class="btn btn-info p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="qna-css">❓ CSS Q&A</button>
+                <button class="btn btn-info p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="qna-js">❓ JavaScript Q&A</button> -->
+            </div>
+        </div>
+
+        <div id="gameArea" class="container hidden">
+            <!-- Game content will be rendered here -->
+        </div>
+    </main>
+
+    <script>
         // Game Data - Moved to separate object for better organization
         const gameData = {
             vocab: [
                 {
                     word: "this",
-                    meaning: "Refers to the current object in context.",
+                    meaning: "What does 'this' mean?", // Prompt
                     khmer: "តំណាងអ្វីដែលកំពុងត្រូវយោង",
-                    audio: "audio/this.mp3"
+                    audio: "audio/this.mp3",
+                    options: ["Refers to the current object in context.", "An action verb.", "A type of data structure.", "A conditional statement."],
+                    correctAnswer: "Refers to the current object in context."
                 },
                 {
                     word: "arrow function",
-                    meaning: "A shorter way to write functions using `=>` syntax.",
+                    meaning: "What is an 'arrow function'?", // Prompt
                     khmer: "មុខងារមានសញ្ញាព្រិល (=>)",
-                    audio: "audio/arrow-function.mp3"
+                    audio: "audio/arrow-function.mp3",
+                    options: ["A shorter way to write functions using `=>` syntax.", "A function for drawing arrows.", "A type of database query.", "A method for debugging."],
+                    correctAnswer: "A shorter way to write functions using `=>` syntax."
                 },
-                // Add more vocabulary words here
-                { word: "closure", meaning: "A function bundled with its lexical environment.", khmer: "មុខងារដែលភ្ជាប់ជាមួយបរិស្ថានពាក្យរបស់វា", audio: "audio/closure.mp3" },
-                { word: "hoisting", meaning: "JavaScript's default behavior of moving declarations to the top.", khmer: "អាកប្បកិរិយាលំនាំដើមរបស់ JavaScript ក្នុងការផ្លាស់ប្តូរការប្រកាសទៅខាងលើ", audio: "audio/hoisting.mp3" },
-                { word: "asynchronous", meaning: "Operations that don't block the main thread.", khmer: "ប្រតិបត្តិការដែលមិនរាំងស្ទះខ្សែស្រឡាយសំខាន់", audio: "audio/asynchronous.mp3" }
+                {
+                    word: "closure",
+                    meaning: "What is a 'closure' in programming?",
+                    khmer: "មុខងារដែលភ្ជាប់ជាមួយបរិស្ថានពាក្យរបស់វា",
+                    audio: "audio/closure.mp3",
+                    options: ["A function bundled with its lexical environment.", "A statement that closes a program.", "A loop that never ends.", "A type of variable scope."],
+                    correctAnswer: "A function bundled with its lexical environment."
+                },
+                {
+                    word: "hoisting",
+                    meaning: "What does 'hoisting' refer to in JavaScript?",
+                    khmer: "អាកប្បកិរិយាលំនាំដើមរបស់ JavaScript ក្នុងការផ្លាស់ប្តូរការប្រកាសទៅខាងលើ",
+                    audio: "audio/hoisting.mp3",
+                    options: ["JavaScript's default behavior of moving declarations to the top.", "A method for lifting heavy objects.", "A type of server deployment.", "A security vulnerability."],
+                    correctAnswer: "JavaScript's default behavior of moving declarations to the top."
+                },
+                {
+                    word: "asynchronous",
+                    meaning: "What is the meaning of 'asynchronous' in computing?",
+                    khmer: "ប្រតិបត្តិការដែលមិនរាំងស្ទះខ្សែស្រឡាយសំខាន់",
+                    audio: "audio/asynchronous.mp3",
+                    options: ["Operations that don't block the main thread.", "Code that runs only once.", "Functions that execute immediately.", "Data sent in a single block."],
+                    correctAnswer: "Operations that don't block the main thread."
+                }
             ],
 
             grammar: {
@@ -380,16 +786,16 @@
                             }
                         ]
                     },
-                           "Although / Even though / Though": {
+                    "Although / Even though / Though": {
                                 description: `You want to say two ideas that don’t match — one is surprising or opposite to the other.
                                                 <br>✅ Tips:
                                                 <br> "Even though"  is a bit stronger/more emphatic than ' although.' <br>' Though'  is more casual and often used at the end of a sentence too:" <br>
                                   
-                                       🔹  "I didn’t like the movie. It was well made, though." 
+                                       🔹  "I didn’t like the movie. It was well made, though. <br> ខ្ញុំមិនចូលចិត្តភាពយន្តនោះទេ។ ទោះបីបង្កើតបានល្អក៏ដោយ។" 
                                  `,
                                 structure: "Although / Even though / Though + subject + verb, main clause. <br>OR <br>Main clause + although / even though / though + subject + verb.",
                                 examples: [
-                                    { type: "correct", sentence: "Although it was raining, we went for a walk",explanation: "👉 It's surprising to walk in the rain. " },
+                                    { type: "correct", sentence: "Although it was raining, we went for a walk",explanation: "👉 It's surprising to walk in the rain.<br>->ទោះបីជាភ្លៀងក៏ដោយ ប៉ុន្តែពួកយើងក៏ទៅដើរលេង។ " },
                                     { type: "correct", sentence: "Even though he was tired, he kept studying." },
                                     { type: "correct", sentence: "Though she didn’t like the food, she smiled politely." },
                                     { type: "correct", sentence: "I went to the party, even though I didn’t feel well." },
@@ -452,7 +858,8 @@
                                         
                                     }
                                 ]
-                            },
+                            },      
+               
                 },
                 BasicSentencePatterns: {
                         "1. Subject + Verb (S + V)": {
@@ -649,67 +1056,7 @@
                 },
 
 
-                // Added Q&A based on the original data structure
-                "qna-html": [
-                    {
-                        question: "What does HTML stand for?",
-                        options: ["Hyper Text Markup Language", "High-level Text Machine Language", "Hyperlink and Text Markup Language", "Home Tool Markup Language"],
-                        answer: "Hyper Text Markup Language",
-                        explanation: "HTML is the standard markup language for documents designed to be displayed in a web browser."
-                    },
-                    {
-                        question: "Which HTML tag is used to define an internal style sheet?",
-                        options: ["<style>", "<script>", "<css>", "<link>"],
-                        answer: "<style>",
-                        explanation: "The <style> tag is used to define style information (CSS) for a document."
-                    },
-                    {
-                        question: "Which attribute is used to provide an advisory text about an element or its contents?",
-                        options: ["tip", "hint", "title", "info"],
-                        answer: "title",
-                        explanation: "The 'title' attribute provides extra information about an element (tooltip)."
-                    }
-                ],
-                "qna-css": [
-                    {
-                        question: "What does CSS stand for?",
-                        options: ["Cascading Style Sheets", "Creative Style Solutions", "Computer Style Syntax", "Colorful Styling System"],
-                        answer: "Cascading Style Sheets",
-                        explanation: "CSS is used to describe the look and formatting of a document written in HTML."
-                    },
-                    {
-                        question: "Which CSS property is used to change the background color of an element?",
-                        options: ["color", "bgcolor", "background-color", "background"],
-                        answer: "background-color",
-                        explanation: "The 'background-color' property sets the background color of an element."
-                    },
-                    {
-                        question: "How do you select an element with id 'header' in CSS?",
-                        options: [".header", "#header", "header", "*header"],
-                        answer: "#header",
-                        explanation: "The '#' symbol is used to select elements by their ID."
-                    }
-                ],
-                "qna-js": [
-                    {
-                        question: "What does JavaScript primarily add to web pages?",
-                        options: ["Styling and layout", "Structure and content", "Interactivity and dynamic behavior", "Server-side logic"],
-                        answer: "Interactivity and dynamic behavior",
-                        explanation: "JavaScript is a programming language that enables interactive web pages."
-                    },
-                    {
-                        question: "Which of the following is a correct way to declare a JavaScript variable?",
-                        options: ["variable myVar;", "var myVar;", "v myVar;", "string myVar;"],
-                        answer: "var myVar;",
-                        explanation: "The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred)."
-                    },
-                    {
-                        question: "What is the purpose of 'console.log()' in JavaScript?",
-                        options: ["To display a message in an alert box", "To write data to the document", "To print messages to the browser console for debugging", "To send data to a server"],
-                        answer: "To print messages to the browser console for debugging",
-                        explanation: "console.log() is a function in JavaScript used to output messages or values to the web console."
-                    }
-                ]
+               
             };
 
 
@@ -1016,6 +1363,9 @@
                 }
 
                 const currentWord = gameState.currentPool[gameState.currentIndex];
+                // Shuffle options to ensure random order each time
+                const shuffledOptions = shuffleArray(currentWord.options);
+
                 elements.gameArea.innerHTML = `
                     <div class="container vocab-game">
                         <div class="score-timer-container">
@@ -1023,33 +1373,34 @@
                             <div class="timer">Time Left: <span id="timeLeft">${gameState.timeLeft}s</span></div>
                         </div>
                         <div class="question-box">
-                            <h3>What does "${currentWord.word}" mean?</h3>
-                            <p class="khmer-meaning">${currentWord.khmer}</p>
+                            <h3>${currentWord.meaning}</h3>
+                            <p class="khmer-meaning">(${currentWord.khmer})</p>
                             <div class="audio-controls mt-3">
-                                <button class="btn btn-info" onclick="speakText('${currentWord.word}')">Pronounce (EN)</button>
-                                <button class="btn btn-info" onclick="speakText('${currentWord.khmer}', 'km-KH')">Pronounce (KH)</button>
-                                ${currentWord.audio ? `<button class="btn btn-info" onclick="playAudio('${currentWord.audio}')">Listen Audio</button>` : ''}
+                                <button class="btn btn-info" onclick="speakText('${currentWord.word}')"><i class="fas fa-volume-up mr-2"></i>Pronounce (EN)</button>
+                                ${currentWord.audio ? `<button class="btn btn-info" onclick="playAudio('${currentWord.audio}')"><i class="fas fa-headphones mr-2"></i>Listen Audio</button>` : ''}
                             </div>
                         </div>
-                        <div class="answer-input-container mt-4">
-                            <input type="text" id="vocabAnswerInput" class="form-control" placeholder="Type the meaning in English">
-                            <button class="btn btn-success mt-3" onclick="checkVocabAnswer()">Submit Answer</button>
+                        <div class="answer-options-container mt-4 grid grid-cols-1 gap-3">
+                            ${shuffledOptions.map((option, index) => `
+                                <button class="btn btn-outline-primary w-full text-left vocab-option-btn" data-option="${option}" onclick="checkVocabAnswer(this, '${option}')">${option}</button>
+                            `).join('')}
                         </div>
                         <p id="feedback" class="mt-3 feedback-message"></p>
                     </div>
                 `;
 
-                document.getElementById('vocabAnswerInput').focus();
-                document.getElementById('vocabAnswerInput').onkeyup = function(event) {
-                    if (event.key === "Enter") {
-                        checkVocabAnswer();
-                    }
-                };
-
                 startTimer(30, (timeLeft) => { // 30 seconds per vocabulary question
                     document.getElementById('timeLeft').textContent = `${timeLeft}s`;
                 }, () => {
-                    document.getElementById('feedback').innerHTML = `<p class="error-message">Time's up! The correct meaning was: <strong>${currentWord.meaning}</strong></p>`;
+                    document.getElementById('feedback').innerHTML = `<p class="error-message">Time's up! The correct answer was: <strong>${currentWord.correctAnswer}</strong></p>`;
+                    // Disable all options
+                    elements.gameArea.querySelectorAll('.vocab-option-btn').forEach(btn => btn.disabled = true);
+                    // Highlight the correct answer
+                    elements.gameArea.querySelectorAll('.vocab-option-btn').forEach(btn => {
+                        if (btn.dataset.option === currentWord.correctAnswer) {
+                            btn.classList.add('btn-success');
+                        }
+                    });
                     setTimeout(() => {
                         gameState.currentIndex++;
                         displayVocabQuestion();
@@ -1057,25 +1408,35 @@
                 });
             }
 
-            function checkVocabAnswer() {
+            function checkVocabAnswer(buttonElement, selectedOption) {
                 stopTimer();
                 const currentWord = gameState.currentPool[gameState.currentIndex];
-                const userAnswer = document.getElementById('vocabAnswerInput').value.trim();
                 const feedbackElement = document.getElementById('feedback');
 
-                // Simple check: convert both to lowercase and remove punctuation/extra spaces for comparison
-                const normalizedUserAnswer = userAnswer.toLowerCase().replace(/[.,!?;:]/g, '').replace(/\s+/g, ' ');
-                const normalizedCorrectAnswer = currentWord.meaning.toLowerCase().replace(/[.,!?;:]/g, '').replace(/\s+/g, ' ');
+                // Disable all options immediately after an answer is chosen
+                elements.gameArea.querySelectorAll('.vocab-option-btn').forEach(btn => btn.disabled = true);
 
-                if (normalizedUserAnswer === normalizedCorrectAnswer) {
+                if (selectedOption === currentWord.correctAnswer) {
                     gameState.score++;
+                    buttonElement.classList.add('btn-success'); // Green for correct
                     feedbackElement.innerHTML = `<p class="success-message">Correct! 🎉</p>`;
                 } else {
-                    feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct meaning was: <strong>${currentWord.meaning}</strong></p>`;
+                    buttonElement.classList.add('btn-danger'); // Red for incorrect
+                    feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct answer was: <strong>${currentWord.correctAnswer}</strong></p>`;
+                    // Also highlight the correct answer
+                    elements.gameArea.querySelectorAll('.vocab-option-btn').forEach(btn => {
+                        if (btn.dataset.option === currentWord.correctAnswer) {
+                            btn.classList.add('btn-success');
+                        }
+                    });
                 }
                 document.getElementById('score').textContent = gameState.score;
 
+                // Show feedback message
+                feedbackElement.classList.add('show');
+
                 setTimeout(() => {
+                    feedbackElement.classList.remove('show'); // Hide feedback
                     gameState.currentIndex++;
                     displayVocabQuestion();
                 }, 2000); // Wait 2 seconds before next question
@@ -1850,4 +2211,6 @@
 
             // Initial call to set up the game
             document.addEventListener("DOMContentLoaded", goHome);
-   
+    </script>
+</body>
+</html>
