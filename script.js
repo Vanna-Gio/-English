@@ -1,169 +1,1088 @@
 
-        
         // Game Data - Moved to separate object for better organization
         const gameData = {
             vocab: [
                 {
-                    word: "surprising",
-                    meaning: "unexpected or causing wonder",
-                    khmer: "គួរឱ្យភ្ញាក់ផ្អើល",
-                    audio: "",
-                    options: ["unexpected", "boring", "usual", "common"],
-                    correctAnswer: "unexpected"
+                    "word": "surprising",
+                    "meaning": "causing surprise; unexpected.",
+                    "khmer": "គួរឱ្យភ្ញាក់ផ្អើល",
+                    "audio": "audio/surprising.mp3",
+                    "options": [
+                        "expected",
+                        "shocking",
+                        "normal",
+                        "boring"
+                    ],
+                    "correctAnswer": "shocking"
                 },
                 {
-                    word: "expected",
-                    meaning: "anticipated or thought likely to happen",
-                    khmer: "ដែលបានរំពឹងទុក",
-                    audio: "",
-                    options: ["anticipated", "surprising", "unusual", "rare"],
-                    correctAnswer: "anticipated"
+                    "word": "expected",
+                    "meaning": "regarded as likely to happen or arrive.",
+                    "khmer": "បានរំពឹងទុក",
+                    "audio": "audio/expected.mp3",
+                    "options": [
+                        "anticipated",
+                        "unforeseen",
+                        "unlikely",
+                        "random"
+                    ],
+                    "correctAnswer": "anticipated"
                 },
                 {
-                    word: "elegant",
-                    meaning: "graceful and stylish in appearance or manner",
-                    khmer: "ស្រស់ស្អាត",
-                    audio: "",
-                    options: ["graceful", "clumsy", "messy", "ordinary"],
-                    correctAnswer: "graceful"
+                    "word": "elegant",
+                    "meaning": "stylish and graceful in appearance or manner.",
+                    "khmer": "ប្រណិត",
+                    "audio": "audio/elegant.mp3",
+                    "options": [
+                        "clumsy",
+                        "graceful",
+                        "plain",
+                        "rough"
+                    ],
+                    "correctAnswer": "graceful"
                 },
                 {
-                    word: "in spite of",
-                    meaning: "despite; without being affected by something",
-                    khmer: "ទោះបីជា",
-                    audio: "",
-                    options: ["despite", "because of", "due to", "instead of"],
-                    correctAnswer: "despite"
+                    "word": "in spite of",
+                    "meaning": "without being affected by the particular fact mentioned.",
+                    "khmer": "ទោះបីជា",
+                    "audio": "audio/in_spite_of.mp3",
+                    "options": [
+                        "because of",
+                        "despite",
+                        "due to",
+                        "in addition to"
+                    ],
+                    "correctAnswer": "despite"
                 },
                 {
-                    word: "despite (preposition)",
-                    meaning: "used to show contrast or unexpected results",
-                    khmer: "ទោះបីជា",
-                    audio: "",
-                    options: ["although", "despite", "because", "since"],
-                    correctAnswer: "despite"
+                    "word": "despite (preposition)",
+                    "meaning": "without being affected by; in spite of.",
+                    "khmer": "ទោះបីជា",
+                    "audio": "audio/despite.mp3",
+                    "options": [
+                        "because of",
+                        "even though",
+                        "in spite of",
+                        "due to"
+                    ],
+                    "correctAnswer": "in spite of"
                 },
                 {
-                    word: "Although",
-                    meaning: "used to introduce a contrasting idea",
-                    khmer: "ទោះបីជា",
-                    audio: "",
-                    options: ["although", "because", "since", "despite"],
-                    correctAnswer: "although"
+                    "word": "Although",
+                    "meaning": "in spite of the fact that; even though.",
+                    "khmer": "ទោះបីជា",
+                    "audio": "audio/although.mp3",
+                    "options": [
+                        "because",
+                        "however",
+                        "even if",
+                        "in order that"
+                    ],
+                    "correctAnswer": "even if"
                 },
                 {
-                    word: "a bit more formal",
-                    meaning: "slightly more official or proper",
-                    khmer: "ធ្វើឱ្យមានភាពផ្លូវការបន្ថែម",
-                    audio: "",
-                    options: ["informal", "formal", "casual", "relaxed"],
-                    correctAnswer: "formal"
+                    "word": "a bit more formal",
+                    "meaning": "slightly more serious or official in style or manner.",
+                    "khmer": "ផ្លូវការជាងបន្តិច",
+                    "audio": "audio/a_bit_more_formal.mp3",
+                    "options": [
+                        "very casual",
+                        "slightly informal",
+                        "more official",
+                        "completely relaxed"
+                    ],
+                    "correctAnswer": "more official"
                 },
                 {
-                    word: "followed",
-                    meaning: "came after or pursued",
-                    khmer: "បានតាម",
-                    audio: "",
-                    options: ["preceded", "followed", "ignored", "avoided"],
-                    correctAnswer: "followed"
+                    "word": "followed",
+                    "meaning": "went or came after (someone or something) so as to catch up with them.",
+                    "khmer": "បានតាមដាន / បានបន្តបន្ទាប់",
+                    "audio": "audio/followed.mp3",
+                    "options": [
+                        "preceded",
+                        "led",
+                        "pursued",
+                        "ignored"
+                    ],
+                    "correctAnswer": "pursued"
                 },
                 {
-                    word: "fear",
-                    meaning: "an unpleasant emotion caused by danger or threat",
-                    khmer: "ការភ័យខ្លាច",
-                    audio: "",
-                    options: ["fear", "joy", "confidence", "calm"],
-                    correctAnswer: "fear"
+                    "word": "fear",
+                    "meaning": "an unpleasant emotion caused by the threat of danger, pain, or harm.",
+                    "khmer": "ការភ័យខ្លាច",
+                    "audio": "audio/fear.mp3",
+                    "options": [
+                        "bravery",
+                        "courage",
+                        "terror",
+                        "confidence"
+                    ],
+                    "correctAnswer": "terror"
                 },
                 {
-                    word: "being tired (gerund phrase)",
-                    meaning: "the state of feeling exhausted",
-                    khmer: "ការនឿយហត់ / ក្នុងស្ថានភាពនឿយហត់",
-                    audio: "",
-                    options: ["being tired", "being happy", "being energetic", "being relaxed"],
-                    correctAnswer: "being tired"
+                    "word": "being tired (gerund phrase)",
+                    "meaning": "the state of feeling sleepy or needing rest.",
+                    "khmer": "ការនឿយហត់ / ក្នុងស្ថានភាពនឿយហត់",
+                    "audio": "audio/being_tired.mp3",
+                    "options": [
+                        "feeling energetic",
+                        "being exhausted",
+                        "having strength",
+                        "being awake"
+                    ],
+                    "correctAnswer": "being exhausted"
                 },
                 {
-                    word: "he kept working (past tense + continuous action)",
-                    meaning: "he continued to perform his job",
-                    khmer: "គាត់បន្តធ្វើការ",
-                    audio: "",
-                    options: ["he kept working", "he stopped working", "he started working", "he avoided working"],
-                    correctAnswer: "he kept working"
+                    "word": "he kept working (past tense + continuous action)",
+                    "meaning": "he continued to work without stopping.",
+                    "khmer": "គាត់បន្តធ្វើការ",
+                    "audio": "audio/he_kept_working.mp3",
+                    "options": [
+                        "he stopped working",
+                        "he started working",
+                        "he paused his work",
+                        "he continued to labor"
+                    ],
+                    "correctAnswer": "he continued to labor"
                 },
                 {
-                    word: "It looks as if...",
-                    meaning: "used to express appearance or assumption",
-                    khmer: "វាមើលទៅដូចជា...",
-                    audio: "",
-                    options: ["It looks as if", "It seems like", "It appears", "It is"],
-                    correctAnswer: "It looks as if"
+                    "word": "It looks as if...",
+                    "meaning": "used to express appearance or assumption",
+                    "khmer": "វាមើលទៅដូចជា...",
+                    "audio": "audio/it_looks_as_if.mp3",
+                    "options": [
+                        "It seems that...",
+                        "It's certainly...",
+                        "It's impossible that...",
+                        "It appears unlikely that..."
+                    ],
+                    "correctAnswer": "It seems that..."
                 },
                 {
-                    word: "assumption",
-                    meaning: "a belief or idea accepted as true without proof",
-                    khmer: "ការសន្និដ្ឋាន",
-                    audio: "",
-                    options: ["assumption", "proof", "certainty", "doubt"],
-                    correctAnswer: "assumption"
+                    "word": "assumption",
+                    "meaning": "a thing that is accepted as true or as certain to happen, without proof.",
+                    "khmer": "ការសន្មត់",
+                    "audio": "audio/assumption.mp3",
+                    "options": [
+                        "fact",
+                        "proof",
+                        "presumption",
+                        "certainty"
+                    ],
+                    "correctAnswer": "presumption"
                 },
                 {
-                    word: "appearance",
-                    meaning: "the way someone or something looks",
-                    khmer: "រូបរាង",
-                    audio: "",
-                    options: ["appearance", "disappearance", "behavior", "attitude"],
-                    correctAnswer: "appearance"
+                    "word": "appearance",
+                    "meaning": "the way that someone or something looks.",
+                    "khmer": "រូបរាង",
+                    "audio": "audio/appearance.mp3",
+                    "options": [
+                        "disguise",
+                        "reality",
+                        "looks",
+                        "disappearance"
+                    ],
+                    "correctAnswer": "looks"
                 },
                 {
-                    word: "they've had a shock",
-                    meaning: "they experienced something surprising or upsetting",
-                    khmer: "ពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល",
-                    audio: "",
-                    options: ["they've had a shock", "they've had a joy", "they've had a rest", "they've had a surprise"],
-                    correctAnswer: "they've had a shock"
+                    "word": "they've had a shock",
+                    "meaning": "present perfect tense: have had)",
+                    "khmer": "ពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល",
+                    "audio": "audio/theyve_had_a_shock.mp3",
+                    "options": [
+                        "They are calm.",
+                        "They experienced a sudden disturbing emotion.",
+                        "They were expecting it.",
+                        "They were happy."
+                    ],
+                    "correctAnswer": "They experienced a sudden disturbing emotion."
                 },
                 {
-                    word: "as if",
-                    meaning: "used to describe an appearance or gesture",
-                    khmer: "ដូចជា / ដូចបំណង",
-                    audio: "",
-                    options: ["as if", "as though", "like", "similar"],
-                    correctAnswer: "as if"
+                    "word": "as if",
+                    "meaning": "used to describe an appearance or gesture",
+                    "khmer": "ដូចជា / ដូចបំណង",
+                    "audio": "audio/as_if.mp3",
+                    "options": [
+                        "in reality",
+                        "as though",
+                        "actually",
+                        "definitely"
+                    ],
+                    "correctAnswer": "as though"
                 },
                 {
-                    word: "gesture",
-                    meaning: "a movement of the body to express an idea or feeling",
-                    khmer: "ចលនា",
-                    audio: "",
-                    options: ["gesture", "speech", "expression", "action"],
-                    correctAnswer: "gesture"
+                    "word": "gesture",
+                    "meaning": "a movement of part of the body, especially a hand or the head, to express an idea or meaning.",
+                    "khmer": "កាយវិការ",
+                    "audio": "audio/gesture.mp3",
+                    "options": [
+                        "stillness",
+                        "motion",
+                        "speech",
+                        "inaction"
+                    ],
+                    "correctAnswer": "motion"
                 },
                 {
-                    word: "They were shouting",
-                    meaning: "they were speaking loudly (past continuous tense)",
-                    khmer: "ពួកគេកំពុងស្រែក",
-                    audio: "",
-                    options: ["They were shouting", "They were whispering", "They were singing", "They were talking"],
-                    correctAnswer: "They were shouting"
+                    "word": "They were shouting",
+                    "meaning": "They were speaking very loudly or crying out.",
+                    "khmer": "ពួកគេកំពុងក្ដែងសម្លេង (past continuous tense)",
+                    "audio": "audio/they_were_shouting.mp3",
+                    "options": [
+                        "They were whispering.",
+                        "They were singing.",
+                        "They were yelling.",
+                        "They were silent."
+                    ],
+                    "correctAnswer": "They were yelling."
                 },
                 {
-                    word: "as though",
-                    meaning: "similar in meaning to 'as if'",
-                    khmer: "ដូចជា / ដូចជាបាន",
-                    audio: "",
-                    options: ["as though", "as if", "like", "similar"],
-                    correctAnswer: "as though"
+                    "word": "as though",
+                    "meaning": "as if.",
+                    "khmer": "ដូចជា / ដូចជាបាន (similar in meaning to 'as if')",
+                    "audio": "audio/as_though.mp3",
+                    "options": [
+                        "actually",
+                        "in reality",
+                        "as if",
+                        "certainly"
+                    ],
+                    "correctAnswer": "as if"
                 },
                 {
-                    word: "in panic",
-                    meaning: "in a state of fear or anxiety",
-                    khmer: "ក្នុងស្ថានភាពភ័យខ្លាច",
-                    audio: "",
-                    options: ["in panic", "in joy", "in calm", "in peace"],
-                    correctAnswer: "in panic"
+                    "word": "in panic",
+                    "meaning": "in a state of sudden uncontrollable fear or anxiety.",
+                    "khmer": "ក្នុងស្ថានភាពភ័យខ្លាច",
+                    "audio": "audio/in_panic.mp3",
+                    "options": [
+                        "calmly",
+                        "fearfully",
+                        "confidently",
+                        "peacefully"
+                    ],
+                    "correctAnswer": "fearfully"
+                },
+                {
+                    "word": "interchangeably",
+                    "meaning": "in a way that can be exchanged without making any difference.",
+                    "khmer": "អាចផ្លាស់ប្តូរគ្នាបាន",
+                    "audio": "audio/interchangeably.mp3",
+                    "options": [
+                        "separately",
+                        "alternatively",
+                        "fixedly",
+                        "uniquely"
+                    ],
+                    "correctAnswer": "alternatively"
+                },
+                {
+                    "word": "reactions",
+                    "meaning": "responses to something.",
+                    "khmer": "ប្រតិកម្ម",
+                    "audio": "audio/reactions.mp3",
+                    "options": [
+                        "actions",
+                        "responses",
+                        "initiatives",
+                        "causes"
+                    ],
+                    "correctAnswer": "responses"
+                },
+                {
+                    "word": "imagined",
+                    "meaning": "formed a mental image or concept of.",
+                    "khmer": "បានស្រមៃ",
+                    "audio": "audio/imagined.mp3",
+                    "options": [
+                        "realized",
+                        "conceived",
+                        "disregarded",
+                        "confirmed"
+                    ],
+                    "correctAnswer": "conceived"
+                },
+                {
+                    "word": "situation",
+                    "meaning": "a set of circumstances in which one finds oneself; a state of affairs.",
+                    "khmer": "ស្ថានភាព",
+                    "audio": "audio/situation.mp3",
+                    "options": [
+                        "solution",
+                        "condition",
+                        "event",
+                        "plan"
+                    ],
+                    "correctAnswer": "condition"
+                },
+                {
+                    "word": "furious",
+                    "meaning": "very angry",
+                    "khmer": "ខឹងខ្លាំងណាស់",
+                    "audio": "audio/furious.mp3",
+                    "options": [
+                        "calm",
+                        "enraged",
+                        "happy",
+                        "sad"
+                    ],
+                    "correctAnswer": "enraged"
+                },
+                {
+                    "word": "gorgeous",
+                    "meaning": "very beautiful",
+                    "khmer": "ស្រស់ស្អាតខ្លាំងណាស់",
+                    "audio": "audio/gorgeous.mp3",
+                    "options": [
+                        "ugly",
+                        "stunning",
+                        "plain",
+                        "unattractive"
+                    ],
+                    "correctAnswer": "stunning"
+                },
+                {
+                    "word": "hideous",
+                    "meaning": "very ugly",
+                    "khmer": "អាក្រក់ខ្លាំងណាស់",
+                    "audio": "audio/hideous.mp3",
+                    "options": [
+                        "beautiful",
+                        "dreadful",
+                        "attractive",
+                        "pleasing"
+                    ],
+                    "correctAnswer": "dreadful"
+                },
+                {
+                    "word": "exhausted",
+                    "meaning": "very tired",
+                    "khmer": "នឿយហត់ខ្លាំងណាស់",
+                    "audio": "audio/exhausted.mp3",
+                    "options": [
+                        "energetic",
+                        "fatigued",
+                        "rested",
+                        "lively"
+                    ],
+                    "correctAnswer": "fatigued"
+                },
+                {
+                    "word": "spotless",
+                    "meaning": "very clean",
+                    "khmer": "ស្អាតណាស់",
+                    "audio": "audio/spotless.mp3",
+                    "options": [
+                        "dirty",
+                        "immaculate",
+                        "stained",
+                        "grimy"
+                    ],
+                    "correctAnswer": "immaculate"
+                },
+                {
+                    "word": "filthy",
+                    "meaning": "very dirty",
+                    "khmer": "កខ្វក់ខ្លាំងណាស់",
+                    "audio": "audio/filthy.mp3",
+                    "options": [
+                        "clean",
+                        "squalid",
+                        "pure",
+                        "hygienic"
+                    ],
+                    "correctAnswer": "squalid"
+                },
+                {
+                    "word": "enormous",
+                    "meaning": "very big",
+                    "khmer": "ធំសម្បើម",
+                    "audio": "audio/enormous.mp3",
+                    "options": [
+                        "tiny",
+                        "immense",
+                        "small",
+                        "minute"
+                    ],
+                    "correctAnswer": "immense"
+                },
+                {
+                    "word": "deafening",
+                    "meaning": "very noisy",
+                    "khmer": "ថ្លង់ណាស់",
+                    "audio": "audio/deafening.mp3",
+                    "options": [
+                        "quiet",
+                        "ear-splitting",
+                        "silent",
+                        "soft"
+                    ],
+                    "correctAnswer": "ear-splitting"
+                },
+                {
+                    "word": "starving",
+                    "meaning": "very hungry",
+                    "khmer": "ឃ្លានខ្លាំងណាស់",
+                    "audio": "audio/starving.mp3",
+                    "options": [
+                        "full",
+                        "famished",
+                        "satiated",
+                        "fed"
+                    ],
+                    "correctAnswer": "famished"
+                },
+                {
+                    "word": "parched",
+                    "meaning": "very thirsty",
+                    "khmer": "ស្រេកទឹកខ្លាំងណាស់",
+                    "audio": "audio/parched.mp3",
+                    "options": [
+                        "hydrated",
+                        "desiccated",
+                        "moist",
+                        "wet"
+                    ],
+                    "correctAnswer": "desiccated"
+                },
+                {
+                    "word": "destitute",
+                    "meaning": "very poor",
+                    "khmer": "ក្រីក្រខ្លាំងណាស់",
+                    "audio": "audio/destitute.mp3",
+                    "options": [
+                        "wealthy",
+                        "impoverished",
+                        "rich",
+                        "affluent"
+                    ],
+                    "correctAnswer": "impoverished"
+                },
+                {
+                    "word": "wealthy",
+                    "meaning": "very rich",
+                    "khmer": "អ្នកមាន",
+                    "audio": "audio/wealthy.mp3",
+                    "options": [
+                        "poor",
+                        "affluent",
+                        "destitute",
+                        "needy"
+                    ],
+                    "correctAnswer": "affluent"
+                },
+                {
+                    "word": "brilliant",
+                    "meaning": "very smart",
+                    "khmer": "ឆ្លាតវៃ",
+                    "audio": "audio/brilliant.mp3",
+                    "options": [
+                        "dull",
+                        "intelligent",
+                        "stupid",
+                        "unintelligent"
+                    ],
+                    "correctAnswer": "intelligent"
+                },
+                {
+                    "word": "ancient",
+                    "meaning": "very old",
+                    "khmer": "បុរាណ",
+                    "audio": "audio/ancient.mp3",
+                    "options": [
+                        "new",
+                        "old",
+                        "modern",
+                        "current"
+                    ],
+                    "correctAnswer": "old"
+                },
+                {
+                    "word": "infantile",
+                    "meaning": "very young",
+                    "khmer": "ក្មេងណាស់",
+                    "audio": "audio/infantile.mp3",
+                    "options": [
+                        "adult",
+                        "childish",
+                        "mature",
+                        "aged"
+                    ],
+                    "correctAnswer": "childish"
+                },
+                {
+                    "word": "indolent",
+                    "meaning": "very lazy",
+                    "khmer": "ខ្ជិលណាស់",
+                    "audio": "audio/indolent.mp3",
+                    "options": [
+                        "active",
+                        "slothful",
+                        "energetic",
+                        "diligent"
+                    ],
+                    "correctAnswer": "slothful"
+                },
+                {
+                    "word": "swamped",
+                    "meaning": "very busy",
+                    "khmer": "រវល់ខ្លាំងណាស់",
+                    "audio": "audio/swamped.mp3",
+                    "options": [
+                        "idle",
+                        "overwhelmed",
+                        "free",
+                        "unoccupied"
+                    ],
+                    "correctAnswer": "overwhelmed"
+                },
+                {
+                    "word": "elated*",
+                    "meaning": "very happy",
+                    "khmer": "រីករាយខ្លាំងណាស់",
+                    "audio": "audio/elated.mp3",
+                    "options": [
+                        "sad",
+                        "joyful",
+                        "depressed",
+                        "miserable"
+                    ],
+                    "correctAnswer": "joyful"
+                },
+                {
+                    "word": "excruciating",
+                    "meaning": "very painful",
+                    "khmer": "ឈឺចាប់ខ្លាំងណាស់",
+                    "audio": "audio/excruciating.mp3",
+                    "options": [
+                        "mild",
+                        "agonizing",
+                        "bearable",
+                        "painless"
+                    ],
+                    "correctAnswer": "agonizing"
+                },
+                {
+                    "word": "I have no idea",
+                    "meaning": "A phrase used to express that you don’t know the answer to something.",
+                    "khmer": "ខ្ញុំគ្មានគំនិតទេ / ខ្ញុំមិនដឹងទេ",
+                    "audio": "audio/i_have_no_idea.mp3",
+                    "options": [
+                        "I know the answer.",
+                        "I'm certain.",
+                        "I don't know.",
+                        "I have a clear idea."
+                    ],
+                    "correctAnswer": "I don't know."
+                },
+                {
+                    "word": "Let’s keep in touch",
+                    "meaning": "A phrase used to express a desire to maintain contact with someone.",
+                    "khmer": "តោះបន្តទាក់ទងគ្នា",
+                    "audio": "audio/lets_keep_in_touch.mp3",
+                    "options": [
+                        "Let's lose contact.",
+                        "Let's stay connected.",
+                        "Let's never speak again.",
+                        "Let's forget each other."
+                    ],
+                    "correctAnswer": "Let's stay connected."
+                },
+                {
+                    "word": "Can you give me a hand?",
+                    "meaning": "A way to ask someone for help.",
+                    "khmer": "អ្នកអាចជួយខ្ញុំបានទេ?",
+                    "audio": "audio/can_you_give_me_a_hand.mp3",
+                    "options": [
+                        "Can you ignore me?",
+                        "Can you assist me?",
+                        "Can you leave me alone?",
+                        "Can you complicate things?"
+                    ],
+                    "correctAnswer": "Can you assist me?"
+                },
+                {
+                    "word": "I’ll think about it.",
+                    "meaning": "A phrase used to indicate that you need time to consider an option or decision.",
+                    "khmer": "ខ្ញុំនឹងគិតអំពីវា។",
+                    "audio": "audio/ill_think_about_it.mp3",
+                    "options": [
+                        "I've decided.",
+                        "I'll consider it.",
+                        "I refuse immediately.",
+                        "I agree without thought."
+                    ],
+                    "correctAnswer": "I'll consider it."
+                },
+                {
+                    "word": "Sounds like a plan!",
+                    "meaning": "An expression of agreement with a proposed idea or plan.",
+                    "khmer": "ស្តាប់ទៅដូចជាផែនការល្អ!",
+                    "audio": "audio/sounds_like_a_plan.mp3",
+                    "options": [
+                        "That's a terrible idea.",
+                        "I disagree.",
+                        "That sounds good.",
+                        "I have no opinion."
+                    ],
+                    "correctAnswer": "That sounds good."
+                },
+                {
+                    "word": "What do you mean?",
+                    "meaning": "A phrase used to ask someone to clarify or explain something they said.",
+                    "khmer": "តើអ្នកចង់មានន័យអ្វី?",
+                    "audio": "audio/what_do_you_mean.mp3",
+                    "options": [
+                        "I understand completely.",
+                        "Can you explain?",
+                        "I don't care.",
+                        "That's clear."
+                    ],
+                    "correctAnswer": "Can you explain?"
+                },
+                {
+                    "word": "That’s interesting!",
+                    "meaning": "A way to express curiosity or engagement in a conversation.",
+                    "khmer": "គួរឱ្យចាប់អារម្មណ៍ណាស់!",
+                    "audio": "audio/thats_interesting.mp3",
+                    "options": [
+                        "That's boring.",
+                        "That's captivating.",
+                        "I don't care.",
+                        "That's unexciting."
+                    ],
+                    "correctAnswer": "That's captivating."
+                },
+                {
+                    "word": "I appreciate it.",
+                    "meaning": "A phrase used to express gratitude for something someone has done for you.",
+                    "khmer": "ខ្ញុំពេញចិត្តវា។",
+                    "audio": "audio/i_appreciate_it.mp3",
+                    "options": [
+                        "I don't care.",
+                        "Thank you.",
+                        "I dislike it.",
+                        "It's nothing special."
+                    ],
+                    "correctAnswer": "Thank you."
+                },
+                {
+                    "word": "Let me think.",
+                    "meaning": "A phrase used to indicate that you need a moment to consider or reflect on something.",
+                    "khmer": "ទុកឱ្យខ្ញុំគិតសិន។",
+                    "audio": "audio/let_me_think.mp3",
+                    "options": [
+                        "I know immediately.",
+                        "I need to consider.",
+                        "I don't want to think.",
+                        "Tell me the answer."
+                    ],
+                    "correctAnswer": "I need to consider."
+                },
+                {
+                    "word": "What’s the matter?",
+                    "meaning": "A way to ask someone if something is wrong or if they need to talk about an issue.",
+                    "khmer": "មានការអី?",
+                    "audio": "audio/whats_the_matter.mp3",
+                    "options": [
+                        "Everything is fine.",
+                        "What's wrong?",
+                        "Tell me good news.",
+                        "I don't care about your problems."
+                    ],
+                    "correctAnswer": "What's wrong?"
+                },
+                {
+                    "word": "Can I help you with anything?",
+                    "meaning": "A polite way to offer assistance to someone.",
+                    "khmer": "តើខ្ញុំអាចជួយអ្វីបានទេ?",
+                    "audio": "audio/can_i_help_you_with_anything.mp3",
+                    "options": [
+                        "I don't need help.",
+                        "Do you need my help?",
+                        "Can I offer assistance?",
+                        "Don't bother me."
+                    ],
+                    "correctAnswer": "Can I offer assistance?"
+                },
+                {
+                    "word": "I don’t mind.",
+                    "meaning": "A phrase used to say that you are okay with something or don’t have a preference.",
+                    "khmer": "ខ្ញុំមិនប្រកាន់ទេ។",
+                    "audio": "audio/i_dont_mind.mp3",
+                    "options": [
+                        "I strongly object.",
+                        "I have a strong preference.",
+                        "It's fine with me.",
+                        "I care a lot."
+                    ],
+                    "correctAnswer": "It's fine with me."
+                },
+                {
+                    "word": "That sounds good.",
+                    "meaning": "A way to express agreement or approval for a suggestion or plan.",
+                    "khmer": "ស្តាប់ទៅល្អ។",
+                    "audio": "audio/that_sounds_good.mp3",
+                    "options": [
+                        "That sounds bad.",
+                        "I approve.",
+                        "I disagree.",
+                        "That's a terrible idea."
+                    ],
+                    "correctAnswer": "I approve."
+                },
+                {
+                    "word": "Take care",
+                    "meaning": "A friendly way to say goodbye, wishing the other person well.",
+                    "khmer": "ប្រយ័ត្ន/ថែរក្សាខ្លួន",
+                    "audio": "audio/take_care.mp3",
+                    "options": [
+                        "Goodbye.",
+                        "Be careless.",
+                        "I don't care about you.",
+                        "Don't worry."
+                    ],
+                    "correctAnswer": "Goodbye."
+                },
+                {
+                    "word": "I’ll be right back.",
+                    "meaning": "A way to tell someone that you’re leaving briefly and will return soon.",
+                    "khmer": "ខ្ញុំនឹងត្រលប់មកវិញភ្លាម។",
+                    "audio": "audio/ill_be_right_back.mp3",
+                    "options": [
+                        "I'm leaving for a long time.",
+                        "I'll return shortly.",
+                        "I'm not coming back.",
+                        "I'm staying here."
+                    ],
+                    "correctAnswer": "I'll return shortly."
+                },
+                {
+                    "word": "Let’s get started",
+                    "meaning": "A phrase used to begin a task or activity.",
+                    "khmer": "តោះចាប់ផ្តើម",
+                    "audio": "audio/lets_get_started.mp3",
+                    "options": [
+                        "Let's stop.",
+                        "Let's begin.",
+                        "Let's delay.",
+                        "Let's finish."
+                    ],
+                    "correctAnswer": "Let's begin."
+                },
+                {
+                    "word": "It’s up to you.",
+                    "meaning": "A phrase used to let someone else decide or make a choice.",
+                    "khmer": "វាអាស្រ័យលើអ្នក។",
+                    "audio": "audio/its_up_to_you.mp3",
+                    "options": [
+                        "It's my decision.",
+                        "You decide.",
+                        "I will decide.",
+                        "There is no choice."
+                    ],
+                    "correctAnswer": "You decide."
+                },
+                {
+                    "word": "What do you think?",
+                    "meaning": "A way to ask someone for their opinion or thoughts on a topic.",
+                    "khmer": "តើអ្នកគិតយ៉ាងណា?",
+                    "audio": "audio/what_do_you_think.mp3",
+                    "options": [
+                        "I don't care about your opinion.",
+                        "What's your opinion?",
+                        "Tell me the answer.",
+                        "Don't tell me your thoughts."
+                    ],
+                    "correctAnswer": "What's your opinion?"
+                },
+                {
+                    "word": "I’m not sure.",
+                    "meaning": "A phrase used when you’re uncertain about something or don’t know the answer.",
+                    "khmer": "ខ្ញុំមិនច្បាស់ទេ។",
+                    "audio": "audio/im_not_sure.mp3",
+                    "options": [
+                        "I'm certain.",
+                        "I don't know for sure.",
+                        "I have definite knowledge.",
+                        "It's clear to me."
+                    ],
+                    "correctAnswer": "I don't know for sure."
+                },
+                {
+                    "word": "Can I ask you a question?",
+                    "meaning": "A polite way to request permission before asking something.",
+                    "khmer": "ខ្ញុំអាចសួរអ្នកសំណួរបានទេ?",
+                    "audio": "audio/can_i_ask_you_a_question.mp3",
+                    "options": [
+                        "Don't ask me anything.",
+                        "May I inquire?",
+                        "Ask me anything.",
+                        "I don't want to answer."
+                    ],
+                    "correctAnswer": "May I inquire?"
+                },
+                {
+                    "word": "I’m looking for [something].",
+                    "meaning": "A phrase used to say that you are searching for something specific.",
+                    "khmer": "ខ្ញុំកំពុងរក [អ្វីមួយ]។",
+                    "audio": "audio/im_looking_for_something.mp3",
+                    "options": [
+                        "I've found it.",
+                        "I'm searching for [something].",
+                        "I don't need anything.",
+                        "I'm not looking for anything."
+                    ],
+                    "correctAnswer": "I'm searching for [something]."
+                },
+                {
+                    "word": "How much is this?",
+                    "meaning": "A question used to ask for the price of something.",
+                    "khmer": "នេះតម្លៃប៉ុន្មាន?",
+                    "audio": "audio/how_much_is_this.mp3",
+                    "options": [
+                        "What's the cost?",
+                        "I don't want to buy this.",
+                        "Tell me the weight.",
+                        "Is this free?"
+                    ],
+                    "correctAnswer": "What's the cost?"
+                },
+                {
+                    "word": "I don’t know.",
+                    "meaning": "A phrase used when you don’t have an answer or are unsure about something.",
+                    "khmer": "ខ្ញុំមិនដឹងទេ។",
+                    "audio": "audio/i_dont_know.mp3",
+                    "options": [
+                        "I have the answer.",
+                        "I'm clueless.",
+                        "I'm certain.",
+                        "I know everything."
+                    ],
+                    "correctAnswer": "I'm clueless."
+                },
+                {
+                    "word": "How can I help you?",
+                    "meaning": "A polite phrase used to offer assistance, commonly used in customer service or by someone offering help.",
+                    "khmer": "តើខ្ញុំអាចជួយអ្នកបានយ៉ាងដូចម្តេច?",
+                    "audio": "audio/how_can_i_help_you.mp3",
+                    "options": [
+                        "I don't need help.",
+                        "What assistance do you require?",
+                        "I'm busy.",
+                        "Don't bother me."
+                    ],
+                    "correctAnswer": "What assistance do you require?"
+                },
+                {
+                    "word": "What time is it?",
+                    "meaning": "A question used to ask for the current time.",
+                    "khmer": "ម៉ោងប៉ុន្មានហើយ?",
+                    "audio": "audio/what_time_is_it.mp3",
+                    "options": [
+                        "I don't have a watch.",
+                        "Could you tell me the time?",
+                        "When is the event?",
+                        "What day is it?"
+                    ],
+                    "correctAnswer": "Could you tell me the time?"
+                },
+                {
+                    "word": "Where are you from?",
+                    "meaning": "A question used to ask someone about their country or city of origin.",
+                    "khmer": "អ្នកមកពីណា?",
+                    "audio": "audio/where_are_you_from.mp3",
+                    "options": [
+                        "What's your destination?",
+                        "What's your nationality?",
+                        "Where are you going?",
+                        "Are you local?"
+                    ],
+                    "correctAnswer": "What's your nationality?"
+                },
+                {
+                    "word": "I don’t understand.",
+                    "meaning": "Used to let someone know that you didn’t comprehend what they said or what’s going on.",
+                    "khmer": "ខ្ញុំមិនយល់ទេ។",
+                    "audio": "audio/i_dont_understand.mp3",
+                    "options": [
+                        "I comprehend fully.",
+                        "I'm confused.",
+                        "It's very clear.",
+                        "I grasp everything."
+                    ],
+                    "correctAnswer": "I'm confused."
+                },
+                {
+                    "word": "Have a nice day!",
+                    "meaning": "A friendly way of saying goodbye and wishing someone well.",
+                    "khmer": "សូមឱ្យមានថ្ងៃល្អ!",
+                    "audio": "audio/have_a_nice_day.mp3",
+                    "options": [
+                        "Have a bad day.",
+                        "Enjoy your day!",
+                        "I hope your day is awful.",
+                        "Goodbye forever."
+                    ],
+                    "correctAnswer": "Enjoy your day!"
+                },
+                {
+                    "word": "Can I help you?",
+                    "meaning": "A polite way to offer assistance to someone.",
+                    "khmer": "ខ្ញុំអាចជួយអ្នកបានទេ?",
+                    "audio": "audio/can_i_help_you.mp3",
+                    "options": [
+                        "I don't need anything.",
+                        "How may I assist you?",
+                        "Please leave me alone.",
+                        "Are you helping me?"
+                    ],
+                    "correctAnswer": "How may I assist you?"
+                },
+                {
+                    "word": "What do you do?",
+                    "meaning": "A phrase used to ask someone about their job or profession.",
+                    "khmer": "តើអ្នកធ្វើការអ្វី?",
+                    "audio": "audio/what_do_you_do.mp3",
+                    "options": [
+                        "What are your hobbies?",
+                        "What is your occupation?",
+                        "What are you doing right now?",
+                        "What is your favorite activity?"
+                    ],
+                    "correctAnswer": "What is your occupation?"
+                },
+                {
+                    "word": "Could you repeat that, please?",
+                    "meaning": "A polite way to ask someone to say something again because you didn’t hear or understand it.",
+                    "khmer": "សូមជួយនិយាយម្តងទៀតបានទេ?",
+                    "audio": "audio/could_you_repeat_that_please.mp3",
+                    "options": [
+                        "Don't repeat yourself.",
+                        "Please say that again.",
+                        "I heard you clearly.",
+                        "I understood perfectly."
+                    ],
+                    "correctAnswer": "Please say that again."
+                },
+                {
+                    "word": "I’m sorry",
+                    "meaning": "Used to apologize when you have made a mistake or if something goes wrong.",
+                    "khmer": "ខ្ញុំសុំទោស",
+                    "audio": "audio/im_sorry.mp3",
+                    "options": [
+                        "I'm happy.",
+                        "My apologies.",
+                        "I don't care.",
+                        "It's not my fault."
+                    ],
+                    "correctAnswer": "My apologies."
+                },
+                {
+                    "word": "See you later!",
+                    "meaning": "A casual way of saying goodbye.",
+                    "khmer": "ជួបគ្នាពេលក្រោយ!",
+                    "audio": "audio/see_you_later.mp3",
+                    "options": [
+                        "Goodbye for now.",
+                        "Never see you again.",
+                        "I won't see you.",
+                        "Stay here."
+                    ],
+                    "correctAnswer": "Goodbye for now."
+                },
+                {
+                    "word": "How much does this cost?",
+                    "meaning": "A common phrase used to ask about the price of something.",
+                    "khmer": "នេះតម្លៃប៉ុន្មាន?",
+                    "audio": "audio/how_much_does_this_cost.mp3",
+                    "options": [
+                        "What's the price?",
+                        "I don't want to pay.",
+                        "Is this free?",
+                        "Tell me the weight."
+                    ],
+                    "correctAnswer": "What's the price?"
+                },
+                {
+                    "word": "You’re welcome.",
+                    "meaning": "A polite response to someone who says 'thank you.'",
+                    "khmer": "មិនអីទេ / រីករាយ",
+                    "audio": "audio/youre_welcome.mp3",
+                    "options": [
+                        "No problem.",
+                        "You're not welcome.",
+                        "I don't accept thanks.",
+                        "It was a burden."
+                    ],
+                    "correctAnswer": "No problem."
+                },
+                {
+                    "word": "How are you?",
+                    "meaning": "This is a polite way to ask someone about their well-being.",
+                    "khmer": "សុខសប្បាយជាទេ?",
+                    "audio": "audio/how_are_you.mp3",
+                    "options": [
+                        "What's your name?",
+                        "How's life?",
+                        "Are you busy?",
+                        "Where are you going?"
+                    ],
+                    "correctAnswer": "How's life?"
+                },
+                {
+                    "word": "Thank you",
+                    "meaning": "Used to show gratitude or appreciation.",
+                    "khmer": "អរគុណ",
+                    "audio": "audio/thank_you.mp3",
+                    "options": [
+                        "You're welcome.",
+                        "I appreciate it.",
+                        "No thanks.",
+                        "I'm upset."
+                    ],
+                    "correctAnswer": "I appreciate it."
+                },
+                {
+                    "word": "closure",
+                    "meaning": "In programming, a closure is a function bundled together with references to its surrounding state (the lexical environment).",
+                    "khmer": "មុខងារដែលភ្ជាប់ជាមួយបរិស្ថានពាក្យរបស់វា",
+                    "audio": "audio/closure.mp3",
+                    "options": [
+                        "A function bundled with its lexical environment.",
+                        "A statement that closes a program.",
+                        "A loop that never ends.",
+                        "A type of variable scope."
+                    ],
+                    "correctAnswer": "A function bundled with its lexical environment."
+                },
+                {
+                    "word": "hoisting",
+                    "meaning": "In JavaScript, hoisting is a mechanism where variable and function declarations are moved to the top of their containing scope during compilation.",
+                    "khmer": "អាកប្បកិរិយាលំនាំដើមរបស់ JavaScript ក្នុងការផ្លាស់ប្តូរការប្រកាសទៅខាងលើ",
+                    "audio": "audio/hoisting.mp3",
+                    "options": [
+                        "JavaScript's default behavior of moving declarations to the top.",
+                        "A method for lifting heavy objects.",
+                        "A type of server deployment.",
+                        "A security vulnerability."
+                    ],
+                    "correctAnswer": "JavaScript's default behavior of moving declarations to the top."
+                },
+                {
+                    "word": "asynchronous",
+                    "meaning": "In computing, asynchronous operations are those that can run independently of the main program flow, allowing other tasks to be executed simultaneously.",
+                    "khmer": "ប្រតិបត្តិការដែលមិនរាំងស្ទះខ្សែស្រឡាយសំខាន់",
+                    "audio": "audio/asynchronous.mp3",
+                    "options": [
+                        "Operations that don't block the main thread.",
+                        "Code that runs only once.",
+                        "Functions that execute immediately.",
+                        "Data sent in a single block."
+                    ],
+                    "correctAnswer": "Operations that don't block the main thread."
                 }
             ],
+
 
             grammar: {
                 tenses: {
@@ -1661,6 +2580,19 @@
                     
                 },
 
+                listenAndType: [
+                    { sentence: "Hello, how are you today?", khmer: "សួស្ដី! តើអ្នកសុខសប្បាយជាទេថ្ងៃនេះ?", answer: "Hello, how are you today?" },
+                    { sentence: "The weather is beautiful.", khmer: "អាកាសធាតុស្រស់ស្អាត។", answer: "The weather is beautiful." },
+                    { sentence: "Can you please repeat that?", khmer: "តើអ្នកអាចនិយាយម្ដងទៀតបានទេ?", answer: "Can you please repeat that?" },
+                    { sentence: "I am learning English.", khmer: "ខ្ញុំកំពុងរៀនភាសាអង់គ្លេស។", answer: "I am learning English." },
+                    { sentence: "What time is it?", khmer: "ម៉ោងប៉ុន្មានហើយ?", answer: "What time is it?" },
+                    { sentence: "Please speak slowly.", khmer: "សូមនិយាយយឺតៗ។", answer: "Please speak slowly." },
+                    { sentence: "Thank you very much.", khmer: "អរគុណច្រើន។", answer: "Thank you very much." },
+                    { sentence: "Where is the library?", khmer: "បណ្ណាល័យនៅឯណា?", answer: "Where is the library?" },
+                    { sentence: "I don't understand.", khmer: "ខ្ញុំមិនយល់ទេ។", answer: "I don't understand." },
+                    { sentence: "See you later.", khmer: "ជួបគ្នាពេលក្រោយ។", answer: "See you later." }
+                ],
+
 
                 // Added Q&A based on the original data structure
                 "qna-html": [
@@ -1915,6 +2847,7 @@
                     case 'grammar': headingText = '📝 Grammar Guru'; break;
                     case 'shadowing': headingText = '🗣️ Shadowing Practice'; break;
                     case 'conversation': headingText = '💬 Conversation Activity'; break;
+                    case 'listen-type': headingText = '👂 Listen & Type Challenge'; break; // New mode
                     case 'qna-html': headingText = '❓ HTML Quiz'; break;
                     case 'qna-css': headingText = '❓ CSS Quiz'; break;
                     case 'qna-js': headingText = '❓ JavaScript Quiz'; break;
@@ -1936,7 +2869,10 @@
                         initShadowingGame();
                     } else if (mode === "conversation") {
                         initConversationGame();
-                    } else if (mode.startsWith("qna-")) {
+                    } else if (mode === "listen-type") { // New mode initialization
+                        initListenAndTypeGame();
+                    }
+                    else if (mode.startsWith("qna-")) {
                         initQnAGame(mode);
                     }
                 }, 500);
@@ -1950,7 +2886,7 @@
                 let finalScore = gameState.score;
                 const totalItems = gameState.currentPool.length;
 
-                if (gameState.mode === 'vocab' || gameState.mode.startsWith('qna-')) {
+                if (gameState.mode === 'vocab' || gameState.mode.startsWith('qna-') || gameState.mode === 'listen-type') { // Added listen-type
                     message = `You completed the ${gameState.mode.replace('qna-', '').toUpperCase()} Challenge!`;
                     message += `<p>Your final score is: <span class="score-display">${finalScore} / ${totalItems}</span></p>`;
                     if (totalItems > 0) {
@@ -1979,7 +2915,7 @@
                 } else if (gameState.mode === 'shadowing') {
                     message = `Shadowing Practice Complete!`;
                     message += `<p>You practiced ${gameState.currentIndex} sentences.</p>`;
-                    message += `<p class="info-message">Keep practicing to improve your pronunciation and fluency!</p>`;
+                    message += `<p class="info-message">Keep practicing to improve your pronunciation and fluency!</p個人的なメッセージを付け加えています。`;
                 } else if (gameState.mode === 'conversation') {
                     message = `Conversation Activity Complete!`;
                     message += `<p>You went through ${gameState.currentIndex} lines of dialogue.</p>`;
@@ -2055,10 +2991,11 @@
                     </div>
                 `;
 
-                startTimer(30, (timeLeft) => { // 30 seconds per vocabulary question
+                startTimer(45, (timeLeft) => { // 30 seconds per vocabulary question
                     document.getElementById('timeLeft').textContent = `${timeLeft}s`;
                 }, () => {
-                    document.getElementById('feedback').innerHTML = `<p class="error-message">Time's up! The correct answer was: <strong>${currentWord.correctAnswer}</strong></p>`;
+                    const feedbackElement = document.getElementById('feedback');
+                    feedbackElement.innerHTML = `<p class="error-message">Time's up! The correct answer was: <strong>${currentWord.correctAnswer}</strong></p>`;
                     // Disable all options
                     elements.gameArea.querySelectorAll('.vocab-option-btn').forEach(btn => btn.disabled = true);
                     // Highlight the correct answer
@@ -2067,7 +3004,9 @@
                             btn.classList.add('btn-success');
                         }
                     });
+                    feedbackElement.classList.add('show'); // Show feedback message
                     setTimeout(() => {
+                        feedbackElement.classList.remove('show');
                         gameState.currentIndex++;
                         displayVocabQuestion();
                     }, 2000);
@@ -2323,7 +3262,9 @@
                     }
 
                     feedbackElement.innerHTML = `<p class="error-message">Time's up! ${correctFeedback}</p>`;
+                    feedbackElement.classList.add('show'); // Show feedback message
                     setTimeout(() => {
+                        feedbackElement.classList.remove('show'); // Hide feedback
                         gameState.currentIndex++;
                         displayGrammarQuizQuestion();
                     }, 2000);
@@ -2757,6 +3698,105 @@
                 displayConversationLine();
             }
 
+            // New Listen & Type Game Functions
+            function initListenAndTypeGame() {
+                console.log("Initializing Listen & Type Game...");
+                gameState.currentPool = shuffleArray(gameData.listenAndType);
+                gameState.currentIndex = 0;
+                gameState.score = 0;
+                displayListenAndTypeQuestion();
+            }
+
+            function displayListenAndTypeQuestion() {
+                stopTimer();
+                if (gameState.currentIndex >= gameState.currentPool.length) {
+                    displayGameEndScreen();
+                    return;
+                }
+
+                const currentItem = gameState.currentPool[gameState.currentIndex];
+                const timerDuration = 45; // Time for listening and typing
+
+                elements.gameArea.innerHTML = `
+                    <div class="container listen-type-game">
+                        <div class="score-timer-container">
+                            <div class="score">Score: <span id="score" class="text-blue-600">${gameState.score}</span></div>
+                            <div class="timer">Time Left: <span id="timeLeft" class="text-blue-600">${gameState.timeLeft}s</span></div>
+                        </div>
+                        <div class="question-box text-left">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">Listen carefully and type what you hear:</h3>
+                            <p class="khmer-meaning">(${currentItem.khmer})</p>
+                            <div class="audio-controls mt-3">
+                                <button class="btn btn-info btn-lg" id="listenBtn"><i class="fas fa-volume-up mr-2"></i>Listen</button>
+                            </div>
+                        </div>
+                        <div class="answer-input-container mt-4">
+                            <input type="text" id="listenTypeAnswerInput" class="form-control w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4" placeholder="Type what you heard here...">
+                            <button class="btn btn-success w-full" onclick="checkListenAndTypeAnswer()">Check Answer</button>
+                        </div>
+                        <p id="feedback" class="mt-3 feedback-message"></p>
+                    </div>
+                `;
+
+                document.getElementById('listenBtn').addEventListener('click', () => {
+                    speakText(currentItem.sentence);
+                });
+
+                document.getElementById('listenTypeAnswerInput').focus();
+                document.getElementById('listenTypeAnswerInput').onkeyup = function(event) {
+                    if (event.key === "Enter") {
+                        checkListenAndTypeAnswer();
+                    }
+                };
+
+                startTimer(timerDuration, (timeLeft) => {
+                    document.getElementById('timeLeft').textContent = `${timeLeft}s`;
+                }, () => {
+                    const feedbackElement = document.getElementById('feedback');
+                    feedbackElement.innerHTML = `<p class="error-message">Time's up! The correct answer was: <strong>${currentItem.answer}</strong></p>`;
+                    document.getElementById('listenTypeAnswerInput').disabled = true;
+                    elements.gameArea.querySelector('.btn-success').disabled = true;
+                    feedbackElement.classList.add('show');
+                    setTimeout(() => {
+                        feedbackElement.classList.remove('show');
+                        gameState.currentIndex++;
+                        displayListenAndTypeQuestion();
+                    }, 2000);
+                });
+            }
+
+            function checkListenAndTypeAnswer() {
+                stopTimer();
+                const currentItem = gameState.currentPool[gameState.currentIndex];
+                const userAnswer = document.getElementById('listenTypeAnswerInput').value.trim();
+                const feedbackElement = document.getElementById('feedback');
+
+                // Normalize both strings for comparison (lowercase, remove punctuation, reduce multiple spaces)
+                const normalizeText = (text) => text.toLowerCase().replace(/[.,!?;:'"-]/g, '').replace(/\s+/g, ' ').trim();
+
+                const normalizedUserAnswer = normalizeText(userAnswer);
+                const normalizedCorrectAnswer = normalizeText(currentItem.answer);
+
+                document.getElementById('listenTypeAnswerInput').disabled = true;
+                elements.gameArea.querySelector('.btn-success').disabled = true;
+
+                if (normalizedUserAnswer === normalizedCorrectAnswer) {
+                    gameState.score++;
+                    feedbackElement.innerHTML = `<p class="success-message">Correct! 🎉</p>`;
+                } else {
+                    feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct answer was: <strong>${currentItem.answer}</strong></p>`;
+                }
+                document.getElementById('score').textContent = gameState.score;
+
+                feedbackElement.classList.add('show');
+
+                setTimeout(() => {
+                    feedbackElement.classList.remove('show');
+                    gameState.currentIndex++;
+                    displayListenAndTypeQuestion();
+                }, 3000); // Wait 3 seconds for feedback
+            }
+
 
             // Q&A Game Functions
             function initQnAGame(qnaCategory) {
@@ -2877,5 +3917,4 @@
 
             // Initial call to set up the game
             document.addEventListener("DOMContentLoaded", goHome);
-    
     
