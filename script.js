@@ -1,46 +1,167 @@
 
+        
         // Game Data - Moved to separate object for better organization
         const gameData = {
             vocab: [
                 {
-                    word: "this",
-                    meaning: "What does 'this' mean?", // Prompt
-                    khmer: "តំណាងអ្វីដែលកំពុងត្រូវយោង",
-                    audio: "audio/this.mp3",
-                    options: ["Refers to the current object in context.", "An action verb.", "A type of data structure.", "A conditional statement."],
-                    correctAnswer: "Refers to the current object in context."
+                    word: "surprising",
+                    meaning: "unexpected or causing wonder",
+                    khmer: "គួរឱ្យភ្ញាក់ផ្អើល",
+                    audio: "",
+                    options: ["unexpected", "boring", "usual", "common"],
+                    correctAnswer: "unexpected"
                 },
                 {
-                    word: "arrow function",
-                    meaning: "What is an 'arrow function'?", // Prompt
-                    khmer: "មុខងារមានសញ្ញាព្រិល (=>)",
-                    audio: "audio/arrow-function.mp3",
-                    options: ["A shorter way to write functions using `=>` syntax.", "A function for drawing arrows.", "A type of database query.", "A method for debugging."],
-                    correctAnswer: "A shorter way to write functions using `=>` syntax."
+                    word: "expected",
+                    meaning: "anticipated or thought likely to happen",
+                    khmer: "ដែលបានរំពឹងទុក",
+                    audio: "",
+                    options: ["anticipated", "surprising", "unusual", "rare"],
+                    correctAnswer: "anticipated"
                 },
                 {
-                    word: "closure",
-                    meaning: "What is a 'closure' in programming?",
-                    khmer: "មុខងារដែលភ្ជាប់ជាមួយបរិស្ថានពាក្យរបស់វា",
-                    audio: "audio/closure.mp3",
-                    options: ["A function bundled with its lexical environment.", "A statement that closes a program.", "A loop that never ends.", "A type of variable scope."],
-                    correctAnswer: "A function bundled with its lexical environment."
+                    word: "elegant",
+                    meaning: "graceful and stylish in appearance or manner",
+                    khmer: "ស្រស់ស្អាត",
+                    audio: "",
+                    options: ["graceful", "clumsy", "messy", "ordinary"],
+                    correctAnswer: "graceful"
                 },
                 {
-                    word: "hoisting",
-                    meaning: "What does 'hoisting' refer to in JavaScript?",
-                    khmer: "អាកប្បកិរិយាលំនាំដើមរបស់ JavaScript ក្នុងការផ្លាស់ប្តូរការប្រកាសទៅខាងលើ",
-                    audio: "audio/hoisting.mp3",
-                    options: ["JavaScript's default behavior of moving declarations to the top.", "A method for lifting heavy objects.", "A type of server deployment.", "A security vulnerability."],
-                    correctAnswer: "JavaScript's default behavior of moving declarations to the top."
+                    word: "in spite of",
+                    meaning: "despite; without being affected by something",
+                    khmer: "ទោះបីជា",
+                    audio: "",
+                    options: ["despite", "because of", "due to", "instead of"],
+                    correctAnswer: "despite"
                 },
                 {
-                    word: "asynchronous",
-                    meaning: "What is the meaning of 'asynchronous' in computing?",
-                    khmer: "ប្រតិបត្តិការដែលមិនរាំងស្ទះខ្សែស្រឡាយសំខាន់",
-                    audio: "audio/asynchronous.mp3",
-                    options: ["Operations that don't block the main thread.", "Code that runs only once.", "Functions that execute immediately.", "Data sent in a single block."],
-                    correctAnswer: "Operations that don't block the main thread."
+                    word: "despite (preposition)",
+                    meaning: "used to show contrast or unexpected results",
+                    khmer: "ទោះបីជា",
+                    audio: "",
+                    options: ["although", "despite", "because", "since"],
+                    correctAnswer: "despite"
+                },
+                {
+                    word: "Although",
+                    meaning: "used to introduce a contrasting idea",
+                    khmer: "ទោះបីជា",
+                    audio: "",
+                    options: ["although", "because", "since", "despite"],
+                    correctAnswer: "although"
+                },
+                {
+                    word: "a bit more formal",
+                    meaning: "slightly more official or proper",
+                    khmer: "ធ្វើឱ្យមានភាពផ្លូវការបន្ថែម",
+                    audio: "",
+                    options: ["informal", "formal", "casual", "relaxed"],
+                    correctAnswer: "formal"
+                },
+                {
+                    word: "followed",
+                    meaning: "came after or pursued",
+                    khmer: "បានតាម",
+                    audio: "",
+                    options: ["preceded", "followed", "ignored", "avoided"],
+                    correctAnswer: "followed"
+                },
+                {
+                    word: "fear",
+                    meaning: "an unpleasant emotion caused by danger or threat",
+                    khmer: "ការភ័យខ្លាច",
+                    audio: "",
+                    options: ["fear", "joy", "confidence", "calm"],
+                    correctAnswer: "fear"
+                },
+                {
+                    word: "being tired (gerund phrase)",
+                    meaning: "the state of feeling exhausted",
+                    khmer: "ការនឿយហត់ / ក្នុងស្ថានភាពនឿយហត់",
+                    audio: "",
+                    options: ["being tired", "being happy", "being energetic", "being relaxed"],
+                    correctAnswer: "being tired"
+                },
+                {
+                    word: "he kept working (past tense + continuous action)",
+                    meaning: "he continued to perform his job",
+                    khmer: "គាត់បន្តធ្វើការ",
+                    audio: "",
+                    options: ["he kept working", "he stopped working", "he started working", "he avoided working"],
+                    correctAnswer: "he kept working"
+                },
+                {
+                    word: "It looks as if...",
+                    meaning: "used to express appearance or assumption",
+                    khmer: "វាមើលទៅដូចជា...",
+                    audio: "",
+                    options: ["It looks as if", "It seems like", "It appears", "It is"],
+                    correctAnswer: "It looks as if"
+                },
+                {
+                    word: "assumption",
+                    meaning: "a belief or idea accepted as true without proof",
+                    khmer: "ការសន្និដ្ឋាន",
+                    audio: "",
+                    options: ["assumption", "proof", "certainty", "doubt"],
+                    correctAnswer: "assumption"
+                },
+                {
+                    word: "appearance",
+                    meaning: "the way someone or something looks",
+                    khmer: "រូបរាង",
+                    audio: "",
+                    options: ["appearance", "disappearance", "behavior", "attitude"],
+                    correctAnswer: "appearance"
+                },
+                {
+                    word: "they've had a shock",
+                    meaning: "they experienced something surprising or upsetting",
+                    khmer: "ពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល",
+                    audio: "",
+                    options: ["they've had a shock", "they've had a joy", "they've had a rest", "they've had a surprise"],
+                    correctAnswer: "they've had a shock"
+                },
+                {
+                    word: "as if",
+                    meaning: "used to describe an appearance or gesture",
+                    khmer: "ដូចជា / ដូចបំណង",
+                    audio: "",
+                    options: ["as if", "as though", "like", "similar"],
+                    correctAnswer: "as if"
+                },
+                {
+                    word: "gesture",
+                    meaning: "a movement of the body to express an idea or feeling",
+                    khmer: "ចលនា",
+                    audio: "",
+                    options: ["gesture", "speech", "expression", "action"],
+                    correctAnswer: "gesture"
+                },
+                {
+                    word: "They were shouting",
+                    meaning: "they were speaking loudly (past continuous tense)",
+                    khmer: "ពួកគេកំពុងស្រែក",
+                    audio: "",
+                    options: ["They were shouting", "They were whispering", "They were singing", "They were talking"],
+                    correctAnswer: "They were shouting"
+                },
+                {
+                    word: "as though",
+                    meaning: "similar in meaning to 'as if'",
+                    khmer: "ដូចជា / ដូចជាបាន",
+                    audio: "",
+                    options: ["as though", "as if", "like", "similar"],
+                    correctAnswer: "as though"
+                },
+                {
+                    word: "in panic",
+                    meaning: "in a state of fear or anxiety",
+                    khmer: "ក្នុងស្ថានភាពភ័យខ្លាច",
+                    audio: "",
+                    options: ["in panic", "in joy", "in calm", "in peace"],
+                    correctAnswer: "in panic"
                 }
             ],
 
@@ -164,287 +285,7 @@
                             },
                         ]
                     },
-                    "🗣️1. Yes/No Questions": {
-                        description: "Used for actions happening now, temporary actions, or planned future actions.<br>💡 Remember: <br>Use “Do” with I, you, we, they <br>Use “Does” with he, she, it <br>The verb stays in base form (don’t add -s in the question)",
-                        structure: "Do/Does + Subject + Base Verb + …? → to ask questions <br>Subject + Base Verb (or Verb+s) → to answer",
-                        examples: [
-                            { type: "correct", sentence: "Do you play football? ", explanation: "→ Yes, I do. / No, I don’t." },
-                            { type: "correct", sentence: "Does she like coffee?", explanation: "→ Yes, she does. / No, she doesn’t." }
-                        ],
-                        quizQuestions: [
-                            {
-                                type: "multiple-choice",
-                                question: "Do you like English?",
-                                options: [
-                                    { text: "Yes, I like English because it helps me find information on the internet for my assignments", correct: true },
-                                    { text: "Yes, I like English. It’s fun and useful.", correct: true, explanation: "✅" },
-                                    { text: "→ Yes, I like English because it helps me find information on the internet for my assignments.", correct: true}
-                                ]
-                            },
-                            
-                        ]
-                    },
-                    "🗣️ 2. Wh- Questions": {
-                        description: "Used for actions happening now, temporary actions, or planned future actions.<br>🧠 Common Wh- question words:<br>What = thing<br>Where = place<br>When = time<br>Who = person<br>Why = reason<br>How = way/method",
-                        structure: "Wh-word + do/does + subject + verb?",
-                        examples: [
-                            { type: "correct", sentence: "What do you eat for breakfast? ", explanation: "→ I eat rice and fried egg." },
-                            { type: "correct", sentence: "When do you go to school?", explanation: "→  I go to school at 7 a.m." },
-                            { type: "correct", sentence: "Where does he live?", explanation: "→ He lives in Phnom Penh." },
-                            { type: "correct", sentence: "Why do you study English?", explanation: "→  → I study English because I want to get a good job." },
-                            
-                        ],
-                        quizQuestions: [
-                            {
-                                type: "multiple-choice",
-                                question: "What do you do on the weekend?",
-                                options: [
-                                    { text: "On the weekend, I usually relax at home, watch movies, and sometimes go out with my friends.", correct: true, explanation: "✅" },
-                                    { text: "On the weekend, I usually get up late, around 8 o’clock.I do the homework assigned by my teacher, and sometimes I go out with my friends to do fun activities like watching a movie or going on a picnic.", correct: true},
-                                    { text: "Yes, I do", correct: false}
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "❓When do you do your homework?",
-                                options: [
-                                    { text: "I usually do my homework at 6 o’clock after dinner.", correct: true },
-                                    { text: "I usually do my homework in the evening after dinner.", correct: true, explanation: "✅"},
-                                    { text: "Yes, I do", correct: false}
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "❓Where do you go after school?",
-                                options: [
-                                    { text: "On the weekend, I usually relax at home, watch movies, and sometimes go out with my friends.", correct:false },
-                                    { text: " After school, I go home and take a rest, or sometimes I go to the market with my friends.", correct: true},
-                                    { text: "After school, I go home and rest, or sometimes I go to the library.", correct: true, explanation: "✅"}
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "❓Why do you learn English?",
-                                options: [
-                                    { text: "I learn English because it helps me get better opportunities and communicate with people from other contries.", correct: true, explanation: "✅"  },
-                                    { text: "I usually do my homework in the evening after dinner.", correct: false},
-                                    { text: "I learn English because I want to improve my skills, get a good job, and be able to communicate with people from around the world.", correct: true }
-                                ]
-                            },
-                        ]
-                    },
-                    "Routines": {
-                        description: `📄 Printable Practice Sheet – “My Daily Routine”
-                                        <br>
-                                        You can copy and print this text to practice speaking and shadowing:<br>
-                                        
-                                        📝 My Daily Routine<br>
-                                        
-                                        🔹 Morning<br>
-                                        In the morning, I usually wake up at 6 o’clock.<br>
-                                        The first thing I do is go to the bathroom.<br>
-                                        In the bathroom, I wash my hands and face.<br>
-                                        Then, I brush my teeth and take a shower.<br>
-                                        After that, I dry my body and hair with a towel.<br>
-                                        I comb my hair and get dressed.<br>
-                                        Then, I make my bed and clean my room.<br>
-                                        After that, I eat breakfast.<br>
-                                        I like to eat a fried egg with pickles and rice.
-                                         <br>	
-                                        🔹 Afternoon
-                                        In the afternoon, I usually come back home at around 2:30 p.m.<br>
-                                        First, I wash my hands and make lunch by myself.<br>
-                                        At 3:00 p.m., I have lunch.<br>
-                                        After lunch, I take a short rest or nap.<br>
-                                        Sometimes, I do housework or study my lessons.<br>
-                                        If I have free time, I watch a movie or play with my friends.<br>
-
-                                        🔹 Evening<br>
-                                        In the evening, I usually take a shower around 5 o’clock.<br>
-                                        Then, I eat dinner and watch a movie while eating.<br>
-                                        After dinner, I sometimes review my homework or read a book.<br>
-                                        I also like to relax by listening to music or watching YouTube.<br>
-                                        Before I go to bed, I brush my teeth and prepare my clothes for the next day.<br>
-
-                                `,
-                        
-                        quizQuestions: [
-                            {
-                                type: "multiple-choice",
-                                question: "Part 1: Morning - What time do you usually wake up?",
-                                options: [
-                                    { text: "I usually wake up at 5 o’clock in the morning.", correct: false },
-                                    { text: "I usually wake up at 6 o’clock in the morning.", correct: true},
-                                    { text: "I usually wake up at 8 o’clock in the morning.", correct: false }
-                                ]
-                            },
-                            
-                            {
-                                type: "multiple-choice",
-                                question: "Part 1: Morning - What is the first thing you do after waking up?",
-                                options: [
-                                    { text: "The first thing I do is go to the bathroom.", correct: true },
-                                    { text: "In the bathroom, I wash my hands and face, then brush my teeth and take a shower.", correct: false },
-                                    { text: "The first thing I do is go to the bathroom.", correct: false }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 1: Morning - What do you do in the bathroom?",
-                                options: [
-                                    { text: "The first thing I do is go to the bathroom.", correct: false },
-                                    { text: "In the bathroom, I wash my hands and face, then brush my teeth and take a shower.", correct: true },
-                                    { text: "The first thing I do is go to the bathroom.", correct: false }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 1: Morning - What do you do after taking a shower?",
-                                options: [
-                                    { text: "The first thing I do is go to the bathroom.", correct: false },
-                                    { text: "In the bathroom, I wash my hands and face, then brush my teeth and take a shower.", correct: false },
-                                    { text: "After taking a shower, I dry my body and hair with a towel, comb my hair, get dressed, make my bed, and clean my room.", correct: true }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 1: Morning - What do you eat for breakfast?",
-                                options: [
-                                    { text: "They are playing soccer now.", correct: false },
-                                    { text: "I like to eat a fried egg with pickles and rice for breakfast.", correct: true,  },
-                                    { text: "I will visit my grandparents tomorrow.", correct: false }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 2: afternoon - What time do you usually come back home?",
-                                options: [
-                                    { text: "I usually come back home at around 6:30 p.m.", correct: false },
-                                    { text: "I usually come back home at around 2:30 p.m.", correct: true, explanation: "" },
-                                    { text: "I usually come back home at around 3:30 p.m.", correct: false }
-                                ]
-                            },
-                            
-                            {
-                                type: "multiple-choice",
-                                question: "Part 2: afternoon - Who prepares your lunch?",
-                                options: [
-                                    { text: "I prepare my lunch by myself.", correct: true },
-                                    { text: "My family prepare my lunch .", correct: false },
-                                    { text: "I and my family prepare our lunch.", correct: false }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 2: afternoon - What do you do after eating lunch?",
-                                options: [
-                                    { text: "After eating lunch, I take a short rest.", correct: false },
-                                    { text: "After eating lunch, I take a short rest or nap", correct: true },
-                                    { text: "After eating lunch, I take a short nap", correct: false }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 2: afternoon - What do you do if you have free time in the afternoon?",
-                                options: [
-                                    { text: "If I have free time in the afternoon, I play with my friends.", correct: false },
-                                    { text: "If I have free time in the afternoon, I watch a movie.", correct: false },
-                                    { text: "If I have free time in the afternoon, I watch a movie or play with my friends.", correct: true }
-                                ]
-                            },
-                            
-                            {
-                                type: "multiple-choice",
-                                question: "Part 3: Evening - What time do you usually take a shower in the evening?",
-                                options: [
-                                    { text: "I usually take a shower around 6 o’clock in the evening.", correct: false },
-                                    { text: "I usually take a shower around 5 o’clock in the evening.", correct: true,  },
-                                    { text: "I usually take a shower around 7 o’clock in the evening.", correct: false }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 3: Evening - What do you do while eating dinner?",
-                                options: [
-                                    { text: "I watch a movie.", correct: false },
-                                    { text: "I listening to music.", correct: false  },
-                                    { text: "I watch a movie while eating dinner.", correct: true }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 3: Evening - Do you review your homework or read a book after dinner?",
-                                options: [
-                                    { text: "After dinner I sometimes read a book.", correct: false },
-                                    { text: "Yes, after dinner I sometimes review my homework or read a book.", correct: true,  },
-                                    { text: "After dinner I sometimes review my homework.", correct: false }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 3: Evening - What do you do to relax in the evening?",
-                                options: [
-                                    { text: "I relax by listening to music or watching YouTube.", correct: true },
-                                    { text: "I relax by listening to music.", correct: false  },
-                                    { text: "I relax by watching YouTube.", correct: false }
-                                ]
-                            },
-                            {
-                                type: "multiple-choice",
-                                question: "Part 3: Evening - What do you do before going to bed?",
-                                options: [
-                                    { text: "Before I go to bed, I brush my teeth.", correct: false },
-                                    { text: "Before I go to bed, I brush my teeth and prepare my clothes for the next day.", correct: true,  },
-                                    { text: "Before I go to bed, I prepare my clothes for the next day. ", correct: false }
-                                ]
-                            },
-                            {
-                                type: "match-the-words",
-                                question: "Match the beginning of the sentence on the left with the correct ending on the right.",
-                                pairs: [
-                                    { stem: "comb ⬜", correctOption: "H. To brush and arrange hair" },
-                                    { stem: "towel ⬜", correctOption: "B. A cloth used for drying the body." },
-                                    { stem: "nap ⬜", correctOption: "A. A short sleep during the day" },
-                                    { stem: "prepare ⬜", correctOption: "G. To get ready or set up in advance" },
-                                    { stem: "review ⬜", correctOption: "C. To look at something again, like homework." },
-                                    { stem: "housework ⬜", correctOption: "F. Work done to keep the home clean" },
-                                    { stem: "pickles ⬜", correctOption: "E. Food made from vegetables in vinegar or salty water" },
-                                    { stem: "routine ⬜", correctOption: "D. A regular set of actions you do every day." }
-                                ]
-                            },
-                            {
-                                type: "fill-in-blank",
-                                question: "After I wake up, I _____ my teeth and take a shower.",
-                                correctAnswer: "brush",
-                                explanation: "After I wake up, I brush my teeth and take a shower."
-                            },
-                            {
-                                type: "fill-in-blank",
-                                question: " I use a ______ to dry my body.",
-                                correctAnswer: "towel",
-                                explanation: "I use a towel to dry my body."
-                            },
-                            {
-                                type: "fill-in-blank",
-                                question: " After lunch, I sometimes take a short ____.",
-                                correctAnswer: "nap",
-                                explanation: "After lunch, I sometimes take a short nap."
-                            },
-                            {
-                                type: "fill-in-blank",
-                                question: "In the evening, I ______ my homework or read a book.",
-                                correctAnswer: "review",
-                                explanation: "In the evening, I review my homework or read a book."
-                            },
-                            {
-                                type: "fill-in-blank",
-                                question: "Before I go to bed, I ____ my clothes for tomorrow.",
-                                correctAnswer: "prepare",
-                                explanation: "Before I go to bed, I prepare my clothes for tomorrow."
-                            }
-                        ]
-                    }
-                },
+                      },
                 structureQuiz: {
                     "No Sooner had": {
                         description: "It means that as soon as one thing happened, another thing followed immediately.",
@@ -601,7 +442,7 @@
                                     }
                                 ]
                             }, 
-                             "So that – (To show purpose or reason)": {
+                     "So that – (To show purpose or reason)": {
                         description: `✅ Use it when:<br>You want to explain why someone did something — the goal or result they wanted
                                         <br>💬 You can use different helping verbs depending on time:
                                         <br>can / will → for future
@@ -1137,7 +978,7 @@
 
                                     <br>"I would rather..." (about yourself)
 
-                                    <br>"I would rather you/he/she..." (about someone else)>"It seems as though..."
+                                    <br>"I would rather you/he/she..." (about someone else)"
                         `,
                         structure: `🔧 Structure 1 – Same subject (I prefer to do something):<br>Subject + would rather + base verb<br>🧠 No "to" before the verb!
                                         <br>🔧 Structure 2 – Different subject (You prefer someone else to do something):
@@ -1283,6 +1124,76 @@
                
                 },
                 BasicSentencePatterns: {
+                        "🗣️1. Yes/No Questions": {
+                            description: "Used for actions happening now, temporary actions, or planned future actions.<br>💡 Remember: <br>Use “Do” with I, you, we, they <br>Use “Does” with he, she, it <br>The verb stays in base form (don’t add -s in the question)",
+                            structure: "Do/Does + Subject + Base Verb + …? → to ask questions <br>Subject + Base Verb (or Verb+s) → to answer",
+                            examples: [
+                                { type: "correct", sentence: "Do you play football? ", explanation: "→ Yes, I do. / No, I don’t." },
+                                { type: "correct", sentence: "Does she like coffee?", explanation: "→ Yes, she does. / No, she doesn’t." }
+                            ],
+                            quizQuestions: [
+                                {
+                                    type: "multiple-choice",
+                                    question: "Do you like English?",
+                                    options: [
+                                        { text: "Yes, I like English because it helps me find information on the internet for my assignments", correct: true },
+                                        { text: "Yes, I like English. It’s fun and useful.", correct: true, explanation: "✅" },
+                                        { text: "→ Yes, I like English because it helps me find information on the internet for my assignments.", correct: true}
+                                    ]
+                                },
+                                
+                            ]
+                        },
+                        "🗣️ 2. Wh- Questions": {
+                        description: "Used for actions happening now, temporary actions, or planned future actions.<br>🧠 Common Wh- question words:<br>What = thing<br>Where = place<br>When = time<br>Who = person<br>Why = reason<br>How = way/method",
+                        structure: "Wh-word + do/does + subject + verb?",
+                        examples: [
+                            { type: "correct", sentence: "What do you eat for breakfast? ", explanation: "→ I eat rice and fried egg." },
+                            { type: "correct", sentence: "When do you go to school?", explanation: "→  I go to school at 7 a.m." },
+                            { type: "correct", sentence: "Where does he live?", explanation: "→ He lives in Phnom Penh." },
+                            { type: "correct", sentence: "Why do you study English?", explanation: "→  → I study English because I want to get a good job." },
+                            
+                        ],
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "What do you do on the weekend?",
+                                options: [
+                                    { text: "On the weekend, I usually relax at home, watch movies, and sometimes go out with my friends.", correct: true, explanation: "✅" },
+                                    { text: "On the weekend, I usually get up late, around 8 o’clock.I do the homework assigned by my teacher, and sometimes I go out with my friends to do fun activities like watching a movie or going on a picnic.", correct: true},
+                                    { text: "Yes, I do", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "❓When do you do your homework?",
+                                options: [
+                                    { text: "I usually do my homework at 6 o’clock after dinner.", correct: true },
+                                    { text: "I usually do my homework in the evening after dinner.", correct: true, explanation: "✅"},
+                                    { text: "Yes, I do", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "❓Where do you go after school?",
+                                options: [
+                                    { text: "On the weekend, I usually relax at home, watch movies, and sometimes go out with my friends.", correct:false },
+                                    { text: " After school, I go home and take a rest, or sometimes I go to the market with my friends.", correct: true},
+                                    { text: "After school, I go home and rest, or sometimes I go to the library.", correct: true, explanation: "✅"}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "❓Why do you learn English?",
+                                options: [
+                                    { text: "I learn English because it helps me get better opportunities and communicate with people from other contries.", correct: true, explanation: "✅"  },
+                                    { text: "I usually do my homework in the evening after dinner.", correct: false},
+                                    { text: "I learn English because I want to improve my skills, get a good job, and be able to communicate with people from around the world.", correct: true }
+                                ]
+                            },
+                        ]
+                    },
+                    
                         "1. Subject + Verb (S + V)": {
                         description: "This is the simplest type of sentence. It has a subject doing an action, but the action doesn't transfer to an object.",
                         structure: "Subject + Verb (S + V)",
@@ -1413,6 +1324,218 @@
                             }
                         ]
                         },
+                        "Routines": {
+                        description: `📄 Printable Practice Sheet – “My Daily Routine”
+                                        <br>
+                                        You can copy and print this text to practice speaking and shadowing:<br>
+                                        
+                                        📝 My Daily Routine<br>
+                                        
+                                        🔹 Morning<br>
+                                        In the morning, I usually wake up at 6 o’clock.<br>
+                                        The first thing I do is go to the bathroom.<br>
+                                        In the bathroom, I wash my hands and face.<br>
+                                        Then, I brush my teeth and take a shower.<br>
+                                        After that, I dry my body and hair with a towel.<br>
+                                        I comb my hair and get dressed.<br>
+                                        Then, I make my bed and clean my room.<br>
+                                        After that, I eat breakfast.<br>
+                                        I like to eat a fried egg with pickles and rice.
+                                         <br>	
+                                        🔹 Afternoon
+                                        In the afternoon, I usually come back home at around 2:30 p.m.<br>
+                                        First, I wash my hands and make lunch by myself.<br>
+                                        At 3:00 p.m., I have lunch.<br>
+                                        After lunch, I take a short rest or nap.<br>
+                                        Sometimes, I do housework or study my lessons.<br>
+                                        If I have free time, I watch a movie or play with my friends.<br>
+
+                                        🔹 Evening<br>
+                                        In the evening, I usually take a shower around 5 o’clock.<br>
+                                        Then, I eat dinner and watch a movie while eating.<br>
+                                        After dinner, I sometimes review my homework or read a book.<br>
+                                        I also like to relax by listening to music or watching YouTube.<br>
+                                        Before I go to bed, I brush my teeth and prepare my clothes for the next day.<br>
+
+                                `,
+                        
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Part 1: Morning - What time do you usually wake up?",
+                                options: [
+                                    { text: "I usually wake up at 5 o’clock in the morning.", correct: false },
+                                    { text: "I usually wake up at 6 o’clock in the morning.", correct: true},
+                                    { text: "I usually wake up at 8 o’clock in the morning.", correct: false }
+                                ]
+                            },
+                            
+                            {
+                                type: "multiple-choice",
+                                question: "Part 1: Morning - What is the first thing you do after waking up?",
+                                options: [
+                                    { text: "The first thing I do is go to the bathroom.", correct: true },
+                                    { text: "In the bathroom, I wash my hands and face, then brush my teeth and take a shower.", correct: false },
+                                    { text: "The first thing I do is go to the bathroom.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 1: Morning - What do you do in the bathroom?",
+                                options: [
+                                    { text: "The first thing I do is go to the bathroom.", correct: false },
+                                    { text: "In the bathroom, I wash my hands and face, then brush my teeth and take a shower.", correct: true },
+                                    { text: "The first thing I do is go to the bathroom.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 1: Morning - What do you do after taking a shower?",
+                                options: [
+                                    { text: "The first thing I do is go to the bathroom.", correct: false },
+                                    { text: "In the bathroom, I wash my hands and face, then brush my teeth and take a shower.", correct: false },
+                                    { text: "After taking a shower, I dry my body and hair with a towel, comb my hair, get dressed, make my bed, and clean my room.", correct: true }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 1: Morning - What do you eat for breakfast?",
+                                options: [
+                                    { text: "They are playing soccer now.", correct: false },
+                                    { text: "I like to eat a fried egg with pickles and rice for breakfast.", correct: true,  },
+                                    { text: "I will visit my grandparents tomorrow.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 2: afternoon - What time do you usually come back home?",
+                                options: [
+                                    { text: "I usually come back home at around 6:30 p.m.", correct: false },
+                                    { text: "I usually come back home at around 2:30 p.m.", correct: true, explanation: "" },
+                                    { text: "I usually come back home at around 3:30 p.m.", correct: false }
+                                ]
+                            },
+                            
+                            {
+                                type: "multiple-choice",
+                                question: "Part 2: afternoon - Who prepares your lunch?",
+                                options: [
+                                    { text: "I prepare my lunch by myself.", correct: true },
+                                    { text: "My family prepare my lunch .", correct: false },
+                                    { text: "I and my family prepare our lunch.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 2: afternoon - What do you do after eating lunch?",
+                                options: [
+                                    { text: "After eating lunch, I take a short rest.", correct: false },
+                                    { text: "After eating lunch, I take a short rest or nap", correct: true },
+                                    { text: "After eating lunch, I take a short nap", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 2: afternoon - What do you do if you have free time in the afternoon?",
+                                options: [
+                                    { text: "If I have free time in the afternoon, I play with my friends.", correct: false },
+                                    { text: "If I have free time in the afternoon, I watch a movie.", correct: false },
+                                    { text: "If I have free time in the afternoon, I watch a movie or play with my friends.", correct: true }
+                                ]
+                            },
+                            
+                            {
+                                type: "multiple-choice",
+                                question: "Part 3: Evening - What time do you usually take a shower in the evening?",
+                                options: [
+                                    { text: "I usually take a shower around 6 o’clock in the evening.", correct: false },
+                                    { text: "I usually take a shower around 5 o’clock in the evening.", correct: true,  },
+                                    { text: "I usually take a shower around 7 o’clock in the evening.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 3: Evening - What do you do while eating dinner?",
+                                options: [
+                                    { text: "I watch a movie.", correct: false },
+                                    { text: "I listening to music.", correct: false  },
+                                    { text: "I watch a movie while eating dinner.", correct: true }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 3: Evening - Do you review your homework or read a book after dinner?",
+                                options: [
+                                    { text: "After dinner I sometimes read a book.", correct: false },
+                                    { text: "Yes, after dinner I sometimes review my homework or read a book.", correct: true,  },
+                                    { text: "After dinner I sometimes review my homework.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 3: Evening - What do you do to relax in the evening?",
+                                options: [
+                                    { text: "I relax by listening to music or watching YouTube.", correct: true },
+                                    { text: "I relax by listening to music.", correct: false  },
+                                    { text: "I relax by watching YouTube.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Part 3: Evening - What do you do before going to bed?",
+                                options: [
+                                    { text: "Before I go to bed, I brush my teeth.", correct: false },
+                                    { text: "Before I go to bed, I brush my teeth and prepare my clothes for the next day.", correct: true,  },
+                                    { text: "Before I go to bed, I prepare my clothes for the next day. ", correct: false }
+                                ]
+                            },
+                            {
+                                type: "match-the-words",
+                                question: "Match the beginning of the sentence on the left with the correct ending on the right.",
+                                pairs: [
+                                    { stem: "comb ⬜", correctOption: "H. To brush and arrange hair" },
+                                    { stem: "towel ⬜", correctOption: "B. A cloth used for drying the body." },
+                                    { stem: "nap ⬜", correctOption: "A. A short sleep during the day" },
+                                    { stem: "prepare ⬜", correctOption: "G. To get ready or set up in advance" },
+                                    { stem: "review ⬜", correctOption: "C. To look at something again, like homework." },
+                                    { stem: "housework ⬜", correctOption: "F. Work done to keep the home clean" },
+                                    { stem: "pickles ⬜", correctOption: "E. Food made from vegetables in vinegar or salty water" },
+                                    { stem: "routine ⬜", correctOption: "D. A regular set of actions you do every day." }
+                                ]
+                            },
+                            {
+                                type: "fill-in-blank",
+                                question: "After I wake up, I _____ my teeth and take a shower.",
+                                correctAnswer: "brush",
+                                explanation: "After I wake up, I brush my teeth and take a shower."
+                            },
+                            {
+                                type: "fill-in-blank",
+                                question: " I use a ______ to dry my body.",
+                                correctAnswer: "towel",
+                                explanation: "I use a towel to dry my body."
+                            },
+                            {
+                                type: "fill-in-blank",
+                                question: " After lunch, I sometimes take a short ____.",
+                                correctAnswer: "nap",
+                                explanation: "After lunch, I sometimes take a short nap."
+                            },
+                            {
+                                type: "fill-in-blank",
+                                question: "In the evening, I ______ my homework or read a book.",
+                                correctAnswer: "review",
+                                explanation: "In the evening, I review my homework or read a book."
+                            },
+                            {
+                                type: "fill-in-blank",
+                                question: "Before I go to bed, I ____ my clothes for tomorrow.",
+                                correctAnswer: "prepare",
+                                explanation: "Before I go to bed, I prepare my clothes for tomorrow."
+                            }
+                        ]
+                    },
+              
                         "How to Practice": {
                             description: "How to Practice<br>Listen and Identify: When you listen to English speakers, try to identify the S, V, and O in their sentences.<br>Start Simple: Create your own simple sentences using each of the five patterns above. Say them out loud.<br>Expand Your Sentences: Once you are comfortable, add more details using prepositions (in, on, at, for) and conjunctions (and, but, so, because).<br>S+V+O: I bought a shirt.<br>Expanded: I bought a new shirt at the mall yesterday because I needed it for the party.<br>By focusing on these core structures, your speaking will become more logical, clear, and correct.",
                             quizQuestions: [
@@ -1438,11 +1561,47 @@
 
                 shadowing: {
                     "Beginner Sentences": [
-                        { sentence: "The section tag represents a standalone section of content, usually with its own heading, such as a chapter, tab, or part of a page. ", khmer: "What is the &lt;section&gt; tag used for in HTML?" },
-                        { sentence: "To define standalone blocks of content with a specific theme or purpose. ", khmer: "What is the &lt;section&gt; tag used for in HTML?" },
-                        { sentence: "What happens when you place two div elements next to each other in HTML?", khmer: "They stack vertically because div is a block-level element." },
+                    { sentence: "I would rather stay home tonight.", khmer: "ខ្ញុំចង់នៅផ្ទះយប់នេះជាង។" },
+                    { sentence: "She’d rather eat noodles than rice.", khmer: "នាងចង់ញ៉ាំមីជាងបាយ។" },
+                    { sentence: "I’d rather you stayed home tonight.", khmer: "ខ្ញុំចង់ឱ្យអ្នកនៅផ្ទះយប់នេះ។" },
+                    { sentence: "She would rather he didn’t come.", khmer: "នាងចង់ឱ្យគាត់មិនមក។" },
+                    { sentence: "She prefers that he doesn't come.", khmer: "នាងចូលចិត្តឱ្យគាត់មិនមក។" },
+                    { sentence: "We’d rather they arrived earlier", khmer: "ពួកយើងចង់ឱ្យពួកគេមកដល់មុន។" },
+                    { sentence: "In spite of her fear, she gave the speech.", khmer: "ទោះបីជាគាត់ភ័យក៏ដោយ គាត់នៅតែថ្លែងសុន្ទរកថា។" },
+                    { sentence: "Despite being tired, he kept working.", khmer: "ទោះបីជាគាត់នឿយហត់ក៏ដោយ គាត់នៅតែបន្តធ្វើការ។" },
+                    { sentence: "In spite of the rain, we went outside.", khmer: "ទោះបីជាមានភ្លៀងក៏ដោយ ពួកយើងនៅតែចេញទៅខាងក្រៅ។" },
+                    { sentence: "Despite the noise, I fell asleep quickly.", khmer: "ទោះបីមានសំឡេងរំខានក៏ដោយ ខ្ញុំនៅតែដេកលក់បានលឿន។" },
+                    { sentence: "He talks as if he knows the answer.", khmer: "គាត់និយាយដូចជាគាត់ដឹងចម្លើយ។" },
+                    { sentence: "He talks as if he knew the answer. (but he probably doesn’t)", khmer: "គាត់និយាយដូចជាគាត់ដឹងចម្លើយ (ប៉ុន្តែប្រហែលជាគាត់មិនដឹងទេ។)" },
+                    { sentence: "It looks as if they’ve had a shock.", khmer: "វាមើលទៅដូចជាពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល។" },
+                    { sentence: "It looks as though you’ve not met before.", khmer: "វាមើលទៅដូចជាអ្នកមិនបានជួបគ្នាមុន។" },
+                    { sentence: "She moved her lips as if to smile.", khmer: "នាងផ្លាស់ទីបបូរមាត់របស់នាងដូចជាចង់ញញឹម។" },
+                    { sentence: "They were shouting as though in panic.", khmer: "ពួកគេកំពុងស្រែកដូចជាកំពុងភ័យខ្លាច។" },
+                    { sentence: "She felt as if all her worries had gone.", khmer: "នាងមានអារម្មណ៍ដូចជាការព្រួយបារម្ភទាំងអស់របស់នាងបានបាត់ទៅ។" },
+                    { sentence: "I’ve got so much work it looks as if I’ll have to stay at home this evening.", khmer: "ខ្ញុំមានការងារច្រើនណាស់ វាមើលទៅដូចជាខ្ញុំត្រូវនៅផ្ទះយប់នេះ។" },
+                    { sentence: "They felt as though they had been given the wrong information.", khmer: "ពួកគេមានអារម្មណ៍ដូចជាពួកគេបានទទួលព័ត៌មានខុស។" },
+                    { sentence: "You sound as though you're sick.", khmer: "សំឡេងអ្នកដូចជាអ្នកកំពុងជំងឺ។" },
+                    { sentence: "They acted as if they were rich.", khmer: "ពួកគេធ្វើដូចជាពួកគេមានសម្បត្តិ។" },
+                    { sentence: "Not only did he lie, but he also blamed me!", khmer: "មិនត្រឹមតែគាត់កុហកទេ គាត់នៅតែបន្ទោសខ្ញុំ។" },
+                    { sentence: "Not only is she smart, but she’s also kind.", khmer: "មិនត្រឹមតែនាងឆ្លាតទេ នាងនៅតែចិត្តល្អ។" },
+                    { sentence: "He not only speaks English, but also French.", khmer: "គាត់មិនត្រឹមតែនិយាយភាសាអង់គ្លេសទេ គាត់នៅតែនិយាយភាសាបារាំង។" },
+                    { sentence: "Neither my brother nor my sister likes pizza.", khmer: "ទាំងបងប្រុសរបស់ខ្ញុំ និងបងស្រីរបស់ខ្ញុំមិនចូលចិត្តភីហ្សាទេ។" },
+                    { sentence: "She neither called me nor sent a message.", khmer: "នាងមិនបានហៅខ្ញុំ និងមិនបានផ្ញើសារទេ។" },
+                    { sentence: "I study hard so that I can pass the exam.", khmer: "ខ្ញុំសិក្សាខ្លាំងដើម្បីឱ្យខ្ញុំអាចជាប់ការប្រឡង។" },
+                    { sentence: "I woke up early so that I could see the sunrise.", khmer: "ខ្ញុំបានភ្ញាក់ពីដំណេកដើម ដើម្បីឱ្យខ្ញុំអាចមើលថ្ងៃរះ។" },
+                    { sentence: "She left early so that she could catch the bus.", khmer: "នាងចេញដើម ដើម្បីឱ្យនាងអាចចាប់ឡានក្រុង។" },
+                    { sentence: "I won’t go unless it stops raining.", khmer: "ខ្ញុំមិនទៅទេ លុះត្រាតែភ្លៀងឈប់។" },
+                    { sentence: "You can’t enter the club unless you’re a member.", khmer: "អ្នកមិនអាចចូលក្លឹបបានទេ លុះត្រាតែអ្នកជាសមាជិក។" },
+                    { sentence: "Whether you like it or not, we have to go.", khmer: "មិនថាអ្នកចូលចិត្តវាឬមិនចូលចិត្តទេ ពួកយើងត្រូវទៅ។" },
+                    { sentence: "It’s time you went to bed.", khmer: "វាជាពេលដែលអ្នកគួរទៅដេក។" },
+                    { sentence: "It’s high time we left.", khmer: "វាជាពេលដែលពួកយើងគួរចេញទៅ។" },
+                    { sentence: "She was so tired that she fell asleep at her desk.", khmer: "នាងនឿយហត់ណាស់ ដល់ថ្នាក់ដែលនាងដេកលក់នៅតុរបស់នាង។" },
+                    { sentence: "He ran so fast that nobody could catch him.", khmer: "គាត់រត់លឿនណាស់ ដល់ថ្នាក់ដែលគ្មាននរណាអាចចាប់គាត់បាន។" },
+                    { sentence: "It was so hot that we stayed inside all day.", khmer: "វាក្តៅណាស់ ដល់ថ្នាក់ដែលពួកយើងនៅក្នុងផ្ទះពេញមួយថ្ងៃ។" },
+                    { sentence: "As soon as she left the house, it started to rain.", khmer: "ទាំងនាងទើបចេញពីផ្ទះភ្លៀងបានចាប់ផ្តើមធ្លាក់។" },
+                    { sentence: "No sooner had she left the house than it started to rain.", khmer: "ទាំងនាងទើបចេញពីផ្ទះភ្លៀងបានចាប់ផ្តើមធ្លាក់។" }
                     ],
-                    "Intermediate Sentences": [
+                    "Intermedian Sentences": [
                         { sentence: "I love learning English. It's so rewarding!", khmer: "ខ្ញុំស្រលាញ់ការសិក្សាភាសាអង់គ្លេស។ វាពិតជាមានប្រយោណាស់!" },
                         { sentence: "Could you please repeat that?", khmer: "សូមអ្នកជួយនិយាយម្ដងទៀតបានទេ?" },
                         { sentence: "The weather is beautiful today.", khmer: "អាកាសធាតុថ្ងៃនេះស្រស់ស្អាតណាស់។" }
@@ -1473,7 +1632,33 @@
                         { speaker: "B", text: "I review my homework or read a book, then I relax by listening to music or watching YouTube." },
                         { speaker: "A", text: "What do you do before bed?" },
                         { speaker: "B", text: "I brush my teeth and prepare my clothes for the next day." }
-                    ]
+                    ],
+                    "🗣️How are you? (with Present Continuous) ": [
+                        { speaker: "A", text: "Hey! How are you?" },
+                        { speaker: "B", text: "I’m doing well, thanks. How about you?" },
+                        { speaker: "A", text: "I’m okay. I’m a little tired today." },
+                        { speaker: "B", text: "Oh, why? Are you studying a lot?" },
+                        { speaker: "A", text: "Yes, I’m studying for my English test." },
+                        { speaker: "B", text: "I see. I’m also doing some homework now." },
+                        { speaker: "A", text: "What subject?" },
+                        { speaker: "B", text: "Math. It’s a bit difficult." },
+                        { speaker: "A", text: "Yeah, math can be hard." },
+                        { speaker: "B", text: "Anyway, good luck with your test!" },
+                        { speaker: "A", text: "Thanks! Talk to you soon." },
+                        { speaker: "B", text: "See you!" }
+                    ],
+                   
+                    "🗣️ Simple Conversation: How are you?": [
+                        { speaker: "A", text: "Hi! How are you today?" },
+                        { speaker: "B", text: "I’m good, thanks. And you?" },
+                        { speaker: "A", text: "I’m fine too, thanks. What are you doing now?" },
+                        { speaker: "B", text: "I’m just relaxing. I finished my homework." },
+                        { speaker: "A", text: "That’s great! I just finished cooking dinner." },
+                        { speaker: "B", text: "Sounds good! Let’s talk later." },
+                        { speaker: "A", text: "Sure! Bye!" },
+                        { speaker: "B", text: "Bye!" }
+                    ],
+                    
                 },
 
 
@@ -2048,7 +2233,7 @@
                 const currentQuestion = gameState.currentPool[gameState.currentIndex];
                 let questionContent = '';
                 let answerArea = '';
-                let timerDuration = 45; // Longer timer for grammar questions
+                let timerDuration = 60; // Longer timer for grammar questions
 
                 if (currentQuestion.type === "multiple-choice") {
                     questionContent = `<h3 class="text-lg font-semibold text-gray-800 mb-4">${currentQuestion.question}</h3>`;
@@ -2692,4 +2877,5 @@
 
             // Initial call to set up the game
             document.addEventListener("DOMContentLoaded", goHome);
+    
     
