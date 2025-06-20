@@ -600,7 +600,686 @@
                                         
                                     }
                                 ]
-                            },      
+                            }, 
+                             "So that – (To show purpose or reason)": {
+                        description: `✅ Use it when:<br>You want to explain why someone did something — the goal or result they wanted
+                                        <br>💬 You can use different helping verbs depending on time:
+                                        <br>can / will → for future
+
+                                        <br>could / would → for past
+                                        <br>⚠️ Don’t forget:
+                                        <br>You need a subject + verb after “so that.”
+
+                                        <br>❌ "I study hard so that pass the exam."
+                                        <br>✅ "I study hard so that I can pass the exam."
+                         `,
+                        structure: "🔧 Main clause + so that + subject + can/will/could/would + verb",
+                        examples: [
+                            { type: "correct", sentence: "I study hard so that I can pass the exam.",explanation: "👉 The reason I study = I want to pass the exam." },
+                            { type: "correct", sentence: "I woke up early so that I could see the sunrise." },
+                            { type: "correct", sentence: "" },
+                            { type: "correct", sentence: "She left early so that she could catch the bus." },
+                            { type: "correct", sentence: "They spoke quietly so that they wouldn’t wake the baby." },
+                            { type: "correct", sentence: "He practices every day so that he will become a great player.",explanation: ` `},
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly so that?",
+                                options: [
+                                    { text: "I woke up early so that...", correct: false },
+                                    { text: "I woke up early so that I could see the sunrise.", correct: true, explanation: "🔹 Just add 'the' before 'sunrise'  and write it as one word (it's a noun here)." },
+                                    { text: " I woke up early, I could see the sunrise.", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctl",
+                                options: [
+                                    { text: " She saved money she could buy a new phone.", correct: false },
+                                    { text: "She saved money so that she could buy a new phone.", correct: true, explanation: "🔹 Add  'a' before 'new phone' — we always need an article with singular countable nouns." },
+                                    { text: "She saved money so that", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ?",
+                                options: [
+                                    { text: "He studied all night so that he would pass the exam.", correct: true },
+                                    { text: "He studied all night so that he would pass exam", correct: false},
+                                    { text: " He went to work, though he wasn’t feeling well", correct: true}
+                                ]
+                            },
+                           
+                        ]
+                    },
+                    " In spite of / Despite – (To show contrast or unexpected results)": {
+                       description: `✅ Use it when:<br>You want to say that something happened even though it was difficult, surprising, or not expected.
+                                        <br>🔁 Same meaning as:
+                                        <br>"Although it was raining, we went outside."
+
+                                        <br>But "in spite of" and "despite" are a bit more formal or elegant.
+
+                                        <br>⚠️ Common mistake:
+                                        <br>❌ "In spite of she was tired, she worked."
+                                        <br>✅ "In spite of being tired / her tiredness, she worked."
+
+                                        <br>🆚 "Despite" vs. "In spite of"
+                                        <br>They mean the same thing! Use whichever sounds better to you — but "despite" is a bit more common in writing.
+                         `,
+                        structure: `🔧 Both "in spite of" and "despite" are followed by:<br>➡️ a noun, pronoun, or -ing verb (gerund)<br>🚫 Not followed by a full sentence (subject + verb)!`,
+                        examples: [
+                            { type: "correct", sentence: "In spite of her fear, she gave the speech.",explanation: "👉 The reason I study = I want to pass the exam." },
+                            { type: "correct", sentence: "Despite being tired, he kept working." },
+                            { type: "correct", sentence: "In spite of the rain, we went outside" },
+                            { type: "correct", sentence: "Despite the noise, I fell asleep quickly." },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "In spite of the cold weather, we decided to go camping", correct: true },
+                                    { text: "The cold weather, we decided to go camping", correct: false, },
+                                    { text: " In spite of the cold weather", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: " In spite of the summer weather, the children continued to play outside", correct: true },
+                                    { text: "In spite of the spring weather, they went out for a long walk", correct: true },
+                                    { text: "Despite studying a lot, I still struggled with the exam", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "He studied all night so that he would pass the exam.", correct:false},
+                                    { text: "Despite studying a lot, I found the exam much harder than expected", correct: true},
+                                    { text: " In spite of being sick, he managed to finish all his work on time.", correct: true}
+                                ]
+                            },
+                           
+                        ] 
+                    },
+                     "🔄 Unless – (For conditions and exceptions)": {
+                       description: `✅ Use it when:<br>You want to say something will/won’t happen if a condition is not met.<br>It’s kind of like the opposite of “if not.”
+                                       <br>⚠️ Common mistake:
+                                        <br>❌ "Unless you don’t come, I’ll be angry."
+                                        <br>✅ "Unless you come, I’ll be angry."
+                                        <br>(“Unless” already means “if not” — so no need for “don’t”)
+                         `,
+                        structure: `🔧Main clause + unless + subject + verb<br>Or flip it:<br>Unless + subject + verb, main clause`,
+                        examples: [
+                            { type: "correct", sentence: "I won’t go unless it stops raining.",explanation: "👉 I will only go if it stops." },
+                            { type: "correct", sentence: "You can’t enter the club unless you’re a member.",explanation: "👉 You must be a member — or no entry. " },
+                            { type: "correct", sentence: "Unless he studies, he will fail the test" },
+                            { type: "correct", sentence: "I won’t pass the level unless I beat the boss." },
+                            { type: "correct", sentence: "Unless we leave now, we’ll miss the train." },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "Unless we leave now, we’ll miss the train.", correct: true },
+                                    { text: "I won’t pass the level unless I beat the boss.", correct: true },
+                                    { text: " Unless he studies, he will fail the test", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: "You can’t enter the club unless you’re a member. ", correct: true },
+                                    { text: "I won’t go unless it stops raining.", correct: true },
+                                    { text: "Unless you come, I’ll be angry.", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "Unless you don’t come, I’ll be angry.", correct:false},
+                                    { text: " I won't eat unless you pay for me.", correct: true},
+                                    { text: " You can’t drive unless you have a driver’s license.", correct: true}
+                                ]
+                            },
+                             {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "Unless you don’t come, I’ll be angry.", correct:false},
+                                    { text: " Unless they go on a trip, they will meet me", correct: true},
+                                    { text: " Unless she stays here, she will go to the market.", correct: true}
+                                ]
+                            },
+                           
+                        ] 
+                    },
+                     "🤔 Whether... or not — (For choices, possibilities, or situations with no control)": {
+                       description: `✅ Use it when:<br>You want to say something happens in both cases — whether something is true or not.
+                                       <br>⚠️ Common mistake:
+                                        <br>Don’t confuse “whether” with “if” — they’re similar but not always the same.
+
+                                        <br>❌ "I don’t know whether or not I should go or not." (too many “or not”s 😅)
+                                        <br>✅ "I don’t know whether I should go."
+                         `,
+                        structure: `🔧Whether + subject + verb... or not, main clause<br>or<br>Main clause + whether + subject + verb... or not<br>You can also skip "or not" sometimes if it's understood.`,
+                        examples: [
+                            { type: "correct", sentence: "Whether you like it or not, we have to go.",explanation: "👉 We’re going — even if you don’t want to." },
+                            { type: "correct", sentence: "I'm going to the party whether he comes or not.",explanation: "👉 His choice doesn’t change your decision." },
+                            { type: "correct", sentence: "She’ll take the test whether she’s ready or not" },
+                            { type: "correct", sentence: "Whether it rains or not, the game will go on." },
+                            { type: "correct", sentence: "" },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "Whether it rains or not, the game will go on.", correct: true },
+                                    { text: "She’ll take the test whether she’s ready or not.", correct: true },
+                                    { text: "I'm going to the party whether he comes or not.", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: "Whether you like it or not, we have to go. ", correct: true },
+                                    { text: "Whether I pass or not, I have to learn.", correct: true, explanation: " 💬 Meaning: Even if I fail, I still need to keep learning."},
+                                    { text: "Whether she agrees or not, she needs to go.", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "I'll do it whether you help me.", correct:false, explanation: " This sentence needs the 'or not' at the end to show the contrast clearly."},
+                                    { text: "I'll do it whether you help me or not", correct: true},
+                                    { text: " You can’t drive unless you have a driver’s license.", correct: false}
+                                ]
+                            },
+                             {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "Unless you don’t come, I’ll be angry.", correct:false},
+                                    { text: " Unless they go on a trip, they will meet me", correct: true},
+                                    { text: " Unless she stays here, she will go to the market.", correct: true}
+                                ]
+                            },
+                           
+                        ] 
+                    },
+                     "⚖️ So... that – (To show a result or effect)": {
+                       description: `✅ Use it when:<br>You want to explain how strong something is — and what result it causes.
+                                    <br>❗️Don't confuse with:
+                                    <br>❌ "So that" (which means purpose — we learned that earlier!)
+                                    <br>✅ This one is about result, not goal.
+                                    <br>🔁 Quick breakdown:
+                                    <br>Expression	Example
+                                    <br>So + adjective	"so cold" → "It was so cold that we stayed home."
+                                    <br>So + adverb	"so quickly" → "He spoke so quickly that I couldn’t understand."
+                                    <br>So + much/many	"They had so much work that they got stressed."
+                        `,
+                        structure: `🔧So + adjective/adverb + that + result<br>OR<br>So + much/many/little/few + noun + that + result`,
+                        examples: [
+                            { type: "correct", sentence: "She was so tired that she fell asleep at her desk",explanation: "👉 Her tiredness caused her to sleep at her desk" },
+                            { type: "correct", sentence: "He ran so fast that nobody could catch him.",explanation: "" },
+                            { type: "correct", sentence: "It was so hot that we stayed inside all day." },
+                            { type: "correct", sentence: "They had so much homework that they couldn’t go out." },
+                            { type: "correct", sentence: "I ate so little food that I felt dizzy." },
+                             { type: "correct", sentence: "He spoke so quickly that I couldn't understand what he said." },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "I ate so little food that I felt dizzy.", correct: true },
+                                    { text: "They had so much homework that they couldn’t go out.", correct: true },
+                                    { text: "It was so hot that we stayed inside all day.", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: "They had so much work that they got stressed. ", correct: true },
+                                    { text: "He spoke so quickly that I couldn’t understand.", correct: true},
+                                    { text: "Whether she agrees or not, she needs to go.", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "It was so cold that we stayed home.", correct: true},
+                                    { text: "They were so friendly that everyone felt comfortable around them", correct: true},
+                                    { text: " You can’t drive unless you have a driver’s license.", correct: false}
+                                ]
+                            },
+                             {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "It was so cute that it made me fall in love.", correct: true},
+                                    { text: " He was so handsome that he got the Handsome Man Award", correct: true},
+                                    { text: "She had so much money that she became rich", correct: true}
+                                ]
+                            },
+                           
+                        ] 
+                    },
+                    " ✨ Not only... but also...(For emphasis and adding extra information)": {
+                       description: `✅ Use it when:<br>You want to say two strong or surprising things — and show that the second one adds even more importance.
+                                    <br>🔥 With Emphasis (Inversion):
+                                    <br>Sometimes we put "Not only" at the beginning for drama:
+
+                                    <br>"Not only did he lie, but he also blamed me!"
+                                    <br>✅ Uses inversion (did he lie = not normal word order)
+
+                                    <br>⚠️ Don’t forget:
+                                    <br>“Not only” = first point
+
+                                    <br>“But also” = second, surprising or impressive point
+
+                                    <br>You can add "also" or "too" for emphasis
+
+                                    <br>✍️ Try creating:
+                                    <br>"Not only did I..."
+
+                                    <br>"He not only..."
+
+                                    <br>"She is not only..., but also..."
+
+                                    <br>"They not only..., they also..."
+                        `,
+                        structure: `🔧Not only + [verb/phrase] + but also + [verb/phrase]<br>Can be used with:<br>verbs<br>nouns<br>adjectives<br>full actions`,
+                        examples: [
+                            { type: "correct", sentence: "Not only is she smart, but she’s also kind.",explanation: "👉 She’s BOTH smart and kind." },
+                            { type: "correct", sentence: "He not only speaks English, but also French",explanation: "" },
+                            { type: "correct", sentence: "Not only did they finish early, but they also helped others" },
+                            { type: "correct", sentence: "They had so much homework that they couldn’t go out." },
+                            { type: "correct", sentence: "She not only forgot my birthday but also ignored my message!." },
+                             { type: "correct", sentence: "" },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "Not only did I finish my homework, but I also helped my friend with theirs", correct: true },
+                                    { text: "She not only forgot my birthday but also ignored my message!.", correct: true },
+                                    { text: "He not only speaks English, but also French", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: " He bought not only a phone but also a laptop", correct: true },
+                                    { text: "She is not only smart but also funny.", correct: true},
+                                    { text: "Whether she agrees or not, she needs to go.", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "It was so cold that we stayed home.", correct: true},
+                                    { text: "They were so friendly that everyone felt comfortable around them", correct: true},
+                                    { text: " You can’t drive unless you have a driver’s license.", correct: false}
+                                ]
+                            },
+                             {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "It was so cute that it made me fall in love.", correct: true},
+                                    { text: " He was so handsome that he got the Handsome Man Award", correct: true},
+                                    { text: "She had so much money that she became rich", correct: true}
+                                ]
+                            },
+                           
+                        ] 
+                    },
+                    " 🚫 Neither... nor...(For combining two negative ideas)": {
+                       description: `✅ Use it when:<br>You want to say that two things are NOT true or do NOT happen.<br>It’s like saying:<br>“Not this… and also not that.”
+                                    <br>✨ Notes:
+                                    <br>Use singular or plural verb depending on the second subject
+                                    <br>👉 "Neither he nor I am going."
+                                    <br>👉 "Neither she nor they are coming."
+
+                                    <br>Similar to:
+                                    <br>"I don’t like apples or bananas."
+                                    <br>➡️ Formal version: "I like neither apples nor bananas."
+
+                                    <br>📝 Try creating:
+                                    <br>"Neither I nor..."
+
+                                    <br>"He neither... nor..."
+
+                                    <br>"They are neither... nor..."
+
+                                    <br>"She neither [verb] nor [verb]..."
+                        `,
+                        structure: `🔧Neither + [thing 1] + nor + [thing 2]<br>You can use:<br>Nouns<br>Verbs<br>Subjects<br>Adjectives`,
+                        examples: [
+                            { type: "correct", sentence: "Neither my brother nor my sister likes pizza.",explanation: "👉 Both of them don’t like it." },
+                            { type: "correct", sentence: "She neither called me nor sent a message",explanation: "👉 She did not do either thing." },
+                            { type: "correct", sentence: "They are neither ready nor motivated<br>👉 They’re not ready and not motivated." },
+                            { type: "correct", sentence: "Neither the teacher nor the students were prepared." },
+                            { type: "correct", sentence: "" },
+                             { type: "correct", sentence: "" },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "Not only did I finish my homework, but I also helped my friend with theirs", correct: true },
+                                    { text: "She not only forgot my birthday but also ignored my message!.", correct: true },
+                                    { text: "He not only speaks English, but also French", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: " Neither the teacher nor the students were prepared.", correct: true },
+                                    { text: "She is not only smart but also funny.", correct: false},
+                                    { text: "Whether she agrees or not, she needs to go.", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "She neither called me nor sent a message", correct: true},
+                                    { text: "Neither my brother nor my sister likes pizza", correct: true},
+                                    { text: " You can’t drive unless you have a driver’s license.", correct: false}
+                                ]
+                            },
+                             {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "Neither I nor he is doing the homework.", correct: true},
+                                    { text: " He neither called her nor sent a message.", correct: true},
+                                    { text: "They are neither coming to the party nor staying at all. or They are neither coming to the party nor staying long", correct: true}
+                                ]
+                            },
+                           
+                        ] 
+                    },
+                    "💭 As if / As though – (To describe something imaginary, unreal, or surprising)": {
+                       description: `✅ Use it when:<br>You want to compare a situation to something that’s not true or only seems true.”
+                                    <br>🧠 Tense Tip:
+                                    <br>Situation	Verb Tense
+                                    <br>Possible/Real	Present (or same tense)
+                                    <br>Imaginary/Unreal	Use past (or past perfect if it's about the past)
+
+                                    <br>Example:
+
+                                    <br>Real: "He talks as if he knows the answer."
+
+                                    <br>Unreal: "He talks as if he knew the answer." (but he probably doesn’t)
+
+                                    <br>✍️ Try making sentences like:
+                                    <br>"She looks as if..."
+
+                                    <br>"He speaks as though..."
+
+                                    <br>"They acted as if they..."
+
+                                    <br>"I felt as if I..."
+
+                                    <br>"It seems as though..."
+                        `,
+                        structure: `🔧Subject + verb + as if/as though + subject + verb (past simple OR past perfect)`,
+                        examples: [
+                            { type: "correct", sentence: "He talks as if he knows everything",explanation: "👉 He acts like he knows it all (maybe he doesn't." },
+                            { type: "correct", sentence: "She looked as if she had seen a ghost.",explanation: "👉 She looked shocked/surprised (imaginary situation)" },
+                            { type: "correct", sentence: "They acted as if they were rich.<br>👉 They’re not rich, but they acted like it." },
+                            { type: "correct", sentence: "You sound as though you're sick.<br>👉 You might not be sick — but it seems like you are" },
+                            { type: "correct", sentence: "" },
+                             { type: "correct", sentence: "" },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "She looked as if she had seen a ghost.", correct: true },
+                                    { text: "You sound as though you're sick.", correct: true },
+                                    { text: "They acted as if they were rich", correct: true}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: "She looks as if she has seen a ghost, but in fact, she hasn’t. ", correct: true },
+                                    { text: "She is not only smart but also funny.", correct: false},
+                                    { text: "Whether she agrees or not, she needs to go.", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "They acted as if they were poor", correct: true},
+                                    { text: "He speaks as though he knew the answer, but actually, he doesn't", correct: true},
+                                    { text: " You can’t drive unless you have a driver’s license.", correct: false}
+                                ]
+                            },
+                             {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "I felt as if I had fallen in love with her", correct: true},
+                                    { text: " It seems as though they don’t care.", correct: true},
+                                    { text: "It seems as though something is wrong.", correct: true},
+                                    { text: "It seems as though he's hiding something", correct: true}
+                                ]
+                            },
+                           
+                        ] 
+                    },
+                    "🌟 Would rather – (To express preferences)": {
+                       description: `✅ Use it when:<br>You want to say what someone prefers to do — now or in the future.
+                                    <br>⚡ Bonus:
+                                    <br>You can compare preferences:
+
+                                    <br>"I’d rather go out than stay in."
+
+                                    <br>"He’d rather play football than watch it."
+
+                                    <br>✍️ Now you try!
+                                    <br>Make two sentences:
+
+                                    <br>"I would rather..." (about yourself)
+
+                                    <br>"I would rather you/he/she..." (about someone else)>"It seems as though..."
+                        `,
+                        structure: `🔧 Structure 1 – Same subject (I prefer to do something):<br>Subject + would rather + base verb<br>🧠 No "to" before the verb!
+                                        <br>🔧 Structure 2 – Different subject (You prefer someone else to do something):
+                                        <br>**Subject + would rather + other subject + past simple
+                                        <br>🧠 Even though you're talking about the present/future, you use past tense for the second subject.`,
+                        examples: [
+                            { type: "correct", sentence: "I would rather stay home tonight.",explanation: "👉 I prefer to stay home." },
+                            { type: "correct", sentence: "She’d rather eat noodles than rice.",explanation: "👉 She’d = She would" },
+                            { type: "correct", sentence: "We’d rather not talk about that." },
+                            { type: "correct", sentence: "I’d rather you stayed home tonight.<br>👉 I want you to stay home (not me)." },
+                            { type: "correct", sentence: "She would rather he didn’t come. <br>👉 She prefers that he doesn't come." },
+                             { type: "correct", sentence: "We’d rather they arrived earlier" },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "We’d rather they arrived earlier", correct: true },
+                                    { text: "You sound as though you're sick.", correct:false },
+                                    { text: "They acted as if they were rich", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: "She would rather he didn’t come. ", correct: true },
+                                    { text: "She is not only smart but also funny.", correct: false},
+                                    { text: "Whether she agrees or not, she needs to go.", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "I’d rather you stayed home tonight.", correct: true},
+                                    { text: "I'd rather go out than stay in.", correct: true},
+                                    { text: " You can’t drive unless you have a driver’s license.", correct: false}
+                                ]
+                            },
+                             {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "I'd rather he played with me.", correct: true, explanation: " 👉 Means: I prefer that he plays with me (now or later)"},
+                                    { text: " It seems as though they don’t care.", correct: false},
+                                    { text: "I would rather stay home tonight.", correct: true},
+                                    
+                                ]
+                            },
+                           
+                        ] 
+                    },
+                    "⏰ It's (high/about) time + subject + past simple": {
+                       description: `✅ Use it when:<br>You want to say something should already have happened or needs to happen now.<br>➡️ Used to strongly suggest that something should happen now or very soon.
+                                    <br>🧠 Why past tense?
+                                    <br>Even though we mean now, we use past simple to show:
+
+                                    <br>criticism
+
+                                    <br>urgency
+
+                                    <br>it's already late
+
+                                    <br>⚡ Bonus:
+                                    <br>You can also use:
+
+                                    <br>"It's time to + base verb"
+                                    <br>(when the subject is not changing)
+
+                                    <br>Example:
+
+                                    <br>"It’s time to start the meeting."
+
+                                    <br>"It’s time to go."
+
+                                    <br>✍️ Try making:
+                                    <br>A sentence with "It’s time you..."
+
+                                    <br>One with "It’s high time..."
+
+                                    <br>One with "It’s about time..."
+                        `,
+                        structure: `🔧 It’s time + subject + past tense<br>It’s high time / about time + subject + past tense`,
+                        examples: [
+                            { type: "correct", sentence: "It’s time you went to bed.",explanation: "👉 (You’re still awake — but should be in bed now.)" },
+                            { type: "correct", sentence: "It’s high time we left.",explanation: "👉 (We should have left already!)" },
+                            { type: "correct", sentence: "It’s about time he apologized.<br>👉 (He hasn’t apologized — but he should!)" },
+                            { type: "correct", sentence: "It's time you thought about your future." },
+                            { type: "correct", sentence: "It's high time we bought fruit." },
+                             { type: "correct", sentence: "it's about time she ran to the goal.<br>After 'It’s (about) time + subject', we always use past simple → 'ran' not 'run'" },
+                           
+
+                        ],
+                       
+                       
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly? ",
+                                options: [
+                                    { text: "It's about time she ran to the goal.", correct: true },
+                                    { text: "You sound as though you're sick.", correct:false },
+                                    { text: "They acted as if they were rich", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly ",
+                                options: [
+                                    { text: "She would rather he didn’t come. ", correct: true },
+                                    { text: "She is not only smart but also funny.", correct: false},
+                                    { text: "Whether she agrees or not, she needs to go.", correct: false}
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "I’d rather you stayed home tonight.", correct: true},
+                                    { text: "I'd rather go out than stay in.", correct: true},
+                                    { text: " You can’t drive unless you have a driver’s license.", correct: false}
+                                ]
+                            },
+                             {
+                                type: "multiple-choice",
+                                question: "Which sentence correctly  ?",
+                                options: [
+                                    { text: "I'd rather he played with me.", correct: true, explanation: " 👉 Means: I prefer that he plays with me (now or later)"},
+                                    { text: " It seems as though they don’t care.", correct: false},
+                                    { text: "I would rather stay home tonight.", correct: true},
+                                    
+                                ]
+                            },
+                           
+                        ] 
+                    },
                
                 },
                 BasicSentencePatterns: {
