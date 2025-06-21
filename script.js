@@ -3,11 +3,11 @@
         const gameData = {
             vocab: [
                 {
-                    "word": "surprising",
-                    "meaning": "causing surprise; unexpected.",
-                    "khmer": "គួរឱ្យភ្ញាក់ផ្អើល",
-                    "audio": "audio/surprising.mp3",
-                    "options": [
+                    word: "surprising",
+                    meaning: "causing surprise; unexpected.",
+                    khmer: "គួរឱ្យភ្ញាក់ផ្អើល",
+                    audio: "audio/surprising.mp3",
+                    options: [
                         "expected",
                         "shocking",
                         "normal",
@@ -16,11 +16,11 @@
                     "correctAnswer": "shocking"
                 },
                 {
-                    "word": "expected",
-                    "meaning": "regarded as likely to happen or arrive.",
-                    "khmer": "បានរំពឹងទុក",
-                    "audio": "audio/expected.mp3",
-                    "options": [
+                    word: "expected",
+                    meaning: "regarded as likely to happen or arrive.",
+                    khmer: "បានរំពឹងទុក",
+                    audio: "audio/expected.mp3",
+                    options: [
                         "anticipated",
                         "unforeseen",
                         "unlikely",
@@ -29,11 +29,11 @@
                     "correctAnswer": "anticipated"
                 },
                 {
-                    "word": "elegant",
-                    "meaning": "stylish and graceful in appearance or manner.",
-                    "khmer": "ប្រណិត",
-                    "audio": "audio/elegant.mp3",
-                    "options": [
+                    word: "elegant",
+                    meaning: "stylish and graceful in appearance or manner.",
+                    khmer: "ប្រណិត",
+                    audio: "audio/elegant.mp3",
+                    options: [
                         "clumsy",
                         "graceful",
                         "plain",
@@ -42,11 +42,11 @@
                     "correctAnswer": "graceful"
                 },
                 {
-                    "word": "in spite of",
-                    "meaning": "without being affected by the particular fact mentioned.",
-                    "khmer": "ទោះបីជា",
-                    "audio": "audio/in_spite_of.mp3",
-                    "options": [
+                    word: "in spite of",
+                    meaning: "without being affected by the particular fact mentioned.",
+                    khmer: "ទោះបីជា",
+                    audio: "audio/in_spite_of.mp3",
+                    options: [
                         "because of",
                         "despite",
                         "due to",
@@ -55,11 +55,11 @@
                     "correctAnswer": "despite"
                 },
                 {
-                    "word": "despite (preposition)",
-                    "meaning": "without being affected by; in spite of.",
-                    "khmer": "ទោះបីជា",
-                    "audio": "audio/despite.mp3",
-                    "options": [
+                    word: "despite (preposition)",
+                    meaning: "without being affected by; in spite of.",
+                    khmer: "ទោះបីជា",
+                    audio: "audio/despite.mp3",
+                    options: [
                         "because of",
                         "even though",
                         "in spite of",
@@ -68,11 +68,11 @@
                     "correctAnswer": "in spite of"
                 },
                 {
-                    "word": "Although",
-                    "meaning": "in spite of the fact that; even though.",
-                    "khmer": "ទោះបីជា",
-                    "audio": "audio/although.mp3",
-                    "options": [
+                    word: "Although",
+                    meaning: "in spite of the fact that; even though.",
+                    khmer: "ទោះបីជា",
+                    audio: "audio/although.mp3",
+                    options: [
                         "because",
                         "however",
                         "even if",
@@ -81,11 +81,11 @@
                     "correctAnswer": "even if"
                 },
                 {
-                    "word": "a bit more formal",
-                    "meaning": "slightly more serious or official in style or manner.",
-                    "khmer": "ផ្លូវការជាងបន្តិច",
-                    "audio": "audio/a_bit_more_formal.mp3",
-                    "options": [
+                    word: "a bit more formal",
+                    meaning: "slightly more serious or official in style or manner.",
+                    khmer: "ផ្លូវការជាងបន្តិច",
+                    audio: "audio/a_bit_more_formal.mp3",
+                    options: [
                         "very casual",
                         "slightly informal",
                         "more official",
@@ -94,11 +94,11 @@
                     "correctAnswer": "more official"
                 },
                 {
-                    "word": "followed",
-                    "meaning": "went or came after (someone or something) so as to catch up with them.",
-                    "khmer": "បានតាមដាន / បានបន្តបន្ទាប់",
-                    "audio": "audio/followed.mp3",
-                    "options": [
+                    word: "followed",
+                    meaning: "went or came after (someone or something) so as to catch up with them.",
+                    khmer: "បានតាមដាន / បានបន្តបន្ទាប់",
+                    audio: "audio/followed.mp3",
+                    options: [
                         "preceded",
                         "led",
                         "pursued",
@@ -107,11 +107,11 @@
                     "correctAnswer": "pursued"
                 },
                 {
-                    "word": "fear",
-                    "meaning": "an unpleasant emotion caused by the threat of danger, pain, or harm.",
-                    "khmer": "ការភ័យខ្លាច",
-                    "audio": "audio/fear.mp3",
-                    "options": [
+                    word: "fear",
+                    meaning: "an unpleasant emotion caused by the threat of danger, pain, or harm.",
+                    khmer: "ការភ័យខ្លាច",
+                    audio: "audio/fear.mp3",
+                    options: [
                         "bravery",
                         "courage",
                         "terror",
@@ -120,11 +120,11 @@
                     "correctAnswer": "terror"
                 },
                 {
-                    "word": "being tired (gerund phrase)",
-                    "meaning": "the state of feeling sleepy or needing rest.",
-                    "khmer": "ការនឿយហត់ / ក្នុងស្ថានភាពនឿយហត់",
-                    "audio": "audio/being_tired.mp3",
-                    "options": [
+                    word: "being tired (gerund phrase)",
+                    meaning: "the state of feeling sleepy or needing rest.",
+                    khmer: "ការនឿយហត់ / ក្នុងស្ថានភាពនឿយហត់",
+                    audio: "audio/being_tired.mp3",
+                    options: [
                         "feeling energetic",
                         "being exhausted",
                         "having strength",
@@ -133,11 +133,11 @@
                     "correctAnswer": "being exhausted"
                 },
                 {
-                    "word": "he kept working (past tense + continuous action)",
-                    "meaning": "he continued to work without stopping.",
-                    "khmer": "គាត់បន្តធ្វើការ",
-                    "audio": "audio/he_kept_working.mp3",
-                    "options": [
+                    word: "he kept working (past tense + continuous action)",
+                    meaning: "he continued to work without stopping.",
+                    khmer: "គាត់បន្តធ្វើការ",
+                    audio: "audio/he_kept_working.mp3",
+                    options: [
                         "he stopped working",
                         "he started working",
                         "he paused his work",
@@ -146,11 +146,11 @@
                     "correctAnswer": "he continued to labor"
                 },
                 {
-                    "word": "It looks as if...",
-                    "meaning": "used to express appearance or assumption",
-                    "khmer": "វាមើលទៅដូចជា...",
-                    "audio": "audio/it_looks_as_if.mp3",
-                    "options": [
+                    word: "It looks as if...",
+                    meaning: "used to express appearance or assumption",
+                    khmer: "វាមើលទៅដូចជា...",
+                    audio: "audio/it_looks_as_if.mp3",
+                    options: [
                         "It seems that...",
                         "It's certainly...",
                         "It's impossible that...",
@@ -159,11 +159,11 @@
                     "correctAnswer": "It seems that..."
                 },
                 {
-                    "word": "assumption",
-                    "meaning": "a thing that is accepted as true or as certain to happen, without proof.",
-                    "khmer": "ការសន្មត់",
-                    "audio": "audio/assumption.mp3",
-                    "options": [
+                    word: "assumption",
+                    meaning: "a thing that is accepted as true or as certain to happen, without proof.",
+                    khmer: "ការសន្មត់",
+                    audio: "audio/assumption.mp3",
+                    options: [
                         "fact",
                         "proof",
                         "presumption",
@@ -172,11 +172,11 @@
                     "correctAnswer": "presumption"
                 },
                 {
-                    "word": "appearance",
-                    "meaning": "the way that someone or something looks.",
-                    "khmer": "រូបរាង",
-                    "audio": "audio/appearance.mp3",
-                    "options": [
+                    word: "appearance",
+                    meaning: "the way that someone or something looks.",
+                    khmer: "រូបរាង",
+                    audio: "audio/appearance.mp3",
+                    options: [
                         "disguise",
                         "reality",
                         "looks",
@@ -185,11 +185,11 @@
                     "correctAnswer": "looks"
                 },
                 {
-                    "word": "they've had a shock",
-                    "meaning": "present perfect tense: have had)",
-                    "khmer": "ពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល",
-                    "audio": "audio/theyve_had_a_shock.mp3",
-                    "options": [
+                    word: "they've had a shock",
+                    meaning: "present perfect tense: have had)",
+                    khmer: "ពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល",
+                    audio: "audio/theyve_had_a_shock.mp3",
+                    options: [
                         "They are calm.",
                         "They experienced a sudden disturbing emotion.",
                         "They were expecting it.",
@@ -198,11 +198,11 @@
                     "correctAnswer": "They experienced a sudden disturbing emotion."
                 },
                 {
-                    "word": "as if",
-                    "meaning": "used to describe an appearance or gesture",
-                    "khmer": "ដូចជា / ដូចបំណង",
-                    "audio": "audio/as_if.mp3",
-                    "options": [
+                    word: "as if",
+                    meaning: "used to describe an appearance or gesture",
+                    khmer: "ដូចជា / ដូចបំណង",
+                    audio: "audio/as_if.mp3",
+                    options: [
                         "in reality",
                         "as though",
                         "actually",
@@ -211,11 +211,11 @@
                     "correctAnswer": "as though"
                 },
                 {
-                    "word": "gesture",
-                    "meaning": "a movement of part of the body, especially a hand or the head, to express an idea or meaning.",
-                    "khmer": "កាយវិការ",
-                    "audio": "audio/gesture.mp3",
-                    "options": [
+                    word: "gesture",
+                    meaning: "a movement of part of the body, especially a hand or the head, to express an idea or meaning.",
+                    khmer: "កាយវិការ",
+                    audio: "audio/gesture.mp3",
+                    options: [
                         "stillness",
                         "motion",
                         "speech",
@@ -224,11 +224,11 @@
                     "correctAnswer": "motion"
                 },
                 {
-                    "word": "They were shouting",
-                    "meaning": "They were speaking very loudly or crying out.",
-                    "khmer": "ពួកគេកំពុងក្ដែងសម្លេង (past continuous tense)",
-                    "audio": "audio/they_were_shouting.mp3",
-                    "options": [
+                    word: "They were shouting",
+                    meaning: "They were speaking very loudly or crying out.",
+                    khmer: "ពួកគេកំពុងក្ដែងសម្លេង (past continuous tense)",
+                    audio: "audio/they_were_shouting.mp3",
+                    options: [
                         "They were whispering.",
                         "They were singing.",
                         "They were yelling.",
@@ -237,11 +237,11 @@
                     "correctAnswer": "They were yelling."
                 },
                 {
-                    "word": "as though",
-                    "meaning": "as if.",
-                    "khmer": "ដូចជា / ដូចជាបាន (similar in meaning to 'as if')",
-                    "audio": "audio/as_though.mp3",
-                    "options": [
+                    word: "as though",
+                    meaning: "as if.",
+                    khmer: "ដូចជា / ដូចជាបាន (similar in meaning to 'as if')",
+                    audio: "audio/as_though.mp3",
+                    options: [
                         "actually",
                         "in reality",
                         "as if",
@@ -250,11 +250,11 @@
                     "correctAnswer": "as if"
                 },
                 {
-                    "word": "in panic",
-                    "meaning": "in a state of sudden uncontrollable fear or anxiety.",
-                    "khmer": "ក្នុងស្ថានភាពភ័យខ្លាច",
-                    "audio": "audio/in_panic.mp3",
-                    "options": [
+                    word: "in panic",
+                    meaning: "in a state of sudden uncontrollable fear or anxiety.",
+                    khmer: "ក្នុងស្ថានភាពភ័យខ្លាច",
+                    audio: "audio/in_panic.mp3",
+                    options: [
                         "calmly",
                         "fearfully",
                         "confidently",
@@ -263,11 +263,11 @@
                     "correctAnswer": "fearfully"
                 },
                 {
-                    "word": "interchangeably",
-                    "meaning": "in a way that can be exchanged without making any difference.",
-                    "khmer": "អាចផ្លាស់ប្តូរគ្នាបាន",
-                    "audio": "audio/interchangeably.mp3",
-                    "options": [
+                    word: "interchangeably",
+                    meaning: "in a way that can be exchanged without making any difference.",
+                    khmer: "អាចផ្លាស់ប្តូរគ្នាបាន",
+                    audio: "audio/interchangeably.mp3",
+                    options: [
                         "separately",
                         "alternatively",
                         "fixedly",
@@ -276,11 +276,11 @@
                     "correctAnswer": "alternatively"
                 },
                 {
-                    "word": "reactions",
-                    "meaning": "responses to something.",
-                    "khmer": "ប្រតិកម្ម",
-                    "audio": "audio/reactions.mp3",
-                    "options": [
+                    word: "reactions",
+                    meaning: "responses to something.",
+                    khmer: "ប្រតិកម្ម",
+                    audio: "audio/reactions.mp3",
+                    options: [
                         "actions",
                         "responses",
                         "initiatives",
@@ -289,11 +289,11 @@
                     "correctAnswer": "responses"
                 },
                 {
-                    "word": "imagined",
-                    "meaning": "formed a mental image or concept of.",
-                    "khmer": "បានស្រមៃ",
-                    "audio": "audio/imagined.mp3",
-                    "options": [
+                    word: "imagined",
+                    meaning: "formed a mental image or concept of.",
+                    khmer: "បានស្រមៃ",
+                    audio: "audio/imagined.mp3",
+                    options: [
                         "realized",
                         "conceived",
                         "disregarded",
@@ -302,11 +302,11 @@
                     "correctAnswer": "conceived"
                 },
                 {
-                    "word": "situation",
-                    "meaning": "a set of circumstances in which one finds oneself; a state of affairs.",
-                    "khmer": "ស្ថានភាព",
-                    "audio": "audio/situation.mp3",
-                    "options": [
+                    word: "situation",
+                    meaning: "a set of circumstances in which one finds oneself; a state of affairs.",
+                    khmer: "ស្ថានភាព",
+                    audio: "audio/situation.mp3",
+                    options: [
                         "solution",
                         "condition",
                         "event",
@@ -315,11 +315,11 @@
                     "correctAnswer": "condition"
                 },
                 {
-                    "word": "furious",
-                    "meaning": "very angry",
-                    "khmer": "ខឹងខ្លាំងណាស់",
-                    "audio": "audio/furious.mp3",
-                    "options": [
+                    word: "furious",
+                    meaning: "very angry",
+                    khmer: "ខឹងខ្លាំងណាស់",
+                    audio: "audio/furious.mp3",
+                    options: [
                         "calm",
                         "enraged",
                         "happy",
@@ -328,11 +328,11 @@
                     "correctAnswer": "enraged"
                 },
                 {
-                    "word": "gorgeous",
-                    "meaning": "very beautiful",
-                    "khmer": "ស្រស់ស្អាតខ្លាំងណាស់",
-                    "audio": "audio/gorgeous.mp3",
-                    "options": [
+                    word: "gorgeous",
+                    meaning: "very beautiful",
+                    khmer: "ស្រស់ស្អាតខ្លាំងណាស់",
+                    audio: "audio/gorgeous.mp3",
+                    options: [
                         "ugly",
                         "stunning",
                         "plain",
@@ -341,11 +341,11 @@
                     "correctAnswer": "stunning"
                 },
                 {
-                    "word": "hideous",
-                    "meaning": "very ugly",
-                    "khmer": "អាក្រក់ខ្លាំងណាស់",
-                    "audio": "audio/hideous.mp3",
-                    "options": [
+                    word: "hideous",
+                    meaning: "very ugly",
+                    khmer: "អាក្រក់ខ្លាំងណាស់",
+                    audio: "audio/hideous.mp3",
+                    options: [
                         "beautiful",
                         "dreadful",
                         "attractive",
@@ -354,11 +354,11 @@
                     "correctAnswer": "dreadful"
                 },
                 {
-                    "word": "exhausted",
-                    "meaning": "very tired",
-                    "khmer": "នឿយហត់ខ្លាំងណាស់",
-                    "audio": "audio/exhausted.mp3",
-                    "options": [
+                    word: "exhausted",
+                    meaning: "very tired",
+                    khmer: "នឿយហត់ខ្លាំងណាស់",
+                    audio: "audio/exhausted.mp3",
+                    options: [
                         "energetic",
                         "fatigued",
                         "rested",
@@ -367,11 +367,11 @@
                     "correctAnswer": "fatigued"
                 },
                 {
-                    "word": "spotless",
-                    "meaning": "very clean",
-                    "khmer": "ស្អាតណាស់",
-                    "audio": "audio/spotless.mp3",
-                    "options": [
+                    word: "spotless",
+                    meaning: "very clean",
+                    khmer: "ស្អាតណាស់",
+                    audio: "audio/spotless.mp3",
+                    options: [
                         "dirty",
                         "immaculate",
                         "stained",
@@ -380,11 +380,11 @@
                     "correctAnswer": "immaculate"
                 },
                 {
-                    "word": "filthy",
-                    "meaning": "very dirty",
-                    "khmer": "កខ្វក់ខ្លាំងណាស់",
-                    "audio": "audio/filthy.mp3",
-                    "options": [
+                    word: "filthy",
+                    meaning: "very dirty",
+                    khmer: "កខ្វក់ខ្លាំងណាស់",
+                    audio: "audio/filthy.mp3",
+                    options: [
                         "clean",
                         "squalid",
                         "pure",
@@ -393,11 +393,11 @@
                     "correctAnswer": "squalid"
                 },
                 {
-                    "word": "enormous",
-                    "meaning": "very big",
-                    "khmer": "ធំសម្បើម",
-                    "audio": "audio/enormous.mp3",
-                    "options": [
+                    word: "enormous",
+                    meaning: "very big",
+                    khmer: "ធំសម្បើម",
+                    audio: "audio/enormous.mp3",
+                    options: [
                         "tiny",
                         "immense",
                         "small",
@@ -406,11 +406,11 @@
                     "correctAnswer": "immense"
                 },
                 {
-                    "word": "deafening",
-                    "meaning": "very noisy",
-                    "khmer": "ថ្លង់ណាស់",
-                    "audio": "audio/deafening.mp3",
-                    "options": [
+                    word: "deafening",
+                    meaning: "very noisy",
+                    khmer: "ថ្លង់ណាស់",
+                    audio: "audio/deafening.mp3",
+                    options: [
                         "quiet",
                         "ear-splitting",
                         "silent",
@@ -419,11 +419,11 @@
                     "correctAnswer": "ear-splitting"
                 },
                 {
-                    "word": "starving",
-                    "meaning": "very hungry",
-                    "khmer": "ឃ្លានខ្លាំងណាស់",
-                    "audio": "audio/starving.mp3",
-                    "options": [
+                    word: "starving",
+                    meaning: "very hungry",
+                    khmer: "ឃ្លានខ្លាំងណាស់",
+                    audio: "audio/starving.mp3",
+                    options: [
                         "full",
                         "famished",
                         "satiated",
@@ -432,11 +432,11 @@
                     "correctAnswer": "famished"
                 },
                 {
-                    "word": "parched",
-                    "meaning": "very thirsty",
-                    "khmer": "ស្រេកទឹកខ្លាំងណាស់",
-                    "audio": "audio/parched.mp3",
-                    "options": [
+                    word: "parched",
+                    meaning: "very thirsty",
+                    khmer: "ស្រេកទឹកខ្លាំងណាស់",
+                    audio: "audio/parched.mp3",
+                    options: [
                         "hydrated",
                         "desiccated",
                         "moist",
@@ -445,11 +445,11 @@
                     "correctAnswer": "desiccated"
                 },
                 {
-                    "word": "destitute",
-                    "meaning": "very poor",
-                    "khmer": "ក្រីក្រខ្លាំងណាស់",
-                    "audio": "audio/destitute.mp3",
-                    "options": [
+                    word: "destitute",
+                    meaning: "very poor",
+                    khmer: "ក្រីក្រខ្លាំងណាស់",
+                    audio: "audio/destitute.mp3",
+                    options: [
                         "wealthy",
                         "impoverished",
                         "rich",
@@ -458,11 +458,11 @@
                     "correctAnswer": "impoverished"
                 },
                 {
-                    "word": "wealthy",
-                    "meaning": "very rich",
-                    "khmer": "អ្នកមាន",
-                    "audio": "audio/wealthy.mp3",
-                    "options": [
+                    word: "wealthy",
+                    meaning: "very rich",
+                    khmer: "អ្នកមាន",
+                    audio: "audio/wealthy.mp3",
+                    options: [
                         "poor",
                         "affluent",
                         "destitute",
@@ -471,11 +471,11 @@
                     "correctAnswer": "affluent"
                 },
                 {
-                    "word": "brilliant",
-                    "meaning": "very smart",
-                    "khmer": "ឆ្លាតវៃ",
-                    "audio": "audio/brilliant.mp3",
-                    "options": [
+                    word: "brilliant",
+                    meaning: "very smart",
+                    khmer: "ឆ្លាតវៃ",
+                    audio: "audio/brilliant.mp3",
+                    options: [
                         "dull",
                         "intelligent",
                         "stupid",
@@ -484,11 +484,11 @@
                     "correctAnswer": "intelligent"
                 },
                 {
-                    "word": "ancient",
-                    "meaning": "very old",
-                    "khmer": "បុរាណ",
-                    "audio": "audio/ancient.mp3",
-                    "options": [
+                    word: "ancient",
+                    meaning: "very old",
+                    khmer: "បុរាណ",
+                    audio: "audio/ancient.mp3",
+                    options: [
                         "new",
                         "old",
                         "modern",
@@ -497,11 +497,11 @@
                     "correctAnswer": "old"
                 },
                 {
-                    "word": "infantile",
-                    "meaning": "very young",
-                    "khmer": "ក្មេងណាស់",
-                    "audio": "audio/infantile.mp3",
-                    "options": [
+                    word: "infantile",
+                    meaning: "very young",
+                    khmer: "ក្មេងណាស់",
+                    audio: "audio/infantile.mp3",
+                    options: [
                         "adult",
                         "childish",
                         "mature",
@@ -510,11 +510,11 @@
                     "correctAnswer": "childish"
                 },
                 {
-                    "word": "indolent",
-                    "meaning": "very lazy",
-                    "khmer": "ខ្ជិលណាស់",
-                    "audio": "audio/indolent.mp3",
-                    "options": [
+                    word: "indolent",
+                    meaning: "very lazy",
+                    khmer: "ខ្ជិលណាស់",
+                    audio: "audio/indolent.mp3",
+                    options: [
                         "active",
                         "slothful",
                         "energetic",
@@ -523,11 +523,11 @@
                     "correctAnswer": "slothful"
                 },
                 {
-                    "word": "swamped",
-                    "meaning": "very busy",
-                    "khmer": "រវល់ខ្លាំងណាស់",
-                    "audio": "audio/swamped.mp3",
-                    "options": [
+                    word: "swamped",
+                    meaning: "very busy",
+                    khmer: "រវល់ខ្លាំងណាស់",
+                    audio: "audio/swamped.mp3",
+                    options: [
                         "idle",
                         "overwhelmed",
                         "free",
@@ -536,11 +536,11 @@
                     "correctAnswer": "overwhelmed"
                 },
                 {
-                    "word": "elated*",
-                    "meaning": "very happy",
-                    "khmer": "រីករាយខ្លាំងណាស់",
-                    "audio": "audio/elated.mp3",
-                    "options": [
+                    word: "elated*",
+                    meaning: "very happy",
+                    khmer: "រីករាយខ្លាំងណាស់",
+                    audio: "audio/elated.mp3",
+                    options: [
                         "sad",
                         "joyful",
                         "depressed",
@@ -549,11 +549,11 @@
                     "correctAnswer": "joyful"
                 },
                 {
-                    "word": "excruciating",
-                    "meaning": "very painful",
-                    "khmer": "ឈឺចាប់ខ្លាំងណាស់",
-                    "audio": "audio/excruciating.mp3",
-                    "options": [
+                    word: "excruciating",
+                    meaning: "very painful",
+                    khmer: "ឈឺចាប់ខ្លាំងណាស់",
+                    audio: "audio/excruciating.mp3",
+                    options: [
                         "mild",
                         "agonizing",
                         "bearable",
@@ -562,11 +562,11 @@
                     "correctAnswer": "agonizing"
                 },
                 {
-                    "word": "I have no idea",
-                    "meaning": "A phrase used to express that you don’t know the answer to something.",
-                    "khmer": "ខ្ញុំគ្មានគំនិតទេ / ខ្ញុំមិនដឹងទេ",
-                    "audio": "audio/i_have_no_idea.mp3",
-                    "options": [
+                    word: "I have no idea",
+                    meaning: "A phrase used to express that you don’t know the answer to something.",
+                    khmer: "ខ្ញុំគ្មានគំនិតទេ / ខ្ញុំមិនដឹងទេ",
+                    audio: "audio/i_have_no_idea.mp3",
+                    options: [
                         "I know the answer.",
                         "I'm certain.",
                         "I don't know.",
@@ -575,11 +575,11 @@
                     "correctAnswer": "I don't know."
                 },
                 {
-                    "word": "Let’s keep in touch",
-                    "meaning": "A phrase used to express a desire to maintain contact with someone.",
-                    "khmer": "តោះបន្តទាក់ទងគ្នា",
-                    "audio": "audio/lets_keep_in_touch.mp3",
-                    "options": [
+                    word: "Let’s keep in touch",
+                    meaning: "A phrase used to express a desire to maintain contact with someone.",
+                    khmer: "តោះបន្តទាក់ទងគ្នា",
+                    audio: "audio/lets_keep_in_touch.mp3",
+                    options: [
                         "Let's lose contact.",
                         "Let's stay connected.",
                         "Let's never speak again.",
@@ -588,11 +588,11 @@
                     "correctAnswer": "Let's stay connected."
                 },
                 {
-                    "word": "Can you give me a hand?",
-                    "meaning": "A way to ask someone for help.",
-                    "khmer": "អ្នកអាចជួយខ្ញុំបានទេ?",
-                    "audio": "audio/can_you_give_me_a_hand.mp3",
-                    "options": [
+                    word: "Can you give me a hand?",
+                    meaning: "A way to ask someone for help.",
+                    khmer: "អ្នកអាចជួយខ្ញុំបានទេ?",
+                    audio: "audio/can_you_give_me_a_hand.mp3",
+                    options: [
                         "Can you ignore me?",
                         "Can you assist me?",
                         "Can you leave me alone?",
@@ -601,11 +601,11 @@
                     "correctAnswer": "Can you assist me?"
                 },
                 {
-                    "word": "I’ll think about it.",
-                    "meaning": "A phrase used to indicate that you need time to consider an option or decision.",
-                    "khmer": "ខ្ញុំនឹងគិតអំពីវា។",
-                    "audio": "audio/ill_think_about_it.mp3",
-                    "options": [
+                    word: "I’ll think about it.",
+                    meaning: "A phrase used to indicate that you need time to consider an option or decision.",
+                    khmer: "ខ្ញុំនឹងគិតអំពីវា។",
+                    audio: "audio/ill_think_about_it.mp3",
+                    options: [
                         "I've decided.",
                         "I'll consider it.",
                         "I refuse immediately.",
@@ -614,11 +614,11 @@
                     "correctAnswer": "I'll consider it."
                 },
                 {
-                    "word": "Sounds like a plan!",
-                    "meaning": "An expression of agreement with a proposed idea or plan.",
-                    "khmer": "ស្តាប់ទៅដូចជាផែនការល្អ!",
-                    "audio": "audio/sounds_like_a_plan.mp3",
-                    "options": [
+                    word: "Sounds like a plan!",
+                    meaning: "An expression of agreement with a proposed idea or plan.",
+                    khmer: "ស្តាប់ទៅដូចជាផែនការល្អ!",
+                    audio: "audio/sounds_like_a_plan.mp3",
+                    options: [
                         "That's a terrible idea.",
                         "I disagree.",
                         "That sounds good.",
@@ -627,11 +627,11 @@
                     "correctAnswer": "That sounds good."
                 },
                 {
-                    "word": "What do you mean?",
-                    "meaning": "A phrase used to ask someone to clarify or explain something they said.",
-                    "khmer": "តើអ្នកចង់មានន័យអ្វី?",
-                    "audio": "audio/what_do_you_mean.mp3",
-                    "options": [
+                    word: "What do you mean?",
+                    meaning: "A phrase used to ask someone to clarify or explain something they said.",
+                    khmer: "តើអ្នកចង់មានន័យអ្វី?",
+                    audio: "audio/what_do_you_mean.mp3",
+                    options: [
                         "I understand completely.",
                         "Can you explain?",
                         "I don't care.",
@@ -640,11 +640,11 @@
                     "correctAnswer": "Can you explain?"
                 },
                 {
-                    "word": "That’s interesting!",
-                    "meaning": "A way to express curiosity or engagement in a conversation.",
-                    "khmer": "គួរឱ្យចាប់អារម្មណ៍ណាស់!",
-                    "audio": "audio/thats_interesting.mp3",
-                    "options": [
+                    word: "That’s interesting!",
+                    meaning: "A way to express curiosity or engagement in a conversation.",
+                    khmer: "គួរឱ្យចាប់អារម្មណ៍ណាស់!",
+                    audio: "audio/thats_interesting.mp3",
+                    options: [
                         "That's boring.",
                         "That's captivating.",
                         "I don't care.",
@@ -653,11 +653,11 @@
                     "correctAnswer": "That's captivating."
                 },
                 {
-                    "word": "I appreciate it.",
-                    "meaning": "A phrase used to express gratitude for something someone has done for you.",
-                    "khmer": "ខ្ញុំពេញចិត្តវា។",
-                    "audio": "audio/i_appreciate_it.mp3",
-                    "options": [
+                    word: "I appreciate it.",
+                    meaning: "A phrase used to express gratitude for something someone has done for you.",
+                    khmer: "ខ្ញុំពេញចិត្តវា។",
+                    audio: "audio/i_appreciate_it.mp3",
+                    options: [
                         "I don't care.",
                         "Thank you.",
                         "I dislike it.",
@@ -666,11 +666,11 @@
                     "correctAnswer": "Thank you."
                 },
                 {
-                    "word": "Let me think.",
-                    "meaning": "A phrase used to indicate that you need a moment to consider or reflect on something.",
-                    "khmer": "ទុកឱ្យខ្ញុំគិតសិន។",
-                    "audio": "audio/let_me_think.mp3",
-                    "options": [
+                    word: "Let me think.",
+                    meaning: "A phrase used to indicate that you need a moment to consider or reflect on something.",
+                    khmer: "ទុកឱ្យខ្ញុំគិតសិន។",
+                    audio: "audio/let_me_think.mp3",
+                    options: [
                         "I know immediately.",
                         "I need to consider.",
                         "I don't want to think.",
@@ -679,11 +679,11 @@
                     "correctAnswer": "I need to consider."
                 },
                 {
-                    "word": "What’s the matter?",
-                    "meaning": "A way to ask someone if something is wrong or if they need to talk about an issue.",
-                    "khmer": "មានការអី?",
-                    "audio": "audio/whats_the_matter.mp3",
-                    "options": [
+                    word: "What’s the matter?",
+                    meaning: "A way to ask someone if something is wrong or if they need to talk about an issue.",
+                    khmer: "មានការអី?",
+                    audio: "audio/whats_the_matter.mp3",
+                    options: [
                         "Everything is fine.",
                         "What's wrong?",
                         "Tell me good news.",
@@ -692,11 +692,11 @@
                     "correctAnswer": "What's wrong?"
                 },
                 {
-                    "word": "Can I help you with anything?",
-                    "meaning": "A polite way to offer assistance to someone.",
-                    "khmer": "តើខ្ញុំអាចជួយអ្វីបានទេ?",
-                    "audio": "audio/can_i_help_you_with_anything.mp3",
-                    "options": [
+                    word: "Can I help you with anything?",
+                    meaning: "A polite way to offer assistance to someone.",
+                    khmer: "តើខ្ញុំអាចជួយអ្វីបានទេ?",
+                    audio: "audio/can_i_help_you_with_anything.mp3",
+                    options: [
                         "I don't need help.",
                         "Do you need my help?",
                         "Can I offer assistance?",
@@ -705,11 +705,11 @@
                     "correctAnswer": "Can I offer assistance?"
                 },
                 {
-                    "word": "I don’t mind.",
-                    "meaning": "A phrase used to say that you are okay with something or don’t have a preference.",
-                    "khmer": "ខ្ញុំមិនប្រកាន់ទេ។",
-                    "audio": "audio/i_dont_mind.mp3",
-                    "options": [
+                    word: "I don’t mind.",
+                    meaning: "A phrase used to say that you are okay with something or don’t have a preference.",
+                    khmer: "ខ្ញុំមិនប្រកាន់ទេ។",
+                    audio: "audio/i_dont_mind.mp3",
+                    options: [
                         "I strongly object.",
                         "I have a strong preference.",
                         "It's fine with me.",
@@ -718,11 +718,11 @@
                     "correctAnswer": "It's fine with me."
                 },
                 {
-                    "word": "That sounds good.",
-                    "meaning": "A way to express agreement or approval for a suggestion or plan.",
-                    "khmer": "ស្តាប់ទៅល្អ។",
-                    "audio": "audio/that_sounds_good.mp3",
-                    "options": [
+                    word: "That sounds good.",
+                    meaning: "A way to express agreement or approval for a suggestion or plan.",
+                    khmer: "ស្តាប់ទៅល្អ។",
+                    audio: "audio/that_sounds_good.mp3",
+                    options: [
                         "That sounds bad.",
                         "I approve.",
                         "I disagree.",
@@ -731,11 +731,11 @@
                     "correctAnswer": "I approve."
                 },
                 {
-                    "word": "Take care",
-                    "meaning": "A friendly way to say goodbye, wishing the other person well.",
-                    "khmer": "ប្រយ័ត្ន/ថែរក្សាខ្លួន",
-                    "audio": "audio/take_care.mp3",
-                    "options": [
+                    word: "Take care",
+                    meaning: "A friendly way to say goodbye, wishing the other person well.",
+                    khmer: "ប្រយ័ត្ន/ថែរក្សាខ្លួន",
+                    audio: "audio/take_care.mp3",
+                    options: [
                         "Goodbye.",
                         "Be careless.",
                         "I don't care about you.",
@@ -744,11 +744,11 @@
                     "correctAnswer": "Goodbye."
                 },
                 {
-                    "word": "I’ll be right back.",
-                    "meaning": "A way to tell someone that you’re leaving briefly and will return soon.",
-                    "khmer": "ខ្ញុំនឹងត្រលប់មកវិញភ្លាម។",
-                    "audio": "audio/ill_be_right_back.mp3",
-                    "options": [
+                    word: "I’ll be right back.",
+                    meaning: "A way to tell someone that you’re leaving briefly and will return soon.",
+                    khmer: "ខ្ញុំនឹងត្រលប់មកវិញភ្លាម។",
+                    audio: "audio/ill_be_right_back.mp3",
+                    options: [
                         "I'm leaving for a long time.",
                         "I'll return shortly.",
                         "I'm not coming back.",
@@ -757,11 +757,11 @@
                     "correctAnswer": "I'll return shortly."
                 },
                 {
-                    "word": "Let’s get started",
-                    "meaning": "A phrase used to begin a task or activity.",
-                    "khmer": "តោះចាប់ផ្តើម",
-                    "audio": "audio/lets_get_started.mp3",
-                    "options": [
+                    word: "Let’s get started",
+                    meaning: "A phrase used to begin a task or activity.",
+                    khmer: "តោះចាប់ផ្តើម",
+                    audio: "audio/lets_get_started.mp3",
+                    options: [
                         "Let's stop.",
                         "Let's begin.",
                         "Let's delay.",
@@ -770,11 +770,11 @@
                     "correctAnswer": "Let's begin."
                 },
                 {
-                    "word": "It’s up to you.",
-                    "meaning": "A phrase used to let someone else decide or make a choice.",
-                    "khmer": "វាអាស្រ័យលើអ្នក។",
-                    "audio": "audio/its_up_to_you.mp3",
-                    "options": [
+                    word: "It’s up to you.",
+                    meaning: "A phrase used to let someone else decide or make a choice.",
+                    khmer: "វាអាស្រ័យលើអ្នក។",
+                    audio: "audio/its_up_to_you.mp3",
+                    options: [
                         "It's my decision.",
                         "You decide.",
                         "I will decide.",
@@ -783,11 +783,11 @@
                     "correctAnswer": "You decide."
                 },
                 {
-                    "word": "What do you think?",
-                    "meaning": "A way to ask someone for their opinion or thoughts on a topic.",
-                    "khmer": "តើអ្នកគិតយ៉ាងណា?",
-                    "audio": "audio/what_do_you_think.mp3",
-                    "options": [
+                    word: "What do you think?",
+                    meaning: "A way to ask someone for their opinion or thoughts on a topic.",
+                    khmer: "តើអ្នកគិតយ៉ាងណា?",
+                    audio: "audio/what_do_you_think.mp3",
+                    options: [
                         "I don't care about your opinion.",
                         "What's your opinion?",
                         "Tell me the answer.",
@@ -796,11 +796,11 @@
                     "correctAnswer": "What's your opinion?"
                 },
                 {
-                    "word": "I’m not sure.",
-                    "meaning": "A phrase used when you’re uncertain about something or don’t know the answer.",
-                    "khmer": "ខ្ញុំមិនច្បាស់ទេ។",
-                    "audio": "audio/im_not_sure.mp3",
-                    "options": [
+                    word: "I’m not sure.",
+                    meaning: "A phrase used when you’re uncertain about something or don’t know the answer.",
+                    khmer: "ខ្ញុំមិនច្បាស់ទេ។",
+                    audio: "audio/im_not_sure.mp3",
+                    options: [
                         "I'm certain.",
                         "I don't know for sure.",
                         "I have definite knowledge.",
@@ -809,11 +809,11 @@
                     "correctAnswer": "I don't know for sure."
                 },
                 {
-                    "word": "Can I ask you a question?",
-                    "meaning": "A polite way to request permission before asking something.",
-                    "khmer": "ខ្ញុំអាចសួរអ្នកសំណួរបានទេ?",
-                    "audio": "audio/can_i_ask_you_a_question.mp3",
-                    "options": [
+                    word: "Can I ask you a question?",
+                    meaning: "A polite way to request permission before asking something.",
+                    khmer: "ខ្ញុំអាចសួរអ្នកសំណួរបានទេ?",
+                    audio: "audio/can_i_ask_you_a_question.mp3",
+                    options: [
                         "Don't ask me anything.",
                         "May I inquire?",
                         "Ask me anything.",
@@ -822,11 +822,11 @@
                     "correctAnswer": "May I inquire?"
                 },
                 {
-                    "word": "I’m looking for [something].",
-                    "meaning": "A phrase used to say that you are searching for something specific.",
-                    "khmer": "ខ្ញុំកំពុងរក [អ្វីមួយ]។",
-                    "audio": "audio/im_looking_for_something.mp3",
-                    "options": [
+                    word: "I’m looking for [something].",
+                    meaning: "A phrase used to say that you are searching for something specific.",
+                    khmer: "ខ្ញុំកំពុងរក [អ្វីមួយ]។",
+                    audio: "audio/im_looking_for_something.mp3",
+                    options: [
                         "I've found it.",
                         "I'm searching for [something].",
                         "I don't need anything.",
@@ -835,11 +835,11 @@
                     "correctAnswer": "I'm searching for [something]."
                 },
                 {
-                    "word": "How much is this?",
-                    "meaning": "A question used to ask for the price of something.",
-                    "khmer": "នេះតម្លៃប៉ុន្មាន?",
-                    "audio": "audio/how_much_is_this.mp3",
-                    "options": [
+                    word: "How much is this?",
+                    meaning: "A question used to ask for the price of something.",
+                    khmer: "នេះតម្លៃប៉ុន្មាន?",
+                    audio: "audio/how_much_is_this.mp3",
+                    options: [
                         "What's the cost?",
                         "I don't want to buy this.",
                         "Tell me the weight.",
@@ -848,11 +848,11 @@
                     "correctAnswer": "What's the cost?"
                 },
                 {
-                    "word": "I don’t know.",
-                    "meaning": "A phrase used when you don’t have an answer or are unsure about something.",
-                    "khmer": "ខ្ញុំមិនដឹងទេ។",
-                    "audio": "audio/i_dont_know.mp3",
-                    "options": [
+                    word: "I don’t know.",
+                    meaning: "A phrase used when you don’t have an answer or are unsure about something.",
+                    khmer: "ខ្ញុំមិនដឹងទេ។",
+                    audio: "audio/i_dont_know.mp3",
+                    options: [
                         "I have the answer.",
                         "I'm clueless.",
                         "I'm certain.",
@@ -861,11 +861,11 @@
                     "correctAnswer": "I'm clueless."
                 },
                 {
-                    "word": "How can I help you?",
-                    "meaning": "A polite phrase used to offer assistance, commonly used in customer service or by someone offering help.",
-                    "khmer": "តើខ្ញុំអាចជួយអ្នកបានយ៉ាងដូចម្តេច?",
-                    "audio": "audio/how_can_i_help_you.mp3",
-                    "options": [
+                    word: "How can I help you?",
+                    meaning: "A polite phrase used to offer assistance, commonly used in customer service or by someone offering help.",
+                    khmer: "តើខ្ញុំអាចជួយអ្នកបានយ៉ាងដូចម្តេច?",
+                    audio: "audio/how_can_i_help_you.mp3",
+                    options: [
                         "I don't need help.",
                         "What assistance do you require?",
                         "I'm busy.",
@@ -874,11 +874,11 @@
                     "correctAnswer": "What assistance do you require?"
                 },
                 {
-                    "word": "What time is it?",
-                    "meaning": "A question used to ask for the current time.",
-                    "khmer": "ម៉ោងប៉ុន្មានហើយ?",
-                    "audio": "audio/what_time_is_it.mp3",
-                    "options": [
+                    word: "What time is it?",
+                    meaning: "A question used to ask for the current time.",
+                    khmer: "ម៉ោងប៉ុន្មានហើយ?",
+                    audio: "audio/what_time_is_it.mp3",
+                    options: [
                         "I don't have a watch.",
                         "Could you tell me the time?",
                         "When is the event?",
@@ -887,11 +887,11 @@
                     "correctAnswer": "Could you tell me the time?"
                 },
                 {
-                    "word": "Where are you from?",
-                    "meaning": "A question used to ask someone about their country or city of origin.",
-                    "khmer": "អ្នកមកពីណា?",
-                    "audio": "audio/where_are_you_from.mp3",
-                    "options": [
+                    word: "Where are you from?",
+                    meaning: "A question used to ask someone about their country or city of origin.",
+                    khmer: "អ្នកមកពីណា?",
+                    audio: "audio/where_are_you_from.mp3",
+                    options: [
                         "What's your destination?",
                         "What's your nationality?",
                         "Where are you going?",
@@ -900,11 +900,11 @@
                     "correctAnswer": "What's your nationality?"
                 },
                 {
-                    "word": "I don’t understand.",
-                    "meaning": "Used to let someone know that you didn’t comprehend what they said or what’s going on.",
-                    "khmer": "ខ្ញុំមិនយល់ទេ។",
-                    "audio": "audio/i_dont_understand.mp3",
-                    "options": [
+                    word: "I don’t understand.",
+                    meaning: "Used to let someone know that you didn’t comprehend what they said or what’s going on.",
+                    khmer: "ខ្ញុំមិនយល់ទេ។",
+                    audio: "audio/i_dont_understand.mp3",
+                    options: [
                         "I comprehend fully.",
                         "I'm confused.",
                         "It's very clear.",
@@ -913,11 +913,11 @@
                     "correctAnswer": "I'm confused."
                 },
                 {
-                    "word": "Have a nice day!",
-                    "meaning": "A friendly way of saying goodbye and wishing someone well.",
-                    "khmer": "សូមឱ្យមានថ្ងៃល្អ!",
-                    "audio": "audio/have_a_nice_day.mp3",
-                    "options": [
+                    word: "Have a nice day!",
+                    meaning: "A friendly way of saying goodbye and wishing someone well.",
+                    khmer: "សូមឱ្យមានថ្ងៃល្អ!",
+                    audio: "audio/have_a_nice_day.mp3",
+                    options: [
                         "Have a bad day.",
                         "Enjoy your day!",
                         "I hope your day is awful.",
@@ -926,11 +926,11 @@
                     "correctAnswer": "Enjoy your day!"
                 },
                 {
-                    "word": "Can I help you?",
-                    "meaning": "A polite way to offer assistance to someone.",
-                    "khmer": "ខ្ញុំអាចជួយអ្នកបានទេ?",
-                    "audio": "audio/can_i_help_you.mp3",
-                    "options": [
+                    word: "Can I help you?",
+                    meaning: "A polite way to offer assistance to someone.",
+                    khmer: "ខ្ញុំអាចជួយអ្នកបានទេ?",
+                    audio: "audio/can_i_help_you.mp3",
+                    options: [
                         "I don't need anything.",
                         "How may I assist you?",
                         "Please leave me alone.",
@@ -939,11 +939,11 @@
                     "correctAnswer": "How may I assist you?"
                 },
                 {
-                    "word": "What do you do?",
-                    "meaning": "A phrase used to ask someone about their job or profession.",
-                    "khmer": "តើអ្នកធ្វើការអ្វី?",
-                    "audio": "audio/what_do_you_do.mp3",
-                    "options": [
+                    word: "What do you do?",
+                    meaning: "A phrase used to ask someone about their job or profession.",
+                    khmer: "តើអ្នកធ្វើការអ្វី?",
+                    audio: "audio/what_do_you_do.mp3",
+                    options: [
                         "What are your hobbies?",
                         "What is your occupation?",
                         "What are you doing right now?",
@@ -952,11 +952,11 @@
                     "correctAnswer": "What is your occupation?"
                 },
                 {
-                    "word": "Could you repeat that, please?",
-                    "meaning": "A polite way to ask someone to say something again because you didn’t hear or understand it.",
-                    "khmer": "សូមជួយនិយាយម្តងទៀតបានទេ?",
-                    "audio": "audio/could_you_repeat_that_please.mp3",
-                    "options": [
+                    word: "Could you repeat that, please?",
+                    meaning: "A polite way to ask someone to say something again because you didn’t hear or understand it.",
+                    khmer: "សូមជួយនិយាយម្តងទៀតបានទេ?",
+                    audio: "audio/could_you_repeat_that_please.mp3",
+                    options: [
                         "Don't repeat yourself.",
                         "Please say that again.",
                         "I heard you clearly.",
@@ -965,11 +965,11 @@
                     "correctAnswer": "Please say that again."
                 },
                 {
-                    "word": "I’m sorry",
-                    "meaning": "Used to apologize when you have made a mistake or if something goes wrong.",
-                    "khmer": "ខ្ញុំសុំទោស",
-                    "audio": "audio/im_sorry.mp3",
-                    "options": [
+                    word: "I’m sorry",
+                    meaning: "Used to apologize when you have made a mistake or if something goes wrong.",
+                    khmer: "ខ្ញុំសុំទោស",
+                    audio: "audio/im_sorry.mp3",
+                    options: [
                         "I'm happy.",
                         "My apologies.",
                         "I don't care.",
@@ -978,11 +978,11 @@
                     "correctAnswer": "My apologies."
                 },
                 {
-                    "word": "See you later!",
-                    "meaning": "A casual way of saying goodbye.",
-                    "khmer": "ជួបគ្នាពេលក្រោយ!",
-                    "audio": "audio/see_you_later.mp3",
-                    "options": [
+                    word: "See you later!",
+                    meaning: "A casual way of saying goodbye.",
+                    khmer: "ជួបគ្នាពេលក្រោយ!",
+                    audio: "audio/see_you_later.mp3",
+                    options: [
                         "Goodbye for now.",
                         "Never see you again.",
                         "I won't see you.",
@@ -991,11 +991,11 @@
                     "correctAnswer": "Goodbye for now."
                 },
                 {
-                    "word": "How much does this cost?",
-                    "meaning": "A common phrase used to ask about the price of something.",
-                    "khmer": "នេះតម្លៃប៉ុន្មាន?",
-                    "audio": "audio/how_much_does_this_cost.mp3",
-                    "options": [
+                    word: "How much does this cost?",
+                    meaning: "A common phrase used to ask about the price of something.",
+                    khmer: "នេះតម្លៃប៉ុន្មាន?",
+                    audio: "audio/how_much_does_this_cost.mp3",
+                    options: [
                         "What's the price?",
                         "I don't want to pay.",
                         "Is this free?",
@@ -1004,11 +1004,11 @@
                     "correctAnswer": "What's the price?"
                 },
                 {
-                    "word": "You’re welcome.",
-                    "meaning": "A polite response to someone who says 'thank you.'",
-                    "khmer": "មិនអីទេ / រីករាយ",
-                    "audio": "audio/youre_welcome.mp3",
-                    "options": [
+                    word: "You’re welcome.",
+                    meaning: "A polite response to someone who says 'thank you.'",
+                    khmer: "មិនអីទេ / រីករាយ",
+                    audio: "audio/youre_welcome.mp3",
+                    options: [
                         "No problem.",
                         "You're not welcome.",
                         "I don't accept thanks.",
@@ -1017,11 +1017,11 @@
                     "correctAnswer": "No problem."
                 },
                 {
-                    "word": "How are you?",
-                    "meaning": "This is a polite way to ask someone about their well-being.",
-                    "khmer": "សុខសប្បាយជាទេ?",
-                    "audio": "audio/how_are_you.mp3",
-                    "options": [
+                    word: "How are you?",
+                    meaning: "This is a polite way to ask someone about their well-being.",
+                    khmer: "សុខសប្បាយជាទេ?",
+                    audio: "audio/how_are_you.mp3",
+                    options: [
                         "What's your name?",
                         "How's life?",
                         "Are you busy?",
@@ -1030,11 +1030,11 @@
                     "correctAnswer": "How's life?"
                 },
                 {
-                    "word": "Thank you",
-                    "meaning": "Used to show gratitude or appreciation.",
-                    "khmer": "អរគុណ",
-                    "audio": "audio/thank_you.mp3",
-                    "options": [
+                    word: "Thank you",
+                    meaning: "Used to show gratitude or appreciation.",
+                    khmer: "អរគុណ",
+                    audio: "audio/thank_you.mp3",
+                    options: [
                         "You're welcome.",
                         "I appreciate it.",
                         "No thanks.",
@@ -1043,11 +1043,11 @@
                     "correctAnswer": "I appreciate it."
                 },
                 {
-                    "word": "closure",
-                    "meaning": "In programming, a closure is a function bundled together with references to its surrounding state (the lexical environment).",
-                    "khmer": "មុខងារដែលភ្ជាប់ជាមួយបរិស្ថានពាក្យរបស់វា",
-                    "audio": "audio/closure.mp3",
-                    "options": [
+                    word: "closure",
+                    meaning: "In programming, a closure is a function bundled together with references to its surrounding state (the lexical environment).",
+                    khmer: "មុខងារដែលភ្ជាប់ជាមួយបរិស្ថានពាក្យរបស់វា",
+                    audio: "audio/closure.mp3",
+                    options: [
                         "A function bundled with its lexical environment.",
                         "A statement that closes a program.",
                         "A loop that never ends.",
@@ -1056,11 +1056,11 @@
                     "correctAnswer": "A function bundled with its lexical environment."
                 },
                 {
-                    "word": "hoisting",
-                    "meaning": "In JavaScript, hoisting is a mechanism where variable and function declarations are moved to the top of their containing scope during compilation.",
-                    "khmer": "អាកប្បកិរិយាលំនាំដើមរបស់ JavaScript ក្នុងការផ្លាស់ប្តូរការប្រកាសទៅខាងលើ",
-                    "audio": "audio/hoisting.mp3",
-                    "options": [
+                    word: "hoisting",
+                    meaning: "In JavaScript, hoisting is a mechanism where variable and function declarations are moved to the top of their containing scope during compilation.",
+                    khmer: "អាកប្បកិរិយាលំនាំដើមរបស់ JavaScript ក្នុងការផ្លាស់ប្តូរការប្រកាសទៅខាងលើ",
+                    audio: "audio/hoisting.mp3",
+                    options: [
                         "JavaScript's default behavior of moving declarations to the top.",
                         "A method for lifting heavy objects.",
                         "A type of server deployment.",
@@ -1069,11 +1069,11 @@
                     "correctAnswer": "JavaScript's default behavior of moving declarations to the top."
                 },
                 {
-                    "word": "asynchronous",
-                    "meaning": "In computing, asynchronous operations are those that can run independently of the main program flow, allowing other tasks to be executed simultaneously.",
-                    "khmer": "ប្រតិបត្តិការដែលមិនរាំងស្ទះខ្សែស្រឡាយសំខាន់",
-                    "audio": "audio/asynchronous.mp3",
-                    "options": [
+                    word: "asynchronous",
+                    meaning: "In computing, asynchronous operations are those that can run independently of the main program flow, allowing other tasks to be executed simultaneously.",
+                    khmer: "ប្រតិបត្តិការដែលមិនរាំងស្ទះខ្សែស្រឡាយសំខាន់",
+                    audio: "audio/asynchronous.mp3",
+                    options: [
                         "Operations that don't block the main thread.",
                         "Code that runs only once.",
                         "Functions that execute immediately.",
@@ -2580,174 +2580,366 @@
                     
                 },
 
-                listenAndType: [
-                    { sentence: "Hello, how are you today?", khmer: "សួស្ដី! តើអ្នកសុខសប្បាយជាទេថ្ងៃនេះ?", answer: "Hello, how are you today?" },
-                    { sentence: "The weather is beautiful.", khmer: "អាកាសធាតុស្រស់ស្អាត។", answer: "The weather is beautiful." },
-                    { sentence: "Can you please repeat that?", khmer: "តើអ្នកអាចនិយាយម្ដងទៀតបានទេ?", answer: "Can you please repeat that?" },
-                    { sentence: "I am learning English.", khmer: "ខ្ញុំកំពុងរៀនភាសាអង់គ្លេស។", answer: "I am learning English." },
-                    { sentence: "What time is it?", khmer: "ម៉ោងប៉ុន្មានហើយ?", answer: "What time is it?" },
-                    { sentence: "Please speak slowly.", khmer: "សូមនិយាយយឺតៗ។", answer: "Please speak slowly." },
-                    { sentence: "Thank you very much.", khmer: "អរគុណច្រើន។", answer: "Thank you very much." },
-                    { sentence: "Where is the library?", khmer: "បណ្ណាល័យនៅឯណា?", answer: "Where is the library?" },
-                    { sentence: "I don't understand.", khmer: "ខ្ញុំមិនយល់ទេ។", answer: "I don't understand." },
-                    { sentence: "See you later.", khmer: "ជួបគ្នាពេលក្រោយ។", answer: "See you later." },
-                    { sentence: "surprising", khmer: "គួរឱ្យភ្ញាក់ផ្អើល", answer: "surprising" },
-                    { sentence: "expected", khmer: "បានរំពឹងទុក", answer: "expected" },
-                    { sentence: "elegant", khmer: "ប្រណិត", answer: "elegant" },
-                    { sentence: "in spite of", khmer: "ទោះបីជា", answer: "in spite of" },
-                    { sentence: "despite (preposition)", khmer: "ទោះបីជា", answer: "despite (preposition)" },
-                    { sentence: "Although", khmer: "ទោះបីជា", answer: "Although" },
-                    { sentence: "a bit more formal", khmer: "ផ្លូវការជាងបន្តិច", answer: "a bit more formal" },
-                    { sentence: "followed", khmer: "បានតាមដាន / បានបន្តបន្ទាប់", answer: "followed" },
-                    { sentence: "fear", khmer: "ការភ័យខ្លាច", answer: "fear" },
-                    { sentence: "being tired (gerund phrase)", khmer: "ការនឿយហត់ / ក្នុងស្ថានភាពនឿយហត់", answer: "being tired (gerund phrase)" },
-                    { sentence: "he kept working (past tense + continuous action)", khmer: "គាត់បន្តធ្វើការ", answer: "he kept working (past tense + continuous action)" },
-                    { sentence: "It looks as if...", khmer: "វាមើលទៅដូចជា...", answer: "It looks as if..." },
-                    { sentence: "assumption", khmer: "ការសន្មត់", answer: "assumption" },
-                    { sentence: "appearance", khmer: "រូបរាង", answer: "appearance" },
-                    { sentence: "they've had a shock", khmer: "ពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល", answer: "they've had a shock" },
-                    { sentence: "as if", khmer: "ដូចជា / ដូចបំណង", answer: "as if" },
-                    { sentence: "gesture", khmer: "កាយវិការ", answer: "gesture" },
-                    { sentence: "They were shouting", khmer: "ពួកគេកំពុងក្ដែងសម្លេង (past continuous tense)", answer: "They were shouting" },
-                    { sentence: "as though", khmer: "ដូចជា / ដូចជាបាន (similar in meaning to 'as if')", answer: "as though" },
-                    { sentence: "in panic", khmer: "ក្នុងស្ថានភាពភ័យខ្លាច", answer: "in panic" },
-                    { sentence: "interchangeably", khmer: "អាចផ្លាស់ប្តូរគ្នាបាន", answer: "interchangeably" },
-                    { sentence: "reactions", khmer: "ប្រតិកម្ម", answer: "reactions" },
-                    { sentence: "imagined",
-                    khmer: "បានស្រមៃ",
-                    answer: "imagined" },
-                    { sentence: "situation",
-                    khmer: "ស្ថានភាព",
-                    answer: "situation" },
-                    { sentence: "furious", khmer: "ខឹងខ្លាំងណាស់", answer: "furious" },
-                    { sentence: "gorgeous", khmer: "ស្រស់ស្អាតខ្លាំងណាស់", answer: "gorgeous" },
-                    { sentence: "hideous", khmer: "អាក្រក់ខ្លាំងណាស់", answer: "hideous" },
-                    { sentence: "exhausted", khmer: "នឿយហត់ខ្លាំងណាស់", answer: "exhausted" },
-                    { sentence: "spotless", khmer: "ស្អាតណាស់", answer: "spotless" },
-                    { sentence: "filthy", khmer: "កខ្វក់ខ្លាំងណាស់", answer: "filthy" },
-                    { sentence: "enormous", khmer: "ធំសម្បើម", answer: "enormous" },
-                    { sentence: "deafening", khmer: "ថ្លង់ណាស់", answer: "deafening" },
-                    { sentence: "starving", khmer: "ឃ្លានខ្លាំងណាស់", answer: "starving" },
-                    { sentence: "parched", khmer: "ស្រេកទឹកខ្លាំងណាស់", answer: "parched" },
-                    { sentence: "destitute", khmer: "ក្រីក្រខ្លាំងណាស់", answer: "destitute" },
-                    { sentence: "wealthy", khmer: "អ្នកមាន", answer: "wealthy" },
-                    { sentence: "brilliant", khmer: "ឆ្លាតវៃ", answer: "brilliant" },
-                    { sentence: "ancient", khmer: "បុរាណ", answer: "ancient" },
-                    { sentence: "infantile", khmer: "ក្មេងណាស់", answer: "infantile" },
-                    { sentence: "indolent", khmer: "ខ្ជិលណាស់", answer: "indolent" },
-                    { sentence: "swamped", khmer: "រវល់ខ្លាំងណាស់", answer: "swamped" },
-                    { sentence: "elated*", khmer: "រីករាយខ្លាំងណាស់", answer: "elated*" },
-                    { sentence: "excruciating", khmer: "ឈឺចាប់ខ្លាំងណាស់", answer: "excruciating" },
-                    { sentence: "I have no idea", khmer: "ខ្ញុំគ្មានគំនិតទេ / ខ្ញុំមិនដឹងទេ", answer: "I have no idea" },
-                    { sentence: "Let’s keep in touch", khmer: "តោះបន្តទាក់ទងគ្នា", answer: "Let’s keep in touch" },
-                    { sentence: "Can you give me a hand?", khmer: "អ្នកអាចជួយខ្ញុំបានទេ?", answer: "Can you give me a hand?" },
-                    { sentence: "I’ll think about it.", khmer: "ខ្ញុំនឹងគិតអំពីវា។", answer: "I’ll think about it." },
-                    { sentence: "Sounds like a plan!", khmer: "ស្តាប់ទៅដូចជាផែនការល្អ!", answer: "Sounds like a plan!" },
-                    { sentence: "What do you mean?", khmer: "តើអ្នកចង់មានន័យអ្វី?", answer: "What do you mean?" },
-                    { sentence: "That’s interesting!", khmer: "គួរឱ្យចាប់អារម្មណ៍ណាស់!", answer: "That’s interesting!" },
-                    { sentence: "I appreciate it.", khmer: "ខ្ញុំពេញចិត្តវា។", answer: "I appreciate it." },
-                    { sentence: "Let me think.", khmer: "ទុកឱ្យខ្ញុំគិតសិន។", answer: "Let me think." },
-                    { sentence: "What’s the matter?", khmer: "មានការអី?", answer: "What’s the matter?" },
-                    { sentence: "Can I help you with anything?", khmer: "តើខ្ញុំអាចជួយអ្វីបានទេ?", answer: "Can I help you with anything?" },
-                    { sentence: "I don’t mind.", khmer: "ខ្ញុំមិនប្រកាន់ទេ។", answer: "I don’t mind." },
-                    { sentence: "That sounds good.", khmer: "ស្តាប់ទៅល្អ។", answer: "That sounds good." },
-                    { sentence: "Take care", khmer: "ប្រយ័ត្ន/ថែរក្សាខ្លួន", answer: "Take care" },
-                    { sentence: "I’ll be right back.", khmer: "ខ្ញុំនឹងត្រលប់មកវិញភ្លាម។", answer: "I’ll be right back." },
-                    { sentence: "Let’s get started", khmer: "តោះចាប់ផ្តើម", answer: "Let’s get started" },
-                    { sentence: "It’s up to you.", khmer: "វាអាស្រ័យលើអ្នក។", answer: "It’s up to you." },
-                    { sentence: "What do you think?", khmer: "តើអ្នកគិតយ៉ាងណា?", answer: "What do you think?" },
-                    { sentence: "I’m not sure.", khmer: "ខ្ញុំមិនច្បាស់ទេ។",
-                    answer: "I’m not sure." },
-                    { sentence: "Can I ask you a question?", khmer: "ខ្ញុំអាចសួរអ្នកសំណួរបានទេ?", answer: "Can I ask you a question?" },
-                    { sentence: "I’m looking for [something].", khmer: "ខ្ញុំកំពុងរក [អ្វីមួយ]។", answer: "I’m looking for [something]." },
-                    { sentence: "How much is this?", khmer: "នេះតម្លៃប៉ុន្មាន?", answer: "How much is this?" },
-                    { sentence: "I don’t know.", khmer: "ខ្ញុំមិនដឹងទេ។", answer: "I don’t know." },
-                    { sentence: "How can I help you?", khmer: "តើខ្ញុំអាចជួយអ្នកបានយ៉ាងដូចម្តេច?", answer: "How can I help you?" },
-                    { sentence: "What time is it?", khmer: "ម៉ោងប៉ុន្មានហើយ?", answer: "What time is it?" },
-                    { sentence: "Where are you from?", khmer: "អ្នកមកពីណា?", answer: "Where are you from?" },
-                    { sentence: "I don’t understand.", khmer: "ខ្ញុំមិនយល់ទេ។", answer: "I don’t understand." },
-                    { sentence: "Have a nice day!", khmer: "សូមឱ្យមានថ្ងៃល្អ!", answer: "Have a nice day!" },
-                    { sentence: "Can I help you?", khmer: "ខ្ញុំអាចជួយអ្នកបានទេ?", answer: "Can I help you?" },
-                    { sentence: "What do you do?", khmer: "តើអ្នកធ្វើការអ្វី?", answer: "What do you do?" },
-                    { sentence: "Could you repeat that, please?", khmer: "សូមជួយនិយាយម្តងទៀតបានទេ?", answer: "Could you repeat that, please?" },
-                    { sentence: "I’m sorry", khmer: "ខ្ញុំសុំទោស", answer: "I’m sorry" },
-                    { sentence: "See you later!", khmer: "ជួបគ្នាពេលក្រោយ!", answer: "See you later!" },
-                    { sentence: "How much does this cost?", khmer: "នេះតម្លៃប៉ុន្មាន?", answer: "How much does this cost?" },
-                    { sentence: "You’re welcome.", khmer: "មិនអីទេ / រីករាយ", answer: "You’re welcome." },
-                    { sentence: "How are you?", khmer: "សុខសប្បាយជាទេ?", answer: "How are you?" },
-                    { sentence: "Thank you", khmer: "អរគុណ", answer: "Thank you" },
-                    { sentence: "closure", khmer: "មុខងារដែលភ្ជាប់ជាមួយបរិស្ថានពាក្យរបស់វា", answer: "closure" },
-                    { sentence: "hoisting", khmer: "អាកប្បកិរិយាលំនាំដើមរបស់ JavaScript ក្នុងការផ្លាស់ប្តូរការប្រកាសទៅខាងលើ", answer: "hoisting" },
-                    { sentence: "asynchronous", khmer: "ប្រតិបត្តិការដែលមិនរាំងស្ទះខ្សែស្រឡាយសំខាន់", answer: "asynchronous" }
+                listenAndType: {
+                    "Words": [
+                        { sentence: "apple", khmer: "ផ្លែប៉ោម", answer: "apple" },
+                        { sentence: "banana", khmer: "ចេក", answer: "banana" },
+                        { sentence: "cat", khmer: "ឆ្មា", answer: "cat" },
+                        { sentence: "dog", khmer: "ឆ្កែ", answer: "dog" },
+                        { sentence: "house", khmer: "ផ្ទះ", answer: "house" },
+                        { sentence: "flower", khmer: "ផ្កា", answer: "flower" },
+                        { sentence: "water", khmer: "ទឹក", answer: "water" },
+                        { sentence: "friend", khmer: "មិត្តភ័ក្តិ", answer: "friend" },
+                        { sentence: "book", khmer: "សៀវភៅ", answer: "book" },
+                        { sentence: "school", khmer: "សាលារៀន", answer: "school" },
+                        { sentence: "surprising", khmer: "គួរឱ្យភ្ញាក់ផ្អើល", answer: "surprising" },
+                        { sentence: "expected", khmer: "បានរំពឹងទុក", answer: "expected" },
+                        { sentence: "elegant", khmer: "ប្រណិត", answer: "elegant" },
+                        { sentence: "in spite of", khmer: "ទោះបីជា", answer: "in spite of" },
+                        { sentence: "despite ", khmer: "ទោះបីជា (preposition)", answer: "despite " },
+                        { sentence: "Although", khmer: "ទោះបីជា", answer: "Although" },
+                        { sentence: "followed", khmer: "បានតាមដាន / បានបន្តបន្ទាប់", answer: "followed" },
+                        { sentence: "fear", khmer: "ការភ័យខ្លាច", answer: "fear" },
+                        { sentence: "assumption", khmer: "ការសន្មត់", answer: "assumption" },
+                        { sentence: "appearance", khmer: "រូបរាង", answer: "appearance" },
+                        { sentence: "as if", khmer: "ដូចជា / ដូចបំណង", answer: "as if" },
+                        { sentence: "gesture", khmer: "កាយវិការ", answer: "gesture" },
+                        { sentence: "as though", khmer: "ដូចជា / ដូចជាបាន (similar in meaning to 'as if')", answer: "as though" },
+                        { sentence: "in panic", khmer: "ក្នុងស្ថានភាពភ័យខ្លាច", answer: "in panic" },
+                        { sentence: "interchangeably", khmer: "អាចផ្លាស់ប្តូរគ្នាបាន", answer: "interchangeably" },
+                        { sentence: "reactions", khmer: "ប្រតិកម្ម", answer: "reactions" },
+                        { sentence: "imagined", khmer: "បានស្រមៃ",answer: "imagined" },
+                        { sentence: "situation",khmer: "ស្ថានភាព", answer: "situation" },
+                        { sentence: "furious", khmer: "ខឹងខ្លាំងណាស់", answer: "furious" },
+                        { sentence: "gorgeous", khmer: "ស្រស់ស្អាតខ្លាំងណាស់", answer: "gorgeous" },
+                        { sentence: "hideous", khmer: "អាក្រក់ខ្លាំងណាស់", answer: "hideous" },
+                        { sentence: "exhausted", khmer: "នឿយហត់ខ្លាំងណាស់", answer: "exhausted" },
+                        { sentence: "spotless", khmer: "ស្អាតណាស់", answer: "spotless" },
+                        { sentence: "filthy", khmer: "កខ្វក់ខ្លាំងណាស់", answer: "filthy" },
+                        { sentence: "enormous", khmer: "ធំសម្បើម", answer: "enormous" },
+                        { sentence: "deafening", khmer: "ថ្លង់ណាស់", answer: "deafening" },
+                        { sentence: "starving", khmer: "ឃ្លានខ្លាំងណាស់", answer: "starving" },
+                        { sentence: "parched", khmer: "ស្រេកទឹកខ្លាំងណាស់", answer: "parched" },
+                        { sentence: "destitute", khmer: "ក្រីក្រខ្លាំងណាស់", answer: "destitute" },
+                        { sentence: "wealthy", khmer: "អ្នកមាន", answer: "wealthy" },
+                        { sentence: "brilliant", khmer: "ឆ្លាតវៃ", answer: "brilliant" },
+                        { sentence: "ancient", khmer: "បុរាណ", answer: "ancient" },
+                        { sentence: "infantile", khmer: "ក្មេងណាស់", answer: "infantile" },
+                        { sentence: "indolent", khmer: "ខ្ជិលណាស់", answer: "indolent" },
+                        { sentence: "swamped", khmer: "រវល់ខ្លាំងណាស់", answer: "swamped" },
+                        { sentence: "elated*", khmer: "រីករាយខ្លាំងណាស់", answer: "elated*" },
+                        { sentence: "excruciating", khmer: "ឈឺចាប់ខ្លាំងណាស់", answer: "excruciating" },
+                    ],
 
-                ],
+                    "Common English phrases": [
+                        { sentence: "I would rather stay home tonight.", khmer: "ខ្ញុំចង់នៅផ្ទះយប់នេះជាង។", answer: "I would rather stay home tonight." },
+                        { sentence: "She’d rather eat noodles than rice.", khmer: "នាងចង់ញ៉ាំមីជាងបាយ។", answer: "She’d rather eat noodles than rice." },
+                        { sentence: "I’d rather you stayed home tonight.", khmer: "ខ្ញុំចង់ឱ្យអ្នកនៅផ្ទះយប់នេះ។", answer: "I’d rather you stayed home tonight." },
+                        { sentence: "She would rather he didn’t come.", khmer: "នាងចង់ឱ្យគាត់មិនមក។", answer: "She would rather he didn’t come." },
+                        { sentence: "She prefers that he doesn't come.", khmer: "នាងចូលចិត្តឱ្យគាត់មិនមក។", answer: "She prefers that he doesn't come." },
+                        { sentence: "We’d rather they arrived earlier", khmer: "ពួកយើងចង់ឱ្យពួកគេមកដល់មុន។", answer: "We’d rather they arrived earlier." },
+                        { sentence: "In spite of her fear, she gave the speech.", khmer: "ទោះបីជាគាត់ភ័យក៏ដោយ គាត់នៅតែថ្លែងសុន្ទរកថា។", answer: "In spite of her fear, she gave the speech." },
+                        { sentence: "Despite being tired, he kept working.", khmer: "ទោះបីជាគាត់នឿយហត់ក៏ដោយ គាត់នៅតែបន្តធ្វើការ។", answer: "Despite being tired, he kept working." },
+                        { sentence: "In spite of the rain, we went outside.", khmer: "ទោះបីជាមានភ្លៀងក៏ដោយ ពួកយើងនៅតែចេញទៅខាងក្រៅ។", answer: "In spite of the rain, we went outside." },
+                        { sentence: "Despite the noise, I fell asleep quickly.", khmer: "ទោះបីមានសំឡេងរំខានក៏ដោយ ខ្ញុំនៅតែដេកលក់បានលឿន។", answer: "Despite the noise, I fell asleep quickly." },
+                        { sentence: "He talks as if he knows the answer.", khmer: "គាត់និយាយដូចជាគាត់ដឹងចម្លើយ។", answer: "He talks as if he knows the answer." },
+                        { sentence: "He talks as if he knew the answer. (but he probably doesn’t)", khmer: "គាត់និយាយដូចជាគាត់ដឹងចម្លើយ (ប៉ុន្តែប្រហែលជាគាត់មិនដឹងទេ។)", answer: "He talks as if he knew the answer. (but he probably doesn’t)" },
+                        { sentence: "It looks as if they’ve had a shock.", khmer: "វាមើលទៅដូចជាពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល។", answer: "It looks as if they’ve had a shock." },
+                        { sentence: "It looks as though you’ve not met before.", khmer: "វាមើលទៅដូចជាអ្នកមិនបានជួបគ្នាមុន។", answer: "It looks as though you’ve not met before." },
+                        { sentence: "She moved her lips as if to smile.", khmer: "នាងផ្លាស់ទីបបូរមាត់របស់នាងដូចជាចង់ញញឹម។", answer: "She moved her lips as if to smile." },
+                        { sentence: "They were shouting as though in panic.", khmer: "ពួកគេកំពុងស្រែកដូចជាកំពុងភ័យខ្លាច។", answer: "They were shouting as though in panic." },
+                        { sentence: "She felt as if all her worries had gone.", khmer: "នាងមានអារម្មណ៍ដូចជាការព្រួយបារម្ភទាំងអស់របស់នាងបានបាត់ទៅ។", answer: "She felt as if all her worries had gone." },
+                        { sentence: "I’ve got so much work it looks as if I’ll have to stay at home this evening.", khmer: "ខ្ញុំមានការងារច្រើនណាស់ វាមើលទៅដូចជាខ្ញុំត្រូវនៅផ្ទះយប់នេះ។", answer: "I’ve got so much work it looks as if I’ll have to stay at home this evening." },
+                        { sentence: "They felt as though they had been given the wrong information.", khmer: "ពួកគេមានអារម្មណ៍ដូចជាពួកគេបានទទួលព័ត៌មានខុស។", answer: "They felt as though they had been given the wrong information." },
+                        { sentence: "You sound as though you're sick.", khmer: "សំឡេងអ្នកដូចជាអ្នកកំពុងជំងឺ។", answer: "You sound as though you're sick." },
+                        { sentence: "They acted as if they were rich.", khmer: "ពួកគេធ្វើដូចជាពួកគេមានសម្បត្តិ។", answer: "They acted as if they were rich." },
+                        { sentence: "Not only did he lie, but he also blamed me!", khmer: "មិនត្រឹមតែគាត់កុហកទេ គាត់នៅតែបន្ទោសខ្ញុំ។", answer: "Not only did he lie, but he also blamed me!" },
+                        { sentence: "Not only is she smart, but she’s also kind.", khmer: "មិនត្រឹមតែនាងឆ្លាតទេ នាងនៅតែចិត្តល្អ។", answer: "Not only is she smart, but she’s also kind." },
+                        { sentence: "He not only speaks English, but also French.", khmer: "គាត់មិនត្រឹមតែនិយាយភាសាអង់គ្លេសទេ គាត់នៅតែនិយាយភាសាបារាំង។", answer: "He not only speaks English, but also French." },
+                        { sentence: "Neither my brother nor my sister likes pizza.", khmer: "ទាំងបងប្រុសរបស់ខ្ញុំ និងបងស្រីរបស់ខ្ញុំមិនចូលចិត្តភីហ្សាទេ។", answer: "Neither my brother nor my sister likes pizza." },
+                        { sentence: "She neither called me nor sent a message.", khmer: "នាងមិនបានហៅខ្ញុំ និងមិនបានផ្ញើសារទេ។", answer: "She neither called me nor sent a message." },
+                        { sentence: "I study hard so that I can pass the exam.", khmer: "ខ្ញុំសិក្សាខ្លាំងដើម្បីឱ្យខ្ញុំអាចជាប់ការប្រឡង។", answer: "I study hard so that I can pass the exam." },
+                        { sentence: "I woke up early so that I could see the sunrise.", khmer: "ខ្ញុំបានភ្ញាក់ពីដំណេកដើម ដើម្បីឱ្យខ្ញុំអាចមើលថ្ងៃរះ។", answer: "I woke up early so that I could see the sunrise." },
+                        { sentence: "She left early so that she could catch the bus.", khmer: "នាងចេញដើម ដើម្បីឱ្យនាងអាចចាប់ឡានក្រុង។", answer: "She left early so that she could catch the bus." },
+                        { sentence: "I won’t go unless it stops raining.", khmer: "ខ្ញុំមិនទៅទេ លុះត្រាតែភ្លៀងឈប់។", answer: "I won’t go unless it stops raining." },
+                        { sentence: "You can’t enter the club unless you’re a member.", khmer: "អ្នកមិនអាចចូលក្លឹបបានទេ លុះត្រាតែអ្នកជាសមាជិក។", answer: "You can’t enter the club unless you’re a member." },
+                        { sentence: "Whether you like it or not, we have to go.", khmer: "មិនថាអ្នកចូលចិត្តវាឬមិនចូលចិត្តទេ ពួកយើងត្រូវទៅ។", answer: "Whether you like it or not, we have to go." },
+                        { sentence: "It’s time you went to bed.", khmer: "វាជាពេលដែលអ្នកគួរទៅដេក។", answer: "It’s time you went to bed." },
+                        { sentence: "It’s high time we left.", khmer: "វាជាពេលដែលពួកយើងគួរចេញទៅ។", answer: "It’s high time we left." },
+                        { sentence: "She was so tired that she fell asleep at her desk.", khmer: "នាងនឿយហត់ណាស់ ដល់ថ្នាក់ដែលនាងដេកលក់នៅតុរបស់នាង។", answer: "She was so tired that she fell asleep at her desk." },
+                        { sentence: "He ran so fast that nobody could catch him.", khmer: "គាត់រត់លឿនណាស់ ដល់ថ្នាក់ដែលគ្មាននរណាអាចចាប់គាត់បាន។", answer: "He ran so fast that nobody could catch him." },
+                        { sentence: "It was so hot that we stayed inside all day.", khmer: "វាក្តៅណាស់ ដល់ថ្នាក់ដែលពួកយើងនៅក្នុងផ្ទះពេញមួយថ្ងៃ។", answer: "It was so hot that we stayed inside all day." },
+                        { sentence: "As soon as she left the house, it started to rain.", khmer: "ទាំងនាងទើបចេញពីផ្ទះភ្លៀងបានចាប់ផ្តើមធ្លាក់។", answer: "As soon as she left the house, it started to rain." },
+                        { sentence: "No sooner had she left the house than it started to rain.", khmer: "ទាំងនាងទើបចេញពីផ្ទះភ្លៀងបានចាប់ផ្តើមធ្លាក់។", answer: "No sooner had she left the house than it started to rain." },
+                    
+                        { sentence: "Hello, how are you today?", khmer: "សួស្ដី! តើអ្នកសុខសប្បាយជាទេថ្ងៃនេះ?", answer: "Hello, how are you today?" },
+                        { sentence: "The weather is beautiful.", khmer: "អាកាសធាតុស្រស់ស្អាត។", answer: "The weather is beautiful." },
+                        { sentence: "Can you please repeat that?", khmer: "តើអ្នកអាចនិយាយម្ដងទៀតបានទេ?", answer: "Can you please repeat that?" },
+                        { sentence: "I am learning English.", khmer: "ខ្ញុំកំពុងរៀនភាសាអង់គ្លេស។", answer: "I am learning English." },
+                        { sentence: "What time is it?", khmer: "ម៉ោងប៉ុន្មានហើយ?", answer: "What time is it?" },
+                        { sentence: "Please speak slowly.", khmer: "សូមនិយាយយឺតៗ។", answer: "Please speak slowly." },
+                        { sentence: "Thank you very much.", khmer: "អរគុណច្រើន។", answer: "Thank you very much." },
+                        { sentence: "Where is the library?", khmer: "បណ្ណាល័យនៅឯណា?", answer: "Where is the library?" },
+                        { sentence: "I don't understand.", khmer: "ខ្ញុំមិនយល់ទេ។", answer: "I don't understand." },
+                        { sentence: "See you later.", khmer: "ជួបគ្នាពេលក្រោយ។", answer: "See you later." },
+                       
+                        
+                        { sentence: "a bit more formal", khmer: "ផ្លូវការជាងបន្តិច", answer: "a bit more formal" },
+                        
+                        { sentence: "being tired", khmer: "ការនឿយហត់ / ក្នុងស្ថានភាពនឿយហត់ (gerund phrase)", answer: "being tired" },
+                        { sentence: "he kept working.", khmer: "គាត់បន្តធ្វើការ (past tense + continuous action)", answer: "he kept working." },
+                        { sentence: "It looks as if...", khmer: "វាមើលទៅដូចជា...", answer: "It looks as if..." },
+                        
+                        { sentence: "they've had a shock.", khmer: "ពួកគេទើបទទួលរងការភ្ញាក់ផ្អើល", answer: "they've had a shock." },
+                        
+                        { sentence: "They were shouting", khmer: "ពួកគេកំពុងក្ដែងសម្លេង (past continuous tense)", answer: "They were shouting" },
+                        
+                        { sentence: "I have no idea", khmer: "ខ្ញុំគ្មានគំនិតទេ / ខ្ញុំមិនដឹងទេ", answer: "I have no idea" },
+                        { sentence: "Let’s keep in touch", khmer: "តោះបន្តទាក់ទងគ្នា", answer: "Let’s keep in touch" },
+                        { sentence: "Can you give me a hand?", khmer: "អ្នកអាចជួយខ្ញុំបានទេ?", answer: "Can you give me a hand?" },
+                        { sentence: "I’ll think about it.", khmer: "ខ្ញុំនឹងគិតអំពីវា។", answer: "I’ll think about it." },
+                        { sentence: "Sounds like a plan!", khmer: "ស្តាប់ទៅដូចជាផែនការល្អ!", answer: "Sounds like a plan!" },
+                        { sentence: "What do you mean?", khmer: "តើអ្នកចង់មានន័យអ្វី?", answer: "What do you mean?" },
+                        { sentence: "That’s interesting!", khmer: "គួរឱ្យចាប់អារម្មណ៍ណាស់!", answer: "That’s interesting!" },
+                        { sentence: "I appreciate it.", khmer: "ខ្ញុំពេញចិត្តវា។", answer: "I appreciate it." },
+                        { sentence: "Let me think.", khmer: "ទុកឱ្យខ្ញុំគិតសិន។", answer: "Let me think." },
+                        { sentence: "What’s the matter?", khmer: "មានការអី?", answer: "What’s the matter?" },
+                        { sentence: "Can I help you with anything?", khmer: "តើខ្ញុំអាចជួយអ្វីបានទេ?", answer: "Can I help you with anything?" },
+                        { sentence: "I don’t mind.", khmer: "ខ្ញុំមិនប្រកាន់ទេ។", answer: "I don’t mind." },
+                        { sentence: "That sounds good.", khmer: "ស្តាប់ទៅល្អ។", answer: "That sounds good." },
+                        { sentence: "Take care", khmer: "ប្រយ័ត្ន/ថែរក្សាខ្លួន", answer: "Take care" },
+                        { sentence: "I’ll be right back.", khmer: "ខ្ញុំនឹងត្រលប់មកវិញភ្លាម។", answer: "I’ll be right back." },
+                        { sentence: "Let’s get started", khmer: "តោះចាប់ផ្តើម", answer: "Let’s get started" },
+                        { sentence: "It’s up to you.", khmer: "វាអាស្រ័យលើអ្នក។", answer: "It’s up to you." },
+                        { sentence: "What do you think?", khmer: "តើអ្នកគិតយ៉ាងណា?", answer: "What do you think?" },
+                        { sentence: "I’m not sure.", khmer: "ខ្ញុំមិនច្បាស់ទេ។",answer: "I’m not sure." },
+                        { sentence: "Can I ask you a question?", khmer: "ខ្ញុំអាចសួរអ្នកសំណួរបានទេ?", answer: "Can I ask you a question?" },
+                        { sentence: "I’m looking for [something].", khmer: "ខ្ញុំកំពុងរក [អ្វីមួយ]។", answer: "I’m looking for [something]." },
+                        { sentence: "How much is this?", khmer: "នេះតម្លៃប៉ុន្មាន?", answer: "How much is this?" },
+                        { sentence: "I don’t know.", khmer: "ខ្ញុំមិនដឹងទេ។", answer: "I don’t know." },
+                        { sentence: "How can I help you?", khmer: "តើខ្ញុំអាចជួយអ្នកបានយ៉ាងដូចម្តេច?", answer: "How can I help you?" },
+                        { sentence: "What time is it?", khmer: "ម៉ោងប៉ុន្មានហើយ?", answer: "What time is it?" },
+                        { sentence: "Where are you from?", khmer: "អ្នកមកពីណា?", answer: "Where are you from?" },
+                        { sentence: "I don’t understand.", khmer: "ខ្ញុំមិនយល់ទេ។", answer: "I don’t understand." },
+                        { sentence: "Have a nice day!", khmer: "សូមឱ្យមានថ្ងៃល្អ!", answer: "Have a nice day!" },
+                        { sentence: "Can I help you?", khmer: "ខ្ញុំអាចជួយអ្នកបានទេ?", answer: "Can I help you?" },
+                        { sentence: "What do you do?", khmer: "តើអ្នកធ្វើការអ្វី?", answer: "What do you do?" },
+                        { sentence: "Could you repeat that, please?", khmer: "សូមជួយនិយាយម្តងទៀតបានទេ?", answer: "Could you repeat that, please?" },
+                        { sentence: "I’m sorry", khmer: "ខ្ញុំសុំទោស", answer: "I’m sorry" },
+                        { sentence: "See you later!", khmer: "ជួបគ្នាពេលក្រោយ!", answer: "See you later!" },
+                        { sentence: "How much does this cost?", khmer: "នេះតម្លៃប៉ុន្មាន?", answer: "How much does this cost?" },
+                        { sentence: "You’re welcome.", khmer: "មិនអីទេ / រីករាយ", answer: "You’re welcome." },
+                        { sentence: "How are you?", khmer: "សុខសប្បាយជាទេ?", answer: "How are you?" },
+                        { sentence: "Thank you", khmer: "អរគុណ", answer: "Thank you" },
+                        { sentence: "", khmer: "", answer: "" },
+                        { sentence: "", khmer: "", answer: "" },
+                        { sentence: "", khmer: "", answer: "" }
+                    ],
+                    
+                    "General Confidence Statements": [
+                        { sentence: "You know, I'm really starting to believe in myself more these days.", khmer: "អ្នកដឹងទេ, ខ្ញុំចាប់ផ្តើមជឿជាក់លើខ្លួនឯងកាន់តែច្រើនក្នុងពេលនេះ។ <br> You ..., I'm really ... to ... in myself more these days.", answer: "You know, I'm really starting to believe in myself more these days." },
+                        { sentence: "It's a good feeling!", khmer: "វាជាអារម្មណ៍ល្អ!", answer: "It's a good feeling!" },
+                        { sentence: "Actually, when I'm practicing, I can genuinely say, 'I feel confident when I speak English.'", khmer: "តាមពិត ពេលខ្ញុំអនុវត្ត ខ្ញុំអាចនិយាយដោយស្មោះត្រង់ថា 'ខ្ញុំមានអារម្មណ៍ជឿជាក់នៅពេលខ្ញុំនិយាយភាសាអង់គ្លេស'។<br> ..., when I'm ..., I can ... say, 'I feel ... when I speak English.", answer: "Actually, when I'm practicing, I can genuinely say, 'I feel confident when I speak English.'" },
+                        { sentence: "It's getting easier.", khmer: "វាកាន់តែងាយស្រួល។", answer: "It's getting easier." },
+                        { sentence: "And it's not just about English; I feel like I'm learning new things every day, no matter what.", khmer: "ហើយវាមិនមែនគ្រាន់តែអំពីភាសាអង់គ្លេសនោះទេ ខ្ញុំមានអារម្មណ៍ថាខ្ញុំកំពុងរៀនរឿងថ្មីៗរៀងរាល់ថ្ងៃ មិនថាមានអ្វីកើតឡើងនោះទេ។ <br> And ... ... just about English; I ... like I'm ... new ...s every day, no ... what.", answer: "And it's not just about English; I feel like I'm learning new things every day, no matter what." },
+                        { sentence: "Honestly, I think I'm becoming more confident over time.", khmer: "និយាយតាមត្រង់ ខ្ញុំគិតថាខ្ញុំកំពុងក្លាយជាមនុស្សដែលមានទំនុកចិត្តកាន់តែខ្លាំងឡើងតាមពេលវេលា។", answer: "Honestly, I think I'm becoming more confident over time." },
+                        { sentence: "It's a gradual process, but I can feel it.", khmer: "វាជាដំណើរការបន្តិចម្តងៗ (gradual) ប៉ុន្តែខ្ញុំអាចមានអារម្មណ៍វាបាន។", answer: "It's a gradual process, but I can feel it." },
+                        { sentence: "And with that confidence, I really do feel like I can achieve my goals, big or small.", khmer: "... ... that ..., I really do ... like I can ... my ...s, ... or ....<br>ហើយជាមួយនឹងទំនុកចិត្តនោះ ខ្ញុំពិតជាមានអារម្មណ៍ថាខ្ញុំអាចសម្រេចគោលដៅរបស់ខ្ញុំបាន មិនថាធំឬតូចនោះទេ។", answer: "And with that confidence, I really do feel like I can achieve my goals, big or small." },
+                        { sentence: "I've noticed I feel confident sharing my ideas now, even if they're not perfect.", khmer: "ខ្ញុំបានកត់សម្គាល់ឃើញថាខ្ញុំមានអារម្មណ៍ជឿជាក់ក្នុងការចែករំលែកគំនិតរបស់ខ្ញុំឥឡូវនេះ ទោះបីជាវាមិនល្អឥតខ្ចោះក៏ដោយ។<br> I've ... I feel ... sharing my ideas now, ... ... they're ... ...", answer: "I've noticed I feel confident sharing my ideas now, even if they're not perfect." },
+                        { sentence: "That's a big step for me.", khmer: "នោះជាជំហានដ៏ធំមួយសម្រាប់ខ្ញុំ។", answer: "That's a big step for me." },
+                        { sentence: "And the best part?", khmer: "ហើយអ្វីដែលល្អបំផុតនោះគឺ?", answer: "And the best part?" },
+                        { sentence: "I am not afraid to make mistakes.", khmer: "ខ្ញុំមិនខ្លាចក្នុងការធ្វើខុសទេ។", answer: "I am not afraid to make mistakes." },
+                        { sentence: "I mean, mistakes are how you learn, right?", khmer: "ខ្ញុំមានន័យថា, កំហុសគឺជាវិធីដែលអ្នករៀន,មែនទេ?", answer: "I mean, mistakes are how you learn, right?" },
+                        { sentence: "I'm really confident in my ability to learn anything I put my mind to.", khmer: "ខ្ញុំពិតជាជឿជាក់លើសមត្ថភាពរបស់ខ្ញុំក្នុងការរៀនអ្វីក៏ដោយដែលខ្ញុំតាំងចិត្ត។<br>I'm really ... in my ... to learn ... I put my mind to.", answer: "I'm really confident in my ability to learn anything I put my mind to." },
+                        { sentence: "And when new things come up, I think, 'Yeah, I can handle new challenges.'", khmer: "ហើយនៅពេលមានរឿងថ្មីៗកើតឡើង ខ្ញុំគិតថា 'បាទ ខ្ញុំអាចដោះស្រាយបញ្ហាប្រឈមថ្មីៗបាន'។<br>And when new ... come up, I think, '... I can ... new ....'", answer: "And when new things come up, I think, 'Yeah, I can handle new challenges.'" },
+                        { sentence: "I'm getting better at just trusting my own judgment.", khmer: "ខ្ញុំកំពុងកាន់តែល្អប្រសើរក្នុងការជឿជាក់លើការវិនិច្ឆ័យរបស់ខ្លួនឯង។<br>I'm ... better at just ... my own ...", answer: "I'm getting better at just trusting my own judgment." },
+                        { sentence: "That's important.", khmer: "នោះជារឿងសំខាន់។", answer: "That's important." },
+                        { sentence: "What really helps is that practicing helps me feel more confident.", khmer: "អ្វីដែលពិតជាជួយគឺការអនុវត្តជួយឱ្យខ្ញុំមានអារម្មណ៍ជឿជាក់កាន់តែខ្លាំង។<br>What really helps is that ... helps me feel more ....", answer: "What really helps is that practicing helps me feel more confident." },
+                        { sentence: "Every little bit makes a difference.", khmer: "រាល់បន្តិចបន្តួចធ្វើឱ្យមានភាពខុសគ្នា។", answer: "Every little bit makes a difference." },
+                        { sentence: "And I'm trying to remember to celebrate my small successes – like when I understand something new or speak clearly.", khmer: "ហើយខ្ញុំកំពុងព្យាយាមចងចាំដើម្បីអបអរសាទរជោគជ័យតូចៗរបស់ខ្ញុំ – ដូចជាពេលខ្ញុំយល់អ្វីថ្មី ឬនិយាយបានច្បាស់។<br>And I'm trying to ... to ... my small .... – like when I ... something ... or speak ....", answer: "And I'm trying to remember to celebrate my small successes – like when I understand something new or speak clearly." },
+                        { sentence: "I'm trying to really learn from my experiences, good or bad.", khmer: "ខ្ញុំកំពុងព្យាយាមរៀនពីបទពិសោធន៍របស់ខ្ញុំ ពុកល្អឬអាក្រក់។<br>I'm ... to really ... from my ..., good or....", answer: "I'm trying to really learn from my experiences, good or bad." },
+                        { sentence: "And instead of dwelling on what's hard, I'm focusing on my strengths.", khmer: "ហើយជំនួសឱ្យការគិតច្រើនលើអ្វីដែលពិបាក ខ្ញុំកំពុងផ្តោតលើចំណុចខ្លាំងរបស់ខ្ញុំ។<br>And ... .of ... on what's ..., I'm ... on my ....", answer: "And instead of dwelling on what's hard, I'm focusing on my strengths." },
+                        { sentence: "That makes me feel powerful.", khmer: "នោះធ្វើឱ្យខ្ញុំមានអារម្មណ៍មានអំណាច។", answer: "That makes me feel powerful." },
+                        { sentence: "Most importantly, I keep trying to encourage myself to try new things.", khmer: "សំខាន់បំផុត ខ្ញុំបន្តព្យាយាមលើកទឹកចិត្តខ្លួនឯងឱ្យសាកល្បងរឿងថ្មីៗ។<br>Most ..., I keep ... to ... myself to try new ....", answer: "Most importantly, I keep trying to encourage myself to try new things." },
+                        { sentence: "You just never know what you can do until you try!", khmer: "អ្នកមិនអាចដឹងថាអ្នកអាចធ្វើអ្វីបានទេ រហូតដល់អ្នកបានសាកល្បង!", answer: "You just never know what you can do until you try!" }
+                   
+                    ],
+                    "Morning Routine": [
+                        { sentence: "So, if you're curious about my typical day, here's how it usually goes:", khmer: "ដូច្នេះ បើអ្នកចង់ដឹងអំពីទម្លាប់ប្រចាំថ្ងៃរបស់ខ្ញុំ នេះជាអ្វីដែលវាជាធម្មតាកើតឡើង៖ <br>So, if you're ... about my typical ..., here's how it usually ....", answer: "So, if you're curious about my typical day, here's how it usually goes:" },
+                        { sentence: "First, in the morning, I'm usually up pretty early, around 6 o'clock.", khmer: "ដំបូងបង្អស់ នៅពេលព្រឹក ខ្ញុំជាធម្មតាភ្ញាក់ពីគេងលឿនណាស់ ប្រហែលម៉ោង ៦។ <br>First, in the ..., I'm usually up ... early, around ... o'clock.", answer: "First, in the morning, I'm usually up pretty early, around 6 o'clock." },
+                        { sentence: "The very first thing I do is head straight to the bathroom.", khmer: "រឿងដំបូងបំផុតដែលខ្ញុំធ្វើគឺទៅបន្ទប់ទឹកភ្លាម។ <br>The very ... thing I ... is head straight ... the ....", answer: "The very first thing I do is head straight to the bathroom." },
+                        { sentence: "You know, just to wash my hands and face, brush my teeth, and then I jump in the shower.", khmer: "អ្នកដឹងហើយ គ្រាន់តែលាងដៃនិងមុខ ដុសធ្មេញ រួចខ្ញុំក៏ងូតទឹក។ <br>You know, just to ... my hands ... face, brush my ..., and then I ... in the ....", answer: "You know, just to wash my hands and face, brush my teeth, and then I jump in the shower." },
+                        { sentence: "After my shower, I'll dry off my body and hair with a towel.", khmer: "ក្រោយងូតទឹករួច ខ្ញុំនឹងជូតខ្លួននិងសក់របស់ខ្ញុំដោយកន្សែង។ <br>After my ..., I'll dry off my ... and ... with a ....", answer: "After my shower, I'll dry off my body and hair with a towel." },
+                        { sentence: "Then I'll quickly comb my hair, get dressed, and just make sure my bed is made and my room is tidy.", khmer: "រួចខ្ញុំនឹងសិតសក់យ៉ាងលឿន ស្លៀកពាក់ ហើយគ្រាន់តែធ្វើឱ្យប្រាកដថាគ្រែរបស់ខ្ញុំត្រូវបានរៀបចំហើយបន្ទប់របស់ខ្ញុំស្អាត។ <br>Then I'll ... comb my ..., get dressed, and just make sure my ... is made and my room is ....", answer: "Then I'll quickly comb my hair, get dressed, and just make sure my bed is made and my room is tidy." },
+                        { sentence: "Then, it's usually time for breakfast.", khmer: "បន្ទាប់មក ជាធម្មតាដល់ពេលអាហារពេលព្រឹក។ <br>Then, it's usually ... for ....", answer: "Then, it's usually time for breakfast." },
+                        { sentence: "I really like a simple meal – typically a fried egg with some pickles and rice.", khmer: "ខ្ញុំពិតជាចូលចិត្តអាហារសាមញ្ញមួយ – ជាធម្មតាពងទាប្រៃជាមួយត្រសក់ជ្រក់និងបាយ។ <br>I really ... a simple ... – typically a ... egg with some ... and ....", answer: "I really like a simple meal – typically a fried egg with some pickles and rice." },
+                        { sentence: "It's quick and tasty.", khmer: "វាលឿនហើយឆ្ងាញ់។ <br>It's ... and ....", answer: "It's quick and tasty." },
+                        { sentence: "Moving into the afternoon, I usually get back home around 2:30 p.m.", khmer: "ចូលដល់ពេលរសៀល ខ្ញុំជាធម្មតាត្រឡប់មកផ្ទះវិញប្រហែលម៉ោង ២:៣០ រសៀល។ <br>Moving into the ..., I usually ... back home around ... p.m.", answer: "Moving into the afternoon, I usually get back home around 2:30 p.m." },
+                        { sentence: "The first thing when I get in is to wash my hands, and then I'll make lunch for myself.", khmer: "រឿងដំបូងនៅពេលខ្ញុំចូលមកគឺលាងដៃ រួចខ្ញុំនឹងធ្វើអាហារថ្ងៃត្រង់សម្រាប់ខ្លួនឯង។ <br>The first ... when I ... in is to ... my hands, and then I'll ... lunch for ....", answer: "The first thing when I get in is to wash my hands, and then I'll make lunch for myself." },
+                        { sentence: "I usually sit down to eat lunch around 3:00 p.m.", khmer: "ខ្ញុំជាធម្មតានឹងអង្គុយញ៉ាំអាហារថ្ងៃត្រង់ប្រហែលម៉ោង ៣:០០ រសៀល។ <br>I usually sit ... to eat ... around ... p.m.", answer: "I usually sit down to eat lunch around 3:00 p.m." },
+                        { sentence: "After lunch, I often take a short rest or a quick nap.", khmer: "ក្រោយអាហារថ្ងៃត្រង់ ខ្ញុំជាញឹកញាប់សម្រាកបន្តិចបន្តួច ឬដេកមួយភ្លែត។ <br>After ..., I often take a ... rest or a ... nap.", answer: "After lunch, I often take a short rest or a quick nap." },
+                        { sentence: "Sometimes, if I have energy, I'll do some housework or study my lessons.", khmer: "ជួនកាល បើខ្ញុំមានកម្លាំង ខ្ញុំនឹងធ្វើកិច្ចការផ្ទះខ្លះ ឬសិក្សាមេរៀនរបស់ខ្ញុំ។ <br>Sometimes, if I have ..., I'll do some ... or study my ....", answer: "Sometimes, if I have energy, I'll do some housework or study my lessons." },
+                        { sentence: "And if I happen to have some free time, I love to watch a movie or maybe hang out and play with my friends for a bit.", khmer: "ហើយបើខ្ញុំមានពេលទំនេរ ខ្ញុំចូលចិត្តមើលកុន ឬអាចដើរលេង និងលេងជាមួយមិត្តភក្តិរបស់ខ្ញុំបន្តិចបន្តួច។ <br>And if I happen to have some ... time, I love to ... a movie or maybe ... out and ... with my ... for a ....", answer: "And if I happen to have some free time, I love to watch a movie or maybe hang out and play with my friends for a bit." },
+                        { sentence: "Finally, in the evening, I usually take another shower around 5 o'clock.", khmer: "ចុងក្រោយ នៅពេលល្ងាច ខ្ញុំជាធម្មតានឹងងូតទឹកម្តងទៀតប្រហែលម៉ោង ៥។ <br>Finally, in the ..., I usually ... another ... around ... o'clock.", answer: "Finally, in the evening, I usually take another shower around 5 o'clock." },
+                        { sentence: "After that, it's dinner time.", khmer: "ក្រោយពីនោះ ដល់ពេលអាហារពេលល្ងាច។ <br>After ..., it's ... time.", answer: "After that, it's dinner time." },
+                        { sentence: "I often like to watch a movie while I'm eating – it's a nice way to relax.", khmer: "ខ្ញុំជាញឹកញាប់ចូលចិត្តមើលកុនពេលកំពុងញ៉ាំ – វាជាវិធីល្អក្នុងការសម្រាក។ <br>I often ... to watch a ... while I'm ... – it's a ... way to ....", answer: "I often like to watch a movie while I'm eating – it's a nice way to relax." },
+                        { sentence: "Once dinner's done, I sometimes review my homework or read a book.", khmer: "នៅពេលញ៉ាំអាហារល្ងាចរួច ខ្ញុំជួនកាលពិនិត្យមើលកិច្ចការផ្ទះរបស់ខ្ញុំ ឬអានសៀវភៅ។ <br>Once dinner's ..., I sometimes ... my ... or read a ....", answer: "Once dinner's done, I sometimes review my homework or read a book." },
+                        { sentence: "I also really enjoy listening to music or watching YouTube to just chill out.", khmer: "ខ្ញុំក៏ពិតជាចូលចិត្តស្តាប់តន្ត្រី ឬមើល YouTube ដើម្បីសម្រាកដែរ។ <br>I also really ... listening to ... or watching ... to just ... out.", answer: "I also really enjoy listening to music or watching YouTube to just chill out." },
+                        { sentence: "Then, before I finally go to bed, I always make sure to brush my teeth one last time and get my clothes ready for the next day.", khmer: "បន្ទាប់មក មុនពេលខ្ញុំចូលគេង ខ្ញុំតែងតែធ្វើឱ្យប្រាកដថាបានដុសធ្មេញម្តងចុងក្រោយ និងរៀបចំសម្លៀកបំពាក់របស់ខ្ញុំសម្រាប់ថ្ងៃបន្ទាប់។ <br>Then, before I finally ... to ..., I always ... sure to ... my ... one last ... and get my ... ready for the next ....", answer: "Then, before I finally go to bed, I always make sure to brush my teeth one last time and get my clothes ready for the next day." },
+                        { sentence: "That way, the morning is a little bit smoother!", khmer: "តាមវិធីនោះ ពេលព្រឹកនឹងកាន់តែងាយស្រួលបន្តិច! <br>That way, the ... is a ... bit ...!", answer: "That way, the morning is a little bit smoother!" }
+                    ],
+                    "How can I improve my English speaking?": [
+                        
+                            { sentence: "That's a really important question for me right now, actually.", khmer: "នោះជាសំណួរដ៏សំខាន់មួយសម្រាប់ខ្ញុំនៅពេលនេះ តាមពិត។ <br>That's a really ... question ... for me ... now, ....", answer: "That's a really important question for me right now, actually." },
+                            { sentence: "I'm always thinking about how I can improve my English speaking.", khmer: "ខ្ញុំតែងតែគិតអំពីរបៀបដែលខ្ញុំអាចកែលម្អការនិយាយភាសាអង់គ្លេសរបស់ខ្ញុំ។ <br>I'm always ... about how I can ... my English ....", answer: "I'm always thinking about how I can improve my English speaking." },
+                            { sentence: "Since I'm at an A2 level and want to reach B1, I know I need to be strategic.", khmer: "ដោយសារខ្ញុំនៅកម្រិត A2 ហើយចង់ឡើងដល់ B1 ខ្ញុំដឹងថាខ្ញុំត្រូវមានយុទ្ធសាស្ត្រ។ <br>Since I'm at an ... level and want to ... B1, I know I need to be ....", answer: "Since I'm at an A2 level and want to reach B1, I know I need to be strategic." },
+                        
+                            { sentence: "One of the main things I focus on is speaking as much as possible.", khmer: "រឿងមួយក្នុងចំណោមរឿងសំខាន់ៗដែលខ្ញុំផ្តោតលើគឺការនិយាយឱ្យបានច្រើនតាមដែលអាចធ្វើទៅបាន។ <br>One of the main things I ... on is speaking ... much as ....", answer: "One of the main things I focus on is speaking as much as possible." },
+                            { sentence: "Even if it's just to myself, or repeating sentences like we're doing now, any speaking practice helps.", khmer: "ទោះបីជាគ្រាន់តែនិយាយទៅកាន់ខ្លួនឯង ឬនិយាយឡើងវិញនូវប្រយោគដូចយើងកំពុងធ្វើឥឡូវនេះក៏ដោយ ការអនុវត្តការនិយាយណាមួយក៏ជួយដែរ។ <br>Even if it's just to ..., or repeating sentences like we're ... now, any speaking practice ....", answer: "Even if it's just to myself, or repeating sentences like we're doing now, any speaking practice helps." },
+                            { sentence: "I try not to be afraid of making mistakes, because that's how you learn, right?", khmer: "ខ្ញុំព្យាយាមមិនខ្លាចក្នុងការធ្វើខុស ព្រោះនោះជាវិធីដែលអ្នករៀនមែនទេ? <br>I try not to be afraid of ... mistakes, because that's how you ..., right?", answer: "I try not to be afraid of making mistakes, because that's how you learn, right?" }
+                        
+                            { sentence: "Another big one for me is listening a lot.", khmer: "មួយទៀតដែលសំខាន់សម្រាប់ខ្ញុំគឺការស្តាប់ឱ្យបានច្រើន។ <br>Another big one ... me is listening ... lot.", answer: "Another big one for me is listening a lot." },
+                            { sentence: "I try to listen to English podcasts, watch TV shows, and even listen to music.", khmer: "ខ្ញុំព្យាយាមស្តាប់ផតខាសភាសាអង់គ្លេស មើលកម្មវិធីទូរទស្សន៍ និងសូម្បីតែស្តាប់តន្ត្រី។ <br>I try to listen to English ..., watch TV shows, and even ... to ....", answer: "I try to listen to English podcasts, watch TV shows, and even listen to music." },
+                            { sentence: "The more I hear native speakers, the better I understand the rhythm and pronunciation.", khmer: "កាន់តែស្តាប់អ្នកនិយាយដើម កាន់តែយល់ពីចង្វាក់ និងការបញ្ចេញសំឡេង។ <br>The more I hear native ..., the better I understand the ... and ....", answer: "The more I hear native speakers, the better I understand the rhythm and pronunciation." },
+                            { sentence: "I try to mimic their pronunciation when I hear new words or phrases.", khmer: "ខ្ញុំព្យាយាមត្រាប់តាមការបញ្ចេញសំឡេងរបស់ពួកគេនៅពេលខ្ញុំឮពាក្យ ឬឃ្លាថ្មីៗ។ <br>I try to ... their pronunciation when I hear new ... or ....", answer: "I try to mimic their pronunciation when I hear new words or phrases." },
+                       
+                            { sentence: "I also think learning new vocabulary in context is really useful.", khmer: "ខ្ញុំក៏គិតថាការរៀនវាក្យសព្ទថ្មីក្នុងបរិបទក៏មានប្រយោជន៍ខ្លាំងណាស់ដែរ។ <br>I also think learning new ... in context is really ....", answer: "I also think learning new vocabulary in context is really useful." },
+                            { sentence: "Instead of just memorizing single words, I try to learn phrases or sentences.", khmer: "ជំនួសឱ្យការទន្ទេញពាក្យតែមួយមុខ ខ្ញុំព្យាយាមរៀនឃ្លា ឬប្រយោគ។ <br>Instead of just memorizing ... words, I try to learn ... or ....", answer: "Instead of just memorizing single words, I try to learn phrases or sentences." },
+                            { sentence: "That way, I know how to use them naturally in a conversation.", khmer: "វិធីនោះ ខ្ញុំដឹងពីរបៀបប្រើប្រាស់វាដោយធម្មជាតិក្នុងការសន្ទនា។ <br>That way, I know how to use them ... in a ....", answer: "That way, I know how to use them naturally in a conversation." },
+                            { sentence: "And, of course, shadowing is a technique I use a lot.", khmer: "ហើយជាការពិតណាស់ ការត្រាប់តាមគឺជាបច្ចេកទេសដែលខ្ញុំប្រើច្រើន។ <br>And, of course, ... is a technique I ... a lot.", answer: "And, of course, shadowing is a technique I use a lot." },
+                            { sentence: "It's really helping me to get the intonation and speed right.", khmer: "វាពិតជាជួយខ្ញុំឱ្យចាប់បានសំនៀងនិងល្បឿនបានត្រឹមត្រូវ។ <br>It's really helping me to get the ... and ... right.", answer: "It's really helping me to get the intonation and speed right." },
+                            { sentence: "I try to record myself sometimes, too, which helps me hear what I need to improve.", khmer: "ខ្ញុំក៏ព្យាយាមថតខ្លួនឯងជួនកាលដែរ ដែលជួយឱ្យខ្ញុំឮនូវអ្វីដែលខ្ញុំត្រូវកែលម្អ។ <br>I try to record myself ..., too, which helps me hear what I ... to ....", answer: "I try to record myself sometimes, too, which helps me hear what I need to improve." },
+                        
+                            { sentence: "Finally, I believe consistency is key.", khmer: "ចុងក្រោយ ខ្ញុំជឿថាភាពទៀងទាត់គឺជាគន្លឹះ។ <br>Finally, I believe ... is ....", answer: "Finally, I believe consistency is key." },
+                            { sentence: "Even if it's just a little bit every day, showing up and practicing regularly makes a huge difference.", khmer: "ទោះបីជាគ្រាន់តែបន្តិចបន្តួចជារៀងរាល់ថ្ងៃក៏ដោយ ការបង្ហាញខ្លួននិងអនុវត្តជាប្រចាំធ្វើឱ្យមានភាពខុសគ្នាខ្លាំងណាស់។ <br>Even if it's just a little bit ... day, showing up and practicing ... makes a huge ....", answer: "Even if it's just a little bit every day, showing up and practicing regularly makes a huge difference." },
+                            { sentence: "I try to make English a part of my daily routine.", khmer: "ខ្ញុំព្យាយាមធ្វើឱ្យភាសាអង់គ្លេសក្លាយជាផ្នែកមួយនៃទម្លាប់ប្រចាំថ្ងៃរបស់ខ្ញុំ។ <br>I try to make English a part of my ... ....", answer: "I try to make English a part of my daily routine." },
+                            { sentence: "So, to sum it up, it's about speaking, listening, learning vocabulary in phrases, using techniques like shadowing, and being consistent every single day.", khmer: "ដូច្នេះ សរុបមក វាគឺអំពីការនិយាយ ការស្តាប់ ការរៀនវាក្យសព្ទជាឃ្លា ការប្រើប្រាស់បច្ចេកទេសដូចជាការត្រាប់តាម និងការមានភាពទៀងទាត់ជារៀងរាល់ថ្ងៃ។ <br>So, to sum it ..., it's about speaking, listening, learning ... in phrases, using techniques like ..., and being ... every single ....", answer: "So, to sum it up, it's about speaking, listening, learning vocabulary in phrases, using techniques like shadowing, and being consistent every single day." }
+                        
+                   ],
+                   
+                    
+                    
+                    
+                    "qna-html": [
+                        {
+                            
+                            sentence:"Hyper Text Markup Language",
+                            answer: "Hyper Text Markup Language",
+                            Khmer: "HTML is the standard markup language for documents designed to be displayed in a web browser."
+                        },
+                        {
+                            
+                            sentence:"HTML is the standard markup language for documents designed to be displayed in a web browser.",
+                            answer: "HTML is the standard markup language for documents designed to be displayed in a web browser.",
+                            khmer: "Hyper Text Markup Language",
+                            
+                        },
+                        {
+                            question: "Which HTML tag is used to define an internal style sheet?",
+                            sentence:"<style>",
+                            answer: "<style>",
+                            khmer: "The <style> tag is used to define style information (CSS) for a document."
+                        },
+                        {
+                            question: "Which HTML tag is used to define an internal style sheet?",
+                            sentence: "The <style> tag is used to define style information (CSS) for a document.",
+                            khmer: "The ... tag is used to ... style information (CSS) for a ...",
+                            answer: "The <style> tag is used to define style information (CSS) for a document."
+                        },
+                        {
+                            question: "Which attribute is used to provide an advisory text about an element or its contents?",
+                            sentence: "title",
+                            answer: "title",
+                            khmer: "The 'title' attribute provides extra information about an element (tooltip)."
+                        },
+                        {
+                            question: "Which attribute is used to provide an advisory text about an element or its contents?",
+                            sentence: "The 'title' attribute provides extra information about an element (tooltip).",
+                            answer: "The 'title' attribute provides extra information about an element (tooltip).",
+                            khmer: "The 'title' ... provides extra information about an ... (tooltip)."
+                        }
+                   ],
+                    "qna-css": [
+                        {
+                            question: "What does CSS stand for?",
+                            sentence: "Cascading Style Sheets",
+                            answer: "Cascading Style Sheets",
+                            khmer: "CSS is used to describe the look and formatting of a document written in HTML."
+                        },
+                        {
+                            question: "What does CSS stand for?",
+                            sentence: "CSS is used to describe the look and formatting of a document written in HTML.",
+                            answer: "CSS is used to describe the look and formatting of a document written in HTML.",
+                            khmer: "... is used to ... the look and ... of a document ... in ...."
+                        },
+                        {
+                            question: "Which CSS property is used to change the background color of an element?",
+                            sentence: "background-color",
+                            answer: "background-color",
+                            khmer: "The 'background-color' property sets the background color of an element."
+                        },
+                        {
+                            question: "Which CSS property is used to change the background color of an element?",
+                            sentence: "The 'background-color' property sets the background color of an element.",
+                            answer: "The 'background-color' property sets the background color of an element.",
+                            khmer: "The ... property sets the ... of an ...."
+                        },
+                        {
+                            question: "How do you select an element with id 'header' in CSS?",
+                            sentence: "#header",
+                            answer: "#header",
+                            khmer: "The '#' symbol is used to select elements by their ID."
+                        },
+                        {
+                            question: "How do you select an element with id 'header' in CSS?",
+                            sentence: "The '#' symbol is used to select elements by their ID.",
+                            answer: "The '#' symbol is used to select elements by their ID.",
+                            khmer: "The ... symbol is used to ... elements by their ...."
+                        }
+                    ],
+                    "qna-js": [
+                        {
+                            question: "What does JavaScript primarily add to web pages?",
+                            sentence: "Interactivity and dynamic behavior",
+                            answer: "Interactivity and dynamic behavior",
+                            khmer: "JavaScript is a programming language that enables interactive web pages."
+                        },
+                        {
+                            question: "What does JavaScript primarily add to web pages?",
+                            sentence: "JavaScript is a programming language that enables interactive web pages.",
+                            answer: "JavaScript is a programming language that enables interactive web pages.",
+                            khmer: ".....is a programming language that ..... ... web ..."
+                        },
+                        {
+                            question: "Which of the following is a correct way to declare a JavaScript variable?",
+                            sentence: "var myVar;",
+                            answer: "var myVar;",
+                            khmer: "The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred)."
+                        },
+                        {
+                            question: "Which of the following is a correct way to declare a JavaScript variable?",
+                            sentence:"The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred).",
+                            answer:"The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred).",
+                            khmer: "The ... keyword is used to ... a ... in JavaScript (though 'let' and 'const' are now ...)."
+                        },
+                        {
+                            question: "What is the purpose of 'console.log()' in JavaScript?",
+                            sentence: "To print messages to the browser console for debugging",
+                            answer: "To print messages to the browser console for debugging",
+                            khmer: "console.log() is a function in JavaScript used to output messages or values to the web console."
+                        },
+                        {
+                            question: "What is the purpose of 'console.log()' in JavaScript?",
+                            sentence: "console.log() is a function in JavaScript used to output messages or values to the web console.",
+                            answer: "console.log() is a function in JavaScript used to output messages or values to the web console.",
+                            khmer: "... is a ... in JavaScript used to ... messages or ... to the web ...."
+                        }
+                    ],
+                
+                }
 
-
-
-
-                // Added Q&A based on the original data structure
-                "qna-html": [
-                    {
-                        question: "What does HTML stand for?",
-                        options: ["Hyper Text Markup Language", "High-level Text Machine Language", "Hyperlink and Text Markup Language", "Home Tool Markup Language"],
-                        answer: "Hyper Text Markup Language",
-                        explanation: "HTML is the standard markup language for documents designed to be displayed in a web browser."
-                    },
-                    {
-                        question: "Which HTML tag is used to define an internal style sheet?",
-                        options: ["<style>", "<script>", "<css>", "<link>"],
-                        answer: "<style>",
-                        explanation: "The <style> tag is used to define style information (CSS) for a document."
-                    },
-                    {
-                        question: "Which attribute is used to provide an advisory text about an element or its contents?",
-                        options: ["tip", "hint", "title", "info"],
-                        answer: "title",
-                        explanation: "The 'title' attribute provides extra information about an element (tooltip)."
-                    }
-                ],
-                "qna-css": [
-                    {
-                        question: "What does CSS stand for?",
-                        options: ["Cascading Style Sheets", "Creative Style Solutions", "Computer Style Syntax", "Colorful Styling System"],
-                        answer: "Cascading Style Sheets",
-                        explanation: "CSS is used to describe the look and formatting of a document written in HTML."
-                    },
-                    {
-                        question: "Which CSS property is used to change the background color of an element?",
-                        options: ["color", "bgcolor", "background-color", "background"],
-                        answer: "background-color",
-                        explanation: "The 'background-color' property sets the background color of an element."
-                    },
-                    {
-                        question: "How do you select an element with id 'header' in CSS?",
-                        options: [".header", "#header", "header", "*header"],
-                        answer: "#header",
-                        explanation: "The '#' symbol is used to select elements by their ID."
-                    }
-                ],
-                "qna-js": [
-                    {
-                        question: "What does JavaScript primarily add to web pages?",
-                        options: ["Styling and layout", "Structure and content", "Interactivity and dynamic behavior", "Server-side logic"],
-                        answer: "Interactivity and dynamic behavior",
-                        explanation: "JavaScript is a programming language that enables interactive web pages."
-                    },
-                    {
-                        question: "Which of the following is a correct way to declare a JavaScript variable?",
-                        options: ["variable myVar;", "var myVar;", "v myVar;", "string myVar;"],
-                        answer: "var myVar;",
-                        explanation: "The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred)."
-                    },
-                    {
-                        question: "What is the purpose of 'console.log()' in JavaScript?",
-                        options: ["To display a message in an alert box", "To write data to the document", "To print messages to the browser console for debugging", "To send data to a server"],
-                        answer: "To print messages to the browser console for debugging",
-                        explanation: "console.log() is a function in JavaScript used to output messages or values to the web console."
-                    }
-                ]
-            };
-
+                    
+            }
 
             // Game State Management
             const gameState = {
@@ -2757,6 +2949,7 @@
                 currentPool: [],
                 currentRule: null, // For grammar rules
                 currentLevel: null, // For shadowing levels
+                currentListenAndTypeCategory: null, // New: For Listen & Type sub-categories
                 recognition: null, // Web Speech API SpeechRecognition object
                 audioRecorder: null, // MediaRecorder object
                 audioChunks: [],
@@ -2923,6 +3116,7 @@
                 gameState.currentPool = [];
                 gameState.currentRule = null;
                 gameState.currentLevel = null;
+                gameState.currentListenAndTypeCategory = null; // Reset new state variable
                 gameState.synth.cancel(); // Stop any ongoing speech
             }
 
@@ -2978,14 +3172,14 @@
                 const totalItems = gameState.currentPool.length;
 
                 if (gameState.mode === 'vocab' || gameState.mode.startsWith('qna-') || gameState.mode === 'listen-type') { // Added listen-type
-                    message = `You completed the ${gameState.mode.replace('qna-', '').toUpperCase()} Challenge!`;
+                    message = `You completed the ${gameState.mode === 'listen-type' ? 'Listen & Type' : gameState.mode.replace('qna-', '').toUpperCase()} Challenge!`;
                     message += `<p>Your final score is: <span class="score-display">${finalScore} / ${totalItems}</span></p>`;
                     if (totalItems > 0) {
                         const percentage = (finalScore / totalItems) * 100;
                         if (percentage === 100) {
                             message += '<p class="success-message">Excellent! Perfect score!</p>';
                         } else if (percentage >= 70) {
-                            message += '<p class="info-message">Great job! Keep practicing!</p>';
+                            message += '<p class="info-message">Great job! Keep practicing!</p個人的なメッセージを付け加えています。';
                         } else {
                             message += '<p class="error-message">You can do better! Review and try again!</p>';
                         }
@@ -3006,7 +3200,7 @@
                 } else if (gameState.mode === 'shadowing') {
                     message = `Shadowing Practice Complete!`;
                     message += `<p>You practiced ${gameState.currentIndex} sentences.</p>`;
-                    message += `<p class="info-message">Keep practicing to improve your pronunciation and fluency!</p個人的なメッセージを付け加えています。`;
+                    message += `<p class="info-message">Keep practicing to improve your pronunciation and fluency!</p>`;
                 } else if (gameState.mode === 'conversation') {
                     message = `Conversation Activity Complete!`;
                     message += `<p>You went through ${gameState.currentIndex} lines of dialogue.</p>`;
@@ -3082,7 +3276,7 @@
                     </div>
                 `;
 
-                startTimer(45, (timeLeft) => { // 30 seconds per vocabulary question
+                startTimer(30, (timeLeft) => { // 30 seconds per vocabulary question
                     document.getElementById('timeLeft').textContent = `${timeLeft}s`;
                 }, () => {
                     const feedbackElement = document.getElementById('feedback');
@@ -3792,7 +3986,28 @@
             // New Listen & Type Game Functions
             function initListenAndTypeGame() {
                 console.log("Initializing Listen & Type Game...");
-                gameState.currentPool = shuffleArray(gameData.listenAndType);
+                const listenTypeCategories = Object.keys(gameData.listenAndType);
+                elements.gameArea.innerHTML = `
+                    <div class="container listen-type-selection">
+                        <h2 class="text-center text-blue-600">Select Listen & Type Category</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                            ${listenTypeCategories.map(cat => `
+                                <div class="card bg-purple-100 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+                                    <h5 class="text-xl font-semibold text-purple-800 mb-2">${cat}</h5>
+                                    <p class="text-gray-700 text-sm mb-4">Practice typing ${cat.toLowerCase()}.</p>
+                                    <button class="btn btn-primary w-full" onclick="startListenAndTypePractice('${cat}')">Start Practice</button>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <button class="btn btn-secondary mt-8" onclick="goHome()">Back to Home</button>
+                    </div>
+                `;
+            }
+
+            function startListenAndTypePractice(category) {
+                gameState.currentListenAndTypeCategory = category;
+                // Important: Do NOT shuffle the currentPool for Listen & Type
+                gameState.currentPool = gameData.listenAndType[category];
                 gameState.currentIndex = 0;
                 gameState.score = 0;
                 displayListenAndTypeQuestion();
@@ -3806,7 +4021,7 @@
                 }
 
                 const currentItem = gameState.currentPool[gameState.currentIndex];
-                const timerDuration = 45; // Time for listening and typing
+                const timerDuration = 80; // Time for listening and typing
 
                 elements.gameArea.innerHTML = `
                     <div class="container listen-type-game">
