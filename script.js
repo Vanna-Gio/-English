@@ -2523,7 +2523,51 @@
                     "Intermedian Sentences": [
                         { sentence: "I love learning English. It's so rewarding!", khmer: "ខ្ញុំស្រលាញ់ការសិក្សាភាសាអង់គ្លេស។ វាពិតជាមានប្រយោណាស់!" },
                         { sentence: "Could you please repeat that?", khmer: "សូមអ្នកជួយនិយាយម្ដងទៀតបានទេ?" },
-                        { sentence: "The weather is beautiful today.", khmer: "អាកាសធាតុថ្ងៃនេះស្រស់ស្អាតណាស់។" }
+                        { sentence: "The weather is beautiful today.", khmer: "អាកាសធាតុថ្ងៃនេះស្រស់ស្អាតណាស់។" },
+                        { sentence: "I need to buy some groceries.", khmer: "ខ្ញុំត្រូវការទិញម្ហូបអាហារតិចតួច។" },
+                        { sentence: "Can you help me with my homework?", khmer: "អ្នកអាចជួយខ្ញុំធ្វើការផ្ទះបានទេ?" },
+                        { sentence: "I enjoy reading books in my free time.", khmer: "ខ្ញុំរីករាយក្នុងការអានសៀវភៅនៅពេលមានពេលទំនេរ។" },
+                        { sentence: "Let's meet at the coffee shop later.", khmer: "មកជួបគ្នានៅហាងកាហ្វេក្រោយនេះ។" },
+                        { sentence: "I have a meeting at 3 PM.", khmer: "ខ្ញុំមានការប្រជុំម៉ោង ៣ រសៀល។" },
+                        { sentence: "She is very talented in music.", khmer: "នាងមានទេពកោសល្យខ្ពស់ក្នុងវិស័យតន្ត្រី។" },
+                        { sentence: "I will call you back later.", khmer: "ខ្ញុំនឹងហៅអ្នកវិញក្រោយនេះ។" },
+                        { sentence: "I need to finish this project by Friday.", khmer: "ខ្ញុំត្រូវបញ្ចប់គម្រោងនេះមុនថ្ងៃសុក្រ។" },
+                        { sentence: "He is a great friend.", khmer: "គាត់ជាមិត្តភក្តិដ៏អស្ចារ្យ។" },
+                        { sentence: "I love traveling to new places.", khmer: "ខ្ញុំស្រលាញ់ការធ្វើដំណើរទៅកាន់កន្លែងថ្មីៗ។" },
+                        { sentence: "She is studying hard for her exams.", khmer: "នាងកំពុងសិក្សាខ្លាំងសម្រាប់ការប្រឡងរបស់នាង។" },
+                        { sentence: "We should go to the beach this weekend.", khmer: "ពួកយើងគួរតែទៅឆ្នេរខ្សាច់នៅចុងសប្តាហ៍នេះ។" },
+                        { sentence: "Would you like to try it on? = Do you want to wear it first? (for clothes)", khmer: "" },
+                        { sentence: "I need to buy a new pair of shoes.", khmer: "ខ្ញុំត្រូវការទិញស្បែកជើងថ្មីមួយគូ។" },
+                        { sentence: "Can you recommend a good restaurant?", khmer: "អ្នកអាចផ្តល់អនុសាសន៍អំពីភោជនីយដ្ឋានល្អមួយបានទេ?" },
+                        { sentence: "I will send you the details by email.", khmer: "ខ្ញុំនឹងផ្ញើព័ត៌មានលម្អិតទៅអ្នកតាមអ៊ីមែល។" },
+                        { sentence: "She is very passionate about her work.", khmer: "នាងមានចំណង់ចំណូលចិត្តខ្ពស់ចំពោះការងាររបស់នាង។" },
+                        { sentence: "Let's go for a walk in the park.", khmer: "មកដើរលេងនៅសួនច្បារទៅ។" },
+                        { sentence: "I need to charge my phone.", khmer: "ខ្ញុំត្រូវការបញ្ចូលថ្មទូរស័ព្ទរបស់ខ្ញុំ។" },
+                        { sentence: "Can you please lower your voice?", khmer: "សូមអ្នកបន្ថយសំឡេងរបស់អ្នកបានទេ?" },
+                        { sentence: "I will be there in 10 minutes.", khmer: "ខ្ញុំនឹងទៅដល់ទីនោះក្នុងរយៈពេល ១០ នាទី។" },
+                        { sentence: "She is very good at math.", khmer: "នាងមានជំនាញខ្ពស់ក្នុងវិស័យគណិតវិទ្យា។" },
+                        { sentence: "I need to get some rest.", khmer: "ខ្ញុំត្រូវការសម្រាកបន្តិច។" },
+                        { sentence: "I didn’t catch that. = I didn’t hear or understand", khmer: "" },
+                        { sentence: "That’s okay. / No problem. / It’s alright. = polite reply", khmer: "" },
+                        { sentence: "Sure. / Of course. / No problem. = polite replies", khmer: "" },
+                        { sentence: "Be careful! = used after accidents", khmer: "" },
+                        { sentence: "I have to go now. = I need to leave.", khmer: "" },
+                        { sentence: "Sorry, could you repeat that, please?", khmer: "" },
+                        { sentence: "Could you say that again, please?", khmer: "" },
+                        { sentence: "Let’s hurry = move quickly", khmer: "" },
+                        { sentence: "Almost = nearly (e.g. It’s almost 6)", khmer: "" },
+                        { sentence: "Let me help you / Let me show you = offering help", khmer: "" },
+                        { sentence: "Thanks for your help! / Okay, thanks! = polite responses", khmer: "" },
+                        { sentence: "Let me check. / Maybe we can ask. / I’ll find out. = ways to find the answer", khmer: "" },
+                        { sentence: "I’m not sure = I don’t know exactly", khmer: "" },
+                        { sentence: "", khmer: "" },
+                        { sentence: "", khmer: "" },
+                        { sentence: "", khmer: "" },
+                        { sentence: "", khmer: "" },
+                        { sentence: "", khmer: "" },
+                        { sentence: "", khmer: "" }
+
+
                     ],
                     "Idioms": [
                         { sentence: "It's raining cats and dogs.", khmer: "ភ្លៀងខ្លាំងណាស់។", explanation: "Meaning: Raining very heavily." },
@@ -2533,149 +2577,492 @@
 
                 conversation: {
                     "Routines": [
-                        { speaker: "A", text: "Hi! What time do you usually wake up in the morning?" },
-                        { speaker: "B", text: "I usually wake up at 6 o’clock." },
-                        { speaker: "A", text: "What do you do after you wake up?" },
-                        { speaker: "B", text: "First, I go to the bathroom. I wash my hands and face, brush my teeth, and take a shower." },
-                        { speaker: "A", text: "What do you eat for breakfast?" },
-                        { speaker: "B", text: "I eat a fried egg with pickles and rice." },
-                        { speaker: "A", text: "What time do you come home in the afternoon?" },
-                        { speaker: "B", text: "I usually come back at 2:30 p.m." },
-                        { speaker: "A", text: "Do you make lunch yourself?" },
-                        { speaker: "B", text: "Yes, I prepare lunch by myself and eat at 3:00 p.m." },
-                        { speaker: "A", text: "What do you do if you have free time?" },
-                        { speaker: "B", text: "I watch a movie or play with my friends." },
-                        { speaker: "A", text: "What’s your evening routine like?" },
-                        { speaker: "B", text: "In the evening, I take a shower around 5 o’clock. Then, I eat dinner and watch a movie while eating." },
-                        { speaker: "A", text: "What do you do after dinner?" },
-                        { speaker: "B", text: "I review my homework or read a book, then I relax by listening to music or watching YouTube." },
-                        { speaker: "A", text: "What do you do before bed?" },
-                        { speaker: "B", text: "I brush my teeth and prepare my clothes for the next day." }
-                    ],
-                    "🗣️How are you? (with Present Continuous) ": [
-                        { speaker: "A", text: "Hey! How are you?" },
-                        { speaker: "B", text: "I’m doing well, thanks. How about you?" },
-                        { speaker: "A", text: "I’m okay. I’m a little tired today." },
-                        { speaker: "B", text: "Oh, why? Are you studying a lot?" },
-                        { speaker: "A", text: "Yes, I’m studying for my English test." },
-                        { speaker: "B", text: "I see. I’m also doing some homework now." },
-                        { speaker: "A", text: "What subject?" },
-                        { speaker: "B", text: "Math. It’s a bit difficult." },
-                        { speaker: "A", text: "Yeah, math can be hard." },
-                        { speaker: "B", text: "Anyway, good luck with your test!" },
-                        { speaker: "A", text: "Thanks! Talk to you soon." },
-                        { speaker: "B", text: "See you!" }
+                        { speaker: "A", text: "Hi! What time do you usually wake up in the morning?", khmer: "សួស្ដី! តើអ្នកជាធម្មតាភ្ញាក់ពីគេងនៅម៉ោងប៉ុន្មាន?" },
+                        { speaker: "B", text: "I usually wake up at 6 o’clock.", khmer: "ខ្ញុំជាធម្មតាភ្ញាក់ពីគេងនៅម៉ោង ៦" },
+                        { speaker: "A", text: "What do you do after you wake up?", khmer: "តើអ្នកធ្វើអ្វីបន្ទាប់ពីអ្នកភ្ញាក់ពីគេង?" },
+                        { speaker: "B", text: "First, I go to the bathroom. I wash my hands and face, brush my teeth, and take a shower.", khmer: "ដំបូង ខ្ញុំទៅបន្ទប់ទឹក។ ខ្ញុំលាងដៃនិងមុខ ដុសធ្មេញ និងងូតទឹក។" },
+                        { speaker: "A", text: "What do you eat for breakfast?", khmer: "តើអ្នកញ៉ាំអ្វីសម្រាប់អាហារពេលព្រឹក?" },
+                        { speaker: "B", text: "I eat a fried egg with pickles and rice.", khmer: "ខ្ញុំញ៉ាំស៊ុតចៀនជាមួយត្រសក់ជ្រក់ និងបាយ។" },
+                        { speaker: "A", text: "What time do you come home in the afternoon?", khmer: "តើអ្នកត្រឡប់មកផ្ទះវិញម៉ោងប៉ុន្មាននៅពេលរសៀល?" },
+                        { speaker: "B", text: "I usually come back at 2:30 p.m.", khmer: "ខ្ញុំជាធម្មតាត្រឡប់មកវិញនៅម៉ោង ២:៣០ រសៀល។" },
+                        { speaker: "A", text: "Do you make lunch yourself?", khmer: "តើអ្នកធ្វើអាហារថ្ងៃត្រង់ដោយខ្លួនឯងទេ?" },
+                        { speaker: "B", text: "Yes, I prepare lunch by myself and eat at 3:00 p.m.", khmer: "បាទ/ចាស ខ្ញុំរៀបចំអាហារថ្ងៃត្រង់ដោយខ្លួនឯង ហើយញ៉ាំនៅម៉ោង ៣:០០ រសៀល។" },
+                        { speaker: "A", text: "What do you do if you have free time?", khmer: "តើអ្នកធ្វើអ្វីប្រសិនបើអ្នកមានពេលទំនេរ?" },
+                        { speaker: "B", text: "I watch a movie or play with my friends.", khmer: "ខ្ញុំមើលកុន ឬលេងជាមួយមិត្តភក្តិរបស់ខ្ញុំ។" },
+                        { speaker: "A", text: "What’s your evening routine like?", khmer: "តើទម្លាប់ពេលល្ងាចរបស់អ្នកយ៉ាងដូចម្តេច?" },
+                        { speaker: "B", text: "In the evening, I take a shower around 5 o’clock. Then, I eat dinner and watch a movie while eating.", khmer: "នៅពេលល្ងាច ខ្ញុំងូតទឹកប្រហែលម៉ោង ៥។ បន្ទាប់មក ខ្ញុំញ៉ាំអាហារពេលល្ងាច និងមើលកុនពេលកំពុងញ៉ាំ។" },
+                        { speaker: "A", text: "What do you do after dinner?", khmer: "តើអ្នកធ្វើអ្វីបន្ទាប់ពីអាហារពេលល្ងាច?" },
+                        { speaker: "B", text: "I review my homework or read a book, then I relax by listening to music or watching YouTube.", khmer: "ខ្ញុំមើលកិច្ចការផ្ទះ ឬអានសៀវភៅឡើងវិញ បន្ទាប់មកខ្ញុំសម្រាកដោយស្តាប់តន្ត្រី ឬមើល YouTube។" },
+                        { speaker: "A", text: "What do you do before bed?", khmer: "តើអ្នកធ្វើអ្វីមុនពេលចូលគេង?" },
+                        { speaker: "B", text: "I brush my teeth and prepare my clothes for the next day.", khmer: "ខ្ញុំដុសធ្មេញ និងរៀបចំសម្លៀកបំពាក់សម្រាប់ថ្ងៃបន្ទាប់។" }
+                            ],
+                    "How are you? (with Present Continuous) ": [
+                        { speaker: "A", text: "Hey! How are you?", khmer: "សួស្ដី! តើអ្នកសុខសប្បាយជាទេ?" },
+                        { speaker: "B", text: "I’m doing well, thanks. How about you?", khmer: "ខ្ញុំសុខសប្បាយ អរគុណ។ តើអ្នកយ៉ាងម៉េច?" },
+                        { speaker: "A", text: "I’m okay. I’m a little tired today.", khmer: "ខ្ញុំស្រួល។ ថ្ងៃនេះខ្ញុំឆាប់នឿយហត់បន្តិច។" },
+                        { speaker: "B", text: "Oh, why? Are you studying a lot?", khmer: "អូហ៍ ហេតុអ្វី? តើអ្នកកំពុងសិក្សាខ្លាំងទេ?" },
+                        { speaker: "A", text: "Yes, I’m studying for my English test.", khmer: "បាទ/ចាស ខ្ញុំកំពុងសិក្សាសម្រាប់ការប្រឡងភាសាអង់គ្លេស។" },
+                        { speaker: "B", text: "I see. I’m also doing some homework now.", khmer: "ខ្ញុំយល់។ ខ្ញុំក៏កំពុងធ្វើកិច្ចការផ្ទះខ្លះឥឡូវនេះ។" },
+                        { speaker: "A", text: "What subject?", khmer: "មុខវិជ្ជាអ្វី?" },
+                        { speaker: "B", text: "Math. It’s a bit difficult.", khmer: "គណិតវិទ្យា។ វាពិបាកបន្តិច។" },
+                        { speaker: "A", text: "Yeah, math can be hard.", khmer: "បាទ/ចាស គណិតវិទ្យាអាចពិបាក។" },
+                        { speaker: "B", text: "Anyway, good luck with your test!", khmer: "យ៉ាងណាក៏ដោយ សូមសំណាងល្អសម្រាប់ការប្រឡងរបស់អ្នក!" },
+                        { speaker: "A", text: "Thanks! Talk to you soon.", khmer: "អរគុណ! និយាយជាមួយអ្នកឆាប់ៗនេះ។" },
+                        { speaker: "B", text: "See you!", khmer: "ជួបគ្នាឆាប់ៗ!" }
                     ],
                    
-                    "🗣️ Simple Conversation: How are you?": [
-                        { speaker: "A", text: "Hi! How are you today?" },
-                        { speaker: "B", text: "I’m good, thanks. And you?" },
-                        { speaker: "A", text: "I’m fine too, thanks. What are you doing now?" },
-                        { speaker: "B", text: "I’m just relaxing. I finished my homework." },
-                        { speaker: "A", text: "That’s great! I just finished cooking dinner." },
-                        { speaker: "B", text: "Sounds good! Let’s talk later." },
-                        { speaker: "A", text: "Sure! Bye!" },
-                        { speaker: "B", text: "Bye!" }
+                    " Simple Conversation: How are you?": [
+                        { speaker: "A", text: "Hi! How are you today?", khmer: "សួស្ដី! តើអ្នកសុខសប្បាយជាទេថ្ងៃនេះ?" },
+                        { speaker: "B", text: "I’m good, thanks. And you?", khmer: "ខ្ញុំសុខសប្បាយ អរគុណ។ តើអ្នកយ៉ាងម៉េច?" },
+                        { speaker: "A", text: "I’m fine too, thanks. What are you doing now?", khmer: "ខ្ញុំស្រួលដែរ អរគុណ។ តើអ្នកកំពុងធ្វើអ្វីឥឡូវនេះ?" },
+                        { speaker: "B", text: "I’m just relaxing. I finished my homework.", khmer: "ខ្ញុំកំពុងសម្រាក។ ខ្ញុំបានធ្វើកិច្ចការផ្ទះរួចហើយ។" },
+                        { speaker: "A", text: "That’s great! I just finished cooking dinner.", khmer: "ល្អណាស់! ខ្ញុំទើបធ្វើអាហារពេលល្ងាចរួច។" },
+                        { speaker: "B", text: "Sounds good! Let’s talk later.", khmer: "ស្តាប់ទៅល្អ! តោះនិយាយគ្នាឆាប់ៗនេះ។" },
+                        { speaker: "A", text: "Sure! Bye!", khmer: "បានហើយ! លាហើយ!" },
+                        { speaker: "B", text: "Bye!", khmer: "លាហើយ!" }
                     ],
-                    "Excuse Me": [
-                        { speaker: "A", text: "Excuse me, can you help me?" },
-                        { speaker: "B", text: "Sure! What do you need?" },
-                        { speaker: "A", text: "I’m looking for the nearest bus stop." },
-                        { speaker: "B", text: "It’s just around the corner." },
-                        { speaker: "A", text: "Thank you! And how often do the buses come?" },
-                        { speaker: "B", text: "They come every 15 minutes." },
-                        { speaker: "A", text: "Great! Thanks for your help!" },
-                        { speaker: "B", text: "You’re welcome! Have a nice day!" }
+                    "🗣️Excuse Me": [
+                        { speaker: "A", text: "Excuse me, can you help me?", khmer: "សុំទោស តើអ្នកអាចជួយខ្ញុំបានទេ?" },
+                        { speaker: "B", text: "Sure! What do you need?", khmer: "បានហើយ! តើអ្នកត្រូវការអ្វី?" },
+                        { speaker: "A", text: "I’m looking for the nearest bus stop.", khmer: "ខ្ញុំកំពុងស្វែងរកស្ថានីយឡានក្រុងដែលនៅជិតបំផុត។" },
+                        { speaker: "B", text: "It’s just around the corner.", khmer: "វានៅជិតច្រកផ្លូវ។" },
+                        { speaker: "A", text: "Thank you! And how often do the buses come?", khmer: "អរគុណ! ហើយតើឡានក្រុងមកជាញឹកញាប់ប៉ុន្មាន?" },
+                        { speaker: "B", text: "They come every 15 minutes.", khmer: "វាមករៀងរាល់ 15 នាទី។" },
+                        { speaker: "A", text: "Great! Thanks for your help!", khmer: "ល្អណាស់! អរគុណសម្រាប់ការជួយ!" },
+                        { speaker: "B", text: "You’re welcome! Have a nice day!", khmer: "មិនអីទេ! សូមឱ្យមានថ្ងៃល្អ!" }
                     ],
                    
                     "🗣️ Conversation 1 – Excuse Me (Getting Attention)": [
-                        { speaker: "Tourist", text: "Excuse me, could you help me for a moment?" },
-                        { speaker: "Local", text: "Sure! What do you need?" },
-                        { speaker: "Tourist", text: "I'm looking for the nearest train station. Could you tell me how to get there?" },
-                        { speaker: "Local", text: "Of course! It's just a few blocks away. Walk straight down this street and turn left at the traffic light." },
-                        { speaker: "Tourist", text: "Thank you! How long will it take to get there?" },
-                        { speaker: "Local", text: "It should take about 10 minutes on foot." },
-                        { speaker: "Tourist", text: "Great! Is there anything I should look out for?" },
-                        { speaker: "Local", text: "Yes, you'll see a big park on your right before you reach the station. It's hard to miss." },
-                        { speaker: "Tourist", text: "Thank you so much for your help!" },
-                        { speaker: "Local", text: "You're welcome! Have a safe trip!" }
+                        { speaker: "Tourist", text: "Excuse me, could you help me for a moment?", khmer: "សុំទោស តើអ្នកអាចជួយខ្ញុំបានទេ?" },
+                        { speaker: "Local", text: "Sure! What do you need?", khmer: "បានហើយ! តើអ្នកត្រូវការអ្វី?" },
+                        { speaker: "Tourist", text: "I'm looking for the nearest train station. Could you tell me how to get there?", khmer: "ខ្ញុំកំពុងស្វែងរកស្ថានីយរថភ្លើងដែលនៅជិតបំផុត។ តើអ្នកអាចប្រាប់ខ្ញុំពីវិធីទៅដល់ទីនោះបានទេ?" },
+                        { speaker: "Local", text: "Of course! It's just a few blocks away. Walk straight down this street and turn left at the traffic light.", khmer: "ច្បាស់ហើយ! វានៅតែប៉ុន្មានប្លុកទេ។ ដើរត្រង់តាមផ្លូវនេះ ហើយបត់ឆ្វេងនៅចំណុចភ្លើងសញ្ញាចរាចរណ៍។" },
+                        { speaker: "Tourist", text: "Thank you! How long will it take to get there?", khmer: "អរគុណ! តើវាចំណាយពេលប៉ុន្មានដើម្បីទៅដល់ទីនោះ?" },
+                        { speaker: "Local", text: "It should take about 10 minutes on foot.", khmer: "វាគួរតែចំណាយប្រហែល 10 នាទីដោយដើរជើង។" },
+                        { speaker: "Tourist", text: "Great! Is there anything I should look out for?", khmer: "ល្អណាស់! តើមានអ្វីដែលខ្ញុំគួរប្រុងប្រយ័ត្នទេ?" },
+                        { speaker: "Local", text: "Yes, you'll see a big park on your right before you reach the station. It's hard to miss.", khmer: "មាន! អ្នកនឹងឃើញសួនច្បារធំមួយនៅខាងស្តាំមុនពេលអ្នកទៅដល់ស្ថានីយ។ វាពិបាកខកខាន។" },
+                        { speaker: "Tourist", text: "Thank you so much for your help!", khmer: "អរគុណច្រើនសម្រាប់ការជួយ!" },
+                        { speaker: "Local", text: "You're welcome! Have a safe trip!", khmer: "មិនអីទេ! សូមធ្វើដំណើរដោយសុវត្ថិភាព!" }
                     ],
                     "🗣️ Conversation 2 – Excuse Me (Asking for Directions)": [
-                        { speaker: "Student", text: "Excuse me, can you tell me where the library is?" },
-                        { speaker: "Teacher", text: "Sure! It's on the second floor of this building." },
-                        { speaker: "Student", text: "Thank you! Is there an elevator?" },
-                        { speaker: "Teacher", text: "Yes, there is one at the end of the hallway." },
-                        { speaker: "Student", text: "Great! How long does it take to get there?" },
-                        { speaker: "Teacher", text: "About 5 minutes if you take the elevator." },
-                        { speaker: "Student", text: "Thanks for your help!" },
-                        { speaker: "Teacher", text: "You're welcome! Enjoy your time at the library!" }
+                        { speaker: "Student", text: "Excuse me, can you tell me where the library is?", khmer: "សុំទោស តើអ្នកអាចប្រាប់ខ្ញុំបានទេថាបណ្ណាល័យនៅឯណា?" },
+                        { speaker: "Teacher", text: "Sure! It's on the second floor of this building.", khmer: "បានហើយ! វានៅជាន់ទីពីរនៃអគារនេះ។" },
+                        { speaker: "Student", text: "Thank you! Is there an elevator?", khmer: "អរគុណ! តើមានជណ្តើរយន្តទេ?" },
+                        { speaker: "Teacher", text: "Yes, there is one at the end of the hallway.", khmer: "មាន! វានៅចុងផ្លូវដើរនេះ។" },
+                        { speaker: "Student", text: "Great! How long does it take to get there?", khmer: "ល្អណាស់! តើវាចំណាយពេលប៉ុន្មានដើម្បីទៅដល់ទីនោះ?" },
+                        { speaker: "Teacher", text: "About 5 minutes if you take the elevator.", khmer: "ប្រហែល 5 នាទី ប្រសិនបើអ្នកប្រើជណ្តើរយន្ត។" },
+                        { speaker: "Student", text: "Thanks for your help!", khmer: "អរគុណសម្រាប់ការជួយ!" },
+                        { speaker: "Teacher", text: "You're welcome! Enjoy your time at the library!", khmer: "មិនអីទេ! សូមរីករាយពេលនៅបណ្ណាល័យ!" }
                     ],
                     "🗣️ Conversation 3 – Excuse Me (Making a Request)": [
-                        { speaker: "Customer", text: "Excuse me, could I get a glass of water, please?" },
-                        { speaker: "Waiter", text: "Of course! Would you like ice with that?" },
-                        { speaker: "Customer", text: "Yes, please. And could I also have the menu?" },
-                        { speaker: "Waiter", text: "Sure! Here you go." },
-                        { speaker: "Customer", text: "Thank you! Can I order the special today?" },
-                        { speaker: "Waiter", text: "Absolutely! Would you like anything else?" },
-                        { speaker: "Customer", text: "No, that's all for now. Thank you!" },
-                        { speaker: "Waiter", text: "You're welcome! I'll bring your order shortly." }
+                        { speaker: "Customer", text: "Excuse me, could I get a glass of water, please?", khmer: "សុំទោស តើខ្ញុំអាចស្នើសុំទឹកមួយកែវបានទេ?" },
+                        { speaker: "Waiter", text: "Of course! Would you like ice with that?", khmer: "ច្បាស់ហើយ! តើអ្នកចង់បានទឹកកកជាមួយទឹកនោះទេ?" },
+                        { speaker: "Customer", text: "Yes, please. And could I also have the menu?", khmer: "បាទ/ចាស សូម។ ហើយតើខ្ញុំអាចស្នើសុំម៉ឺនុយបានទេ?" },
+                        { speaker: "Waiter", text: "Sure! Here you go.", khmer: "បានហើយ! នេះម៉ឺនុយ។" },
+                        { speaker: "Customer", text: "Thank you! Can I order the special today?", khmer: "អរគុណ! តើខ្ញុំអាចបញ្ជាទិញម្ហូបពិសេសថ្ងៃនេះបានទេ?" },
+                        { speaker: "Waiter", text: "Absolutely! Would you like anything else?", khmer: "ច្បាស់ហើយ! តើអ្នកចង់បានអ្វីផ្សេងទៀតទេ?" },
+                        { speaker: "Customer", text: "No, that's all for now. Thank you!", khmer: "ទេ នោះគ្រប់គ្រាន់សម្រាប់ឥឡូវនេះ។ អរគុណ!" },
+                        { speaker: "Waiter", text: "You're welcome! I'll bring your order shortly.", khmer: "មិនអីទេ! ខ្ញុំនឹងយកការបញ្ជាទិញរបស់អ្នកមកឆាប់ៗនេះ។" }
                     ],
                     "🗣️ Conversation 4 – Excuse Me (Asking for Help)": [
-                        { speaker: "Shopper", text: "Excuse me, can you help me find the dairy section?" },
-                        { speaker: "Store Employee", text: "Sure! It's in aisle 5, on your right." },
-                        { speaker: "Shopper", text: "Thank you! Do you have any recommendations for yogurt?" },
-                        { speaker: "Store Employee", text: "Yes, our Greek yogurt is very popular. Would you like to try it?" },
-                        { speaker: "Shopper", text: "Yes, please! I'll take a few." },
-                        { speaker: "Store Employee", text: "Great choice! Let me know if you need anything else." },
-                        { speaker: "Shopper", text: "I will. Thanks for your help!" },
-                        { speaker: "Store Employee", text: "You're welcome! Enjoy your shopping!" }
+                        { speaker: "Shopper", text: "Excuse me, can you help me find the dairy section?", khmer: "សុំទោស តើអ្នកអាចជួយខ្ញុំរកផ្នែកទំនិញទឹកដោះគោបានទេ?" },
+                        { speaker: "Store Employee", text: "Sure! It's in aisle 5, on your right.", khmer: "បានហើយ! វានៅជាន់ទី 5 ខាងស្តាំរបស់អ្នក។" },
+                        { speaker: "Shopper", text: "Thank you! Do you have any recommendations for yogurt?", khmer: "អរគុណ! តើអ្នកមានការប្រាប់ផ្តល់យោបល់អំពីយូហ្គតទេ?" },
+                        { speaker: "Store Employee", text: "Yes, our Greek yogurt is very popular. Would you like to try it?", khmer: "មាន! យូហ្គតក្រិករបស់យើងពេញនិយមណាស់។ តើអ្នកចង់សាកមើលទេ?" },
+                        { speaker: "Shopper", text: "Yes, please! I'll take a few.", khmer: "បាទ/ចាស សូម! ខ្ញុំនឹងយកបន្តិច។" },
+                        { speaker: "Store Employee", text: "Great choice! Let me know if you need anything else.", khmer: "ជម្រើសល្អណាស់! សូមប្រាប់ខ្ញុំប្រសិនបើអ្នកត្រូវការអ្វីផ្សេងទៀត។" },
+                        { speaker: "Shopper", text: "I will. Thanks for your help!", khmer: "ខ្ញុំនឹងប្រាប់។ អរគុណសម្រាប់ការជួយ!" },
+                        { speaker: "Store Employee", text: "You're welcome! Enjoy your shopping!", khmer: "មិនអីទេ! សូមរីករាយការទិញទំនិញ!" }
                     ],
                     "🗣️ Conversation 5 – Excuse Me (Asking for Information)": [
-                        { speaker: "Visitor", text: "Excuse me, can you tell me where the nearest restroom is?" },
-                        { speaker: "Receptionist", text: "Yes, it's down the hall to your left." },
-                        { speaker: "Visitor", text: "Thank you! Is it clean?" },
-                        { speaker: "Receptionist", text: "Yes, we clean it every hour." },
-                        { speaker: "Visitor", text: "Great! I appreciate your help." },
-                        { speaker: "Receptionist", text: "You're welcome! Let me know if you need anything else." }
+                        { speaker: "Visitor", text: "Excuse me, can you tell me where the nearest restroom is?", khmer: "សុំទោស តើអ្នកអាចប្រាប់ខ្ញុំបានទេថាបន្ទប់ទឹកដែលនៅជិតបំផុតនៅឯណា?" },
+                        { speaker: "Receptionist", text: "Yes, it's down the hall to your left.", khmer: "មាន! វានៅចុងផ្លូវដើរនេះ ខាងឆ្វេងរបស់អ្នក។" },
+                        { speaker: "Visitor", text: "Thank you! Is it clean?", khmer: "អរគុណ! តើវាស្អាតទេ?" },
+                        { speaker: "Receptionist", text: "Yes, we clean it every hour.", khmer: "មាន! យើងសម្អាតវារៀងរាល់ម៉ោង។" },
+                        { speaker: "Visitor", text: "Great! I appreciate your help.", khmer: "ល្អណាស់! ខ្ញុំសូមអរគុណសម្រាប់ការជួយរបស់អ្នក។" },
+                        { speaker: "Receptionist", text: "You're welcome! Let me know if you need anything else.", khmer: "មិនអីទេ! សូមប្រាប់ខ្ញុំប្រសិនបើអ្នកត្រូវការអ្វីផ្សេងទៀត។" }
                     ],
                     "🗣️ Conversation 6 – Excuse Me (Asking for Assistance)": [
-                        { speaker: "Hiker", text: "Excuse me, can you help me find the trailhead?" },
-                        { speaker: "Park Ranger", text: "Sure! It's about a mile down this road." },
-                        { speaker: "Hiker", text: "Thank you! Is it a difficult hike?" },
-                        { speaker: "Park Ranger", text: "It's moderate, but be prepared for some steep sections." },
-                        { speaker: "Hiker", text: "Got it! Do I need a permit to hike there?" },
-                        { speaker: "Park Ranger", text: "No permit is needed for day hikes." },
-                        { speaker: "Hiker", text: "Thanks for the information!" },
-                        { speaker: "Park Ranger", text: "You're welcome! Enjoy your hike!" }
+                        { speaker: "Hiker", text: "Excuse me, can you help me find the trailhead?", khmer: "សុំទោស តើអ្នកអាចជួយខ្ញុំរកចំណុចចាប់ផ្តើមផ្លូវដើរបានទេ?" },
+                        { speaker: "Park Ranger", text: "Sure! It's about a mile down this road.", khmer: "បានហើយ! វាប្រហែលមួយម៉ាយនៅចុងផ្លូវនេះ។" },
+                        { speaker: "Hiker", text: "Thank you! Is it a difficult hike?", khmer: "អរគុណ! តើវាជាផ្លូវដើរដ៏ពិបាកទេ?" },
+                        { speaker: "Park Ranger", text: "It's moderate, but be prepared for some steep sections.", khmer: "វាមានកម្រិតមធ្យម ប៉ុន្តែត្រូវរៀបចំខ្លួនសម្រាប់ផ្នែកដែលមានជម្រាលខ្លាំង។" },
+                        { speaker: "Hiker", text: "Got it! Do I need a permit to hike there?", khmer: "យល់ហើយ! តើខ្ញុំត្រូវការប័ណ្ណអនុញ្ញាតដើម្បីដើរនៅទីនោះទេ?" },
+                        { speaker: "Park Ranger", text: "No permit is needed for day hikes.", khmer: "មិនចាំបាច់មានប័ណ្ណអនុញ្ញាតសម្រាប់ការដើរប្រចាំថ្ងៃទេ។" },
+                        { speaker: "Hiker", text: "Thanks for the information!", khmer: "អរគុណសម្រាប់ព័ត៌មាន!" },
+                        { speaker: "Park Ranger", text: "You're welcome! Enjoy your hike!", khmer: "មិនអីទេ! សូមរីករាយការដើររបស់អ្នក!" }
                     ],
                     "🗣️ Conversation 7 – Excuse Me (Asking for Help with a Problem)": [
-                        { speaker: "Driver", text: "Excuse me, my car broke down. Can you help me?" },
-                        { speaker: "Bystander", text: "Of course! What seems to be the problem?" },
-                        { speaker: "Driver", text: "I think I ran out of gas." },
-                        { speaker: "Bystander", text: "No problem. There's a gas station just down the road." },
-                        { speaker: "Driver", text: "Thank you! Can you give me directions?" },
-                        { speaker: "Bystander", text: "Sure! Just go straight and take the first right." },
-                        { speaker: "Driver", text: "Thanks a lot! I really appreciate your help." },
-                        { speaker: "Bystander", text: "You're welcome! Drive safely!" }
+                        { speaker: "Driver", text: "Excuse me, my car broke down. Can you help me?", khmer: "សុំទោស រថយន្តរបស់ខ្ញុំខូច។ តើអ្នកអាចជួយខ្ញុំបានទេ?" },
+                        { speaker: "Bystander", text: "Of course! What seems to be the problem?", khmer: "ច្បាស់ហើយ! តើមានបញ្ហាអ្វី?" },
+                        { speaker: "Driver", text: "I think I ran out of gas.", khmer: "ខ្ញុំគិតថាខ្ញុំអស់ប្រេង។" },
+                        { speaker: "Bystander", text: "No problem. There's a gas station just down the road.", khmer: "មិនមានបញ្ហាទេ។ មានស្ថានីយប្រេងនៅចុងផ្លូវ។" },
+                        { speaker: "Driver", text: "Thank you! Can you give me directions?", khmer: "អរគុណ! តើអ្នកអាចផ្តល់ទិសដៅឱ្យខ្ញុំបានទេ?" },
+                        { speaker: "Bystander", text: "Sure! Just go straight and take the first right.", khmer: "បានហើយ! ដើរត្រង់ហើយបត់ស្តាំទីមួយ។" },
+                        { speaker: "Driver", text: "Thanks a lot! I really appreciate your help.", khmer: "អរគុណច្រើន! ខ្ញុំពិតជាសូមអរគុណសម្រាប់ការជួយរបស់អ្នក។" },
+                        { speaker: "Bystander", text: "You're welcome! Drive safely!", khmer: "មិនអីទេ! សូមបើកបរដោយសុវត្ថិភាព!" }
                     ],
                     "🗣️ Conversation8 – Excuse Me (Apologizing)": [
-                        { speaker: "Person A", text: "Excuse me, I'm so sorry! I didn't mean to bump into you." },
-                        { speaker: "Person B", text: "Oh, it's okay. No harm done." },
-                        { speaker: "Person A", text: "Are you sure? I hope I didn't hurt you." },
-                        { speaker: "Person B", text: "No, I'm fine. Thank you for checking." },
-                        { speaker: "Person A", text: "Alright, I'm really sorry again." },
-                        { speaker: "Person B", text: "No problem at all. Have a good day!" },
-                        { speaker: "Person A", text: "You too! Take care." }
+                        { speaker: "Person A", text: "Excuse me, I'm so sorry! I didn't mean to bump into you.", khmer: "សុំទោស ខ្ញុំសុំទោសណាស់! ខ្ញុំមិនមានបំណងប៉ះអ្នកទេ។" },
+                        { speaker: "Person B", text: "Oh, it's okay. No harm done.", khmer: "អូហ៍ មិនអីទេ។ មិនមានការខូចខាតទេ។" },
+                        { speaker: "Person A", text: "Are you sure? I hope I didn't hurt you.", khmer: "តើអ្នកប្រាកដទេ? ខ្ញុំសង្ឃឹមថាខ្ញុំមិនបានធ្វើឱ្យអ្នកឈឺទេ។" },
+                        { speaker: "Person B", text: "No, I'm fine. Thank you for checking.", khmer: "ទេ ខ្ញុំស្រួល។ អរគុណសម្រាប់ការត្រួតពិនិត្យ។" },
+                        { speaker: "Person A", text: "Alright, I'm really sorry again.", khmer: "បានហើយ ខ្ញុំសុំទោសម្តងទៀត។" },
+                        { speaker: "Person B", text: "No problem at all. Have a good day!", khmer: "មិនមានបញ្ហាទេ។ សូមឱ្យមានថ្ងៃល្អ!" },
+                        { speaker: "Person A", text: "You too! Take care.", khmer: "អ្នកដែរ! សូមថែរក្សាខ្លួន។" }
                     ],
                     "🗣️ Conversation 9 – Excuse Me (Asking for Clarification)": [
-                        { speaker: "Student", text: "Excuse me, could you explain that last point again?" },
-                        { speaker: "Teacher", text: "Sure! I was saying that photosynthesis is how plants make their food." },
-                        { speaker: "Student", text: "Oh, I see. So they use sunlight to do that?" },
-                        { speaker: "Teacher", text: "Exactly! They convert sunlight into energy." },
-                        { speaker: "Student", text: "Thank you for clarifying!" },
-                        { speaker: "Teacher", text: "You're welcome! Let me know if you have any more questions." }
+                        { speaker: "Student", text: "Excuse me, could you explain that last point again?", khmer: "សុំទោស តើអ្នកអាចពន្យល់ចំណុចចុងក្រោយនោះម្ដងទៀតបានទេ?" },
+                        { speaker: "Teacher", text: "Sure! I was saying that photosynthesis is how plants make their food.", khmer: "បានហើយ! ខ្ញុំបាននិយាយថាដំណើរការបំលែងពន្លឺព្រះអាទិត្យគឺជាវិធីដែលរុក្ខជាតិផលិតអាហាររបស់ពួកវា។" },
+                        { speaker: "Student", text: "Oh, I see. So they use sunlight to do that?", khmer: "អូ ខ្ញុំយល់ហើយ។ ដូច្នេះពួកវាប្រើពន្លឺព្រះអាទិត្យដើម្បីធ្វើវាដែរប៉ុន្មាន?" },
+                        { speaker: "Teacher", text: "Exactly! They convert sunlight into energy.", khmer: "ច្បាស់ហើយ! ពួកវាបំលែងពន្លឺព្រះអាទិត្យទៅជាថាមពល។" },
+                        { speaker: "Student", text: "Thank you for clarifying!", khmer: "អរគុណសម្រាប់ការពន្យល់ច្បាស់!" },
+                        { speaker: "Teacher", text: "You're welcome! Let me know if you have any more questions.", khmer: "មិនអីទេ! សូមប្រាប់ខ្ញុំប្រសិនបើអ្នកមានសំណួរបន្ថែម។" }
+                    ],
+                    "🗣️ Conversation 10 – Excuse Me (Making a Suggestion)": [
+                        { speaker: "Friend A", text: "Excuse me, I think we should try that new restaurant downtown.", khmer: "សុំទោស ខ្ញុំគិតថាយើងគួរតែសាកល្បងភោជនីយដ្ឋានថ្មីនោះនៅកណ្តាលទីក្រុង។" },
+                        { speaker: "Friend B", text: "Oh, I've heard good things about it! What do you suggest we order?", khmer: "អូ ខ្ញុំបានឮអំពីវាហើយ! តើអ្នកផ្តល់យោបល់អ្វីខ្លះដែលយើងគួរបញ្ជាទិញ?" },
+                        { speaker: "Friend A", text: "I heard their pasta is amazing. We should definitely try it.", khmer: "ខ្ញុំបានឮថាម៉ាការីរបស់ពួកវាអស្ចារ្យណាស់។ យើងគួរតែសាកល្បងវា។" },
+                        { speaker: "Friend B", text: "Sounds great! Let's go there tonight.", khmer: "មានសំឡេងល្អណាស់! ចូរយើងទៅទីនោះនៅពេលយប់នេះ។" },
+                        { speaker: "Friend A", text: "Perfect! I'll make a reservation.", khmer: "ល្អណាស់! ខ្ញុំនឹងធ្វើការកក់កន្លែង។" }
+                    ],
+                    "🗣️ Conversation 11 – Excuse Me (Offering Help)": [
+                        { speaker: "Bystander", text: "Excuse me, do you need help with those bags?", khmer: "សុំទោស តើអ្នកត្រូវការជំនួយជាមួយកាបូបនោះទេ?" },
+                        { speaker: "Person", text: "Oh, yes please! They're quite heavy.", khmer: "អូ បាទ/ចាស សូម! វាមានទំងន់គួរឱ្យភ្ញាក់ផ្អើល។" },
+                        { speaker: "Bystander", text: "No problem! Where would you like me to take them?", khmer: "មិនមានបញ្ហាទេ! តើអ្នកចង់ឲ្យខ្ញុំយកវាទៅឯណា?" },
+                        { speaker: "Person", text: "Just to my car, parked over there.", khmer: "គ្រាន់តែទៅរថយន្តរបស់ខ្ញុំ ដែលចតនៅទីនោះ។" },
+                        { speaker: "Bystander", text: "Got it! Let's go.", khmer: "យល់ហើយ! ចូរយើងទៅ។" }
+                    ],
+                    "🗣️ Conversation 12 – Excuse Me (Asking for Directions)": [
+                        { speaker: "Tourist", text: "Excuse me, can you tell me how to get to the museum?", khmer: "សុំទោស តើអ្នកអាចប្រាប់ខ្ញុំបានទេថាតើធ្វើដូចម្តេចដើម្បីទៅឈានដល់សារមន្ទីរនោះ?" },
+                        { speaker: "Local", text: "Sure! Just go straight and take a left at the traffic light.", khmer: "បានហើយ! គ្រាន់តែដើរត្រង់ហើយបត់ឆ្វេងនៅច្រកចរាចរណ៍។" },
+                        { speaker: "Tourist", text: "Thank you! How far is it from here?", khmer: "អរគុណ! វាម៉ោងប៉ុន្មានពីទីនេះ?" },
+                        { speaker: "Local", text: "It's about a 10-minute walk.", khmer: "វាប្រហែលជាការដើរប្រហែល 10 នាទី។" },
+                        { speaker: "Tourist", text: "Great! I appreciate your help.", khmer: "ល្អណាស់! ខ្ញុំសូមអរគុណសម្រាប់ការជួយរបស់អ្នក។" },
+                        { speaker: "Local", text: "You're welcome! Enjoy your visit!", khmer: "មិនអីទេ! សូមរីករាយនឹងការអញ្ជើញរបស់អ្នក!" }
+                    ],
+                    "🗣️ Conversation 13 – Excuse Me (Making a Request)": [
+                        { speaker: "Customer", text: "Excuse me, could I get a glass of water, please?", khmer: "សុំទោស តើខ្ញុំអាចទទួលបានកែវទឹកមួយបានទេ?" },
+                        { speaker: "Waiter", text: "Of course! Would you like ice with that?", khmer: "ច្បាស់ហើយ! តើអ្នកចង់បានទឹកកកជាមួយវាទេ?" },
+                        { speaker: "Customer", text: "Yes, please. That would be great.", khmer: "បាទ/ចាស សូម។ នោះនឹងល្អណាស់។" },
+                        { speaker: "Waiter", text: "Coming right up!", khmer: "នឹងមកឆាប់ៗនេះ!" }
+                    ],
+                    "🗣️ Conversation 14 – Excuse Me (Interrupting Politely)": [
+                        { speaker: "Speaker A", text: "Excuse me, may I add something to the discussion?", khmer: "សុំទោស តើខ្ញុំអាចបន្ថែមអ្វីមួយទៅក្នុងការពិភាក្សាបានទេ?" },
+                        { speaker: "Speaker B", text: "Sure! What would you like to say?", khmer: "បានហើយ! តើអ្នកចង់និយាយអ្វី?" },
+                        { speaker: "Speaker A", text: "I think we should consider another option.", khmer: "ខ្ញុំគិតថាយើងគួរតែពិចារណាជម្រើសផ្សេងទៀត។" },
+                        { speaker: "Speaker B", text: "That's a good point. Let's hear it.", khmer: "នោះជាចំណុចល្អ។ ចូរយើងស្តាប់វា។" }
+                    ],
+                    "🗣️ Conversation 15 – Excuse Me (Seeking Permission)": [
+                        { speaker: "Student", text: "Excuse me, may I leave the class early today?", khmer: "សុំទោស តើខ្ញុំអាចចាកចេញពីថ្នាក់មុនពេលវេលាថ្ងៃនេះបានទេ?" },
+                        { speaker: "Teacher", text: "Yes, but please make sure to catch up on what you missed.", khmer: "មាន ប៉ុន្តែសូមប្រាកដថាអ្នកបានតាមដានអ្វីដែលអ្នកបានខកខាន។" },
+                        { speaker: "Student", text: "Thank you! I will.", khmer: "អរគុណ! ខ្ញុំនឹងធ្វើ។" }
+                    ],
+                    "🗣️ Conversation 16 – Excuse Me (Expressing Gratitude)": [
+                        { speaker: "Customer", text: "Excuse me, I just wanted to say thank you for your help today.", khmer: "សុំទោស ខ្ញុំគ្រាន់តែចង់និយាយថាអរគុណសម្រាប់ការជួយរបស់អ្នកថ្ងៃនេះ។" },
+                        { speaker: "Store Employee", text: "You're very welcome! I'm glad I could assist you.", khmer: "មិនអីទេ! ខ្ញុំរីករាយដែលខ្ញុំអាចជួយអ្នកបាន។" },
+                        { speaker: "Customer", text: "I really appreciate it. Have a great day!", khmer: "ខ្ញុំពិតជាសូមអរគុណ។ សូមឱ្យមានថ្ងៃល្អ!" },
+                        { speaker: "Store Employee", text: "You too! Take care.", khmer: "អ្នកដែរ! សូមថែរក្សាខ្លួន។" }
+                    ],
+                    "🗣️ Conversation 17 – Excuse Me (Making a Complaint)": [
+                        { speaker: "Customer", text: "Excuse me, I have a complaint about my order.", khmer: "សុំទោស ខ្ញុំមានការតវ៉ាអំពីការបញ្ជាទិញរបស់ខ្ញុំ។" },
+                        { speaker: "Manager", text: "I'm sorry to hear that. What seems to be the problem?", khmer: "ខ្ញុំសូមទោសដែលបានឮអំពីវា។ តើមានបញ្ហាអ្វី?" },
+                        { speaker: "Customer", text: "My food was cold when it arrived.", khmer: "ម្ហូបរបស់ខ្ញុំត្រជាក់ពេលវាមកដល់។" },
+                        { speaker: "Manager", text: "I apologize for that. Let me fix it for you.", khmer: "ខ្ញុំសូមអភ័យទោសចំពោះវា។ ចូរឲ្យខ្ញុំជួសជុលវាសម្រាប់អ្នក។" }
+                    ],
+                    "🗣️ Conversation 18 – Excuse Me (Offering an Opinion)": [
+                        { speaker: "Colleague A", text: "Excuse me, I think we should consider a different approach for this project.", khmer: "សុំទោស ខ្ញុំគិតថាយើងគួរតែពិចារណាវិធីផ្សេងសម្រាប់គម្រោងនេះ។" },
+                        { speaker: "Colleague B", text: "That's an interesting idea. What do you suggest?", khmer: "នោះជាគំនិតគួរឱ្យចាប់អារម្មណ៍។ តើអ្នកផ្តល់យោបល់អ្វី?" },
+                        { speaker: "Colleague A", text: "Maybe we could try a more collaborative method.", khmer: "ប្រហែលជាយើងអាចសាកល្បងវិធីសាស្ត្រសហការល្អប្រសើរឡើង។" },
+                        { speaker: "Colleague B", text: "I like that! Let's discuss it further.", khmer: "ខ្ញុំចូលចិត្តវា! ចូរយើងពិភាក្សាអំពីវាបន្ថែមទៀត។" }
+                    ],
+                    "🗣️ Conversation 19 – Excuse Me (Requesting Assistance)": [
+                        { speaker: "Shopper", text: "Excuse me, could you help me find the dairy section?", khmer: "សុំទោស តើអ្នកអាចជួយខ្ញុំរកផ្នែកទឹកដោះគោបានទេ?" },
+                        { speaker: "Store Employee", text: "Of course! It's in aisle 5, right next to the bakery.", khmer: "ច្បាស់ហើយ! វានៅក្នុងផ្លូវ 5 នៅជាប់នឹងហាងនំ។" },
+                        { speaker: "Shopper", text: "Thank you so much!", khmer: "អរគុណច្រើន!" },
+                        { speaker: "Store Employee", text: "You're welcome! Let me know if you need anything else.", khmer: "មិនអីទេ! សូមប្រាប់ខ្ញុំប្រសិនបើអ្នកត្រូវការអ្វីផ្សេងទៀត។" }
+                    ],
+                    "🗣️ Conversation 20 – Excuse Me (Seeking Advice)": [
+                        { speaker: "Friend A", text: "Excuse me, do you think I should take that job offer?", khmer: "សុំទោស តើអ្នកគិតថាខ្ញុំគួរតែទទួលការផ្តល់ជូនការងារនោះទេ?" },
+                        { speaker: "Friend B", text: "I think you should consider it. It sounds like a great opportunity.", khmer: "ខ្ញុំគិតថាអ្នកគួរតែពិចារណាវា។ វាស្តាប់ទៅដូចជាឱកាសល្អ។" },
+                        { speaker: "Friend A", text: "You're right. I will think about it.", khmer: "អ្នកត្រឹមត្រូវ។ ខ្ញុំនឹងពិចារណាអំពីវា។" }
+                    ],
+                    "🛍️ Conversation 1 – Basic Shopping": [
+                        { speaker: "Customer", text: "Excuse me, how much does this shirt cost?", khmer: "សុំទោស តើអាវនេះថ្លៃប៉ុន្មាន?" },
+                        { speaker: "Shopkeeper", text: "It’s $25.", khmer: "តម្លៃ ២៥ ដុល្លារ។" },
+                        { speaker: "Customer", text: "Do you have it in another color?", khmer: "តើអ្នកមានពណ៌ផ្សេងទៀតទេ?" },
+                        { speaker: "Shopkeeper", text: "Yes, we have it in blue and black.", khmer: "បាទ/ចាស យើងមានពណ៌ខៀវ និងខ្មៅ។" },
+                        { speaker: "Customer", text: "I’ll take the black one, please.", khmer: "ខ្ញុំសូមយកពណ៌ខ្មៅ។" },
+                        { speaker: "Shopkeeper", text: "Sure! Would you like to try it on?", khmer: "ប្រាកដហើយ! តើអ្នកចង់សាកវាទេ?" },
+                        { speaker: "Customer", text: "Yes, please.", khmer: "បាទ/ចាស សូម។" }
+                    ],
+                    "🛍️ Conversation 2 – Grocery Shopping": [
+                        { speaker: "Customer", text: "Excuse me, where can I find the fruits?", khmer: "សុំទោស តើខ្ញុំអាចរកផ្លែឈើនៅឯណា?" },
+                        { speaker: "Store Employee", text: "The fruits are in aisle 3.", khmer: "ផ្លែឈើនៅក្នុងផ្លូវ ៣។" },
+                        { speaker: "Customer", text: "Thank you! Do you have any organic apples?", khmer: "អរគុណ! តើអ្នកមានផ្លែប៉ោមសត្វធម្មជាតិក្នុងចំណោមផ្លែឈើទេ?" },
+                        { speaker: "Store Employee", text: "Yes, we do. They are on sale today.", khmer: "បាទ/ចាស យើងមាន។ វាបញ្ចុះតម្លៃថ្ងៃនេះ។" },
+                        { speaker: "Customer", text: "Great! I’ll take a bag.", khmer: "ល្អណាស់! ខ្ញុំនឹងយកកាបូបមួយ។" }
+                    ],
+                    "🛍️ Conversation 3 – Clothing Store": [
+                        { speaker: "Customer", text: "Excuse me, can you help me find a dress for a party?", khmer: "សុំទោស តើអ្នកអាចជួយខ្ញុំរកឈុតសំលៀកបំពាក់សម្រាប់งานបុណ្យមួយបានទេ?" },
+                        { speaker: "Store Assistant", text: "Of course! What size do you need?", khmer: "ប្រាកដហើយ! តើអ្នកត្រូវការទំហំអ្វី?" },
+                        { speaker: "Customer", text: "I usually wear a medium.", khmer: "ខ្ញុំធម្មតាស្លៀកពាក់ទំហំមធ្យម។" },
+                        { speaker: "Store Assistant", text: "Here are some options in medium size.", khmer: "នេះគឺជាជម្រើសខ្លះក្នុងទំហំមធ្យម។" },
+                        { speaker: "Customer", text: "Thank you! I’ll try these on.", khmer: "អរគុណ! ខ្ញុំនឹងសាកល្បងពួកវា។" }
+                    ],
+                    "🛍️ Conversation 4 – Buying Fruit": [
+                        { speaker: "Customer", text: "Hello, how much are these bananas?", khmer: "សួស្ដី តើចេកទាំងនេះថ្លៃប៉ុន្មាន?" },
+                        { speaker: "Seller", text: "They’re $1.50 per kilogram.", khmer: "មួយគីឡូ ១.៥០ ដុល្លារ។" },
+                        { speaker: "Customer", text: "Okay, I’ll take two kilograms.", khmer: "អូខេ ខ្ញុំយកពីរគីឡូ។" },
+                        { speaker: "Seller", text: "No problem. Anything else?", khmer: "គ្មានបញ្ហាទេ។ មានអ្វីផ្សេងទៀតទេ?" },
+                        { speaker: "Customer", text: "No, that’s all. Thank you!", khmer: "ទេ អស់ហើយ។ អរគុណ!" },
+                        { speaker: "Seller", text: "You’re welcome!", khmer: "មិនអីទេ!" }
+                    ],
+                                    "👋 Conversation 1 – Saying Goodbye After School": [
+                        { speaker: "Person A", text: "I have to go now. See you later!", khmer: "ខ្ញុំត្រូវទៅហើយ។ ជួបគ្នាពេលក្រោយ!" },
+                        { speaker: "Person B", text: "Okay, see you later! Have a good day!", khmer: "អូខេ ជួបគ្នាពេលក្រោយ! សូមឱ្យមានថ្ងៃល្អ!" },
+                        { speaker: "Person A", text: "You too!", khmer: "អ្នកក៏ដូចគ្នា!" }
+                    ],
+                    "👋 Conversation 2 – Leaving Work": [
+                        { speaker: "Person A", text: "I’m done for today. I’m heading home.", khmer: "ខ្ញុំចប់ហើយសម្រាប់ថ្ងៃនេះ។ ខ្ញុំកំពុងត្រឡប់ទៅផ្ទះ។" },
+                        { speaker: "Person B", text: "Alright! See you later!", khmer: "អូខេ! ជួបគ្នាពេលក្រោយ!" },
+                        { speaker: "Person A", text: "Bye!", khmer: "លាហើយ!" }
+                    ],
+                    "👋 Conversation 3 – Ending a Phone Call": [
+                        { speaker: "Person A", text: "I’ll talk to you again soon.", khmer: "ខ្ញុំនឹងនិយាយជាមួយអ្នកទៀតឆាប់ៗនេះ។" },
+                        { speaker: "Person B", text: "Okay! See you later!", khmer: "អូខេ! ជួបគ្នាពេលក្រោយ!" },
+                        { speaker: "Person A", text: "See you!", khmer: "ជួបគ្នា!" }
+                    ],
+                    "😔 Conversation 1 – Forgetting Something": [
+                        { speaker: "Person A", text: "I forgot to bring your book.", khmer: "ខ្ញុំភ្លេចយកសៀវភៅរបស់អ្នកមក។" },
+                        { speaker: "Person B", text: "That’s okay, I’m not in a hurry.", khmer: "មិនអីទេ ខ្ញុំមិនប្រញាប់ទេ។" },
+                        { speaker: "Person A", text: "I’m really sorry about that.", khmer: "ខ្ញុំពិតជាសុំទោសចំពោះរឿងនោះ។" },
+                        { speaker: "Person B", text: "No problem. Just bring it next time.", khmer: "គ្មានបញ្ហាទេ។ គ្រាន់តែយកវាមកពេលក្រោយទៅ។" }
+                    ],
+                    "⏰ Conversation 2 – Arriving Late": [
+                        { speaker: "Person A", text: "I’m so sorry I’m late!", khmer: "ខ្ញុំសុំទោសដែលខ្ញុំមកយឺត!" },
+                        { speaker: "Person B", text: "It’s alright. Did something happen?", khmer: "មិនអីទេ។ មានរឿងអីកើតឡើងមែនទេ?" },
+                        { speaker: "Person A", text: "The traffic was really bad.", khmer: "ចរាចរណ៍អាក្រក់ខ្លាំងណាស់។" },
+                        { speaker: "Person B", text: "I understand. Let’s start now.", khmer: "ខ្ញុំយល់ហើយ។ តោះចាប់ផ្តើមឥឡូវនេះ។" }
+                    ],
+                    "😬 Conversation 3 – Bumping Into Someone": [
+                        { speaker: "Person A", text: "Oops! I’m sorry!", khmer: "អូស! ខ្ញុំសុំទោស!" },
+                        { speaker: "Person B", text: "That’s okay. Are you alright?", khmer: "មិនអីទេ។ តើអ្នកសុខសប្បាយជាទេ?" },
+                        { speaker: "Person A", text: "Yes, I didn’t see you there.", khmer: "បាទ/ចាស ខ្ញុំមិនបានឃើញអ្នកនៅទីនោះទេ។" },
+                        { speaker: "Person B", text: "No worries. Be careful!", khmer: "កុំបារម្ភ។ ប្រយ័ត្នប្រយែងផង!" }
+                    ],
+                    "👂 Conversation 1 – Asking to Repeat": [
+                        { speaker: "Person A", text: "The meeting is at 3 PM.", khmer: "កិច្ចប្រជុំគឺនៅម៉ោង ៣ រសៀល។" },
+                        { speaker: "Person B", text: "Sorry, could you repeat that, please?", khmer: "សុំទោស តើអ្នកអាចនិយាយម្តងទៀតបានទេ?" },
+                        { speaker: "Person A", text: "Sure. I said the meeting is at 3 PM.", khmer: "ប្រាកដហើយ។ ខ្ញុំបាននិយាយថាកិច្ចប្រជុំគឺនៅម៉ោង ៣ រសៀល។" },
+                        { speaker: "Person B", text: "Got it. Thanks!", khmer: "បានហើយ។ អរគុណ!" }
+                    ],
+                    "🍽️ Conversation 2 – At a Restaurant": [
+                        { speaker: "Waiter", text: "Would you like rice or noodles?", khmer: "តើអ្នកចង់បានបាយ ឬមី?" },
+                        { speaker: "Customer", text: "Sorry, could you repeat that, please?", khmer: "សុំទោស តើអ្នកអាចនិយាយម្តងទៀតបានទេ?" },
+                        { speaker: "Waiter", text: "I said, would you like rice or noodles?", khmer: "ខ្ញុំបាននិយាយថា តើអ្នកចង់បានបាយ ឬមី?" },
+                        { speaker: "Customer", text: "Oh, rice, please!", khmer: "អូ បាយ សូម!" }
+                    ],
+                    "📞 Conversation 3 – On the Phone": [
+                        { speaker: "Person A", text: "My phone number is 098 543 219.", khmer: "លេខទូរស័ព្ទរបស់ខ្ញុំគឺ ០៩៨ ៥៤៣ ២១៩។" },
+                        { speaker: "Person B", text: "Could you say that again, please?", khmer: "តើអ្នកអាចនិយាយម្តងទៀតបានទេ?" },
+                        { speaker: "Person A", text: "Sure. It’s 098 543 219.", khmer: "ប្រាកដហើយ។ គឺ ០៩៨ ៥៤៣ ២១៩។" },
+                        { speaker: "Person B", text: "Thank you!", khmer: "អរគុណ!" }
+                    ],
+                    "💼 Conversation 1 – At a Party": [
+                        { speaker: "Person A", text: "Nice to meet you! What do you do?", khmer: "រីករាយណាស់ដែលបានជួប! តើអ្នកធ្វើការអ្វី?" },
+                        { speaker: "Person B", text: "I’m a teacher. How about you?", khmer: "ខ្ញុំជាគ្រូបង្រៀន។ ចុះអ្នកវិញ?" },
+                        { speaker: "Person A", text: "I work in a bank.", khmer: "ខ្ញុំធ្វើការនៅធនាគារ។" }
+                    ],
+                    "💼 Conversation 2 – At School": [
+                        { speaker: "Person A", text: "What does your father do?", khmer: "តើឪពុករបស់អ្នកធ្វើការអ្វី?" },
+                        { speaker: "Person B", text: "He’s a doctor. He works at the hospital.", khmer: "គាត់ជាវេជ្ជបណ្ឌិត។ គាត់ធ្វើការនៅមន្ទីរពេទ្យ។" },
+                        { speaker: "Person A", text: "That’s great! My dad is a farmer.", khmer: "ល្អណាស់! ឪពុកខ្ញុំជាកសិករ។" }
+                    ],
+                    "💼 Conversation 3 – Making New Friends": [
+                        { speaker: "Person A", text: "So, what do you do?", khmer: "អញ្ចឹង តើអ្នកធ្វើការអ្វី?" },
+                        { speaker: "Person B", text: "I’m a student. I study English at university.", khmer: "ខ្ញុំជាសិស្ស។ ខ្ញុំរៀនភាសាអង់គ្លេសនៅសាកលវិទ្យាល័យ។" },
+                        { speaker: "Person A", text: "Cool! I’m learning English too.", khmer: "ឡូយ! ខ្ញុំក៏កំពុងរៀនភាសាអង់គ្លេសដែរ។" }
+                    ],
+                    "🌎 Conversation 1 – Basic Introduction": [
+                        { speaker: "Person A", text: "Where are you from?", khmer: "អ្នកមកពីណា?" },
+                        { speaker: "Person B", text: "I’m from Cambodia.", khmer: "ខ្ញុំមកពីកម្ពុជា។" },
+                        { speaker: "Person A", text: "Oh, nice! I’ve heard Cambodia is beautiful.", khmer: "អូ ល្អណាស់! ខ្ញុំលឺថាកម្ពុជាស្រស់ស្អាត។" },
+                        { speaker: "Person B", text: "Yes, it is!", khmer: "បាទ/ចាស វាពិតជាស្រស់ស្អាត!" }
+                    ],
+                    "🌎 Conversation 2 – At a Language School": [
+                        { speaker: "Person A", text: "Hi! I’m Sarah. Where are you from?", khmer: "សួស្ដី! ខ្ញុំសារ៉ា។ អ្នកមកពីណា?" },
+                        { speaker: "Person B", text: "I’m from Thailand. And you?", khmer: "ខ្ញុំមកពីប្រទេសថៃ។ ចុះអ្នកវិញ?" },
+                        { speaker: "Person A", text: "I’m from Canada. Nice to meet you!", khmer: "ខ្ញុំមកពីប្រទេសកាណាដា។ រីករាយណាស់ដែលបានជួប!" },
+                        { speaker: "Person B", text: "Nice to meet you too!", khmer: "រីករាយណាស់ដែលបានជួបអ្នកដូចគ្នា!" }
+                    ],
+                    "🌎 Conversation 3 – Talking About Hometown": [
+                        { speaker: "Person A", text: "Where are you from?", khmer: "អ្នកមកពីណា?" },
+                        { speaker: "Person B", text: "I’m from Siem Reap.", khmer: "ខ្ញុំមកពីសៀមរាប។" },
+                        { speaker: "Person A", text: "Really? I love Angkor Wat!", khmer: "ពិតមែនទេ? ខ្ញុំចូលចិត្តអង្គរវត្តណាស់!" },
+                        { speaker: "Person B", text: "Me too! I live near there.", khmer: "ខ្ញុំក៏ដូចគ្នា! ខ្ញុំរស់នៅជិតទីនោះ។" }
+                    ],
+                    "🕒 Conversation 1 – Asking for the Time": [
+                        { speaker: "Person A", text: "Excuse me, what time is it?", khmer: "សុំទោស តើម៉ោងប៉ុន្មានហើយ?" },
+                        { speaker: "Person B", text: "It’s 3:15.", khmer: "ម៉ោង ៣:១៥។" },
+                        { speaker: "Person A", text: "Thank you!", khmer: "អរគុណ!" },
+                        { speaker: "Person B", text: "You’re welcome.", khmer: "មិនអីទេ។" }
+                    ],
+                    "🕒 Conversation 2 – At School": [
+                        { speaker: "Person A", text: "What time is it now?", khmer: "ឥឡូវម៉ោងប៉ុន្មានហើយ?" },
+                        { speaker: "Person B", text: "It’s 7:45.", khmer: "ម៉ោង ៧:៤៥។" },
+                        { speaker: "Person A", text: "Oh no! Class starts at 8:00.", khmer: "អូ ទេ! ថ្នាក់ចាប់ផ្តើមម៉ោង ៨:០០។" },
+                        { speaker: "Person B", text: "Let’s hurry!", khmer: "តោះប្រញាប់!" }
+                    ],
+                    "🕒 Conversation 3 – On the Phone": [
+                        { speaker: "Person A", text: "Do you know what time it is?", khmer: "តើអ្នកដឹងម៉ោងប៉ុន្មានហើយ?" },
+                        { speaker: "Person B", text: "It’s almost midnight.", khmer: "ជិតពាក់កណ្តាលអធ្រាត្រហើយ។" },
+                        { speaker: "Person A", text: "Really? I didn’t notice the time.", khmer: "ពិតមែនទេ? ខ្ញុំមិនបានចាប់អារម្មណ៍ម៉ោងសោះ។" },
+                        { speaker: "Person B", text: "Time goes fast when you’re talking!", khmer: "ពេលវេលាហក់លឿនណាស់ពេលអ្នកកំពុងនិយាយ!" }
+                    ],
+                    "🕒 Conversation 4 – Daily Routine": [
+                        { speaker: "Person A", text: "What time do you usually wake up?", khmer: "តើអ្នកភ្ញាក់ឡើងម៉ោងប៉ុន្មាន?" },
+                        { speaker: "Person B", text: "I usually wake up at 6:30 AM.", khmer: "ខ្ញុំធម្មតាភ្ញាក់ឡើងម៉ោង ៦:៣០ ព្រឹក។" },
+                        { speaker: "Person A", text: "That’s early! I wake up at 7:00.", khmer: "វាម៉ោងព្រឹកដល់ហើយ! ខ្ញុំភ្ញាក់ឡើងម៉ោង ៧:០០។" },
+                        { speaker: "Person B", text: "Yeah, I like to start my day early.", khmer: "បាទ/ចាស ខ្ញុំចូលចិត្តចាប់ផ្តើមថ្ងៃរបស់ខ្ញុំនៅព្រឹកៗ។" }
+                    ],
+                    "🛍️ Conversation 1 – At a Clothing Store": [
+                        { speaker: "Customer", text: "Excuse me, I’m looking for a black coat. Do you have any?", khmer: "សុំទោស ខ្ញុំកំពុងរកអាវរងាខ្មៅ។ តើអ្នកមានទេ?" },
+                        { speaker: "Shop Assistant", text: "Yes, they’re over here.", khmer: "បាទ/ចាស ពួកវាត្រង់នេះ។" },
+                        { speaker: "Customer", text: "Thank you. Can I try it on?", khmer: "អរគុណ។ ខ្ញុំអាចសាកបានទេ?" },
+                        { speaker: "Shop Assistant", text: "Of course! The fitting room is right there.", khmer: "ពិតណាស់! បន្ទប់សាកនៅទីនោះ។" }
+                    ],
+                    "🛍️ Conversation 2 – At a Bookstore": [
+                        { speaker: "Customer", text: "I’m looking for a book about English grammar.", khmer: "ខ្ញុំកំពុងរកសៀវភៅអំពីវេយ្យាករណ៍ភាសាអង់គ្លេស។" },
+                        { speaker: "Clerk", text: "Sure! They’re in aisle 3, on the right.", khmer: "ប្រាកដហើយ! ពួកវាស្ថិតនៅធ្នើទី 3 ខាងស្តាំដៃ។" },
+                        { speaker: "Customer", text: "Thank you so much.", khmer: "អរគុណច្រើនណាស់។" },
+                        { speaker: "Clerk", text: "You’re welcome. Let me know if you need help.", khmer: "មិនអីទេ។ ប្រាប់ខ្ញុំផងបើអ្នកត្រូវការជំនួយ។" }
+                    ],
+                    "🛍️ Conversation 3 – At a Market": [
+                        { speaker: "Customer", text: "I’m looking for fresh mangoes.", khmer: "ខ្ញុំកំពុងរកស្វាយស្រស់។" },
+                        { speaker: "Seller", text: "Yes, we have some here. How many do you want?", khmer: "បាទ/ចាស យើងមាននៅទីនេះ។ តើអ្នកចង់បានប៉ុន្មាន?" },
+                        { speaker: "Customer", text: "I’ll take three, please.", khmer: "ខ្ញុំសូមយកបី។" },
+                        { speaker: "Seller", text: "No problem!", khmer: "គ្មានបញ្ហាទេ!" }
+                    ],
+                    "❓ Conversation 1 – In Class": [
+                        { speaker: "Student", text: "Can I ask you a question?", khmer: "ខ្ញុំអាចសួរអ្នកសំណួរបានទេ?" },
+                        { speaker: "Teacher", text: "Of course! What is it?", khmer: "ប្រាកដហើយ! តើវាជាអ្វី?" },
+                        { speaker: "Student", text: "How do you spell “because”?", khmer: "តើអ្នកប្រកបពាក្យ “because” យ៉ាងដូចម្តេច?" },
+                        { speaker: "Teacher", text: "B-E-C-A-U-S-E.", khmer: "ប៊ី-អ៊ី-ស៊ី-អេ-យូ-អេស-អ៊ី។" }
+                    ],
+                    "❓ Conversation 2 – At Work": [
+                        { speaker: "Worker", text: "Can I ask you a question?", khmer: "ខ្ញុំអាចសួរអ្នកសំណួរបានទេ?" },
+                        { speaker: "Boss", text: "Sure. Go ahead.", khmer: "ប្រាកដហើយ។ បន្តទៅ។" },
+                        { speaker: "Worker", text: "What time is the meeting today?", khmer: "តើកិច្ចប្រជុំថ្ងៃនេះម៉ោងប៉ុន្មាន?" },
+                        { speaker: "Boss", text: "It’s at 3 PM in the main room.", khmer: "គឺនៅម៉ោង ៣ រសៀល ក្នុងបន្ទប់ធំ។" }
+                    ],
+                    "❓ Conversation 3 – With a Friend": [
+                        { speaker: "Friend A", text: "Hey, can I ask you a question?", khmer: "ហេ៎ ខ្ញុំអាចសួរអ្នកសំណួរបានទេ?" },
+                        { speaker: "Friend B", text: "Yeah, sure!", khmer: "បាទ/ចាស ប្រាកដហើយ!" },
+                        { speaker: "Friend A", text: "Do you want to study together this weekend?", khmer: "តើអ្នកចង់រៀនជាមួយគ្នាចុងសប្តាហ៍នេះទេ?" },
+                        { speaker: "Friend B", text: "Yes, that’s a good idea!", khmer: "បាទ/ចាស នោះជាគំនិតល្អ!" }
+                    ],
+                    "🙏 Conversation 1 – Lifting Something": [
+                        { speaker: "Person A", text: "Could you please help me carry this box?", khmer: "តើអ្នកអាចជួយខ្ញុំលើកប្រអប់នេះបានទេ?" },
+                        { speaker: "Person B", text: "Sure, no problem!", khmer: "ប្រាកដហើយ គ្មានបញ្ហាទេ!" },
+                        { speaker: "Person A", text: "Thank you so much.", khmer: "អរគុណច្រើនណាស់។" },
+                        { speaker: "Person B", text: "You’re welcome!", khmer: "មិនអីទេ!" }
+                    ],
+                    "🙏 Conversation 2 – At School": [
+                        { speaker: "Student", text: "Could you please help me with this question?", khmer: "តើអ្នកអាចជួយខ្ញុំដោះស្រាយសំណួរនេះបានទេ?" },
+                        { speaker: "Friend", text: "Of course! Let me take a look.", khmer: "ប្រាកដហើយ! ទុកខ្ញុំមើលសិន។" },
+                        { speaker: "Student", text: "I don’t understand number 5.", khmer: "ខ្ញុំមិនយល់លេខ ៥។" },
+                        { speaker: "Friend", text: "No worries, I’ll explain it.", khmer: "កុំបារម្ភ ខ្ញុំនឹងពន្យល់វា។" }
+                    ],
+                    "🙏 Conversation 3 – On the Street": [
+                        { speaker: "Tourist", text: "Excuse me, could you please help me find the bus station?", khmer: "សុំទោស តើអ្នកអាចជួយខ្ញុំរកស្ថានីយ៍ឡានក្រុងបានទេ?" },
+                        { speaker: "Local", text: "Yes, it’s over there, near the coffee shop.", khmer: "បាទ/ចាស វាត្រង់នោះ ជិតហាងកាហ្វេ។" },
+                        { speaker: "Tourist", text: "Thank you!", khmer: "អរគុណ!" },
+                        { speaker: "Local", text: "You’re welcome. Have a good day!", khmer: "មិនអីទេ។ សូមឱ្យមានថ្ងៃល្អ!" }
+                    ],
+                    "🙏 Conversation 2 – At School": [
+                        { speaker: "Student", text: "Could you please help me with this question?", khmer: "តើអ្នកអាចជួយខ្ញុំដោះស្រាយសំណួរនេះបានទេ?" },
+                        { speaker: "Friend", text: "Of course! Let me take a look.", khmer: "ប្រាកដហើយ! ទុកខ្ញុំមើលសិន។" },
+                        { speaker: "Student", text: "I don’t understand number 5.", khmer: "ខ្ញុំមិនយល់លេខ ៥។" },
+                        { speaker: "Friend", text: "No worries, I’ll explain it.", khmer: "កុំបារម្ភ ខ្ញុំនឹងពន្យល់វា។" }
+                    ],
+                    "🙏 Conversation 3 – On the Street": [
+                        { speaker: "Tourist", text: "Excuse me, could you please help me find the bus station?", khmer: "សុំទោស តើអ្នកអាចជួយខ្ញុំរកស្ថានីយ៍ឡានក្រុងបានទេ?" },
+                        { speaker: "Local", text: "Yes, it’s over there, near the coffee shop.", khmer: "បាទ/ចាស វាត្រង់នោះ ជិតហាងកាហ្វេ។" },
+                        { speaker: "Tourist", text: "Thank you!", khmer: "អរគុណ!" },
+                        { speaker: "Local", text: "You’re welcome. Have a good day!", khmer: "មិនអីទេ។ សូមឱ្យមានថ្ងៃល្អ!" }
+                    ],
+                    "❓ Conversation – Asking About Time/Directions": [
+                        { speaker: "Person A", text: "Is the meeting at 2 PM or 3 PM?", khmer: "តើកិច្ចប្រជុំម៉ោង 2 រសៀល ឬ 3 រសៀល?" },
+                        { speaker: "Person B", text: "I’m not sure. Let me check.", khmer: "ខ្ញុំមិនច្បាស់ទេ។ ទុកខ្ញុំពិនិត្យមើលសិន។" },
+                        { speaker: "Person A", text: "Okay, thanks!", khmer: "អូខេ អរគុណ!" },
+                        { speaker: "Person A", text: "Does this bus go to the city center?", khmer: "តើឡានក្រុងនេះទៅកណ្តាលក្រុងទេ?" },
+                        { speaker: "Person B", text: "I’m not sure. Maybe we can ask the driver.", khmer: "ខ្ញុំមិនច្បាស់ទេ។ ប្រហែលជាយើងអាចសួរអ្នកបើកបរបាន។" },
+                        { speaker: "Student A", text: "Is the test on Monday or Tuesday?", khmer: "តើការប្រឡងនៅថ្ងៃច័ន្ទ ឬថ្ងៃអង្គារ?" },
+                        { speaker: "Student B", text: "I’m not sure. I’ll ask the teacher and tell you later.", khmer: "ខ្ញុំមិនច្បាស់ទេ។ ខ្ញុំនឹងសួរគ្រូ ហើយប្រាប់អ្នកពេលក្រោយ។" }
+                    ],
+                    "❓ Conversation 1 – Asking About Time": [
+                        { speaker: "Person A", text: "Is the meeting at 2 PM or 3 PM?", khmer: "តើកិច្ចប្រជុំម៉ោង 2 រសៀល ឬ 3 រសៀល?" },
+                        { speaker: "Person B", text: "I’m not sure. Let me check.", khmer: "ខ្ញុំមិនច្បាស់ទេ។ ទុកខ្ញុំពិនិត្យមើលសិន។" },
+                        { speaker: "Person A", text: "Okay, thanks!", khmer: "អូខេ អរគុណ!" }
+                    ],
+                    "🚌 Conversation 2 – Asking About Directions": [
+                        { speaker: "Person A", text: "Does this bus go to the city center?", khmer: "តើឡានក្រុងនេះទៅកណ្តាលក្រុងទេ?" },
+                        { speaker: "Person B", text: "I’m not sure. Maybe we can ask the driver.", khmer: "ខ្ញុំមិនច្បាស់ទេ។ ប្រហែលជាយើងអាចសួរអ្នកបើកបរបាន។" }
+                    ],
+                    "🗓️ Conversation 3 – At School (Test)": [
+                        { speaker: "Student A", text: "Is the test on Monday or Tuesday?", khmer: "តើការប្រឡងនៅថ្ងៃច័ន្ទ ឬថ្ងៃអង្គារ?" },
+                        { speaker: "Student B", text: "I’m not sure. I’ll ask the teacher and tell you later.", khmer: "ខ្ញុំមិនច្បាស់ទេ។ ខ្ញុំនឹងសួរគ្រូ ហើយប្រាប់អ្នកពេលក្រោយ។" }
+                    ],
+                    "💡 Conversation – Asking for Opinions": [
+                        { speaker: "Person A", text: "I’m thinking of buying a new phone. What do you think?", khmer: "ខ្ញុំកំពុងគិតចង់ទិញទូរស័ព្ទថ្មី។ តើអ្នកគិតយ៉ាងណា?" },
+                        { speaker: "Person B", text: "That’s a good idea!", khmer: "នោះជាគំនិតល្អ!" },
+                        { speaker: "Person A", text: "Should we eat at the new restaurant? What do you think?", khmer: "តើយើងគួរញ៉ាំនៅភោជនីយដ្ឋានថ្មីទេ? តើអ្នកគិតយ៉ាងណា?" },
+                        { speaker: "Person B", text: "I’ve heard it’s very good. Let’s try it!", khmer: "ខ្ញុំបានលឺថាវាល្អណាស់។ តោះសាកមើល!" },
+                        { speaker: "Person A", text: "I want to visit Siem Reap next month. What do you think?", khmer: "ខ្ញុំចង់ទៅលេងសៀមរាបខែក្រោយ។ តើអ្នកគិតយ៉ាងណា?" },
+                        { speaker: "Person B", text: "That sounds great! It’s a beautiful place.", khmer: "ស្តាប់ទៅល្អណាស់! វាជាកន្លែងដ៏ស្រស់ស្អាត។" }
+                    ],
+                    "☕ Conversation 1 – Ordering at a Café": [
+                        { speaker: "Person A", text: "I’d like to order a coffee, please.", khmer: "ខ្ញុំចង់កុម្ម៉ង់កាហ្វេមួយ។" },
+                        { speaker: "Barista", text: "Sure! What kind would you like?", khmer: "ប្រាកដហើយ! តើអ្នកចង់បានប្រភេទណា?" },
+                        { speaker: "Person A", text: "I’d like a cappuccino, please.", khmer: "ខ្ញុំចង់បានកាប៉ូឈីណូមួយ។" },
+                        { speaker: "Barista", text: "Great! Anything else?", khmer: "ល្អណាស់! មានអ្វីផ្សេងទៀតទេ?" },
+                        { speaker: "Person A", text: "No, thank you.", khmer: "ទេ អរគុណ។" }
+                    ],
+                    "🍽️ Conversation 2 – At a Restaurant": [
+                        { speaker: "Person A", text: "I’d like to have the chicken salad.", khmer: "ខ្ញុំចង់បានសាឡាដមាន់។" },
+                        { speaker: "Waiter", text: "Excellent choice! Would you like anything to drink?", khmer: "ជម្រើសដ៏ល្អ! តើអ្នកចង់បានអ្វីសម្រាប់ផឹកទេ?" },
+                        { speaker: "Person A", text: "Yes, I’d like some water, please.", khmer: "បាទ/ចាស ខ្ញុំចង់បានទឹកបន្តិច។" }
+                    ],
+                    "🛍️ Conversation 3 – Shopping (General)": [
+                        { speaker: "Customer", text: "I’d like to buy this shirt.", khmer: "ខ្ញុំចង់ទិញអាវនេះ។" },
+                        { speaker: "Shopkeeper", text: "Would you like to try it on?", khmer: "តើអ្នកចង់សាកវាទេ?" },
+                        { speaker: "Customer", text: "Yes, please.", khmer: "បាទ/ចាស សូម។" }
+                    ],
+                    "🤷‍♀️ Conversation 1 – Choosing a Place": [
+                        { speaker: "Person A", text: "Should we go to the park or the mall?", khmer: "តើយើងគួរទៅសួនច្បារ ឬផ្សារទំនើប?" },
+                        { speaker: "Person B", text: "It’s up to you.", khmer: "វាអាស្រ័យលើអ្នក។" }
+                    ],
+                    "🤷‍♀️ Conversation 2 – Deciding What to Eat": [
+                        { speaker: "Person A", text: "Do you want pizza or noodles for dinner?", khmer: "តើអ្នកចង់បានភីហ្សា ឬមីសម្រាប់អាហារពេលល្ងាច?" },
+                        { speaker: "Person B", text: "It’s up to you.", khmer: "វាអាស្រ័យលើអ្នក។" }
+                    ],
+                    "🤷‍♀️ Conversation 3 – Picking a Movie": [
+                        { speaker: "Person A", text: "What movie should we watch?", khmer: "តើយើងគួរមើលរឿងអ្វី?" },
+                        { speaker: "Person B", text: "It’s up to you.", khmer: "វាអាស្រ័យលើអ្នក។" }
+                    ],
+                    "🤝 Conversation 1 – After Meeting Someone New": [
+                        { speaker: "Person A", text: "It was great meeting you!", khmer: "រីករាយណាស់ដែលបានជួបអ្នក!" },
+                        { speaker: "Person B", text: "Yes, let’s keep in touch!", khmer: "បាទ/ចាស តោះបន្តទាក់ទងគ្នា!" }
+                    ],
+                    "🤝 Conversation 2 – Ending a Phone Call": [
+                        { speaker: "Person A", text: "I have to go now, but let’s keep in touch.", khmer: "ខ្ញុំត្រូវទៅហើយឥឡូវនេះ ប៉ុន្តែតោះបន្តទាក់ទងគ្នា។" },
+                        { speaker: "Person B", text: "Definitely! Talk to you soon.", khmer: "ពិតប្រាកដ! និយាយជាមួយអ្នកឆាប់ៗនេះ។" }
+                    ],
+                    "🤝 Conversation 3 – After a Class or Workshop": [
+                        { speaker: "Person A", text: "I learned a lot today. Let’s keep in touch!", khmer: "ខ្ញុំបានរៀនច្រើនណាស់ថ្ងៃនេះ។ តោះបន្តទាក់ទងគ្នា!" },
+                        { speaker: "Person B", text: "Sure! I’d like that.", khmer: "ប្រាកដហើយ! ខ្ញុំចង់បានដូចនោះ។" }
                     ]
-                    
                 },
 
                 listenAndType: {
@@ -2962,7 +3349,31 @@
                             { sentence: "So, to sum it up, it's about speaking, listening, learning vocabulary in phrases, using techniques like shadowing, and being consistent every single day.", khmer: "ដូច្នេះ សរុបមក វាគឺអំពីការនិយាយ ការស្តាប់ ការរៀនវាក្យសព្ទជាឃ្លា ការប្រើប្រាស់បច្ចេកទេសដូចជាការត្រាប់តាម និងការមានភាពទៀងទាត់ជារៀងរាល់ថ្ងៃ។ <br>So, to sum it ..., it's about speaking, listening, learning ... in phrases, using techniques like ..., and being ... every single ....", answer: "So, to sum it up, it's about speaking, listening, learning vocabulary in phrases, using techniques like shadowing, and being consistent every single day." }
                         
                    ],
-                   
+                    "Subject Should (auxiliary) + main verb base": [
+                        {sentence:"He should be more careful.", khmer:"គាត់គួរតែប្រុងប្រយ័ត្នជាងនេះ។ <br>He should be more ...", answer:"He should be more careful."},
+                        {sentence:"You should try to understand the rules.", khmer:"អ្នកគួរតែព្យាយាមយល់ពីច្បាប់។ <br>You should try to ... the ...", answer:"You should try to understand the rules."},
+                        {sentence:"They should not be late for the meeting.", khmer:"ពួកគេគួរតែមិនយឺតសម្រាប់ការប្រជុំទេ។ <br>They should not be ... for the ...", answer:"They should not be late for the meeting."},
+                        {sentence:"We should help each other more often.", khmer:"យើងគួរតែជួយគ្នាជាញឹកញាប់ជាងនេះ។ <br>We should help each ... more ...", answer:"We should help each other more often."},
+                        {sentence:"She should practice speaking English every day.", khmer:"នាងគួរតែអនុវត្តន៍ការនិយាយភាសាអង់គ្លេសរៀងរាល់ថ្ងៃ។ <br>She should practice ... English every ....", answer:"She should practice speaking English every day."},
+                        {sentence:"I should finish my homework before going out.", khmer:"ខ្ញុំគួរតែបញ្ចប់ការងារផ្ទះរបស់ខ្ញុំមុនពេលចេញទៅក្រៅ។ <br>I should finish my ... before going ...", answer:"I should finish my homework before going out."},
+                        {sentence:"You should not forget to bring your ID.", khmer:"អ្នកគួរតែមិនភ្លេចយកអត្តសញ្ញាណប័ណ្ណរបស់អ្នកទេ។ <br>You should not ... to bring your ...", answer:"You should not forget to bring your ID."},
+                        {sentence:"He should always be on time for work.", khmer:"គាត់គួរតែតែងតែមកដល់ពេលសម្រាប់ការងារ។ <br>He should always be on ... for ...", answer:"He should always be on time for work."},
+                        {sentence:"They should listen carefully during the lecture.", khmer:"ពួកគេគួរតែស្តាប់យ៉ាងប្រុងប្រយ័ត្ននៅពេលបង្រៀន។ <br>They should listen ... during the ...", answer:"They should listen carefully during the lecture."},
+                        {sentence:"We should respect each other's opinions.", khmer:"យើងគួរតែគោរពគំនិតរបស់គ្នា។ <br>We should respect each ... opinions.", answer:"We should respect each other's opinions."},
+                        {sentence:"She should not worry too much about the exam.", khmer:"នាងគួរតែមិនបារម្ភច្រើនអំពីការប្រលងទេ។ <br>She should not ... too much about the ...", answer:"She should not worry too much about the exam."},
+                        {sentence:"I should ask for help if I don't understand something.", khmer:"ខ្ញុំគួរតែសួរអ្នកដទៃជំនួយប្រសិនបើខ្ញុំមិនយល់អ្វីទេ។ <br>I should ask for ... if I don't ... something.", answer:"I should ask for help if I don't understand something."},
+                        {sentence:"You should always be honest with your friends.", khmer:"អ្នកគួរតែតែងតែមានសុចរិតជាមួយមិត្តភក្តិរបស់អ្នក។ <br>You should always be ... with your ...", answer:"You should always be honest with your friends."},
+                        {sentence:"He should take breaks while studying to stay focused.", khmer:"គាត់គួរតែឈប់សម្រាកពេលសិក្សាដើម្បីរក្សាភាពផ្តោតអារម្មណ៍។ <br>He should take ... while studying to stay ....", answer:"He should take breaks while studying to stay focused."},
+                        {sentence:"They should not ignore the instructions given by the teacher.", khmer:"ពួកគេគួរតែមិនលើកលែងការណែនាំដែលបានផ្តល់ដោយគ្រូ។ <br>They should not ... the ... given by the ...", answer:"They should not ignore the instructions given by the teacher."},
+                        {sentence:"We should always be kind to others.", khmer:"យើងគួរតែតែងតែមានមេត្តាដល់អ្នកដទៃ។ <br>We should always be ... to ...", answer:"We should always be kind to others."},
+                        {sentence:"She should practice her presentation before the meeting.", khmer:"នាងគួរតែអនុវត្តន៍ការបង្ហាញរបស់នាងមុនពេលប្រជុំ។ <br>She should practice her ... before the ...", answer:"She should practice her presentation before the meeting."},
+                        {sentence:"I should not procrastinate and start my project early.", khmer:"ខ្ញុំគួរតែមិនពន្យារពេលនិងចាប់ផ្តើមគម្រោងរបស់ខ្ញុំឲ្យឆាប់។ <br>I should not ... and start my ... early.", answer:"I should not procrastinate and start my project early."},
+                        {sentence:"You should always be prepared for unexpected situations.", khmer:"អ្នកគួរតែតែងតែមានការរៀបចំសម្រាប់ស្ថានភាពដែលមិនបានរំពឹងទុក។ <br>You should always be ... for unexpected ...", answer:"You should always be prepared for unexpected situations."},
+                        {sentence:"He should not rush through his work to avoid mistakes.", khmer:"គាត់គួរតែមិនរត់ឆាប់ពេលធ្វើការដើម្បីជៀសវាងកំហុស។ <br>He should not ... through his ... to avoid ...", answer:"He should not rush through his work to avoid mistakes."},
+                        {sentence:"They should always be respectful to their elders.", khmer:"ពួកគេគួរតែតែងតែមានការគោរពចំពោះអ្នកចាស់ជាង។ <br>They should always be ... to their ...", answer:"They should always be respectful to their elders."},
+
+
+                    ],
                     
                     
                     
@@ -3086,6 +3497,8 @@
 
                     
             }
+
+
             // Game State Management
             const gameState = {
                 mode: null,
@@ -3374,18 +3787,65 @@
             // Function to handle "Play Again" button click
             function handlePlayAgain() {
                 const currentMode = gameState.mode;
+                const currentCategory = gameState.currentListenAndTypeCategory; // Keep track of the category for listen-type
+
                 resetGameState(); // Reset state for a new game
-                selectMode(currentMode); // Start the game again in the same mode
+
+                if (currentMode === 'vocab') {
+                    initVocabGame(); // Go back to vocab limit selection
+                } else if (currentMode === 'listen-type') {
+                    // Go back to the limit selection for the *same* listen-type category
+                    displayListenAndTypeLimitSelection(currentCategory);
+                }
+                else {
+                    selectMode(currentMode); // Start the game again in the same mode
+                }
             }
 
-            // Placeholder for game initialization functions (these would be defined elsewhere in script.js)
+            // Vocabulary Game Functions
             function initVocabGame() {
-                console.log("Initializing Vocabulary Game...");
-                gameState.currentPool = shuffleArray(gameData.vocab);
+                console.log("Initializing Vocabulary Game - Limit Selection...");
+                elements.gameArea.innerHTML = `
+                    <div class="container vocab-limit-selection">
+                        <h2 class="text-center text-blue-600">How many words do you want to practice?</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                            <button class="btn btn-primary btn-lg" onclick="startVocabGameWithLimit(10)">10 Words</button>
+                            <button class="btn btn-primary btn-lg" onclick="startVocabGameWithLimit(30)">30 Words</button>
+                            <button class="btn btn-primary btn-lg" onclick="startVocabGameWithLimit('all')">All Words (${gameData.vocab.length})</button>
+                        </div>
+                        <button class="btn btn-secondary mt-8" onclick="goHome()">Back to Home</button>
+                    </div>
+                `;
+            }
+
+            function startVocabGameWithLimit(limit) {
+                console.log(`Starting Vocabulary Game with ${limit === 'all' ? 'all' : limit} words...`);
+                let wordsToUse = gameData.vocab;
+                if (limit !== 'all' && typeof limit === 'number') {
+                    wordsToUse = shuffleArray(gameData.vocab).slice(0, limit);
+                } else {
+                    // If 'all' or invalid number, use all words and shuffle
+                    wordsToUse = shuffleArray(gameData.vocab);
+                }
+
+                // Ensure the pool is not empty
+                if (wordsToUse.length === 0) {
+                    elements.gameArea.innerHTML = `
+                        <div class="container">
+                            <h2 class="text-center text-red-600">No vocabulary words available!</h2>
+                            <button class="btn btn-secondary mt-4" onclick="initVocabGame()">Back to Vocab Selection</button>
+                            <button class="btn btn-secondary mt-4" onclick="goHome()">Back to Home</button>
+                        </div>
+                    `;
+                    return;
+                }
+
+                gameState.currentPool = wordsToUse;
                 gameState.currentIndex = 0;
                 gameState.score = 0;
                 displayVocabQuestion();
             }
+
 
             function displayVocabQuestion() {
                 stopTimer(); // Ensure timer is reset for each question
@@ -3602,7 +4062,7 @@
                 const currentQuestion = gameState.currentPool[gameState.currentIndex];
                 let questionContent = '';
                 let answerArea = '';
-                let timerDuration =60; // Longer timer for grammar questions
+                let timerDuration = 45; // Longer timer for grammar questions
 
                 if (currentQuestion.type === "multiple-choice") {
                     questionContent = `<h3 class="text-lg font-semibold text-gray-800 mb-4">${currentQuestion.question}</h3>`;
@@ -4051,6 +4511,7 @@
                         <div class="conversation-line ${speakerClass}">
                             <span class="speaker-label">${speakerLabel}:</span>
                             <span class="text-lg">${currentLine.text}</span>
+                            ${currentLine.khmer ? `<p class="khmer-meaning mt-1 text-base text-gray-600">(${currentLine.khmer})</p>` : ''}
                         </div>
                         <div class="flex flex-col gap-4 mt-6">
                             <button class="btn btn-info btn-lg" id="listenBtn"><i class="fas fa-volume-up mr-2"></i>Listen</button>
@@ -4061,7 +4522,7 @@
                         </div>
                         <div class="flex flex-col md:flex-row gap-4 justify-center mt-8">
                             <button class="btn btn-primary" onclick="nextConversationLine()"><i class="fas fa-arrow-right mr-2"></i>Next Line</button>
-                            <button class="btn btn-secondary" onclick="goHome()"><i class="fas fa-times-circle mr-2"></i>End Conversation</button>
+                            <button class="btn btn-secondary" onclick="initConversationGame()"><i class="fas fa-times-circle mr-2"></i>Back to Topics</button>
                         </div>
                     </div>
                 `;
@@ -4128,7 +4589,7 @@
                 displayConversationLine();
             }
 
-            // New Listen & Type Game Functions
+            // Listen & Type Game Functions
             function initListenAndTypeGame() {
                 console.log("Initializing Listen & Type Game...");
                 const listenTypeCategories = Object.keys(gameData.listenAndType);
@@ -4140,7 +4601,7 @@
                                 <div class="card bg-purple-100 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
                                     <h5 class="text-xl font-semibold text-purple-800 mb-2">${cat}</h5>
                                     <p class="text-gray-700 text-sm mb-4">Practice typing ${cat.toLowerCase()}.</p>
-                                    <button class="btn btn-primary w-full" onclick="startListenAndTypePractice('${cat}')">Start Practice</button>
+                                    <button class="btn btn-primary w-full" onclick="displayListenAndTypeLimitSelection('${cat}')">Select Category</button>
                                 </div>
                             `).join('')}
                         </div>
@@ -4149,10 +4610,47 @@
                 `;
             }
 
-            function startListenAndTypePractice(category) {
+            function displayListenAndTypeLimitSelection(category) {
                 gameState.currentListenAndTypeCategory = category;
-                // Important: Do NOT shuffle the currentPool for Listen & Type
-                gameState.currentPool = gameData.listenAndType[category];
+                const totalItems = gameData.listenAndType[category].length;
+                elements.gameArea.innerHTML = `
+                    <div class="container listen-type-limit-selection">
+                        <h2 class="text-center text-blue-600">How many items from "${category}" do you want to practice?</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                            <button class="btn btn-primary btn-lg" onclick="startListenAndTypeGameWithLimit('${category}', 10)">10 Items</button>
+                            <button class="btn btn-primary btn-lg" onclick="startListenAndTypeGameWithLimit('${category}', 30)">30 Items</button>
+                            <button class="btn btn-primary btn-lg" onclick="startListenAndTypeGameWithLimit('${category}', 'all')">All Items (${totalItems})</button>
+                        </div>
+                        <button class="btn btn-secondary mt-8" onclick="initListenAndTypeGame()">Back to Categories</button>
+                    </div>
+                `;
+            }
+
+            function startListenAndTypeGameWithLimit(category, limit) {
+                console.log(`Starting Listen & Type Game for category "${category}" with ${limit === 'all' ? 'all' : limit} items...`);
+                let itemsToUse = gameData.listenAndType[category];
+
+                if (limit !== 'all' && typeof limit === 'number') {
+                    // Shuffle the entire category pool first, then slice
+                    itemsToUse = shuffleArray(gameData.listenAndType[category]).slice(0, limit);
+                } else {
+                    // If 'all' or invalid number, use all items and shuffle
+                    itemsToUse = shuffleArray(gameData.listenAndType[category]);
+                }
+
+                // Ensure the pool is not empty
+                if (itemsToUse.length === 0) {
+                    elements.gameArea.innerHTML = `
+                        <div class="container">
+                            <h2 class="text-center text-red-600">No items available for this category!</h2>
+                            <button class="btn btn-secondary mt-4" onclick="displayListenAndTypeLimitSelection('${category}')">Back to Item Selection</button>
+                            <button class="btn btn-secondary mt-4" onclick="goHome()">Back to Home</button>
+                        </div>
+                    `;
+                    return;
+                }
+
+                gameState.currentPool = itemsToUse;
                 gameState.currentIndex = 0;
                 gameState.score = 0;
                 displayListenAndTypeQuestion();
@@ -4166,7 +4664,7 @@
                 }
 
                 const currentItem = gameState.currentPool[gameState.currentIndex];
-                const timerDuration = 100; // Time for listening and typing
+                const timerDuration = 45; // Time for listening and typing
 
                 elements.gameArea.innerHTML = `
                     <div class="container listen-type-game">
@@ -4255,9 +4753,8 @@
             // Q&A Game Functions
             function initQnAGame(qnaCategory) {
                 console.log(`Initializing Q&A Game for ${qnaCategory}...`);
-                gameState.currentPool = shuffleArray(gameData[qnaCategory]);
-                gameState.currentIndex = 0;
-                gameState.score = 0;
+                // For Q&A, we'll keep the category selection first, then start the quiz directly
+                // as there's no "limit" option requested for Q&A, only for vocab/listen-type
                 displayQnACategorySelection(qnaCategory);
             }
 
@@ -4359,7 +4856,6 @@
                 }
                 document.getElementById('score').textContent = gameState.score;
 
-                // Show feedback message
                 feedbackElement.classList.add('show');
 
                 setTimeout(() => {
