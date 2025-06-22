@@ -2577,11 +2577,109 @@
                         { speaker: "A", text: "Sure! Bye!" },
                         { speaker: "B", text: "Bye!" }
                     ],
+                    "Excuse Me": [
+                        { speaker: "A", text: "Excuse me, can you help me?" },
+                        { speaker: "B", text: "Sure! What do you need?" },
+                        { speaker: "A", text: "I’m looking for the nearest bus stop." },
+                        { speaker: "B", text: "It’s just around the corner." },
+                        { speaker: "A", text: "Thank you! And how often do the buses come?" },
+                        { speaker: "B", text: "They come every 15 minutes." },
+                        { speaker: "A", text: "Great! Thanks for your help!" },
+                        { speaker: "B", text: "You’re welcome! Have a nice day!" }
+                    ],
+                   
+                    "🗣️ Conversation 1 – Excuse Me (Getting Attention)": [
+                        { speaker: "Tourist", text: "Excuse me, could you help me for a moment?" },
+                        { speaker: "Local", text: "Sure! What do you need?" },
+                        { speaker: "Tourist", text: "I'm looking for the nearest train station. Could you tell me how to get there?" },
+                        { speaker: "Local", text: "Of course! It's just a few blocks away. Walk straight down this street and turn left at the traffic light." },
+                        { speaker: "Tourist", text: "Thank you! How long will it take to get there?" },
+                        { speaker: "Local", text: "It should take about 10 minutes on foot." },
+                        { speaker: "Tourist", text: "Great! Is there anything I should look out for?" },
+                        { speaker: "Local", text: "Yes, you'll see a big park on your right before you reach the station. It's hard to miss." },
+                        { speaker: "Tourist", text: "Thank you so much for your help!" },
+                        { speaker: "Local", text: "You're welcome! Have a safe trip!" }
+                    ],
+                    "🗣️ Conversation 2 – Excuse Me (Asking for Directions)": [
+                        { speaker: "Student", text: "Excuse me, can you tell me where the library is?" },
+                        { speaker: "Teacher", text: "Sure! It's on the second floor of this building." },
+                        { speaker: "Student", text: "Thank you! Is there an elevator?" },
+                        { speaker: "Teacher", text: "Yes, there is one at the end of the hallway." },
+                        { speaker: "Student", text: "Great! How long does it take to get there?" },
+                        { speaker: "Teacher", text: "About 5 minutes if you take the elevator." },
+                        { speaker: "Student", text: "Thanks for your help!" },
+                        { speaker: "Teacher", text: "You're welcome! Enjoy your time at the library!" }
+                    ],
+                    "🗣️ Conversation 3 – Excuse Me (Making a Request)": [
+                        { speaker: "Customer", text: "Excuse me, could I get a glass of water, please?" },
+                        { speaker: "Waiter", text: "Of course! Would you like ice with that?" },
+                        { speaker: "Customer", text: "Yes, please. And could I also have the menu?" },
+                        { speaker: "Waiter", text: "Sure! Here you go." },
+                        { speaker: "Customer", text: "Thank you! Can I order the special today?" },
+                        { speaker: "Waiter", text: "Absolutely! Would you like anything else?" },
+                        { speaker: "Customer", text: "No, that's all for now. Thank you!" },
+                        { speaker: "Waiter", text: "You're welcome! I'll bring your order shortly." }
+                    ],
+                    "🗣️ Conversation 4 – Excuse Me (Asking for Help)": [
+                        { speaker: "Shopper", text: "Excuse me, can you help me find the dairy section?" },
+                        { speaker: "Store Employee", text: "Sure! It's in aisle 5, on your right." },
+                        { speaker: "Shopper", text: "Thank you! Do you have any recommendations for yogurt?" },
+                        { speaker: "Store Employee", text: "Yes, our Greek yogurt is very popular. Would you like to try it?" },
+                        { speaker: "Shopper", text: "Yes, please! I'll take a few." },
+                        { speaker: "Store Employee", text: "Great choice! Let me know if you need anything else." },
+                        { speaker: "Shopper", text: "I will. Thanks for your help!" },
+                        { speaker: "Store Employee", text: "You're welcome! Enjoy your shopping!" }
+                    ],
+                    "🗣️ Conversation 5 – Excuse Me (Asking for Information)": [
+                        { speaker: "Visitor", text: "Excuse me, can you tell me where the nearest restroom is?" },
+                        { speaker: "Receptionist", text: "Yes, it's down the hall to your left." },
+                        { speaker: "Visitor", text: "Thank you! Is it clean?" },
+                        { speaker: "Receptionist", text: "Yes, we clean it every hour." },
+                        { speaker: "Visitor", text: "Great! I appreciate your help." },
+                        { speaker: "Receptionist", text: "You're welcome! Let me know if you need anything else." }
+                    ],
+                    "🗣️ Conversation 6 – Excuse Me (Asking for Assistance)": [
+                        { speaker: "Hiker", text: "Excuse me, can you help me find the trailhead?" },
+                        { speaker: "Park Ranger", text: "Sure! It's about a mile down this road." },
+                        { speaker: "Hiker", text: "Thank you! Is it a difficult hike?" },
+                        { speaker: "Park Ranger", text: "It's moderate, but be prepared for some steep sections." },
+                        { speaker: "Hiker", text: "Got it! Do I need a permit to hike there?" },
+                        { speaker: "Park Ranger", text: "No permit is needed for day hikes." },
+                        { speaker: "Hiker", text: "Thanks for the information!" },
+                        { speaker: "Park Ranger", text: "You're welcome! Enjoy your hike!" }
+                    ],
+                    "🗣️ Conversation 7 – Excuse Me (Asking for Help with a Problem)": [
+                        { speaker: "Driver", text: "Excuse me, my car broke down. Can you help me?" },
+                        { speaker: "Bystander", text: "Of course! What seems to be the problem?" },
+                        { speaker: "Driver", text: "I think I ran out of gas." },
+                        { speaker: "Bystander", text: "No problem. There's a gas station just down the road." },
+                        { speaker: "Driver", text: "Thank you! Can you give me directions?" },
+                        { speaker: "Bystander", text: "Sure! Just go straight and take the first right." },
+                        { speaker: "Driver", text: "Thanks a lot! I really appreciate your help." },
+                        { speaker: "Bystander", text: "You're welcome! Drive safely!" }
+                    ],
+                    "🗣️ Conversation8 – Excuse Me (Apologizing)": [
+                        { speaker: "Person A", text: "Excuse me, I'm so sorry! I didn't mean to bump into you." },
+                        { speaker: "Person B", text: "Oh, it's okay. No harm done." },
+                        { speaker: "Person A", text: "Are you sure? I hope I didn't hurt you." },
+                        { speaker: "Person B", text: "No, I'm fine. Thank you for checking." },
+                        { speaker: "Person A", text: "Alright, I'm really sorry again." },
+                        { speaker: "Person B", text: "No problem at all. Have a good day!" },
+                        { speaker: "Person A", text: "You too! Take care." }
+                    ],
+                    "🗣️ Conversation 9 – Excuse Me (Asking for Clarification)": [
+                        { speaker: "Student", text: "Excuse me, could you explain that last point again?" },
+                        { speaker: "Teacher", text: "Sure! I was saying that photosynthesis is how plants make their food." },
+                        { speaker: "Student", text: "Oh, I see. So they use sunlight to do that?" },
+                        { speaker: "Teacher", text: "Exactly! They convert sunlight into energy." },
+                        { speaker: "Student", text: "Thank you for clarifying!" },
+                        { speaker: "Teacher", text: "You're welcome! Let me know if you have any more questions." }
+                    ]
                     
                 },
 
                 listenAndType: {
-                     "Words": [
+                    "Words": [
                         { sentence: "apple", khmer: "ផ្លែប៉ោម (noun) <br> For Example: <br> Structure: This is a/an [Noun].<br> This is an apple.", answer: "This is an apple." },
                         { sentence: "banana", khmer: "ចេក (noun) <br> For Example: <br> Structure: I like [Noun]s.<br> I like bananas.", answer: "I like bananas." },
                         { sentence: "cat", khmer: "ឆ្មា (noun) <br> For Example: <br> Structure: A [Noun] is [Adjective].<br> A cat is cute.", answer: "A cat is cute." },
@@ -2679,7 +2777,7 @@
                         { sentence: "overwhelmed", khmer: "មានអារម្មណ៍ថាអស់សំណើច (adjective) <br> For Example: <br> Structure: To feel [Adjective].<br> I feel overwhelmed.", answer: "I feel overwhelmed." }
                     ],
 
-                "Common English phrases": [
+                    "Common English phrases": [
                         { sentence: "I would rather stay home tonight.", khmer: "ខ្ញុំចង់នៅផ្ទះយប់នេះជាង។ <br> (Expression) <br> Structure: Subject + would rather + base verb <br> Example: I would rather stay home tonight.", answer: "I would rather stay home tonight." },
                         { sentence: "She’d rather eat noodles than rice.", khmer: "នាងចង់ញ៉ាំមីជាងបាយ។ <br> (Expression) <br> Structure: Subject + would rather + base verb + than + noun <br> Example: She’d rather eat noodles than rice.", answer: "She’d rather eat noodles than rice." },
                         { sentence: "I’d rather you stayed home tonight.", khmer: "ខ្ញុំចង់ឱ្យអ្នកនៅផ្ទះយប់នេះ។ <br> (Expression) <br> Structure: Subject + would rather + other subject + past simple <br> Example: I’d rather you stayed home tonight.", answer: "I’d rather you stayed home tonight." },
@@ -2765,15 +2863,19 @@
                         { sentence: "Have a nice day!", khmer: "សូមឱ្យមានថ្ងៃល្អ! (Farewell) <br> For Example: <br> Structure: Have a nice day! <br> Example: Goodbye! Have a nice day!", answer: "Goodbye! Have a nice day!" },
                         { sentence: "Can I help you?", khmer: "ខ្ញុំអាចជួយអ្នកបានទេ? (Question) <br> For Example: <br> Structure: Can I help you? <br> Example: Can I help you find something?", answer: "Can I help you find something?" },
                         { sentence: "What do you do?", khmer: "តើអ្នកធ្វើការអ្វី? (Question) <br> For Example: <br> Structure: What do you do? <br> Example: So, what do you do for a living?", answer: "So, what do you do for a living?" },
-                        { sentence: "Could you repeat that, please?", khmer: "សូមជួយនិយាយម្តងទៀតបានទេ? (Question) <br> For Example: <br> Structure: Could you repeat that, please? <br> Example: I didn't hear you, could you repeat that, please?", answer: "I didn't hear you, could you repeat that, please?" },
+                        { sentence: "Could you repeat that, please?", khmer: "សូមជួយនិយាយម្តងទៀតបានទេ? (Question) <br> For Example: <br> Structure: Could you repeat that, please? <br> Example: I didn't hear you, could you repeat that, please?", answer: "I didn't hear you, could you repeat that, please." },
                         { sentence: "I’m sorry", khmer: "ខ្ញុំសុំទោស (Expression) <br> For Example: <br> Structure: I'm sorry <br> Example: I'm sorry for the delay.", answer: "I’m sorry for the delay." },
                         { sentence: "See you later!", khmer: "ជួបគ្នាពេលក្រោយ! (Farewell) <br> For Example: <br> Structure: See you later! <br> Example: I have to go now, see you later!", answer: "I have to go now, see you later!" },
                         { sentence: "How much does this cost?", khmer: "នេះតម្លៃប៉ុន្មាន? (Question) <br> For Example: <br> Structure: How much does this cost? <br> Example: How much does this cost?", answer: "How much does this cost?" },
                         { sentence: "You’re welcome.", khmer: "មិនអីទេ / រីករាយ (Response to Thank You) <br> For Example: <br> Structure: You're welcome. <br> Example: Thank you for your help! You're welcome.", answer: "You’re welcome." },
                         { sentence: "How are you?", khmer: "សុខសប្បាយជាទេ? (Greeting) <br> For Example: <br> Structure: How are you? <br> Example: Hi, how are you?", answer: "Hi, how are you?" },
-                        { sentence: "Thank you", khmer: "អរគុណ (Expression of Gratitude) <br> For Example: <br> Structure: Thank you <br> Example: Thank you for the gift.", answer: "Thank you for the gift." }
+                        { sentence: "Thank you", khmer: "អរគុណ (Expression of Gratitude) <br> For Example: <br> Structure: Thank you <br> Example: Thank you for the gift.", answer: "Thank you for the gift." },
+                        { sentence: "Excuse me.", khmer: "សុំទោស (polite interjection) <br> For Example: <br> Structure: Excuse me <br> Example: Excuse me, can I get past?", answer: "Excuse me, can I get past?" },
+                        { sentence: "I’d like to [do something].", khmer: "ខ្ញុំចង់ [ធ្វើអ្វីមួយ]។ (Expression) <br> For Example: <br> Structure: I'd like to + base verb <br> Example: I'd like to travel next year.", answer: "I’d like to travel next year." },
+                        { sentence: "Could you please help me?", khmer: "សូមជួយខ្ញុំបានទេ? (Question) <br> For Example: <br> Structure: Could you please + base verb + object? <br> Example: Could you please help me carry this box?", answer: "Could you please help me carry this box?" },
+                        { sentence: "I’m on my way.", khmer: "ខ្ញុំកំពុងទៅ។ (Expression) <br> For Example: <br> Structure: I'm on my way <br> Example: I'll be there in 5 minutes, I'm on my way.", answer: "I'll be there in 5 minutes, I'm on my way." },
+                        { sentence: "Don’t worry.", khmer: "កុំបារម្ភ។ (Command/Reassurance) <br> For Example: <br> Structure: Don't worry <br> Example: Don't worry, everything will be fine.", answer: "Don’t worry, everything will be fine." }
                     ],
-
 
 
                     
@@ -2984,7 +3086,6 @@
 
                     
             }
-
             // Game State Management
             const gameState = {
                 mode: null,
@@ -3223,7 +3324,7 @@
                         if (percentage === 100) {
                             message += '<p class="success-message">Excellent! Perfect score!</p>';
                         } else if (percentage >= 70) {
-                            message += '<p class="info-message">Great job! Keep practicing!</p個人的なメッセージを付け加えています。';
+                            message += '<p class="info-message">Great job! Keep practicing!</p>';
                         } else {
                             message += '<p class="error-message">You can do better! Review and try again!</p>';
                         }
@@ -3501,7 +3602,7 @@
                 const currentQuestion = gameState.currentPool[gameState.currentIndex];
                 let questionContent = '';
                 let answerArea = '';
-                let timerDuration = 60; // Longer timer for grammar questions
+                let timerDuration =60; // Longer timer for grammar questions
 
                 if (currentQuestion.type === "multiple-choice") {
                     questionContent = `<h3 class="text-lg font-semibold text-gray-800 mb-4">${currentQuestion.question}</h3>`;
@@ -4065,7 +4166,7 @@
                 }
 
                 const currentItem = gameState.currentPool[gameState.currentIndex];
-                const timerDuration = 80; // Time for listening and typing
+                const timerDuration = 100; // Time for listening and typing
 
                 elements.gameArea.innerHTML = `
                     <div class="container listen-type-game">
@@ -4087,6 +4188,9 @@
                         <p id="feedback" class="mt-3 feedback-message"></p>
                     </div>
                 `;
+
+                // Automatically speak the text when the question is displayed
+                speakText(currentItem.sentence);
 
                 document.getElementById('listenBtn').addEventListener('click', () => {
                     speakText(currentItem.sentence);
