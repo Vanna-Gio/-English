@@ -1204,7 +1204,225 @@
                             },
                         ]
                     },
-                      },
+                    "Passive and active voice": {
+                            description: `
+                                Understanding **Active Voice** and **Passive Voice** is crucial for clear and effective communication in English.
+
+                                **Active Voice** focuses on the subject performing the action, making sentences direct and impactful.
+                                **Passive Voice** focuses on the action itself or the receiver of the action, often used when the doer is unknown, unimportant, or when emphasizing the action's result.
+                            `,
+                            structure: {
+                                active: "Subject + Verb + Object",
+                                passive: "Object + Form of 'to be' (is/am/are/was/were) + Past Participle (of Verb) + (by + Agent)"
+                            },
+                            examples: [
+                                {
+                                    type: "correct",
+                                    sentence: "Active: The chef cooks delicious meals.",
+                                    explanation: "Here, 'The chef' is the subject performing the action 'cooks'."
+                                },
+                                {
+                                    type: "correct",
+                                    sentence: "Passive: Delicious meals are cooked by the chef.",
+                                    explanation: "Here, 'Delicious meals' receive the action. The focus shifts from the chef to the meals."
+                                },
+                                {
+                                    type: "incorrect",
+                                    sentence: "Awkward Passive: The ball was thrown by the boy by means of a powerful arm.",
+                                    explanation: "While grammatically passive, this sentence is unnecessarily wordy and less clear than its active counterpart. A better version would be: 'The boy threw the ball with a powerful arm.'"
+                                }
+                            ],
+                            quizQuestions: [
+                                {
+                                    type: "multiple-choice",
+                                    question: "Which sentence is in **active voice**?",
+                                    options: [
+                                        { text: "The book was read by him.", correct: false },
+                                        { text: "He read the book.", correct: true },
+                                        { text: "The book was being read.", correct: false }
+                                    ]
+                                },
+                                {
+                                    type: "multiple-choice",
+                                    question: "Which sentence is in **passive voice**?",
+                                    options: [
+                                        { text: "She baked a cake.", correct: false },
+                                        { text: "A cake was baked by her.", correct: true },
+                                        { text: "They are baking cakes.", correct: false }
+                                    ]
+                                },
+                                {
+                                    type: "match-the-words",
+                                    question: "Match the active voice sentence with its passive voice equivalent.",
+                                    pairs: [
+                                        { stem: "The chef cooks dinner.", correctOption: "Dinner is cooked by the chef." },
+                                        { stem: "The student wrote the essay.", correctOption: "The essay was written by the student." },
+                                        { stem: "The wind blew the leaves.", correctOption: "The leaves were blown by the wind." },
+                                        { stem: "The cat caught the mouse.", correctOption: "The mouse was caught by the cat." },
+                                        { stem: "The painter created a masterpiece.", correctOption: "A masterpiece was created by the painter." },
+                                        { stem: "The doctor examines the patient.", correctOption: "The patient is examined by the doctor." },
+                                        { stem: "The committee approved the plan.", correctOption: "The plan was approved by the committee." },
+                                        { stem: "The rain damaged the crops.", correctOption: "The crops were damaged by the rain." }
+                                    ]
+                                },
+                                {
+                                    type: "fill-in-blank",
+                                    question: "Change the active sentence to passive: 'My mother ______ dinner every evening.' (Hint: Use a form of 'prepare')",
+                                    correctAnswer: "is prepared by my mother",
+                                    explanation: "The passive voice sentence would be: 'Dinner is prepared by my mother every evening.' (Or 'Dinner is prepared every evening by my mother.')"
+                                },
+                                {
+                                    type: "fill-in-blank",
+                                    question: "Change the active sentence to passive: 'Someone stole my car yesterday.' (Hint: Use a form of 'steal')",
+                                    correctAnswer: "was stolen",
+                                    explanation: "The passive voice sentence would be: 'My car was stolen yesterday.'"
+                                }
+                            ]
+                    },
+                    "Passive and active voice": {
+                        description: `
+                            Understanding **Active Voice** and **Passive Voice** is crucial for clear and effective communication in English.
+
+                            **Active Voice** focuses on the subject performing the action, making sentences direct and impactful.
+                            **Passive Voice** focuses on the action itself or the receiver of the action, often used when the doer is unknown, unimportant, or when emphasizing the action's result.
+
+                            **How Voice Changes Across Tenses:**
+
+                            The core structure of active (Subject + Verb + Object) and passive (Object + Form of 'to be' + Past Participle) remains consistent, but the *form of 'to be'* and the main verb's tense will change.
+
+                            **1. Simple Present**
+                            * Active: S + V1 (s/es) + O
+                            * Passive: O + is/am/are + V3
+
+                            **2. Simple Past**
+                            * Active: S + V2 + O
+                            * Passive: O + was/were + V3
+
+                            **3. Simple Future**
+                            * Active: S + will + V1 + O
+                            * Passive: O + will be + V3
+
+                            **4. Present Continuous**
+                            * Active: S + is/am/are + V-ing + O
+                            * Passive: O + is/am/are + being + V3
+
+                            **5. Past Continuous**
+                            * Active: S + was/were + V-ing + O
+                            * Passive: O + was/were + being + V3
+
+                            **6. Present Perfect**
+                            * Active: S + has/have + V3 + O
+                            * Passive: O + has/have + been + V3
+
+                            **7. Past Perfect**
+                            * Active: S + had + V3 + O
+                            * Passive: O + had + been + V3
+
+                            **8. Future Perfect**
+                            * Active: S + will have + V3 + O
+                            * Passive: O + will have + been + V3
+                        `,
+                        structure: {
+                            active: "Subject + Verb + Object",
+                            passive: "Object + Form of 'to be' (is/am/are/was/were, being, been) + Past Participle (of Verb) + (by + Agent)"
+                        },
+                        examples: [
+                            {
+                                type: "correct",
+                                sentence: "Active (Present Simple): The chef cooks delicious meals.",
+                                explanation: "Here, 'The chef' is the subject performing the action 'cooks'."
+                            },
+                            {
+                                type: "correct",
+                                sentence: "Passive (Present Simple): Delicious meals are cooked by the chef.",
+                                explanation: "Here, 'Delicious meals' receive the action. The focus shifts from the chef to the meals."
+                            },
+                            {
+                                type: "correct",
+                                sentence: "Active (Past Simple): He wrote a letter yesterday.",
+                                explanation: "The subject 'He' performed the action 'wrote' in the past."
+                            },
+                            {
+                                type: "correct",
+                                sentence: "Passive (Past Simple): A letter was written by him yesterday.",
+                                explanation: "The object 'A letter' received the action. The past simple passive uses 'was/were' + past participle."
+                            },
+                            {
+                                type: "correct",
+                                sentence: "Active (Present Continuous): She is reading a book.",
+                                explanation: "The subject 'She' is currently performing the action 'reading'."
+                            },
+                            {
+                                type: "correct",
+                                sentence: "Passive (Present Continuous): A book is being read by her.",
+                                explanation: "The object 'A book' is currently receiving the action. The present continuous passive uses 'is/am/are being' + past participle."
+                            },
+                            {
+                                type: "correct",
+                                sentence: "Active (Present Perfect): They have built a new house.",
+                                explanation: "The subject 'They' completed the action 'built' at an unspecified time before now."
+                            },
+                            {
+                                type: "correct",
+                                sentence: "Passive (Present Perfect): A new house has been built by them.",
+                                explanation: "The object 'A new house' has received the action. The present perfect passive uses 'has/have been' + past participle."
+                            },
+                            {
+                                type: "incorrect",
+                                sentence: "Awkward Passive: The ball was thrown by the boy by means of a powerful arm.",
+                                explanation: "While grammatically passive, this sentence is unnecessarily wordy and less clear than its active counterpart. A better version would be: 'The boy threw the ball with a powerful arm.'"
+                            }
+                        ],
+                        // New section for examples across all tenses
+                    
+                        quizQuestions: [
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence is in **active voice**?",
+                                options: [
+                                    { text: "The book was read by him.", correct: false },
+                                    { text: "He read the book.", correct: true },
+                                    { text: "The book was being read.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "multiple-choice",
+                                question: "Which sentence is in **passive voice**?",
+                                options: [
+                                    { text: "She baked a cake.", correct: false },
+                                    { text: "A cake was baked by her.", correct: true },
+                                    { text: "They are baking cakes.", correct: false }
+                                ]
+                            },
+                            {
+                                type: "match-the-words",
+                                question: "Match the active voice sentence with its passive voice equivalent.",
+                                pairs: [
+                                    { stem: "The chef cooks dinner.", correctOption: "Dinner is cooked by the chef." },
+                                    { stem: "The student wrote the essay.", correctOption: "The essay was written by the student." },
+                                    { stem: "The wind blew the leaves.", correctOption: "The leaves were blown by the wind." },
+                                    { stem: "The cat caught the mouse.", correctOption: "The mouse was caught by the cat." },
+                                    { stem: "The painter created a masterpiece.", correctOption: "A masterpiece was created by the painter." },
+                                    { stem: "The doctor examines the patient.", correctOption: "The patient is examined by the doctor." },
+                                    { stem: "The committee approved the plan.", correctOption: "The plan was approved by the committee." },
+                                    { stem: "The rain damaged the crops.", correctOption: "The crops were damaged by the rain." }
+                                ]
+                            },
+                            {
+                                type: "fill-in-blank",
+                                question: "Change the active sentence to passive: 'My mother ______ dinner every evening.' (Hint: Use a form of 'prepare')",
+                                correctAnswer: "is prepared by my mother",
+                                explanation: "The passive voice sentence would be: 'Dinner is prepared by my mother every evening.' (Or 'Dinner is prepared every evening by my mother.')"
+                            },
+                            {
+                                type: "fill-in-blank",
+                                question: "Change the active sentence to passive: 'Someone stole my car yesterday.' (Hint: Use a form of 'steal')",
+                                correctAnswer: "was stolen",
+                                explanation: "The passive voice sentence would be: 'My car was stolen yesterday.'"
+                            }
+                        ]
+                    },
+                },
                 structureQuiz: {
                     "No Sooner had": {
                         description: "It means that as soon as one thing happened, another thing followed immediately.",
@@ -3264,10 +3482,6 @@
                         { sentence: "Don’t worry.", khmer: "កុំបារម្ភ។ (Command/Reassurance) <br> For Example: <br> Structure: Don't worry <br> Example: Don't worry, everything will be fine.", answer: "Don’t worry, everything will be fine." }
                     ],
 
-
-                    
-
-                    
                     
                     "General Confidence Statements": [
                         { sentence: "You know, I'm really starting to believe in myself more these days.", khmer: "អ្នកដឹងទេ, ខ្ញុំចាប់ផ្តើមជឿជាក់លើខ្លួនឯងកាន់តែច្រើនក្នុងពេលនេះ។ <br> You ..., I'm really ... to ... in myself more these days.", answer: "You know, I'm really starting to believe in myself more these days." },
@@ -3375,7 +3589,130 @@
 
                     ],
                     
-                    
+                    "passiveActiveSentences":[
+                        // Conditional Type 1
+                            {
+                                sentence: "Active (Conditional Type 1): If you help me, I will finish quickly.",
+                                khmer: "បើអ្នកជួយខ្ញុំ ខ្ញុំនឹងបញ្ចប់លឿន។ <br> If you ... me, I ... finish quickly.",
+                                answer: "If you help me, I will finish quickly."
+                            },
+                            {
+                                sentence: "Passive (Conditional Type 1): If I am helped by you, the work will be finished quickly.",
+                                khmer: "បើខ្ញុំត្រូវបានជួយដោយអ្នក ការងារនឹងត្រូវបានបញ្ចប់លឿន។ <br> If I ... helped by you, the work ... be finished quickly.",
+                                answer: "If I am helped by you, the work will be finished quickly."
+                            },
+                            // Conditional Type 2
+                            {
+                                sentence: "Active (Conditional Type 2): If I had money, I would buy a car.",
+                                khmer: "បើខ្ញុំមានលុយ ខ្ញុំនឹងទិញឡាន។ <br> If I ... money, I ... buy a car.",
+                                answer: "If I had money, I would buy a car."
+                            },
+                            {
+                                sentence: "Passive (Conditional Type 2): If money were had by me, a car would be bought.",
+                                khmer: "បើលុយត្រូវបានមានដោយខ្ញុំ ឡានមួយនឹងត្រូវបានទិញ។ <br> If money ... had by me, a car ... be bought.",
+                                answer: "If money were had by me, a car would be bought."
+                            },
+                            // Conditional Type 3
+                            {
+                                sentence: "Active (Conditional Type 3): If he had studied, he would have passed the exam.",
+                                khmer: "បើគាត់បានរៀន គាត់នឹងបានប្រឡងជាប់។ <br> If he ... studied, he ... passed the exam.",
+                                answer: "If he had studied, he would have passed the exam."
+                            },
+                            {
+                                sentence: "Passive (Conditional Type 3): If the exam had been studied for by him, it would have been passed.",
+                                khmer: "បើការប្រឡងត្រូវបានរៀនដោយគាត់ វានឹងត្រូវបានប្រឡងជាប់។ <br> If the exam ... studied for by him, it ... been passed.",
+                                answer: "If the exam had been studied for by him, it would have been passed."
+                            },
+                        // Simple Present
+                        {
+                            sentence: "Active: The student writes an essay.",
+                            khmer: "សិស្សសរសេរអត្ថបទមួយ។ <br> The student ... an essay.",
+                            answer: "The student writes an essay."
+                        },
+                        {
+                            sentence: "Passive: An essay is written by the student.",
+                            khmer: "អត្ថបទមួយត្រូវបានសរសេរដោយសិស្ស។ <br> An essay ... written by the student.",
+                            answer: "An essay is written by the student."
+                        },
+                        // Simple Past
+                        {
+                            sentence: "Active: She bought a new car.",
+                            khmer: "នាងបានទិញឡានថ្មីមួយ។ <br> She ... a new car.",
+                            answer: "She bought a new car."
+                        },
+                        {
+                            sentence: "Passive: A new car was bought by her.",
+                            khmer: "ឡានថ្មីមួយត្រូវបានទិញដោយនាង។ <br> A new car ... bought by her.",
+                            answer: "A new car was bought by her."
+                        },
+                        // Simple Future
+                        {
+                            sentence: "Active: He will read the book.",
+                            khmer: "គាត់នឹងអានសៀវភៅ។ <br> He ... read the book.",
+                            answer: "He will read the book."
+                        },
+                        {
+                            sentence: "Passive: The book will be read by him.",
+                            khmer: "សៀវភៅនឹងត្រូវបានអានដោយគាត់។ <br> The book ... be read by him.",
+                            answer: "The book will be read by him."
+                        },
+                        // Present Continuous
+                        {
+                            sentence: "Active: They are building a bridge.",
+                            khmer: "ពួកគេកំពុងសាងសង់ស្ពាន។ <br> They ... building a bridge.",
+                            answer: "They are building a bridge."
+                        },
+                        {
+                            sentence: "Passive: A bridge is being built by them.",
+                            khmer: "ស្ពានមួយកំពុងត្រូវបានសាងសង់ដោយពួកគេ។ <br> A bridge ... being built by them.",
+                            answer: "A bridge is being built by them."
+                        },
+                        // Past Continuous
+                        {
+                            sentence: "Active: We were watching a movie.",
+                            khmer: "ពួកយើងកំពុងមើលកុន។ <br> We ... watching a movie.",
+                            answer: "We were watching a movie."
+                        },
+                        {
+                            sentence: "Passive: A movie was being watched by us.",
+                            khmer: "កុនមួយកំពុងត្រូវបានមើលដោយពួកយើង។ <br> A movie ... being watched by us.",
+                            answer: "A movie was being watched by us."
+                        },
+                        // Present Perfect
+                        {
+                            sentence: "Active: The police have arrested the thief.",
+                            khmer: "ប៉ូលិសបានចាប់ចោរ។ <br> The police ... arrested the thief.",
+                            answer: "The police have arrested the thief."
+                        },
+                        {
+                            sentence: "Passive: The thief has been arrested by the police.",
+                            khmer: "ចោរត្រូវបានចាប់ខ្លួនដោយប៉ូលិស។ <br> The thief ... been arrested by the police.",
+                            answer: "The thief has been arrested by the police."
+                        },
+                        // Past Perfect
+                        {
+                            sentence: "Active: She had finished her homework.",
+                            khmer: "នាងបានបញ្ចប់កិច្ចការផ្ទះរបស់នាង។ <br> She ... finished her homework.",
+                            answer: "She had finished her homework."
+                        },
+                        {
+                            sentence: "Passive: Her homework had been finished by her.",
+                            khmer: "កិច្ចការផ្ទះរបស់នាងត្រូវបានបញ្ចប់ដោយនាង។ <br> Her homework ... finished by her.",
+                            answer: "Her homework had been finished by her."
+                        },
+                        // Future Perfect
+                        {
+                            sentence: "Active: They will have completed the task.",
+                            khmer: "ពួកគេនឹងបានបញ្ចប់ភារកិច្ច។ <br> They ... completed the task.",
+                            answer: "They will have completed the task."
+                        },
+                        {
+                            sentence: "Passive: The task will have been completed by them.",
+                            khmer: "ភារកិច្ចនឹងត្រូវបានបញ្ចប់ដោយពួកគេ។ <br> The task ... been completed by them.",
+                            answer: "The task will have been completed by them."
+                        }
+                    ],
+
                     
                     "qna-html": [
                         {
