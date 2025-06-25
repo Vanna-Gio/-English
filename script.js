@@ -1422,7 +1422,1929 @@
                             }
                         ]
                     },
+                    
+                   // "speakingSkillLessons"
+                        "Active Listening": {
+                            "description": "Active listening is crucial for effective communication. It involves fully concentrating on what is being said rather than just passively hearing the message. This deep focus helps you understand the speaker's context, emotions, and intentions, enabling you to formulate more appropriate and empathetic responses. In Khmer, this means ផ្តោតទៅលើអ្វីដែលអ្នកដទៃកំពុងនិយាយ មិនមែនគ្រាន់តែលើការបង្កើតការឆ្លើយតបផ្ទាល់ខ្លួនរបស់អ្នកនោះទេ។ នេះជួយអ្នកឱ្យយល់ពីបរិបទ និងឆ្លើយតបបានត្រឹមត្រូវជាងមុន។",
+                            "structure": "Focus on verbal and non-verbal cues; ask clarifying questions.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "Listener: 'So, if I understand correctly, you're saying the main challenge is time management?' (Clarifying question)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Speaker: 'I'm really stressed about the deadline.' Listener: (Nods, maintains eye contact) 'I can see that. Tell me more.'"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Speaker: 'I had a really tough day at work.' Listener: 'Oh, that reminds me, I had a great day!'"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "During a conversation, the listener is constantly checking their phone."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which of the following is NOT a component of active listening?",
+                                    "options": [
+                                        { "text": "Asking clarifying questions", "correct": false },
+                                        { "text": "Maintaining eye contact", "correct": false },
+                                        { "text": "Interrupting to share your own story", "correct": true },
+                                        { "text": "Summarizing what the speaker said", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Active listening involves fully _______________ on what is being said.",
+                                    "correctAnswer": "concentrating",
+                                    "explanation": "Active listening requires full concentration to truly understand the speaker."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the active listening components with their descriptions:",
+                                    "pairs": [
+                                        { "stem": "Non-verbal cues", "correctOption": "Body language, facial expressions" },
+                                        { "stem": "Clarifying questions", "correctOption": "Asking to confirm understanding" },
+                                        { "stem": "Verbal cues", "correctOption": "Words being spoken" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Practicing Pronunciation & Intonation": {
+                            "description": "Improving your speaking clarity involves dedicated practice of pronunciation and intonation. This means regularly working on difficult sounds, specific words, and the natural rise and fall of your voice in sentences. Utilizing online resources, recording your speech for self-assessment, and comparing it to native speakers are effective methods. In Khmer, this is អនុវត្តការបញ្ចេញសំឡេង និងសម្លេងឱ្យបានទៀងទាត់នូវសំឡេង ពាក្យ និងសម្លេងប្រយោគដែលពិបាក។ ប្រើប្រាស់ធនធានតាមអ៊ីនធឺណិត ថតសំឡេងខ្លួនឯង និងប្រៀបធៀបជាមួយអ្នកនិយាយភាសាកំណើត។",
+                            "structure": "Identify difficult sounds/words -> Practice with resources -> Record & compare -> Repeat.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "Practicing the 'th' sound: 'The thick thought.' (Focus on tongue placement)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Recording a sentence like 'What are you doing?' and ensuring the intonation rises naturally at the end for a question."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Speaking all words in a sentence with the same flat tone, making it sound robotic."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Ignoring specific vowel sounds that are challenging in a new language."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Why is practicing intonation important for speaking skills?",
+                                    "options": [
+                                        { "text": "It helps you speak louder.", "correct": false },
+                                        { "text": "It makes your speech sound more natural and conveys meaning.", "correct": true },
+                                        { "text": "It allows you to speak faster.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "The natural rise and fall of your voice in sentences is called _______________.",
+                                    "correctAnswer": "intonation",
+                                    "explanation": "Intonation refers to the melody of speech, important for conveying meaning and naturalness."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the pronunciation/intonation terms:",
+                                    "pairs": [
+                                        { "stem": "Pronunciation", "correctOption": "How words are spoken" },
+                                        { "stem": "Intonation", "correctOption": "Rise and fall of voice" },
+                                        { "stem": "Word stress", "correctOption": "Emphasis on certain syllables" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Expanding Vocabulary & Idioms": {
+                            "description": "To express yourself more precisely and richly, it's essential to expand your vocabulary and knowledge of idioms. This isn't just about memorizing lists, but learning new words and phrases within their natural context. Paying attention to collocations (words that often go together) and common idioms will make your speech sound significantly more natural and fluent. In Khmer, it means រៀនពាក្យ និងឃ្លាថ្មីៗក្នុងបរិបទ មិនមែនគ្រាន់តែជាបញ្ជីនោះទេ។ យកចិត្តទុកដាក់លើការភ្ជាប់ពាក្យ និងឃ្លាគំរូទូទៅ ដើម្បីធ្វើឱ្យការនិយាយរបស់អ្នកស្តាប់ទៅធម្មជាតិជាងមុន។",
+                            "structure": "Learn new words/idioms in context -> Identify collocations -> Integrate into conversations.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "Instead of 'I feel very happy,' try 'I'm over the moon!' (using an idiom in context)."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Learning 'make a decision' instead of 'do a decision' for proper collocation."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Using a new word incorrectly because you only learned its definition without seeing it in a sentence."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Trying to translate an idiom word-for-word from your native language."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "What does 'learning words in context' mean?",
+                                    "options": [
+                                        { "text": "Memorizing long lists of words.", "correct": false },
+                                        { "text": "Using a dictionary to find every word's meaning.", "correct": false },
+                                        { "text": "Understanding how a word is used in sentences or real-life situations.", "correct": true }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Words that often go together naturally are called _______________.",
+                                    "correctAnswer": "collocations",
+                                    "explanation": "Collocations are groups of words that naturally go together, like 'heavy rain' instead of 'strong rain'."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the idiom to its meaning:",
+                                    "pairs": [
+                                        { "stem": "Break a leg", "correctOption": "Good luck" },
+                                        { "stem": "Hit the books", "correctOption": "Study hard" },
+                                        { "stem": "Bite the bullet", "correctOption": "Endure a difficult situation" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Structuring Your Thoughts": {
+                            "description": "Speaking coherently, especially when delivering longer responses or explanations, benefits greatly from structuring your thoughts. Before you begin speaking, take a moment to quickly organize your ideas into a logical flow: an introduction, a few main points, and a conclusion. This helps both you stay on track and your listener follow your message clearly. In Khmer, this is មុននឹងនិយាយ ជាពិសេសសម្រាប់ការឆ្លើយតបវែង ត្រូវរៀបចំគំនិតរបស់អ្នកឱ្យលឿនទៅជាសេចក្តីផ្តើម ចំណុចសំខាន់ៗ និងការសន្និដ្ឋាន។ នេះជួយឱ្យអ្នកនិយាយបានច្បាស់លាស់ជាងមុន។",
+                            "structure": "Introduction -> Main Point 1 -> Main Point 2 -> Conclusion.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "Starting a response with 'First, I'd like to address...' then moving to 'Secondly...' and concluding with 'In summary...'"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "For a problem, outlining: 'The problem is X. My solution is Y. The benefits are Z.'"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Jumping between unrelated ideas without clear transitions, making the speech confusing."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Starting to speak without any idea of the points you want to make."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "What is the primary benefit of structuring your thoughts before speaking?",
+                                    "options": [
+                                        { "text": "It helps you speak faster.", "correct": false },
+                                        { "text": "It ensures your speech is coherent and easy to follow.", "correct": true },
+                                        { "text": "It means you don't need to practice.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "A good structure for a response often includes an introduction, main points, and a _______________.",
+                                    "correctAnswer": "conclusion",
+                                    "explanation": "A conclusion helps summarize your points and provide a clear ending to your speech."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the structural elements to their purpose:",
+                                    "pairs": [
+                                        { "stem": "Introduction", "correctOption": "Sets the stage, introduces topic" },
+                                        { "stem": "Main points", "correctOption": "Details and arguments" },
+                                        { "stem": "Conclusion", "correctOption": "Summarizes and reiterates" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Practicing Conversational Fillers & Pauses": {
+                            "description": "To sound more natural and confident, it's beneficial to learn and appropriately use conversational fillers and effective pauses. Fillers like 'well,' 'you know,' 'I mean,' or 'like' can buy you time to think and make your speech flow more smoothly, rather than having awkward silences. Strategic pauses can also emphasize points or allow listeners to process information. In Khmer, this means រៀនពាក្យបំពេញការសន្ទនា (ឧទុាហរណ៍ 'well', 'you know', 'I mean') និងរបៀបប្រើប្រាស់ការផ្អាកឱ្យមានប្រសិទ្ធភាព។ នេះធ្វើឱ្យការនិយាយរបស់អ្នកស្តាប់ទៅមិនសូវជាមនុស្សយន្ត និងមានលក្ខណៈជាការសន្ទនាជាងមុន។",
+                            "structure": "Learn common fillers -> Observe native speaker pauses -> Practice incorporating naturally.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "Speaker: 'Well, I think... (pause) ...the best approach would be to start with research.'"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Using 'you know' to check for understanding: 'It's a really complex issue, you know?'"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Using too many fillers to the point where it becomes distracting or makes you sound uncertain."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Speaking continuously without any pauses, making it hard for listeners to follow."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "What is the benefit of using appropriate conversational fillers and pauses?",
+                                    "options": [
+                                        { "text": "They make your speech sound more robotic.", "correct": false },
+                                        { "text": "They help you sound more natural and confident, allowing for thought processing.", "correct": true },
+                                        { "text": "They replace the need for a good vocabulary.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Words like 'well' or 'you know' used to buy time are called conversational _______________.",
+                                    "correctAnswer": "fillers",
+                                    "explanation": "Conversational fillers are short words or phrases that give you time to think without silence."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the conversational element to its effect:",
+                                    "pairs": [
+                                        { "stem": "Fillers", "correctOption": "Buy time to think" },
+                                        { "stem": "Pauses", "correctOption": "Emphasize points, allow processing" },
+                                        { "stem": "Rapid speech", "correctOption": "Can make speech hard to follow" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Engaging in Role-Playing & Simulations": {
+                            "description": "Building confidence and adaptability in diverse conversational contexts is greatly achieved through role-playing and simulations. By practicing speaking in various real-life scenarios, you train yourself to react spontaneously, manage unexpected turns in conversation, and apply your language skills in practical situations. In Khmer, this means អនុវត្តការនិយាយក្នុងស្ថានភាពជាក់ស្តែងផ្សេងៗតាមរយៈការសម្តែងតួ។ នេះបង្កើតទំនុកចិត្ត និងការសម្របខ្លួនក្នុងបរិបទសន្ទនាផ្សេងៗ។",
+                            "structure": "Identify scenario -> Define roles -> Practice dialogue -> Get feedback -> Repeat.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "Simulating a job interview with a friend, practicing common questions and answers."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Role-playing ordering food at a restaurant to practice specific vocabulary and phrases."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Only studying grammar rules without ever practicing speaking in a simulated environment."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Practicing only formal speech when you also need informal conversation skills."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "What is the main purpose of engaging in role-playing for speaking practice?",
+                                    "options": [
+                                        { "text": "To memorize scripts.", "correct": false },
+                                        { "text": "To build confidence and adaptability in various real-life conversational contexts.", "correct": true },
+                                        { "text": "To avoid speaking with native speakers.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Role-playing helps build _______________ and adaptability in different conversational contexts.",
+                                    "correctAnswer": "confidence",
+                                    "explanation": "Confidence is a key outcome of practicing speaking in simulated scenarios."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the simulation activity to its benefit:",
+                                    "pairs": [
+                                        { "stem": "Job interview simulation", "correctOption": "Practices formal communication" },
+                                        { "stem": "Restaurant role-play", "correctOption": "Practices ordering and social phrases" },
+                                        { "stem": "Getting feedback", "correctOption": "Identifies areas for improvement" }
+                                    ]
+                                }
+                            ]
+                        },
+                   
+                    
+                    //"a2SpeakingStructures"
+                        "Simple Present (Routines & Facts)": {
+                            "description": "At A2 level, mastering the Simple Present is essential for talking about daily routines, habits, general truths, and facts. It helps you describe what you do regularly or things that are always true. In Khmer, this helps you say: និយាយអំពីទម្លាប់ប្រចាំថ្ងៃ ការពិតទូទៅ និងអ្វីដែលតែងតែពិត។",
+                            "structure": "Subject + Verb (base form / -s for he/she/it) + Object/Complement.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I wake up at 7 AM every day."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "She works in a hospital."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "They working hard now."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He like coffee."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which sentence correctly uses the Simple Present?",
+                                    "options": [
+                                        { "text": "We are going to the park tomorrow.", "correct": false },
+                                        { "text": "She usually reads books.", "correct": true },
+                                        { "text": "He bought a new car yesterday.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Water _______ at 100 degrees Celsius. (boil)",
+                                    "correctAnswer": "boils",
+                                    "explanation": "This is a general fact, so we use the Simple Present. For 'it' (water), we add '-s'."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the subject with the correct verb form in Simple Present:",
+                                    "pairs": [
+                                        { "stem": "I", "correctOption": "eat" },
+                                        { "stem": "He", "correctOption": "eats" },
+                                        { "stem": "They", "correctOption": "eat" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Present Continuous (Actions Happening Now)": {
+                            "description": "The Present Continuous is vital for describing actions happening at the moment of speaking, temporary situations, or future plans that are already decided. In Khmer, this helps you say: ពិពណ៌នាអំពីសកម្មភាពដែលកំពុងកើតឡើងនៅពេលបច្ចុប្បន្ន ស្ថានភាពបណ្តោះអាសន្ន ឬផែនការនាពេលអនាគតដែលបានសម្រេចរួចហើយ។",
+                            "structure": "Subject + am/is/are + Verb-ing + Object/Complement.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I am studying English right now."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "They are watching a movie."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "She play outside now."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "We is eating dinner."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which sentence correctly uses the Present Continuous?",
+                                    "options": [
+                                        { "text": "He often goes to the gym.", "correct": false },
+                                        { "text": "They are listening to music.", "correct": true },
+                                        { "text": "I will call you later.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Look! The cat _______ on the sofa. (sleep)",
+                                    "correctAnswer": "is sleeping",
+                                    "explanation": "The action is happening now, so we use 'is' + verb-ing."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the subject with the correct auxiliary verb:",
+                                    "pairs": [
+                                        { "stem": "I", "correctOption": "am" },
+                                        { "stem": "He/She/It", "correctOption": "is" },
+                                        { "stem": "We/You/They", "correctOption": "are" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Simple Past (Past Events)": {
+                            "description": "To talk about completed actions or events that happened at a specific time in the past, the Simple Past is fundamental. It's crucial for narrating past experiences. In Khmer, this helps you say: និយាយអំពីសកម្មភាព ឬព្រឹត្តិការណ៍ដែលបានបញ្ចប់នៅពេលជាក់លាក់ណាមួយក្នុងអតីតកាល។",
+                            "structure": "Subject + Verb (past form) + Object/Complement. (For regular verbs, add -ed; for irregular verbs, use specific past forms).",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I visited my grandparents last weekend."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "She ate pizza for dinner yesterday."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "We go to the beach last summer."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He did not went to school."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which verb form is used for regular verbs in the Simple Past?",
+                                    "options": [
+                                        { "text": "Base form", "correct": false },
+                                        { "text": "-ing form", "correct": false },
+                                        { "text": "-ed form", "correct": true }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "They _______ a new car two years ago. (buy)",
+                                    "correctAnswer": "bought",
+                                    "explanation": "The past form of 'buy' is 'bought'."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the base verb with its Simple Past form:",
+                                    "pairs": [
+                                        { "stem": "Go", "correctOption": "Went" },
+                                        { "stem": "See", "correctOption": "Saw" },
+                                        { "stem": "Play", "correctOption": "Played" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Basic Questions (Wh- & Yes/No)": {
+                            "description": "Being able to ask and answer basic questions is critical for conversation. This includes 'Wh-' questions (who, what, where, when, why, how) to get specific information and 'Yes/No' questions for confirmation. In Khmer, this helps you say: សួរ និងឆ្លើយសំណួរមូលដ្ឋាន ដោយប្រើសំណួរ 'Wh-' (នរណា អ្វី ទីណា ពេលណា ហេតុអ្វី របៀបណា) និងសំណួរ 'Yes/No'។",
+                            "structure": "Wh-word + auxiliary verb (do/does/did/is/am/are/was/were) + Subject + Main Verb? OR Auxiliary Verb + Subject + Main Verb? (for Yes/No).",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "Where do you live?"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Are you busy today?"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "You like coffee?"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "What you do yesterday?"
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which type of question typically requires 'Yes' or 'No' as an answer?",
+                                    "options": [
+                                        { "text": "Wh-question", "correct": false },
+                                        { "text": "Yes/No question", "correct": true },
+                                        { "text": "Open-ended question", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "_______ is your favorite color? (Ask about something specific)",
+                                    "correctAnswer": "What",
+                                    "explanation": "'What' is used to ask for specific information about a thing."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the Wh-word to its purpose:",
+                                    "pairs": [
+                                        { "stem": "Who", "correctOption": "Person" },
+                                        { "stem": "Where", "correctOption": "Place" },
+                                        { "stem": "When", "correctOption": "Time" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Expressing Likes & Dislikes": {
+                            "description": "Being able to express your preferences is a core part of everyday conversation. This structure allows you to clearly state what you like, love, don't like, or hate. In Khmer, this helps you say: បង្ហាញពីចំណូលចិត្តរបស់អ្នកឱ្យបានច្បាស់លាស់ នូវអ្វីដែលអ្នកចូលចិត្ត ស្រលាញ់ មិនចូលចិត្ត ឬស្អប់។",
+                            "structure": "Subject + like/love/enjoy/don't like/hate + Noun / Verb-ing.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I like reading books."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "She doesn't like spicy food."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He likes to play soccer."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "They hate go shopping."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which verb form typically follows 'like' or 'love' when talking about activities?",
+                                    "options": [
+                                        { "text": "Base form", "correct": false },
+                                        { "text": "-ed form", "correct": false },
+                                        { "text": "-ing form (gerund)", "correct": true }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "He loves _______ (swim) in the ocean.",
+                                    "correctAnswer": "swimming",
+                                    "explanation": "When 'love' is followed by an activity, use the -ing form (gerund)."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the expression with its meaning:",
+                                    "pairs": [
+                                        { "stem": "I love", "correctOption": "Strong preference" },
+                                        { "stem": "I like", "correctOption": "Positive preference" },
+                                        { "stem": "I don't like", "correctOption": "Negative preference" }
+                                    ]
+                                }
+                            ]
+                        },
+                    
+                    //B1
+            
+                        "Present Perfect (Experiences & Unfinished Actions)": {
+                            "description": "The Present Perfect is crucial at B1 for talking about experiences ('Have you ever...'), actions that started in the past and continue to the present, or recent actions with current relevance. In Khmer, this helps you say: និយាយអំពីបទពិសោធន៍ សកម្មភាពដែលបានចាប់ផ្តើមពីអតីតកាល និងបន្តមកដល់បច្ចុប្បន្ន ឬសកម្មភាពថ្មីៗដែលមានជាប់ទាក់ទងនឹងបច្ចុប្បន្ន។",
+                            "structure": "Subject + have/has + Verb (past participle) + Object/Complement.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I have visited Paris twice."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "She has lived here for five years."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Have you ever go to Japan?"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He has finish his homework."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which of these sentences uses the Present Perfect correctly?",
+                                    "options": [
+                                        { "text": "I am studying English now.", "correct": false },
+                                        { "text": "She has never tried sushi.", "correct": true },
+                                        { "text": "They went to the cinema yesterday.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "We have _______ (know) each other since childhood.",
+                                    "correctAnswer": "known",
+                                    "explanation": "The past participle of 'know' is 'known'. This indicates an action continuing to the present."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the base verb with its past participle:",
+                                    "pairs": [
+                                        { "stem": "See", "correctOption": "Seen" },
+                                        { "stem": "Do", "correctOption": "Done" },
+                                        { "stem": "Eat", "correctOption": "Eaten" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Future Forms (will, going to, Present Continuous)": {
+                            "description": "At B1, it's important to differentiate and use various future forms: 'will' for predictions/spontaneous decisions, 'be going to' for plans/predictions based on evidence, and Present Continuous for fixed arrangements. In Khmer, this helps you say: បែងចែក និងប្រើប្រាស់ទម្រង់អនាគតផ្សេងៗគ្នា៖ 'will' សម្រាប់ការទស្សន៍ទាយ/ការសម្រេចចិត្តភ្លាមៗ, 'be going to' សម្រាប់ផែនការ/ការទស្សន៍ទាយផ្អែកលើភស្តុតាង, និង Present Continuous សម្រាប់កិច្ចការដែលបានកំណត់រួចហើយ។",
+                            "structure": "S + will + V1; S + be going to + V1; S + be + Ving (for fixed arrangements).",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I think it will rain tomorrow. (Prediction)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "We are going to buy a new house next year. (Plan)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "They are meeting John at 7 PM. (Fixed arrangement)"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "She going to visit her family next week."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "I am going to help you right now. (Spontaneous offer, should be 'I will help you')"
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which future form is best for a sudden decision?",
+                                    "options": [
+                                        { "text": "be going to", "correct": false },
+                                        { "text": "will", "correct": true },
+                                        { "text": "Present Continuous", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Look at those dark clouds! It _______ (rain).",
+                                    "correctAnswer": "is going to rain",
+                                    "explanation": "This is a prediction based on evidence, so 'be going to' is appropriate."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the future form with its primary use:",
+                                    "pairs": [
+                                        { "stem": "Will", "correctOption": "Predictions/Spontaneous decisions" },
+                                        { "stem": "Be going to", "correctOption": "Plans/Predictions with evidence" },
+                                        { "stem": "Present Continuous", "correctOption": "Fixed arrangements" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Comparatives & Superlatives": {
+                            "description": "At B1, you should be able to compare people, things, and places using comparatives (for two items) and superlatives (for three or more items). This allows for more nuanced descriptions. In Khmer, this helps you say: ប្រៀបធៀបមនុស្ស វត្ថុ និងទីកន្លែង ដោយប្រើប្រៀបធៀប (សម្រាប់វត្ថុពីរ) និងកំពូលប្រៀបធៀប (សម្រាប់វត្ថុបី ឬច្រើនជាងនេះ)។",
+                            "structure": "Adjective + -er / more + Adjective + than (Comparative); The + Adjective + -est / most + Adjective (Superlative).",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "This book is more interesting than that one."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Mount Everest is the highest mountain in the world."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "She is more taller than her brother."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "This is the most good movie I've ever seen."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "To compare two items, you use a:",
+                                    "options": [
+                                        { "text": "Superlative", "correct": false },
+                                        { "text": "Comparative", "correct": true },
+                                        { "text": "Base adjective", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Tokyo is one of the _______ (big) cities in the world.",
+                                    "correctAnswer": "biggest",
+                                    "explanation": "To compare among many cities, use the superlative form 'biggest'."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the adjective with its comparative/superlative form:",
+                                    "pairs": [
+                                        { "stem": "Tall", "correctOption": "Taller/Tallest" },
+                                        { "stem": "Beautiful", "correctOption": "More beautiful/Most beautiful" },
+                                        { "stem": "Good", "correctOption": "Better/Best" }
+                                    ]
+                                }
+                            ]
+                        },
+                    
+                    //b1SpeakingStructures": 
+                        "Present Perfect Continuous (Duration of Actions)": {
+                            "description": "At B1, the Present Perfect Continuous allows you to talk about actions that started in the past and are still continuing, often emphasizing how long they have been happening. It's used for ongoing activities with results in the present. In Khmer, this helps you say: និយាយអំពីសកម្មភាពដែលបានចាប់ផ្តើមពីអតីតកាល ហើយនៅតែកំពុងបន្ត ដោយសង្កត់ធ្ងន់លើរយៈពេលដែលវាបានកើតឡើង។",
+                            "structure": "Subject + have/has + been + Verb-ing + Object/Complement + (for/since).",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I have been studying English for three hours."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "She has been working at this company since 2020."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "They have been watched TV all morning."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He is been waiting for you."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which sentence correctly uses the Present Perfect Continuous?",
+                                    "options": [
+                                        { "text": "He lived here for five years.", "correct": false },
+                                        { "text": "We have been waiting for an hour.", "correct": true },
+                                        { "text": "They are going to travel next month.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "She _______ (read) that book all day.",
+                                    "correctAnswer": "has been reading",
+                                    "explanation": "The action of reading started in the past and is still ongoing, covering the entire day."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the phrase with its appropriate time expression:",
+                                    "pairs": [
+                                        { "stem": "I have been living here", "correctOption": "for ten years" },
+                                        { "stem": "She has been learning French", "correctOption": "since January" },
+                                        { "stem": "They have been playing", "correctOption": "for a long time" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Past Continuous (Ongoing Past Actions)": {
+                            "description": "The Past Continuous is used to describe actions that were ongoing at a specific point in the past, or actions that were in progress when another action interrupted them. It sets the scene for past narratives. In Khmer, this helps you say: ពិពណ៌នាអំពីសកម្មភាពដែលកំពុងបន្តនៅចំណុចជាក់លាក់មួយក្នុងអតីតកាល ឬសកម្មភាពដែលកំពុងបន្តនៅពេលដែលសកម្មភាពមួយទៀតបានរំខាន។",
+                            "structure": "Subject + was/were + Verb-ing + Object/Complement.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I was cooking dinner when the phone rang."
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "They were playing football all afternoon."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "She was watch TV last night."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He is running when I saw him."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which sentence indicates an action that was ongoing in the past when another action occurred?",
+                                    "options": [
+                                        { "text": "I ate breakfast.", "correct": false },
+                                        { "text": "She was sleeping when the alarm went off.", "correct": true },
+                                        { "text": "They will arrive soon.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "While I _______ (walk) to the park, I saw my friend.",
+                                    "correctAnswer": "was walking",
+                                    "explanation": "The action of walking was ongoing when another action (seeing a friend) happened."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the subject with the correct auxiliary verb for Past Continuous:",
+                                    "pairs": [
+                                        { "stem": "I/He/She/It", "correctOption": "was" },
+                                        { "stem": "We/You/They", "correctOption": "were" }
+                                    ]
+                                }
+                            ]
+                        },
+                       "Used to / Would (Past Habits)": {
+                            "description": "At B1, you can express past habits or states that no longer exist using 'used to' or 'would'. 'Used to' can be used for both habits and states, while 'would' is typically only for repeated actions. In Khmer, this helps you say: បង្ហាញទម្លាប់ ឬស្ថានភាពពីអតីតកាលដែលលែងមាន ដោយប្រើ 'used to' ឬ 'would'។",
+                            "structure": "Subject + used to + Verb (base form) + ... OR Subject + would + Verb (base form) + ... (for repeated actions only).",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I used to live in a small town. (Past state)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Every summer, we would go to the beach. (Repeated past action)"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "She would be shy when she was a child.",
+                                    "explanation": "'Would' is not used for past states; 'used to' should be used instead: 'She used to be shy when she was a child.'"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He used to played soccer.",
+                                    "explanation": "'Used to' must be followed by the base form of the verb: 'He used to play soccer.'"
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which option is correct for a past state that no longer exists?",
+                                    "options": [
+                                        { "text": "He would have a lot of free time.", "correct": false },
+                                        { "text": "He used to have a lot of free time.", "correct": true },
+                                        { "text": "He was having a lot of free time.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "When I was a kid, I _______ (play) outside every day.",
+                                    "correctAnswer": "used to play / would play",
+                                    "explanation": "Both 'used to play' and 'would play' are correct here as it describes a repeated past action."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the phrase with its appropriate usage:",
+                                    "pairs": [
+                                        { "stem": "Used to", "correctOption": "Past habits and states" },
+                                        { "stem": "Would", "correctOption": "Repeated past actions only" },
+                                        { "stem": "Simple Past", "correctOption": "Single completed action in the past" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Reporting Verbs (Direct & Indirect Speech)": {
+                            "description": "At B1, you need to be able to report what someone else said, both directly (exact words) and indirectly (paraphrased). This involves changes in tenses, pronouns, and time/place expressions. In Khmer, this helps you say: រាយការណ៍នូវអ្វីដែលអ្នកផ្សេងបាននិយាយ ទាំងដោយផ្ទាល់ និងដោយប្រយោល។",
+                            "structure": "Direct: '...' + reporting verb. Indirect: Reporting verb + (that) + changed sentence (tense, pronoun, time/place).",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "Direct: She said, 'I am tired.'"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Indirect: She said (that) she was tired."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He told me he is going yesterday."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "They asked where is the station."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "When reporting a sentence from Present Simple to Indirect Speech, what tense does it usually change to?",
+                                    "options": [
+                                        { "text": "Present Continuous", "correct": false },
+                                        { "text": "Simple Past", "correct": true },
+                                        { "text": "Present Perfect", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "Direct: 'I will help you tomorrow,' he said. Indirect: He said he _______ help me the next day.",
+                                    "correctAnswer": "would",
+                                    "explanation": "'Will' changes to 'would' in indirect speech, and 'tomorrow' changes to 'the next day'."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the direct speech element with its indirect speech equivalent:",
+                                    "pairs": [
+                                        { "stem": "Now", "correctOption": "Then" },
+                                        { "stem": "Here", "correctOption": "There" },
+                                        { "stem": "Today", "correctOption": "That day" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Passive Voice (Simple Tenses)": {
+                            "description": "At B1, you should be able to use the passive voice for Simple Present and Simple Past. The passive voice is used when the focus is on the action or the object of the action, rather than the doer. In Khmer, this helps you say: ប្រើសំឡេងអកម្មសម្រាប់បច្ចុប្បន្នកាលធម្មតា និងអតីតកាលធម្មតា។ សំឡេងអកម្មត្រូវបានប្រើនៅពេលដែលការផ្តោតសំខាន់គឺទៅលើសកម្មភាព ឬកម្មវត្ថុនៃសកម្មភាព មិនមែនអ្នកធ្វើនោះទេ។",
+                            "structure": "Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "The letter was written yesterday. (Simple Past Passive)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "Coffee is grown in Brazil.(Simple Present Passive)" 
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "The book written by John."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "English is speak around the world."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "When is the passive voice typically used?",
+                                    "options": [
+                                        { "text": "When the doer of the action is unknown or unimportant.", "correct": true },
+                                        { "text": "When the doer of the action is the main focus.", "correct": false },
+                                        { "text": "Only when talking about future events.", "correct": false }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "The new bridge _______ (build) next year.",
+                                    "correctAnswer": "will be built",
+                                    "explanation": "This is Future Simple Passive, for an action whose focus is on the object (the bridge) and is in the future."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the active sentence with its passive equivalent:",
+                                    "pairs": [
+                                        { "stem": "They built the house.", "correctOption": "The house was built." },
+                                        { "stem": "She cleans the room.", "correctOption": "The room is cleaned." },
+                                        { "stem": "He will send the email.", "correctOption": "The email will be sent." }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Second Conditional (Hypothetical Situations)": {
+                            "description": "The Second Conditional is used to talk about hypothetical or unlikely situations in the present or future, and their imaginary results. It's about 'what if' scenarios that are not expected to happen. In Khmer, this helps you say: និយាយអំពីស្ថានភាពសម្មតិកម្ម ឬមិនទំនងនៅក្នុងបច្ចុប្បន្ន ឬអនាគត និងលទ្ធផលស្រមៃរបស់ពួកគេ។",
+                            "structure": "If + Subject + Simple Past (of main verb), Subject + would + Base Verb.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "If I won the lottery, I would buy a big house. (Unlikely scenario)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "If I were you, I would accept the job. (Hypothetical advice)"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "If he would study, he would pass."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "If I had money, I will buy a car."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "The Second Conditional is used for:",
+                                    "options": [
+                                        { "text": "Real possibilities in the future.", "correct": false },
+                                        { "text": "Past events that cannot be changed.", "correct": false },
+                                        { "text": "Hypothetical or unlikely situations in the present/future.", "correct": true }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "If she _______ (speak) English, she would get a better job.",
+                                    "correctAnswer": "spoke",
+                                    "explanation": "For the 'if' clause in Second Conditional, use the Simple Past tense."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the 'if' clause with its likely result clause in the Second Conditional:",
+                                    "pairs": [
+                                        { "stem": "If I had wings,", "correctOption": "I would fly." },
+                                        { "stem": "If she lived closer,", "correctOption": "we would meet more often." },
+                                        { "stem": "If it were sunny,", "correctOption": "we would go to the beach." }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Modals for Advice, Obligation, Permission": {
+                            "description": "At B1, you'll expand your use of modal verbs to express various functions like giving advice ('should'), expressing obligation/necessity ('must', 'have to'), and asking for/giving permission ('can', 'may', 'might'). In Khmer, this helps you say: ប្រើកិរិយាសព្ទជំនួយដើម្បីបង្ហាញពីអនុសាសន៍ កាតព្វកិច្ច ការអនុញ្ញាត។",
+                            "structure": "Subject + Modal Verb + Base Verb + Object/Complement.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "You should study for the exam. (Advice)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "All passengers must wear seatbelts. (Obligation)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "May I come in? (Permission)"
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "We can to go now."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "He should learns English."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which modal verb is best for strong obligation or necessity?",
+                                    "options": [
+                                        { "text": "Should", "correct": false },
+                                        { "text": "Might", "correct": false },
+                                        { "text": "Must", "correct": true }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "It's raining heavily, so you _______ (take) an umbrella.",
+                                    "correctAnswer": "should take",
+                                    "explanation": "'Should' is used to give advice or make a recommendation."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the modal verb with its primary function:",
+                                    "pairs": [
+                                        { "stem": "Should", "correctOption": "Advice" },
+                                        { "stem": "Must", "correctOption": "Obligation" },
+                                        { "stem": "May", "correctOption": "Permission/Possibility" }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Connectors & Discourse Markers": {
+                            "description": "At B1, connecting your ideas smoothly and logically is key to fluent conversation. Discourse markers and connectors (e.g., 'however', 'therefore', 'although', 'in my opinion') help you organize your thoughts, express relationships between ideas, and guide your listener. In Khmer, this helps you say: តភ្ជាប់គំនិតរបស់អ្នកឱ្យរលូន និងសមហេតុផល ដើម្បីធ្វើឱ្យការសន្ទនារបស់អ្នកកាន់តែប្រសើរ។",
+                            "structure": "Sentence 1 + Connector/Marker + Sentence 2; Discourse Marker at beginning of sentence/paragraph.",
+                            "examples": [
+                                {
+                                    "type": "correct",
+                                    "sentence": "I like coffee; however, I prefer tea in the mornings. (Contrast)"
+                                },
+                                {
+                                    "type": "correct",
+                                    "sentence": "In my opinion, we should focus on quality.(Opinion)" 
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Although he was tired. He continued working."
+                                },
+                                {
+                                    "type": "incorrect",
+                                    "sentence": "Therefore, I am happy, I bought a new car."
+                                }
+                            ],
+                            "quizQuestions": [
+                                {
+                                    "type": "multiple-choice",
+                                    "question": "Which connector is used to introduce a contrasting idea?",
+                                    "options": [
+                                        { "text": "Therefore", "correct": false },
+                                        { "text": "In addition", "correct": false },
+                                        { "text": "However", "correct": true }
+                                    ]
+                                },
+                                {
+                                    "type": "fill-in-blank",
+                                    "question": "She studied hard; _______, she passed the exam easily.",
+                                    "correctAnswer": "therefore",
+                                    "explanation": "'Therefore' is used to show a result or consequence."
+                                },
+                                {
+                                    "type": "match-the-words",
+                                    "question": "Match the connector/marker with its function:",
+                                    "pairs": [
+                                        { "stem": "In addition", "correctOption": "Adding information" },
+                                        { "stem": "For example", "correctOption": "Giving an illustration" },
+                                        { "stem": "As a result", "correctOption": "Indicating consequence" }
+                                    ]
+                                }
+                            ]
+                        },
+                    
+                
+
+                
+
                 },
+                MoveOnstructure: {
+                    "So...as to... (Degree and Result)": {
+                        "description": "“So + adjective/adverb + as to + verb” is used to express a degree or quality that leads to a specific result or action. It’s similar to “so...that” or “in such a way that”, but often sounds more formal, polite, or can even be used for indirect criticism. In Khmer, this helps you say: ប្រើដើម្បីបង្ហាញពីកម្រិត ឬគុណភាពដែលនាំឱ្យមានលទ្ធផល ឬសកម្មភាពជាក់លាក់។ វាស្រដៀងនឹង 'so...that' ឬ 'in such a way that' ប៉ុន្តែជារឿយៗស្តាប់ទៅផ្លូវការជាង សុភាពជាង ឬអាចប្រើសម្រាប់រិះគន់ដោយប្រយោល។",
+                        "structure": "Subject + be + so + adjective/adverb + as to + base verb.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "She was so kind as to help me with my homework."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "He was so careless as to forget his passport."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "They were so generous as to donate all the money."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Are you so foolish as to believe that story?"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "He was so quickly as to run away.",
+                                "explanation": "Use an adjective with 'so' when followed by 'as to'. 'Quickly' is an adverb. Correct: 'He was so quick as to run away.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "She was so beautiful as to smiled.",
+                                "explanation": "The verb after 'as to' must be in its base form. Correct: 'She was so beautiful as to smile.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "Which phrase has a similar meaning to 'so...as to...'?",
+                                "options": [
+                                    { "text": "Although", "correct": false },
+                                    { "text": "In order to", "correct": true },
+                                    { "text": "Unless", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "He was so brave _______ (save) the child from the burning building.",
+                                "correctAnswer": "as to save",
+                                "explanation": "The structure 'so + adjective + as to + base verb' expresses the degree that leads to an action."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the beginning of the sentence with a logical completion using 'so...as to...':",
+                                "pairs": [
+                                    { "stem": "She was so polite", "correctOption": "as to open the door for me." },
+                                    { "stem": "They were so shocked", "correctOption": "as to remain silent." },
+                                    { "stem": "Are you so desperate", "correctOption": "as to accept that offer?" }
+                                ]
+                            }
+                        ]
+                    },
+                    "If it hadn’t been for... (Hypothetical Past Cause)": {
+                        "description": "“If it hadn’t been for…” is a powerful structure used to express a hypothetical past cause that either prevented something worse from happening or enabled something good. It means that without that person or thing, the situation would have been negative. It can also be expressed more formally with 'But for...'. In Khmer, this helps you say: គឺជាទម្រង់ដ៏មានឥទ្ធិពលដែលប្រើដើម្បីបង្ហាញពីមូលហេតុសម្មតិកម្មពីអតីតកាល ដែលបានការពារអ្វីមួយដែលអាក្រក់ជាងនេះមិនឱ្យកើតឡើង ឬបានធ្វើឱ្យអ្វីល្អកើតឡើង។ វាមានន័យថា បើគ្មានបុគ្គល ឬវត្ថុនោះទេ ស្ថានភាពនឹងអវិជ្ជមាន។",
+                        "structure": "If it hadn’t been for + noun/pronoun, + result (would have + past participle).",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "If it hadn’t been for you, I would have failed."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "If it hadn’t been for the rain, we would have gone hiking."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "If it hadn’t been for her advice, I wouldn’t have passed the interview."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "If it hadn’t been for my alarm, I would have missed my flight."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "But for your quick thinking, the accident would have been much worse.(Formal alternative)" 
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "If it hadn’t been for he, I would be lost.",
+                                "explanation": "After 'for', use an object pronoun or noun. Correct: 'If it hadn’t been for him, I would be lost.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "If it hadn’t been for my help, she pass the exam.",
+                                "explanation": "The result clause must use 'would have + past participle' for hypothetical past outcomes. Correct: 'If it hadn’t been for my help, she wouldn’t have passed the exam.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "What does 'If it hadn’t been for...' imply?",
+                                "options": [
+                                    { "text": "Something happened because of a specific cause.", "correct": false },
+                                    { "text": "Something positive happened or something negative was avoided due to a specific cause.", "correct": true },
+                                    { "text": "A general truth or habit.", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "If it hadn’t been for their warning, we _______ (enter) the dangerous area.",
+                                "correctAnswer": "would have entered",
+                                "explanation": "The structure indicates a hypothetical past action that would have occurred without the stated condition."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the 'If it hadn’t been for...' phrase with its logical result:",
+                                "pairs": [
+                                    { "stem": "If it hadn’t been for the map,", "correctOption": "we would have gotten lost." },
+                                    { "stem": "If it hadn’t been for his intervention,", "correctOption": "the argument would have escalated." },
+                                    { "stem": "If it hadn’t been for the emergency services,", "correctOption": "many lives would have been lost." }
+                                ]
+                            }
+                        ]
+                    },
+                    "Too...to (Excessive Degree and Negative Result)": {
+                        "description": "“Too...to” is a very natural and advanced structure used to express cause and effect, specifically when something is excessive and prevents an action from happening. It means 'so much that something is not possible'. In Khmer, this helps you say: គឺជាទម្រង់ធម្មជាតិ និងកម្រិតខ្ពស់ដែលប្រើដើម្បីបង្ហាញពីមូលហេតុ និងផលប៉ះពាល់ ជាពិសេសនៅពេលដែលអ្វីមួយលើសលប់ ហើយរារាំងសកម្មភាពមិនឱ្យកើតឡើង។",
+                        "structure": "Subject + be + too + adjective/adverb + to + base verb.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "I’m too tired to go out tonight."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "She was too shy to speak in public."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "It’s too late to start a movie now."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "They were running too fast to catch."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "He is too tired that he can't go.",
+                                "explanation": "The 'too...to' structure already implies the negative result, so 'that he can't' is redundant. Correct: 'He is too tired to go.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "The box was too heavy for lifting.",
+                                "explanation": "The 'to' infinitive is needed after 'too + adjective/adverb'. If you want to specify who it's for, use 'for + pronoun/noun'. Correct: 'The box was too heavy to lift.' or 'The box was too heavy for him to lift.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "What does 'too...to' express?",
+                                "options": [
+                                    { "text": "Sufficient degree for an action.", "correct": false },
+                                    { "text": "Excessive degree preventing an action.", "correct": true },
+                                    { "text": "A comparison between two qualities.", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "The coffee is too hot _______ (drink).",
+                                "correctAnswer": "to drink",
+                                "explanation": "The 'too...to' structure is completed with 'to' + base verb to show the preventing effect."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the 'too' phrase with its logical 'to' completion:",
+                                "pairs": [
+                                    { "stem": "She's too young", "correctOption": "to understand." },
+                                    { "stem": "The problem was too complicated", "correctOption": "to solve easily." },
+                                    { "stem": "He spoke too quietly", "correctOption": "to be heard clearly." }
+                                ]
+                            }
+                        ]
+                    },
+                    
+                },
+                KeentoKeep:{
+                          "No matter how / what / where / who / when / why...": {
+                        "description": "This structure is used when you want to say something is true or will happen in any case, under any condition, or regardless of the situation. Think of it like saying: “It doesn’t matter how / what / where...”. In Khmer, this helps you say: ប្រើនៅពេលអ្នកចង់និយាយថាអ្វីមួយគឺពិត ឬនឹងកើតឡើងមិនថាស្ថិតក្នុងករណីណាក៏ដោយ ក្រោមលក្ខខណ្ឌណាមួយ ឬដោយមិនគិតពីស្ថានភាព។",
+                        "structure": "No matter + question word (how/what/where/who/when/why) + subject + verb, main result.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "No matter how tired I am, I always finish my work."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "No matter what you say, I won't change my mind."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "No matter where she goes, he follows her."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "No matter who wins, we’ll celebrate together."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "No matter when you call, I’ll answer."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "No matter why he left, we still miss him."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "No matter what you doing, stop it now.",
+                                "explanation": "The verb after the question word should be in the base form or conjugated correctly without auxiliary verbs unless it's a continuous tense: 'No matter what you do, stop it now.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "No matter how much difficult, I will try.",
+                                "explanation": "The adjective 'difficult' should be used as an adverb 'difficult' or 'difficulty' to modify 'how': 'No matter how difficult it is, I will try.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "Which phrase indicates that something will happen regardless of the situation?",
+                                "options": [
+                                    { "text": "Only if", "correct": false },
+                                    { "text": "As long as", "correct": false },
+                                    { "text": "No matter what", "correct": true }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "_______ how hard it rains, we will still go for a walk.",
+                                "correctAnswer": "No matter",
+                                "explanation": "'No matter' is used with 'how' to indicate that the intensity of the rain won't change the decision."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the 'no matter' phrase with its primary focus:",
+                                "pairs": [
+                                    { "stem": "No matter who", "correctOption": "Person" },
+                                    { "stem": "No matter when", "correctOption": "Time" },
+                                    { "stem": "No matter why", "correctOption": "Reason" }
+                                ]
+                            }
+                        ]
+                    },
+                    "Inverted Conditionals with 'Had I...'": {
+                        "description": "This is one of the fanciest and most advanced structures in English, a formal version of the Third Conditional ('If I had...'). You use it when you want to talk about an unreal past condition in a formal, elegant way. It sounds formal, elegant, and very fluent, often used in writing, speeches, debates, or professional situations. In Khmer, this helps you say: នេះជាទម្រង់មួយដែលស៊ីជម្រៅ និងកម្រិតខ្ពស់បំផុតក្នុងភាសាអង់គ្លេស ដែលជាទម្រង់ផ្លូវការនៃលក្ខខណ្ឌប្រភេទទីបី ('If I had...')។ អ្នកប្រើវាពេលអ្នកចង់និយាយអំពីស្ថានភាពអតីតកាលដែលមិនពិត តាមរបៀបផ្លូវការ និងឆើតឆាយ។",
+                        "structure": "Had + subject + past participle, + subject + would have + past participle. (Same meaning as: If + subject + had + past participle, ...)",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "Had I known about the meeting, I would have come."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Had she studied harder, she would have passed."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Had they left earlier, they wouldn’t have missed the train."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Had I know, I would have gone."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Had he told me, he would have come."
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "When is 'Had I...' typically used?",
+                                "options": [
+                                    { "text": "For real possibilities in the future.", "correct": false },
+                                    { "text": "For hypothetical situations in the present.", "correct": false },
+                                    { "text": "For unreal past conditions in a formal way.", "correct": true }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "Had he _______ (arrive) on time, he would have caught the flight.",
+                                "correctAnswer": "arrived",
+                                "explanation": "After 'Had + subject', the verb must be in the past participle form."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the inverted conditional start with its likely completion:",
+                                "pairs": [
+                                    { "stem": "Had I gone there,", "correctOption": "I would have seen it." },
+                                    { "stem": "Had she told me,", "correctOption": "I would have understood." },
+                                    { "stem": "Had we planned it,", "correctOption": "we would have succeeded." }
+                                ]
+                            }
+                        ]
+                    },
+                     "Such...that (Strong Cause-Effect)": {
+                        "description": "“Such...that” is a powerful and natural way to describe strong results or consequences. You use it when you want to say something is true or will happen in any case, under any condition, or regardless of the situation, similar to saying “It doesn’t matter how / what / where...”. In Khmer, this helps you say: គឺជាវិធីដ៏មានប្រសិទ្ធភាព និងធម្មជាតិមួយដើម្បីពិពណ៌នាអំពីលទ្ធផល ឬផលវិបាកខ្លាំងៗ។ អ្នកប្រើវាពេលអ្នកចង់និយាយថាអ្វីមួយគឺពិត ឬនឹងកើតឡើងមិនថាស្ថិតក្នុងករណីណាក៏ដោយ ក្រោមលក្ខខណ្ឌណាមួយ ឬដោយមិនគិតពីស្ថានភាព។",
+                        "structure": "Such + (adjective) + noun + that + result. OR Such + a/an + adjective + singular countable noun + that + result.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "It was such a beautiful day that we went to the beach."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "She’s such a kind person that everyone loves her."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "They told such interesting stories that we didn’t want to leave."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "It was such bad weather that they canceled the flight."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "She is such a quick speaker that I can’t hear clearly."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "There was such a lot of water that the bottle overflowed."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "It was such happy that I smiled.",
+                                "explanation": "You cannot use 'such' directly with an adjective without a noun. Use 'so' instead: 'It was so happy that I smiled.' Or with a noun: 'It was such a happy moment that I smiled.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "He has such many friends that he never feels alone.",
+                                "explanation": "With 'many' or 'much', you typically use 'so': 'He has so many friends that he never feels alone.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "She is such a quickly speak that I can't heard clearly.",
+                                "explanation": "'Quickly' is an adverb; use 'quick speaker' (adjective + noun). Also, 'can't heard' should be 'can't hear' (modal verb + base verb)."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "He is such much water that the bottle overflowing.",
+                                "explanation": "Use 'such a lot of' with uncountable nouns. The verb 'overflowing' should be past tense 'overflowed' to match the result."
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "When do you typically use 'such...that'?",
+                                "options": [
+                                    { "text": "To describe a moderate cause and effect.", "correct": false },
+                                    { "text": "To show a strong cause-effect relationship with a noun.", "correct": true },
+                                    { "text": "To compare two unrelated items.", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "It was _______ a difficult exam _______ many students failed.",
+                                "correctAnswer": "such ... that",
+                                "explanation": "'Such...that' is used with 'a difficult exam' to show the strong result."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the phrase start with its correct completion using 'such...that':",
+                                "pairs": [
+                                    { "stem": "It was such a loud noise", "correctOption": "that I couldn't hear myself think." },
+                                    { "stem": "They had such little time", "correctOption": "that they couldn't finish the project." },
+                                    { "stem": "She is such an inspiring leader", "correctOption": "that everyone respects her." }
+                                ]
+                            }
+                        ]
+                    },
+                     "Were I to... (Formal Conditional with Inversion)": {
+                        "description": "“Were I to...” is an elegant and advanced structure, a formal conditional with inversion. You use it when you want to talk about an imaginary future situation (like “If I were to…”), but you want it to sound more formal or stylish. This structure makes your English sound advanced, polished, and confident, and is common in writing, debates, and public speaking. In Khmer, this helps you say: គឺជាទម្រង់បែបបទ និងកម្រិតខ្ពស់មួយ ដែលជាលក្ខខណ្ឌផ្លូវការជាមួយនឹងការបញ្ច្រាស។ អ្នកប្រើវាពេលអ្នកចង់និយាយអំពីស្ថានភាពអនាគតដែលស្រមៃ (ដូចជា 'If I were to…') ប៉ុន្តែអ្នកចង់ឱ្យវាស្តាប់ទៅមានលក្ខណៈផ្លូវការ ឬទាន់សម័យជាង។",
+                        "structure": "Were + subject + to + base verb, subject + would + base verb. (This is an inversion of: If + subject + were to + base verb...)",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "Were I to win the lottery, I would travel the world."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Were he to ask me, I would help him."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Were we to leave now, we could catch the train."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Were I to won, I would celebrate.",
+                                "explanation": "After 'to', you must use the base form of the verb, not the past participle. Correct: 'Were I to win, I would celebrate.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Were she to be rich, she would buy a mansion.",
+                                "explanation": "While grammatically possible in some contexts, for 'were to' it's usually 'Were she to become rich'. Or if expressing a hypothetical present state, it would be 'If she were rich' or 'Were she rich'."
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "The structure 'Were I to...' is primarily used for:",
+                                "options": [
+                                    { "text": "Real past events.", "correct": false },
+                                    { "text": "Formal, imaginary future situations.", "correct": true },
+                                    { "text": "General truths.", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "Were she _______ (know) the truth, she would be very upset.",
+                                "correctAnswer": "to know",
+                                "explanation": "The structure 'Were + subject + to + base verb' is required for this formal conditional."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the inverted conditional start with its logical continuation:",
+                                "pairs": [
+                                    { "stem": "Were I to receive an offer,", "correctOption": "I would consider it carefully." },
+                                    { "stem": "Were they to arrive late,", "correctOption": "we would start without them." },
+                                    { "stem": "Were he to apologize,", "correctOption": "I would forgive him." }
+                                ]
+                            }
+                        ]
+                    },
+                     "So long as... (Condition)": {
+                        "description": "“So long as...” means “only if” or “on the condition that.” You use it to say something will happen, but only if a specific condition is met. It's similar to 'as long as' but can sound a bit more formal or emotional. In Khmer, this helps you say: មានន័យថា 'លុះត្រាតែ' ឬ 'ក្នុងលក្ខខណ្ឌថា'។ អ្នកប្រើវាដើម្បីនិយាយថាអ្វីមួយនឹងកើតឡើង ប៉ុន្តែលុះត្រាតែមានលក្ខខណ្ឌជាក់លាក់ណាមួយត្រូវបានបំពេញ។",
+                        "structure": "So long as + subject + verb, result clause.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "You can stay here so long as you keep quiet."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "So long as you work hard, you will succeed."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "I’ll support you so long as you’re honest with me."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "She will forgive him, so long as he apologizes."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "So long as you will come, I happy.",
+                                "explanation": "After 'so long as', use the Simple Present tense for the condition. The result clause also needs proper verb tense: 'So long as you come, I will be happy.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "She can help so long as he asked.",
+                                "explanation": "The tenses are mismatched. If the condition is present, the result should match. Correct: 'She can help so long as he asks.' (If it's about a past condition, 'She would have helped so long as he had asked.')"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "What is the meaning of 'So long as...'?",
+                                "options": [
+                                    { "text": "Because", "correct": false },
+                                    { "text": "Unless", "correct": false },
+                                    { "text": "Only if / On the condition that", "correct": true }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "You can borrow my car _______ you promise to drive carefully.",
+                                "correctAnswer": "so long as",
+                                "explanation": "'So long as' introduces the condition for borrowing the car."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the condition with its likely result:",
+                                "pairs": [
+                                    { "stem": "So long as you study,", "correctOption": "you will pass the exam." },
+                                    { "stem": "So long as it doesn't rain,", "correctOption": "we can have the picnic." },
+                                    { "stem": "So long as she arrives on time,", "correctOption": "we won't miss the show." }
+                                ]
+                            }
+                        ]
+                    },
+                     "Suppose / Supposing that... (Hypothetical Scenarios)": {
+                        "description": "“Suppose that” or “Supposing that” means “What if...”. You use it to imagine a situation or talk about a hypothetical or possible scenario. It's like a conditional ('If... then...') but can sound a little more imaginative or speculative. This structure is often used in spoken English, brainstorming, and storytelling. It can be used with any conditional type (real or unreal). In Khmer, this helps you say: មានន័យថា 'ចុះបើ...?'។ អ្នកប្រើវាដើម្បីស្រមៃស្ថានភាព ឬនិយាយអំពីសេណារីយ៉ូសម្មតិកម្ម ឬអាចកើតឡើង។",
+                        "structure": "Suppose (that) + subject + verb, result. OR Supposing (that) + subject + verb, result.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "Suppose you lost your phone — what would you do?"
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Supposing it rains tomorrow, will we cancel the trip?"
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Suppose she never arrives — should we start without her?"
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Supposing you were the president, what would you change?"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Suppose you had a million dollars, you would bought a house.",
+                                "explanation": "The result clause of the conditional needs the base form of the verb after 'would'. Correct: 'Suppose you had a million dollars, you would buy a house.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Supposing he miss the train, what he will do?",
+                                "explanation": "The verb in the 'supposing' clause should be correctly conjugated for the tense (Simple Past for hypothetical future, or Simple Present for real future possibility). Also, the question structure in the result clause needs an auxiliary verb: 'Supposing he missed the train, what would he do?' (hypothetical) or 'Supposing he misses the train, what will he do?' (real possibility)."
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "What is the main function of 'Suppose that...'?",
+                                "options": [
+                                    { "text": "To state a fact.", "correct": false },
+                                    { "text": "To ask for an explanation.", "correct": false },
+                                    { "text": "To introduce a hypothetical or speculative scenario.", "correct": true }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "_______ you win the competition, what will you do with the prize money?",
+                                "correctAnswer": "Suppose / Supposing that",
+                                "explanation": "Both 'Suppose' and 'Supposing that' can introduce a hypothetical future situation."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the 'Suppose/Supposing' clause with a suitable result:",
+                                "pairs": [
+                                    { "stem": "Suppose you could fly,", "correctOption": "where would you go first?" },
+                                    { "stem": "Supposing she forgot her passport,", "correctOption": "she couldn't travel." },
+                                    { "stem": "Suppose they finish early,", "correctOption": "they can leave." }
+                                ]
+                            }
+                        ]
+                    },
+                    "Lest (Negative Purpose or Warning)": {
+                        "description": "“Lest” is a formal, rare, and very elegant structure used mostly in writing, speeches, and literature. It means 'so that...not' or 'to avoid' something bad happening. It expresses a fear, precaution, or warning, and is always followed by the base form of a verb (without 'should' or 'to'). In Khmer, this helps you say: គឺជាទម្រង់ផ្លូវការ កម្រប្រើ និងឆើតឆាយបំផុត ដែលប្រើជាទូទៅក្នុងការសរសេរ ការថ្លែងសុន្ទរកថា និងអក្សរសិល្ប៍។ វាមានន័យថា 'ដើម្បីកុំឱ្យ...' ឬ 'ដើម្បីជៀសវាង' អ្វីអាក្រក់កើតឡើង។",
+                        "structure": "Main clause + lest + subject + base verb.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "She left early lest she miss the train."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Take an umbrella lest it rain."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "He spoke quietly lest anyone hear him."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "I write notes lest I forget what I study."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Lest she doesn't forget, I reminded her.",
+                                "explanation": "Do not use 'doesn't' or other negative auxiliary verbs with 'lest'. The 'lest' itself implies negation. Correct: 'Lest she forget, I reminded her.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "They hurried lest they would be late.",
+                                "explanation": "Do not use 'would' or 'should' with 'lest'. Use the base form of the verb. Correct: 'They hurried lest they be late.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "What is the meaning of 'lest'?",
+                                "options": [
+                                    { "text": "Because", "correct": false },
+                                    { "text": "To avoid something bad happening", "correct": true },
+                                    { "text": "If", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "He wore a mask _______ he (catch) the virus.",
+                                "correctAnswer": "lest ... catch",
+                                "explanation": "'Lest' is followed by the base form of the verb to express a negative purpose or warning."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the action with the negative outcome it tries to avoid using 'lest':",
+                                "pairs": [
+                                    { "stem": "Study hard,", "correctOption": "lest you fail the exam." },
+                                    { "stem": "Be careful,", "correctOption": "lest you fall." },
+                                    { "stem": "Listen closely,", "correctOption": "lest you miss the instructions." }
+                                ]
+                            }
+                        ]
+                    },
+                    "Only if... (Strict or Exclusive Conditions)": {
+                        "description": "“Only if” means “just in case this one condition is true.” The action or result depends entirely on that specific condition. This structure is used to express strict or exclusive conditions. In Khmer, this helps you say: មានន័យថា 'លុះត្រាតែមានលក្ខខណ្ឌតែមួយនេះជាការពិត'។ សកម្មភាព ឬលទ្ធផលគឺអាស្រ័យទាំងស្រុងលើលក្ខខណ្ឌនោះ។",
+                        "structure": "Normal: Only if + subject + verb, result clause. OR Formal/Inverted: Only if + condition + auxiliary + subject + verb + ...",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "Only if it stops raining, we will go outside."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Only if you study hard, will you pass the test."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Only if he apologizes, will she forgive him."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Only if I finish my work, can I go out."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Only if you practice, you will improve.",
+                                "explanation": "For formal inversion, an auxiliary verb must come before the subject in the result clause. Correct: 'Only if you practice, will you improve.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Only if she would call, I go.",
+                                "explanation": "The 'only if' clause uses regular present or past tenses, not modal verbs like 'would'. Also, the main clause needs correct tense/modals. Correct: 'Only if she calls, I will go.' or 'Only if she called, I would go.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "What does 'Only if...' emphasize?",
+                                "options": [
+                                    { "text": "A general truth.", "correct": false },
+                                    { "text": "A condition that is absolutely necessary for the result.", "correct": true },
+                                    { "text": "A choice between two options.", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "Only if you wear a helmet, _______ (ride) your bike.",
+                                "correctAnswer": "can you ride",
+                                "explanation": "This is a formal inversion. 'Can' is the auxiliary verb that comes before the subject 'you'."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the 'Only if' condition with its suitable result:",
+                                "pairs": [
+                                    { "stem": "Only if it's an emergency,", "correctOption": "should you call this number." },
+                                    { "stem": "Only if you have an invitation,", "correctOption": "can you enter the party." },
+                                    { "stem": "Only if they collaborate,", "correctOption": "will they finish the project on time." }
+                                ]
+                            }
+                        ]
+                    },
+                    "By the time... (Sequencing of Events)": {
+                        "description": "“By the time…” means 'when something happens, something else will already have happened.' It's excellent for clearly discussing the order or timing of two actions, especially when the second action is already complete or nearly complete by the time the first action occurs. In Khmer, this helps you say: មានន័យថា 'នៅពេលដែលអ្វីមួយកើតឡើង អ្វីផ្សេងទៀតនឹងបានកើតឡើងរួចហើយ'។ វាល្អសម្រាប់និយាយអំពីលំដាប់លំដោយ ឬពេលវេលានៃសកម្មភាពពីរ។",
+                        "structure": "Past: By the time + Simple Past, Past Perfect. OR Future: By the time + Present Simple, Future Perfect.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "By the time I arrived, they had already left."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "By the time she finished dinner, the movie had started."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "By the time you get home, I will have cooked dinner."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "By the time we reach the station, the train will have left."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "By the time I will arrive, they had left.",
+                                "explanation": "In the 'By the time' clause (when talking about the future), use the Present Simple, not Future Simple. Correct: 'By the time I arrive, they will have left.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "By the time she finish, the show will have begun.",
+                                "explanation": "For the future perfect construction, the 'By the time' clause should be in the Present Simple tense, and the main clause needs 'will have + past participle'. Correct: 'By the time she finishes, the show will have begun.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "If the 'By the time' clause is in the Past Simple, what tense is typically used in the main clause?",
+                                "options": [
+                                    { "text": "Present Perfect", "correct": false },
+                                    { "text": "Past Perfect", "correct": true },
+                                    { "text": "Future Simple", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "By the time I graduate, I _______ (study) English for ten years.",
+                                "correctAnswer": "will have studied",
+                                "explanation": "This refers to an action completed before a future point, requiring the Future Perfect tense."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the 'By the time' clause with the appropriate main clause:",
+                                "pairs": [
+                                    { "stem": "By the time the guests arrived,", "correctOption": "we had already eaten." },
+                                    { "stem": "By the time you wake up,", "correctOption": "I will have finished my work." },
+                                    { "stem": "By the time she started her new job,", "correctOption": "she had moved to a new city." }
+                                ]
+                            }
+                        ]
+                    },
+                     "As long as... (Condition)": {
+                        "description": "“As long as” introduces a condition. It means something will happen only if another thing is true. It's similar to 'so long as' and 'provided that', but 'as long as' is generally more neutral in tone. In Khmer, this helps you say: បង្ហាញលក្ខខណ្ឌ។ វាមានន័យថា អ្វីមួយនឹងកើតឡើងលុះត្រាតែមានលក្ខខណ្ឌមួយទៀតជាការពិត។",
+                        "structure": "Main clause + as long as + condition. OR As long as + condition, + result.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "You can stay here as long as you’re quiet."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "As long as you study, you will pass the exam."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "I’ll forgive you as long as you tell the truth."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "As long as she calls me, I won’t worry."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "As long as he will come, I happy.",
+                                "explanation": "After 'as long as', use the Simple Present tense for the condition. The result clause also needs proper verb tense: 'As long as he comes, I will be happy.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "She can help as long as he asking.",
+                                "explanation": "The verb after 'as long as' should be in the base form or correctly conjugated Simple Present. Correct: 'She can help as long as he asks.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "What does 'As long as...' primarily express?",
+                                "options": [
+                                    { "text": "A duration of time.", "correct": false },
+                                    { "text": "A condition for something to happen.", "correct": true },
+                                    { "text": "A comparison of two things.", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "You can use my car _______ you fill up the tank.",
+                                "correctAnswer": "as long as",
+                                "explanation": "'As long as' introduces the condition for using the car."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the 'As long as' condition with its suitable result:",
+                                "pairs": [
+                                    { "stem": "As long as you are honest,", "correctOption": "I will trust you." },
+                                    { "stem": "As long as it's warm,", "correctOption": "we can eat outside." },
+                                    { "stem": "As long as they practice daily,", "correctOption": "they will improve quickly." }
+                                ]
+                            }
+                        ]
+                    },
+                     "Much as... (Contrast)": {
+                        "description": "“Much as” is a formal and elegant way to express contrast or contradiction, similar to 'although' or 'even though'. It introduces something you feel strongly about or a significant fact, which then contrasts with another truth or action. This structure adds sophistication and emotional depth to your contrasts, and is common in formal speech, writing, essays, arguments, or storytelling. In Khmer, this helps you say: គឺជាវិធីផ្លូវការ និងឆើតឆាយមួយដើម្បីបង្ហាញពីភាពផ្ទុយគ្នា ឬភាពខុសគ្នា ដូចជា 'although' ឬ 'even though'។ វាបង្ហាញពីអ្វីមួយដែលអ្នកមានអារម្មណ៍ខ្លាំង ឬការពិតសំខាន់ ដែលផ្ទុយពីការពិត ឬសកម្មភាពផ្សេងទៀត។",
+                        "structure": "Much as + subject + verb, contrasting clause.",
+                        "examples": [
+                            {
+                                "type": "correct",
+                                "sentence": "Much as I like chocolate, I try not to eat it every day."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Much as he admires her, he disagrees with her decision."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Much as they wanted to stay, they had to leave early."
+                            },
+                            {
+                                "type": "correct",
+                                "sentence": "Much as we hoped for sunshine, it kept raining."
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Much as she is tired, but she continues working.",
+                                "explanation": "Do not use 'but' with 'much as'. The contrast is already implied. Correct: 'Much as she is tired, she continues working.'"
+                            },
+                            {
+                                "type": "incorrect",
+                                "sentence": "Much as I wanted to go, I cannot.",
+                                "explanation": "The tenses in the main clause should align. If the desire was in the past, the inability is also likely past or ongoing from that point. Correct: 'Much as I wanted to go, I couldn't.' or 'Much as I want to go, I cannot.'"
+                            }
+                        ],
+                        "quizQuestions": [
+                            {
+                                "type": "multiple-choice",
+                                "question": "What is 'Much as...' used to express?",
+                                "options": [
+                                    { "text": "Cause and effect.", "correct": false },
+                                    { "text": "A strong contrast or contradiction.", "correct": true },
+                                    { "text": "A sequence of events.", "correct": false }
+                                ]
+                            },
+                            {
+                                "type": "fill-in-blank",
+                                "question": "_______ he disliked public speaking, he accepted the challenge.",
+                                "correctAnswer": "Much as",
+                                "explanation": "'Much as' introduces a strong feeling or fact that is then contrasted by the action taken."
+                            },
+                            {
+                                "type": "match-the-words",
+                                "question": "Match the 'Much as' clause with its logical contrasting result:",
+                                "pairs": [
+                                    { "stem": "Much as I appreciate your offer,", "correctOption": "I must decline." },
+                                    { "stem": "Much as she tried her best,", "correctOption": "she couldn't solve the puzzle." },
+                                    { "stem": "Much as they love their home,", "correctOption": "they decided to move to a new city." }
+                                ]
+                            }
+                        ]
+                    },
+               
+                },
+              
+
+                
                 structureQuiz: {
                     "No Sooner had": {
                         description: "It means that as soon as one thing happened, another thing followed immediately.",
@@ -2258,7 +4180,7 @@
                            
                         ] 
                     },
-               
+                  
                 },
                 BasicSentencePatterns: {
                         "🗣️1. Yes/No Questions": {
@@ -3589,251 +5511,238 @@
 
                     ],
                     
-                    "passiveActiveSentences":[
+                   "passiveActiveSentences":[
                         // Conditional Type 1
-                            {
-                                sentence: "Active (Conditional Type 1): If you help me, I will finish quickly.",
-                                khmer: "បើអ្នកជួយខ្ញុំ ខ្ញុំនឹងបញ្ចប់លឿន។ <br> If you ... me, I ... finish quickly.",
-                                answer: "If you help me, I will finish quickly."
-                            },
-                            {
-                                sentence: "Passive (Conditional Type 1): If I am helped by you, the work will be finished quickly.",
-                                khmer: "បើខ្ញុំត្រូវបានជួយដោយអ្នក ការងារនឹងត្រូវបានបញ្ចប់លឿន។ <br> If I ... helped by you, the work ... be finished quickly.",
-                                answer: "If I am helped by you, the work will be finished quickly."
-                            },
-                            // Conditional Type 2
-                            {
-                                sentence: "Active (Conditional Type 2): If I had money, I would buy a car.",
-                                khmer: "បើខ្ញុំមានលុយ ខ្ញុំនឹងទិញឡាន។ <br> If I ... money, I ... buy a car.",
-                                answer: "If I had money, I would buy a car."
-                            },
-                            {
-                                sentence: "Passive (Conditional Type 2): If money were had by me, a car would be bought.",
-                                khmer: "បើលុយត្រូវបានមានដោយខ្ញុំ ឡានមួយនឹងត្រូវបានទិញ។ <br> If money ... had by me, a car ... be bought.",
-                                answer: "If money were had by me, a car would be bought."
-                            },
-                            // Conditional Type 3
-                            {
-                                sentence: "Active (Conditional Type 3): If he had studied, he would have passed the exam.",
-                                khmer: "បើគាត់បានរៀន គាត់នឹងបានប្រឡងជាប់។ <br> If he ... studied, he ... passed the exam.",
-                                answer: "If he had studied, he would have passed the exam."
-                            },
-                            {
-                                sentence: "Passive (Conditional Type 3): If the exam had been studied for by him, it would have been passed.",
-                                khmer: "បើការប្រឡងត្រូវបានរៀនដោយគាត់ វានឹងត្រូវបានប្រឡងជាប់។ <br> If the exam ... studied for by him, it ... been passed.",
-                                answer: "If the exam had been studied for by him, it would have been passed."
-                            },
+                        {
+                            sentence: " If you help me, I will finish quickly.",
+                            khmer: "Active (Conditional Type 1): <br>បើអ្នកជួយខ្ញុំ ខ្ញុំនឹងបញ្ចប់លឿន។ <br> If you ..... me, I ..... quickly.<br>Structure: If + S + V1 + O, S + will + V1 + O.",
+                            answer: "If you help me, I will finish quickly."
+                        },
+                        {
+                            sentence: " If I am helped by you, the work will be finished quickly.",
+                            khmer: "Passive (Conditional Type 1):<br>បើខ្ញុំត្រូវបានជួយដោយអ្នក ការងារនឹងត្រូវបានបញ្ចប់លឿន។ <br> If I ..... by you, the work ..... quickly.<br>Structure: If + O + is/am/are + V3 + by + S, O + will + be + V3 + by + S (optional).",
+                            answer: "If I am helped by you, the work will be finished quickly."
+                        },
+                        // Conditional Type 2
+                        {
+                            sentence: " If I had money, I would buy a car.",
+                            khmer: "Active (Conditional Type 2):<br>បើខ្ញុំមានលុយ ខ្ញុំនឹងទិញឡាន។ <br> If I ..... money, I ..... a car.<br>Structure: If + S + V2 + O, S + would + V1 + O.",
+                            answer: "If I had money, I would buy a car."
+                        },
+                        {
+                            sentence: " If money were had by me, a car would be bought.",
+                            khmer: "Passive (Conditional Type 2): <br>បើលុយត្រូវបានមានដោយខ្ញុំ ឡានមួយនឹងត្រូវបានទិញ។ <br> If money ..... by me, a car ..... bought.<br>Structure: If + O + were + V3 + by + S, O + would + be + V3 + by + S (optional).",
+                            answer: "If money were had by me, a car would be bought."
+                        },
+                        // Conditional Type 3
+                        {
+                            sentence: " If he had studied, he would have passed the exam.",
+                            khmer: "Active (Conditional Type 3): <br>បើគាត់បានរៀន គាត់នឹងបានប្រឡងជាប់។ <br> If he ....., he ..... the exam.<br>Structure: If + S + had + V3 + O, S + would have + V3 + O.",
+                            answer: "If he had studied, he would have passed the exam."
+                        },
+                        {
+                            sentence: "If the exam had been studied for by him, it would have been passed.",
+                            khmer: "Passive (Conditional Type 3): <br>បើការប្រឡងត្រូវបានរៀនដោយគាត់ វានឹងត្រូវបានប្រឡងជាប់។ <br> If the exam ..... for by him, it ..... passed.<br>Structure: If + O + had been + V3 + by + S, O + would have been + V3 + by + S (optional).",
+                            answer: "If the exam had been studied for by him, it would have been passed."
+                        },
                         // Simple Present
                         {
-                            sentence: "Active: The student writes an essay.",
-                            khmer: "សិស្សសរសេរអត្ថបទមួយ។ <br> The student ... an essay.",
+                            sentence: " The student writes an essay.",
+                            khmer: "Active: <br>សិស្សសរសេរអត្ថបទមួយ។ <br> The student ..... an essay.<br>Structure: S + V1/Vs/Ves + O.",
                             answer: "The student writes an essay."
                         },
                         {
-                            sentence: "Passive: An essay is written by the student.",
-                            khmer: "អត្ថបទមួយត្រូវបានសរសេរដោយសិស្ស។ <br> An essay ... written by the student.",
+                            sentence: "An essay is written by the student.",
+                            khmer: "Passive: <br>អត្ថបទមួយត្រូវបានសរសេរដោយសិស្ស។ <br> An essay ..... by the student.<br>Structure: O + is/am/are + V3 + by + S.",
                             answer: "An essay is written by the student."
                         },
                         // Simple Past
                         {
-                            sentence: "Active: She bought a new car.",
-                            khmer: "នាងបានទិញឡានថ្មីមួយ។ <br> She ... a new car.",
+                            sentence: "She bought a new car.",
+                            khmer: "Active: <br>នាងបានទិញឡានថ្មីមួយ។ <br> She ..... a new car.<br>Structure: S + V2 + O.",
                             answer: "She bought a new car."
                         },
                         {
-                            sentence: "Passive: A new car was bought by her.",
-                            khmer: "ឡានថ្មីមួយត្រូវបានទិញដោយនាង។ <br> A new car ... bought by her.",
+                            sentence: "A new car was bought by her.",
+                            khmer: "Passive: <br>ឡានថ្មីមួយត្រូវបានទិញដោយនាង។ <br> A new car ..... by her.<br>Structure: O + was/were + V3 + by + S.",
                             answer: "A new car was bought by her."
                         },
                         // Simple Future
                         {
-                            sentence: "Active: He will read the book.",
-                            khmer: "គាត់នឹងអានសៀវភៅ។ <br> He ... read the book.",
+                            sentence: " He will read the book.",
+                            khmer: "Active: <br>គាត់នឹងអានសៀវភៅ។ <br> He ..... the book.<br>Structure: S + will + V1 + O.",
                             answer: "He will read the book."
                         },
                         {
-                            sentence: "Passive: The book will be read by him.",
-                            khmer: "សៀវភៅនឹងត្រូវបានអានដោយគាត់។ <br> The book ... be read by him.",
+                            sentence: "The book will be read by him.",
+                            khmer: "Passive: <br>សៀវភៅនឹងត្រូវបានអានដោយគាត់។ <br> The book ..... by him.<br>Structure: O + will + be + V3 + by + S.",
                             answer: "The book will be read by him."
                         },
                         // Present Continuous
                         {
-                            sentence: "Active: They are building a bridge.",
-                            khmer: "ពួកគេកំពុងសាងសង់ស្ពាន។ <br> They ... building a bridge.",
+                            sentence: " They are building a bridge.",
+                            khmer: "Active: <br>ពួកគេកំពុងសាងសង់ស្ពាន។ <br> They ..... a bridge.<br>Structure: S + is/am/are + Ving + O.",
                             answer: "They are building a bridge."
                         },
                         {
-                            sentence: "Passive: A bridge is being built by them.",
-                            khmer: "ស្ពានមួយកំពុងត្រូវបានសាងសង់ដោយពួកគេ។ <br> A bridge ... being built by them.",
+                            sentence: " A bridge is being built by them.",
+                            khmer: "Passive: <br>ស្ពានមួយកំពុងត្រូវបានសាងសង់ដោយពួកគេ។ <br> A bridge ..... by them.<br>Structure: O + is/am/are + being + V3 + by + S.",
                             answer: "A bridge is being built by them."
                         },
                         // Past Continuous
                         {
-                            sentence: "Active: We were watching a movie.",
-                            khmer: "ពួកយើងកំពុងមើលកុន។ <br> We ... watching a movie.",
+                            sentence: " We were watching a movie.",
+                            khmer: "Active: <br>ពួកយើងកំពុងមើលកុន។ <br> We ..... a movie.<br>Structure: S + was/were + Ving + O.",
                             answer: "We were watching a movie."
                         },
                         {
-                            sentence: "Passive: A movie was being watched by us.",
-                            khmer: "កុនមួយកំពុងត្រូវបានមើលដោយពួកយើង។ <br> A movie ... being watched by us.",
+                            sentence: " A movie was being watched by us.",
+                            khmer: "Passive: <br>កុនមួយកំពុងត្រូវបានមើលដោយពួកយើង។ <br> A movie ..... by us.<br>Structure: O + was/were + being + V3 + by + S.",
                             answer: "A movie was being watched by us."
                         },
                         // Present Perfect
                         {
-                            sentence: "Active: The police have arrested the thief.",
-                            khmer: "ប៉ូលិសបានចាប់ចោរ។ <br> The police ... arrested the thief.",
+                            sentence: "The police have arrested the thief.",
+                            khmer: "Active: <br>ប៉ូលិសបានចាប់ចោរ។ <br> The police ..... the thief.<br>Structure: S + have/has + V3 + O.",
                             answer: "The police have arrested the thief."
                         },
                         {
-                            sentence: "Passive: The thief has been arrested by the police.",
-                            khmer: "ចោរត្រូវបានចាប់ខ្លួនដោយប៉ូលិស។ <br> The thief ... been arrested by the police.",
+                            sentence: "The thief has been arrested by the police.",
+                            khmer: "Passive: <br>ចោរត្រូវបានចាប់ខ្លួនដោយប៉ូលិស។ <br> The thief ..... by the police.<br>Structure: O + have/has + been + V3 + by + S.",
                             answer: "The thief has been arrested by the police."
                         },
                         // Past Perfect
                         {
-                            sentence: "Active: She had finished her homework.",
-                            khmer: "នាងបានបញ្ចប់កិច្ចការផ្ទះរបស់នាង។ <br> She ... finished her homework.",
+                            sentence: " She had finished her homework.",
+                            khmer: "Active: <br>នាងបានបញ្ចប់កិច្ចការផ្ទះរបស់នាង។ <br> She ..... her homework.<br>Structure: S + had + V3 + O.",
                             answer: "She had finished her homework."
                         },
                         {
-                            sentence: "Passive: Her homework had been finished by her.",
-                            khmer: "កិច្ចការផ្ទះរបស់នាងត្រូវបានបញ្ចប់ដោយនាង។ <br> Her homework ... finished by her.",
+                            sentence: " Her homework had been finished by her.",
+                            khmer: "Passive: <br>កិច្ចការផ្ទះរបស់នាងត្រូវបានបញ្ចប់ដោយនាង។ <br> Her homework ..... by her.<br>Structure: O + had + been + V3 + by + S.",
                             answer: "Her homework had been finished by her."
                         },
                         // Future Perfect
                         {
-                            sentence: "Active: They will have completed the task.",
-                            khmer: "ពួកគេនឹងបានបញ្ចប់ភារកិច្ច។ <br> They ... completed the task.",
+                            sentence: " They will have completed the task.",
+                            khmer: "Active: <br>ពួកគេនឹងបានបញ្ចប់ភារកិច្ច។ <br> They ..... the task.<br>Structure: S + will + have + V3 + O.",
                             answer: "They will have completed the task."
                         },
                         {
-                            sentence: "Passive: The task will have been completed by them.",
-                            khmer: "ភារកិច្ចនឹងត្រូវបានបញ្ចប់ដោយពួកគេ។ <br> The task ... been completed by them.",
+                            sentence: " The task will have been completed by them.",
+                            khmer: "Passive: <br>ភារកិច្ចនឹងត្រូវបានបញ្ចប់ដោយពួកគេ។ <br> The task ..... by them.<br>Structure: Object + will + have + been + V3 + by + subject.",
                             answer: "The task will have been completed by them."
                         }
                     ],
+                    "passiveActiveConditional":[
+                        // Conditional Type 0
+                        {
+                            sentence: "Active (Conditional Type 0): If you heat water to 100 degrees Celsius, it boils.",
+                            khmer: "Active: <br>បើអ្នកកម្ដៅទឹកដល់ ១០០ អង្សាសេ វានឹងពុះ។ <br> If you ..... water to 100 degrees Celsius, it .....<br>Structure: If + S + V1 + O, S + V1/Vs/Ves + O.",
+                            answer: "If you heat water to 100 degrees Celsius, it boils."
+                        },
+                        {
+                            sentence: "Passive (Conditional Type 0): If water is heated to 100 degrees Celsius, it is boiled.",
+                            khmer: "Passive: <br>បើទឹកត្រូវបានកម្ដៅដល់ ១០០ អង្សាសេ វានឹងត្រូវបានពុះ។ <br> If water ..... to 100 degrees Celsius, it .....<br>Structure: If + O + is/am/are + V3 + by + S (optional), O + is/am/are + V3 + by + S (optional).",
+                            answer: "If water is heated to 100 degrees Celsius, it is boiled."
+                        },
+                        // Conditional Type 1
+                        {
+                            sentence: "Active (Conditional Type 1): If you help me, I will finish quickly.",
+                            khmer: "Active: <br>បើអ្នកជួយខ្ញុំ ខ្ញុំនឹងបញ្ចប់លឿន។ <br> If you ..... me, I ..... quickly.<br>Structure: If + S + V1 + O, S + will + V1 + O.",
+                            answer: "If you help me, I will finish quickly."
+                        },
+                        {
+                            sentence: "Passive (Conditional Type 1): If I am helped by you, the work will be finished quickly.",
+                            khmer: "Passive: <br>បើខ្ញុំត្រូវបានជួយដោយអ្នក ការងារនឹងត្រូវបានបញ្ចប់លឿន។ <br> If I ..... by you, the work ..... quickly.<br>Structure: If + O + is/am/are + V3 + by + S, O + will + be + V3 + by + S (optional).",
+                            answer: "If I am helped by you, the work will be finished quickly."
+                        },
+                        // Conditional Type 2
+                        {
+                            sentence: "Active (Conditional Type 2): If I had money, I would buy a car.",
+                            khmer: "Active: <br>បើខ្ញុំមានលុយ ខ្ញុំនឹងទិញឡាន។ <br> If I ..... money, I ..... a car.<br>Structure: If + S + V2 + O, S + would + V1 + O.",
+                            answer: "If I had money, I would buy a car."
+                        },
+                        {
+                            sentence: "Passive (Conditional Type 2): If money were had by me, a car would be bought.",
+                            khmer: "Passive: <br>បើលុយត្រូវបានមានដោយខ្ញុំ ឡានមួយនឹងត្រូវបានទិញ។ <br> If money ..... by me, a car ..... bought.<br>Structure: If + O + were + V3 + by + S, O + would + be + V3 + by + S (optional).",
+                            answer: "If money were had by me, a car would be bought."
+                        },
+                        // Conditional Type 3
+                        {
+                            sentence: "Active (Conditional Type 3): If he had studied, he would have passed the exam.",
+                            khmer: "Active: <br>បើគាត់បានរៀន គាត់នឹងបានប្រឡងជាប់។ <br> If he ....., he ..... the exam.<br>Structure: If + S + had + V3 + O, S + would have + V3 + O.",
+                            answer: "If he had studied, he would have passed the exam."
+                        },
+                        {
+                            sentence: "Passive (Conditional Type 3): If the exam had been studied for by him, it would have been passed.",
+                            khmer: "Passive: <br>បើការប្រឡងត្រូវបានរៀនដោយគាត់ វានឹងត្រូវបានប្រឡងជាប់។ <br> If the exam ..... for by him, it ..... passed.<br>Structure: If + O + had been + V3 + by + S, O + would have been + V3 + by + S (optional).",
+                            answer: "If the exam had been studied for by him, it would have been passed."
+                        },
+                        // Mixed Conditional (Past action affecting Present result)
+                        {
+                            sentence: "Active (Mixed Conditional): If I had studied harder, I would be a doctor now.",
+                            khmer: "Active: <br>បើខ្ញុំបានរៀនខ្លាំងជាងនេះ ខ្ញុំនឹងក្លាយជាគ្រូពេទ្យឥឡូវនេះ។ <br> If I ..... harder, I ..... a doctor now.<br>Structure: If + S + had + V3, S + would + V1 + (now).",
+                            answer: "If I had studied harder, I would be a doctor now."
+                        },
+                        {
+                            sentence: "Passive (Mixed Conditional): If I had been taught by a better teacher, I would be a doctor now.",
+                            khmer: "Passive: <br>បើខ្ញុំត្រូវបានបង្រៀនដោយគ្រូល្អជាងនេះ ខ្ញុំនឹងក្លាយជាគ្រូពេទ្យឥឡូវនេះ។ <br> If I ..... by a better teacher, I ..... a doctor now.<br>Structure: If + O + had been + V3 + by + S (optional), O + would + be + V3 + (now).",
+                            answer: "If I had been taught by a better teacher, I would be a doctor now."
+                        },
+                        // Mixed Conditional (Present action affecting Past result - less common but possible)
+                        {
+                            sentence: "Active (Mixed Conditional): If I were rich, I would have bought that house yesterday.",
+                            khmer: "Active: <br>បើខ្ញុំមានលុយ ខ្ញុំនឹងបានទិញផ្ទះនោះកាលពីម្សិលមិញ។ <br> If I ..... rich, I ..... that house yesterday.<br>Structure: If + S + V2 (were for all subjects) + ..., S + would have + V3 + (yesterday/past time).",
+                            answer: "If I were rich, I would have bought that house yesterday."
+                        },
+                        {
+                            sentence: "Passive (Mixed Conditional): If I were rich, that house would have been bought by me yesterday.",
+                            khmer: "Passive: <br>បើខ្ញុំមានលុយ ផ្ទះនោះនឹងត្រូវបានទិញដោយខ្ញុំកាលពីម្សិលមិញ។ <br> If I ..... rich, that house ..... by me yesterday.<br>Structure: If + S + V2 (were for all subjects) + ..., O + would have been + V3 + by + S (optional) + (yesterday/past time).",
+                            answer: "If I were rich, that house would have been bought by me yesterday."
+                        },
+                        // Omitted Conditional (Type 1 with inversion)
+                        {
+                            sentence: "Active (Omitted Conditional Type 1): Should you need help, please call me.",
+                            khmer: "Active: <br>បើអ្នកត្រូវការជំនួយ សូមទូរស័ព្ទមកខ្ញុំ។ <br> Should you ..... help, please ..... me.<br>Structure: Should + S + V1 + ..., Imperative.",
+                            answer: "Should you need help, please call me."
+                        },
+                        {
+                            sentence: "Passive (Omitted Conditional Type 1): Should help be needed by you, please call me.",
+                            khmer: "Passive: <br>បើជំនួយត្រូវបានត្រូវការដោយអ្នក សូមទូរស័ពpមកខ្ញុំ។ <br> Should help ..... by you, please ..... me.<br>Structure: Should + O + be + V3 + by + S (optional), Imperative.",
+                            answer: "Should help be needed by you, please call me."
+                        },
+                        // Omitted Conditional (Type 2 with inversion)
+                        {
+                            sentence: "Active (Omitted Conditional Type 2): Were I you, I would accept the offer.",
+                            khmer: "Active: <br>បើខ្ញុំជាអ្នក ខ្ញុំនឹងទទួលយកការផ្តល់ជូននោះ។ <br> Were I ....., I ..... the offer.<br>Structure: Were + S + ..., S + would + V1 + O.",
+                            answer: "Were I you, I would accept the offer."
+                        },
+                        {
+                            sentence: "Passive (Omitted Conditional Type 2): Were the offer to be accepted by me, I would be helped.",
+                            khmer: "Passive: <br>បើការផ្តល់ជូននោះត្រូវបានទទួលយកដោយខ្ញុំ ខ្ញុំនឹងត្រូវបានជួយ។ <br> Were the offer ..... by me, I ..... helped.<br>Structure: Were + O + to be + V3 + by + S (optional), S + would + be + V3.",
+                            answer: "Were the offer to be accepted by me, I would be helped."
+                        },
+                        // Omitted Conditional (Type 3 with inversion)
+                        {
+                            sentence: "Active (Omitted Conditional Type 3): Had I known, I would have told you.",
+                            khmer: "Active: <br>បើខ្ញុំបានដឹង ខ្ញុំនឹងបានប្រាប់អ្នក។ <br> Had I ....., I ..... you.<br>Structure: Had + S + V3 + ..., S + would have + V3 + O.",
+                            answer: "Had I known, I would have told you."
+                        },
+                        {
+                            sentence: "Passive (Omitted Conditional Type 3): Had I been told, I would have known.",
+                            khmer: "Passive: <br>បើខ្ញុំត្រូវបានប្រាប់ ខ្ញុំនឹងបានដឹង។ <br> Had I ....., I ..... known.<br>Structure: Had + S + been + V3 + ..., S + would have + V3.",
+                            answer: "Had I been told, I would have known."
+                        }
+                    ],
 
-                    
-                    "qna-html": [
-                        {
-                            
-                            sentence:"Hyper Text Markup Language",
-                            answer: "Hyper Text Markup Language",
-                            Khmer: "HTML is the standard markup language for documents designed to be displayed in a web browser."
-                        },
-                        {
-                            
-                            sentence:"HTML is the standard markup language for documents designed to be displayed in a web browser.",
-                            answer: "HTML is the standard markup language for documents designed to be displayed in a web browser.",
-                            khmer: "Hyper Text Markup Language",
-                            
-                        },
-                        {
-                            question: "Which HTML tag is used to define an internal style sheet?",
-                            sentence:"<style>",
-                            answer: "<style>",
-                            khmer: "The <style> tag is used to define style information (CSS) for a document."
-                        },
-                        {
-                            question: "Which HTML tag is used to define an internal style sheet?",
-                            sentence: "The <style> tag is used to define style information (CSS) for a document.",
-                            khmer: "The ... tag is used to ... style information (CSS) for a ...",
-                            answer: "The <style> tag is used to define style information (CSS) for a document."
-                        },
-                        {
-                            question: "Which attribute is used to provide an advisory text about an element or its contents?",
-                            sentence: "title",
-                            answer: "title",
-                            khmer: "The 'title' attribute provides extra information about an element (tooltip)."
-                        },
-                        {
-                            question: "Which attribute is used to provide an advisory text about an element or its contents?",
-                            sentence: "The 'title' attribute provides extra information about an element (tooltip).",
-                            answer: "The 'title' attribute provides extra information about an element (tooltip).",
-                            khmer: "The 'title' ... provides extra information about an ... (tooltip)."
-                        }
-                   ],
-                    "qna-css": [
-                        {
-                            question: "What does CSS stand for?",
-                            sentence: "Cascading Style Sheets",
-                            answer: "Cascading Style Sheets",
-                            khmer: "CSS is used to describe the look and formatting of a document written in HTML."
-                        },
-                        {
-                            question: "What does CSS stand for?",
-                            sentence: "CSS is used to describe the look and formatting of a document written in HTML.",
-                            answer: "CSS is used to describe the look and formatting of a document written in HTML.",
-                            khmer: "... is used to ... the look and ... of a document ... in ...."
-                        },
-                        {
-                            question: "Which CSS property is used to change the background color of an element?",
-                            sentence: "background-color",
-                            answer: "background-color",
-                            khmer: "The 'background-color' property sets the background color of an element."
-                        },
-                        {
-                            question: "Which CSS property is used to change the background color of an element?",
-                            sentence: "The 'background-color' property sets the background color of an element.",
-                            answer: "The 'background-color' property sets the background color of an element.",
-                            khmer: "The ... property sets the ... of an ...."
-                        },
-                        {
-                            question: "How do you select an element with id 'header' in CSS?",
-                            sentence: "#header",
-                            answer: "#header",
-                            khmer: "The '#' symbol is used to select elements by their ID."
-                        },
-                        {
-                            question: "How do you select an element with id 'header' in CSS?",
-                            sentence: "The '#' symbol is used to select elements by their ID.",
-                            answer: "The '#' symbol is used to select elements by their ID.",
-                            khmer: "The ... symbol is used to ... elements by their ...."
-                        }
-                    ],
-                    "qna-js": [
-                        {
-                            question: "What does JavaScript primarily add to web pages?",
-                            sentence: "Interactivity and dynamic behavior",
-                            answer: "Interactivity and dynamic behavior",
-                            khmer: "JavaScript is a programming language that enables interactive web pages."
-                        },
-                        {
-                            question: "What does JavaScript primarily add to web pages?",
-                            sentence: "JavaScript is a programming language that enables interactive web pages.",
-                            answer: "JavaScript is a programming language that enables interactive web pages.",
-                            khmer: ".....is a programming language that ..... ... web ..."
-                        },
-                        {
-                            question: "Which of the following is a correct way to declare a JavaScript variable?",
-                            sentence: "var myVar;",
-                            answer: "var myVar;",
-                            khmer: "The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred)."
-                        },
-                        {
-                            question: "Which of the following is a correct way to declare a JavaScript variable?",
-                            sentence:"The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred).",
-                            answer:"The 'var' keyword is used to declare a variable in JavaScript (though 'let' and 'const' are now preferred).",
-                            khmer: "The ... keyword is used to ... a ... in JavaScript (though 'let' and 'const' are now ...)."
-                        },
-                        {
-                            question: "What is the purpose of 'console.log()' in JavaScript?",
-                            sentence: "To print messages to the browser console for debugging",
-                            answer: "To print messages to the browser console for debugging",
-                            khmer: "console.log() is a function in JavaScript used to output messages or values to the web console."
-                        },
-                        {
-                            question: "What is the purpose of 'console.log()' in JavaScript?",
-                            sentence: "console.log() is a function in JavaScript used to output messages or values to the web console.",
-                            answer: "console.log() is a function in JavaScript used to output messages or values to the web console.",
-                            khmer: "... is a ... in JavaScript used to ... messages or ... to the web ...."
-                        }
-                    ],
+
+                  
                 
                 }
 
                     
-            }
+            } 
 
 
             // Game State Management
