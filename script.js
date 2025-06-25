@@ -5735,6 +5735,396 @@
                             answer: "Had I been told, I would have known."
                         }
                     ],
+                    "No matter how / what / where / who / when / why..": [
+                            {
+                                sentence: "No matter how hard it is, I will try my best.",
+                                khmer: "ទោះលំបាកយ៉ាងណាក៏ដោយ ខ្ញុំនឹងព្យាយាមអស់ពីលទ្ធភាព។ <br> No matter how ... it is, I will try my .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter how hard it is, I will try my best."
+                            },
+                            {
+                                sentence: "No matter what happens, we will stay together.",
+                                khmer: "ទោះមានរឿងអ្វីកើតឡើង ក៏យើងនៅជាមួយគ្នាដែរ។ <br> No matter what ... , we will stay .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter what happens, we will stay together."
+                            },
+                            {
+                                sentence: "No matter where you go, I will follow you.",
+                                khmer: "ទោះអ្នកទៅណា ក៏ខ្ញុំនឹងតាមអ្នកដែរ។ <br> No matter where ... go, I will follow .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter where you go, I will follow you."
+                            },
+                            {
+                                sentence: "No matter who calls, please answer the phone.",
+                                khmer: "ទោះអ្នកណាទូរស័ព្ទមក សូមលើកទូរស័ព្ទផង។ <br> No matter who ... , please answer the .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter who calls, please answer the phone."
+                            },
+                            {
+                                sentence: "No matter when it starts, I will be there on time.",
+                                khmer: "ទោះចាប់ផ្តើមនៅពេលណា ក៏ខ្ញុំនឹងទៅទាន់ពេលដែរ។ <br> No matter when ... starts, I will be there on .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter when it starts, I will be there on time."
+                            },
+                            {
+                                sentence: "No matter why they left early, we should respect their decision.",
+                                khmer: "ទោះពួកគេចាកចេញលឿនដោយសារអ្វី ក៏យើងគួរគោរពការសម្រេចចិត្តរបស់ពួកគេដែរ។ <br> No matter why ... left early, we should respect their .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter why they left early, we should respect their decision."
+                            },
+                            {
+                                sentence: "No matter how tired I am, I will finish this project.",
+                                khmer: "ទោះខ្ញុំនឿយហត់យ៉ាងណាក៏ដោយ ខ្ញុំនឹងបញ្ចប់គម្រោងនេះ។ <br> No matter how ... I am, I will finish this .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter how tired I am, I will finish this project."
+                            },
+                            {
+                                sentence: "No matter what you say, I will support you.",
+                                khmer: "ទោះអ្នកនិយាយអ្វី ក៏ខ្ញុំនឹងគាំទ្រអ្នកដែរ។ <br> No matter what ... say, I will support .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter what you say, I will support you."
+                            },
+                            {
+                                sentence: "No matter where they go, they always find their way back home.",
+                                khmer: "ទោះពួកគេទៅណា ក៏ពួកគេតែងតែរកផ្លូវត្រឡប់មកផ្ទះវិញដែរ។ <br> No matter where ... go, they always find their way back .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter where they go, they always find their way back home."
+                            },
+                            {
+                                sentence: "No matter who wins the game, we will celebrate together.",
+                                khmer: "ទោះអ្នកណាឈ្នះការប្រកួត ក៏យើងនឹងអបអរជាមួយគ្នាដែរ។ <br> No matter who ... the game, we will celebrate .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter who wins the game, we will celebrate together."
+                            },
+                            {
+                                sentence: "No matter when it rains, we will still go for a walk.",
+                                khmer: "ទោះភ្លៀងនៅពេលណា ក៏យើងនៅតែទៅដើរលេងដែរ។ <br> No matter when ... rains, we will still go for a .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter when it rains, we will still go for a walk."
+                            },
+                            {
+                                sentence: "No matter why she is upset, I will be here to listen.",
+                                khmer: "ទោះនាងខឹងដោយសារអ្វី ក៏ខ្ញុំនឹងនៅទីនេះដើម្បីស្តាប់ដែរ។ <br> No matter why ... is upset, I will be here to .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter why she is upset, I will be here to listen."
+                            },
+                            {
+                                sentence: "No matter how difficult the task is, we will complete it together.",
+                                khmer: "ទោះកិច្ចការលំបាកយ៉ាងណាក៏ដោយ យើងនឹងបញ្ចប់វាជាមួយគ្នា។ <br> No matter how ... the task is, we will complete it .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter how difficult the task is, we will complete it together."
+                            },
+                            {
+                                sentence: "No matter what challenges we face, we will overcome them.",
+                                khmer: "ទោះយើងប្រឈមមុខនឹងបញ្ហាអ្វីក៏ដោយ យើងនឹងជំនះវា។ <br> No matter what ... we face, we will overcome .... <br>រចនាសម្ព័ន្ធ៖ No matter + question word + subject + verb, main result.",
+                                answer: "No matter what challenges we face, we will overcome them."
+                            },
+                        ],
+                    "Inverted Conditionals with 'Had I...'": [
+                            {
+                                sentence: "Had I known about the event, I would have participated.",
+                                khmer: "បើសិនខ្ញុំបានដឹងអំពីព្រឹត្តិការណ៍នេះ ខ្ញុំនឹងបានចូលរួម។ <br> Had I ... about the event, I would have .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would have + past participle.",
+                                answer: "Had I known about the event, I would have participated."
+                            },
+                            {
+                                sentence: "Had she arrived on time, she would have seen the presentation.",
+                                khmer: "បើសិននាងមកទាន់ពេល នាងនឹងបានឃើញបទបង្ហាញ។ <br> Had she ... on time, she would have seen the .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would have + past participle.",
+                                answer: "Had she arrived on time, she would have seen the presentation."
+                            },
+                            {
+                                sentence: "Had they known about the party, they would have come.",
+                                khmer: "បើសិនពួកគេបានដឹងអំពីពិធីជប់លៀង ពួកគេនឹងបានមក។ <br> Had they ... about the party, they would have .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would have + past participle.",
+                                answer: "Had they known about the party, they would have come."
+                            },
+                            {
+                                sentence: "Had we studied harder, we would have passed the test.",
+                                khmer: "បើសិនពួកយើងបានរៀន hardworking ពួកយើងនឹងបានប្រឡងជាប់។ <br> Had we ... harder, we would have passed the .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would have + past participle.",
+                                answer: "Had we studied harder, we would have passed the test."
+                            },
+                            {
+                                sentence: "Had I known about the meeting, I would have attended.",
+                                khmer: "បើសិនខ្ញុំបានដឹងអំពីការប្រជុំ ខ្ញុំនឹងបានចូលរួម។ <br> Had I ... about the meeting, I would have .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would have + past participle.",
+                                answer: "Had I known about the meeting, I would have attended."
+                            },
+                            {
+                                sentence: "Had she studied harder, she would have passed the exam.",
+                                khmer: "បើសិននាងបានរៀន hardworking នាងនឹងបានប្រឡងជាប់។ <br> Had she ... harder, she would have passed the .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would have + past participle.",
+                                answer: "Had she studied harder, she would have passed the exam."
+                            },
+                            {
+                                sentence: "Had they arrived earlier, they would have caught the train.",
+                                khmer: "បើសិនពួកគេមកដល់លឿនជាងនេះ ពួកគេនឹងបានទាន់រថភ្លើង។ <br> Had they ... earlier, they would have caught the .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would have + past participle.",
+                                answer: "Had they arrived earlier, they would have caught the train."
+                            },
+                            {
+                                sentence: "Had we prepared better, we would have won the game.",
+                                khmer: "បើសិនពួកយើងបានត្រៀមខ្លួនល្អជាងនេះ ពួកយើងនឹងបានឈ្នះការប្រកួត។ <br> Had we ... better, we would have won the .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would have + past participle.",
+                                answer: "Had we prepared better, we would have won the game."
+                            },
+                            {
+                                sentence: "Had he listened to my advice, he would not have made that mistake.",
+                                khmer: "បើសិនគាត់បានស្តាប់ដំបូន្មានខ្ញុំ គាត់នឹងមិនបានធ្វើខុសនោះទេ។ <br> Had he ... to my advice, he would not have made that .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + would not have + past participle.",
+                                answer: "Had he listened to my advice, he would not have made that mistake."
+                            },
+                            {
+                                sentence: "Had you told me earlier, I could have helped you.",
+                                khmer: "បើសិនអ្នកបានប្រាប់ខ្ញុំមុននេះ ខ្ញុំអាចជួយអ្នកបាន។ <br> Had you ... me earlier, I could have helped .... <br>រចនាសម្ព័ន្ធ៖ Had + subject + past participle, subject + could have + past participle.",
+                                answer: "Had you told me earlier, I could have helped you."
+                            },
+
+                        ],
+                    "Such...that (Strong Cause-Effect)": [
+                            {
+                                sentence: "Such a beautiful day that we decided to go for a picnic.",
+                                khmer: "ជាថ្ងៃដ៏ស្រស់ស្អាតដែលយើងសម្រេចចិត្តទៅពិសាអាហារក្រៅផ្ទះ។ <br> Such a beautiful ... that we decided to go for a .... <br>រចនាសម្ព័ន្ធ៖ Such + a/an + adjective + singular countable noun + that + result.",
+                                answer: "Such a beautiful day that we decided to go for a picnic."
+                            },
+                            {
+                                sentence: "Such interesting books that I couldn't put them down.",
+                                khmer: "ជាសៀវភៅដែលគួរឱ្យចាប់អារម្មណ៍ខ្លាំងណាស់ ដែលខ្ញុំមិនអាចដាក់ចុះបាន។ <br> Such interesting ... that I couldn't put them .... <br>រចនាសម្ព័ន្ធ៖ Such + plural noun + that + result.",
+                                answer: "Such interesting books that I couldn't put them down."
+                            },
+                            {
+                                sentence: "Such an amazing performance that the audience gave a standing ovation.",
+                                khmer: "ជាការសម្តែងដ៏អស្ចារ្យដែលទស្សនិកជនបានក្រោកឈរទះដៃ។ <br> Such an amazing ... that the audience gave a standing .... <br>រចនាសម្ព័ន្ធ៖ Such + an + adjective + singular countable noun + that + result.",
+                                answer: "Such an amazing performance that the audience gave a standing ovation."
+                            },
+                            {
+                                sentence: "Such delicious food that we ordered more.",
+                                khmer: "ជាអាហារឆ្ងាញ់ណាស់ដែលយើងបានកុម្ម៉ង់បន្ថែម។ <br> Such delicious ... that we ordered .... <br>រចនាសម្ព័ន្ធ៖ Such + uncountable noun + that + result.",
+                                answer: "Such delicious food that we ordered more."
+                            },
+                            {
+                                sentence: "Such kind people that they helped us without hesitation.",
+                                khmer: "ជាមនុស្សចិត្តល្អដែលពួកគេបានជួយយើងដោយមិនស្ទាក់ស្ទើរ។ <br> Such kind ... that they helped us without .... <br>រចនាសម្ព័ន្ធ៖ Such + plural noun + that + result.",
+                                answer: "Such kind people that they helped us without hesitation."
+                            },
+                            {
+                                sentence: "Such a challenging task that it took us all day to complete.",
+                                khmer: "ជាកិច្ចការដ៏លំបាកដែលវាបានចំណាយពេលពេញមួយថ្ងៃដើម្បីបញ្ចប់។ <br> Such a challenging ... that it took us all day to .... <br>រចនាសម្ព័ន្ធ៖ Such + a/an + adjective + singular countable noun + that +result.",
+                                answer: "Such a challenging task that it took us all day to complete."
+                            },
+                        ],
+                    "Used to / Would (Past Habits)":[
+                        {
+                            sentence: "I used to play football every weekend.",
+                            khmer: "ខ្ញុំធ្លាប់លេងបាល់ទាត់រៀងរាល់ចុងសប្តាហ៍។ <br> I ... play football every .... <br>រចនាសម្ព័ន្ធ៖ Subject + used to + Verb (base form) + ...",
+                            answer: "I used to play football every weekend."
+                        },
+                        {
+                            sentence: "He would go fishing with his grandfather every summer.",
+                            khmer: "គាត់នឹងទៅត្រីជាមួយតាខ្លួនរៀងរាល់រដូវក្តៅ។ <br> He ... go fishing with his grandfather every .... <br>រចនាសម្ព័ន្ធ៖ Subject + would + Verb (base form) + ... (for repeated actions only).",
+                            answer: "He would go fishing with his grandfather every summer."
+                        },
+                        {
+                            sentence: "They used to live in that house before moving here.",
+                            khmer: "ពួកគេធ្លាប់រស់នៅក្នុងផ្ទះនោះមុនពេលមកទីនេះ។ <br> They ... live in that house before moving .... <br>រចនាសម្ព័ន្ធ៖ Subject + used to + Verb (base form) + ...",
+                            answer: "They used to live in that house before moving here."
+                        },
+                        {
+                            sentence: "She would always help her friends with their homework.",
+                            khmer: "នាងតែងតែជួយមិត្តភក្តិរបស់នាងក្នុងការងារផ្ទះ។ <br> She ... always help her friends with their homework.<br>រចនាសម្ព័ន្ធ៖ Subject + would + Verb (base form) + ... (for repeated actions only).",
+                            answer: "She would always help her friends with their homework."
+                        },
+                        {
+                            sentence: "We used to visit our grandparents every Sunday.",
+                            khmer: "ពួកយើងធ្លាប់ទៅទស្សនាតាថាយាយរៀងរាល់ថ្ងៃអាទិត្យ។ <br> We ... visit our grandparents every .... <br>រចនាសម្ព័ន្ធ៖ Subject + used to + Verb (base form) + ...",
+                            answer: "We used to visit our grandparents every Sunday."
+                        },
+                        
+                    ],
+                    "Expressing Likes & Dislikes":[
+                        {
+                            sentence: "I like playing basketball.",
+                            khmer: "ខ្ញុំចូលចិត្តលេងបាល់បោះ។ <br> I ... playing basketball.<br>រចនាសម្ព័ន្ធ៖ Subject + like/love/enjoy/don't like/hate + Verb-ing.",
+                            answer: "I like playing basketball."
+                        },
+                        {
+                            sentence: "She loves reading books.",
+                            khmer: "នាងស្រលាញ់ការអានសៀវភៅ។ <br> She ... reading books.<br>រចនាសម្ព័ន្ធ៖ Subject + like/love/enjoy/don't like/hate + Verb-ing.",
+                            answer: "She loves reading books."
+                        },
+                        {
+                            sentence: "They enjoy swimming in the pool.",
+                            khmer: "ពួកគេចូលចិត្តហែលទឹកនៅក្នុងអាង។ <br> They ... swimming in the pool.<br>រចនាសម្ព័ន្ធ៖ Subject + like/love/enjoy/don't like/hate + Verb-ing.",
+                            answer: "They enjoy swimming in the pool."
+                        },
+                        {
+                            sentence: "He doesn't like eating vegetables.",
+                            khmer: "គាត់មិនចូលចិត្តបរិច្ឆេទបន្លែទេ។ <br> He ... eating vegetables.<br>រចនាសម្ព័ន្ធ៖ Subject + don't like + Verb-ing.",
+                            answer: "He doesn't like eating vegetables."
+                        },
+                        {
+                            sentence: "We hate doing homework.",
+                            khmer: "ពួកយើងស្អប់ធ្វើការងារផ្ទះ។ <br> We ... doing homework.<br>រចនាសម្ព័ន្ធ៖ Subject + hate + Verb-ing.",
+                            answer: "We hate doing homework."
+                        }
+                    ],
+                    "Present Perfect (Experiences & Unfinished Actions)":[
+                        {
+                            sentence: "I have finished my homework.",
+                            khmer: "ខ្ញុំបានបញ្ចប់ការងារផ្ទះរបស់ខ្ញុំ។ <br> I ... finished my homework.<br>រចនាសម្ព័ន្ធ៖ Subject + have/has + Verb (past participle) + Object/Complement.",
+                            answer: "I have finished my homework."
+                        },
+                        {
+                            sentence: "She has visited Paris twice.",
+                            khmer: "នាងបានទៅទស្សនាប៉ារីសពីរដង។ <br> She ... visited Paris twice.<br>រចនាសម្ព័ន្ធ៖ Subject + have/has + Verb (past participle) + Object/Complement.",
+                            answer: "She has visited Paris twice."
+                        },
+                        {
+                            sentence: "They have seen that movie before.",
+                            khmer: "ពួកគេបានឃើញភាពយន្តនោះមុននេះ។ <br> They ... seen that movie before.<br>រចនាសម្ព័ន្ធ៖ Subject + have/has + Verb (past participle) + Object/Complement.",
+                            answer: "They have seen that movie before."
+                        },
+                        {
+                            sentence: "He has lost his keys.",
+                            khmer: "គាត់បានបាត់សោររបស់គាត់។ <br> He ... lost his keys.<br>រចនាសម្ព័ន្ធ៖ Subject + have/has + Verb (past participle) + Object/Complement.",
+                            answer: "He has lost his keys."
+                        },
+                        {
+                            sentence: "We have completed the project on time.",
+                            khmer: "ពួកយើងបានបញ្ចប់គម្រោងតាមពេលវេលា។ <br> We ... completed the project on time.<br>រចនាសម្ព័ន្ធ៖ Subject + have/has + Verb (past participle) + Object/Complement.",
+                            answer: "We have completed the project on time."
+                        }
+                    ],
+                    "Reporting Verbs (Direct & Indirect Speech)": [
+                        {
+                            sentence: "Direct: 'I am happy,' she said. Indirect: She said that she was happy.",
+                            khmer: "ដោយផ្ទាល់: 'ខ្ញុំសប្បាយចិត្ត,' នាងនិយាយ។ ដោយប្រយោល: នាងនិយាយថា នាងសប្បាយចិត្ត។ <br> Direct: 'I ... happy,' she said. Indirect: She said that she ... happy. <br>រចនាសម្ព័ន្ធ៖ Direct: '...' + reporting verb. Indirect: Reporting verb + (that) + changed sentence (tense, pronoun, time/place).",
+                            answer: "Direct: 'I am happy,' she said. Indirect: She said that she was happy."
+                        },
+                        {
+                            sentence: "Direct: 'I bought a new phone yesterday,' he told me. Indirect: He told me that he had bought a new phone the day before.",
+                            khmer: "ដោយផ្ទាល់: 'ខ្ញុំបានទិញទូរស័ព្ទថ្មីកាលពីម្សិលមិញ,' គាត់ប្រាប់ខ្ញុំ។ ដោយប្រយោល: គាត់ប្រាប់ខ្ញុំថា គាត់បានទិញទូរស័ព្ទថ្មីកាលពីថ្ងៃមុន។ <br> Direct: 'I ... a new phone yesterday,' he told me. Indirect: He told me that he ... bought a new phone the day before. <br>រចនាសម្ព័ន្ធ៖ Direct: '...' + reporting verb. Indirect: Reporting verb + (that) + changed sentence (tense, pronoun, time/place).",
+                            answer: "Direct: 'I bought a new phone yesterday,' he told me. Indirect: He told me that he had bought a new phone the day before."
+                        },
+                        {
+                            sentence: "Direct: 'I will call you tomorrow,' she promised. Indirect: She promised that she would call me the next day.",
+                            khmer: "ដោយផ្ទាល់: 'ខ្ញុំនឹងទូរស័ព្ទទៅអ្នកនៅថ្ងៃស្អែក,' នាងសន្យា។ ដោយប្រយោល: នាងសន្យាថា នាងនឹងទូរស័ព្ទទៅខ្ញុំនៅថ្ងៃបន្ទាប់។ <br> Direct: 'I ... call you tomorrow,' she promised. Indirect: She promised that she ... call me the next day. <br>រចនាសម្ព័ន្ធ៖ Direct: '...' + reporting verb. Indirect: Reporting verb + (that) + changed sentence (tense, pronoun, time/place).",
+                            answer: "Direct: 'I will call you tomorrow,' she promised. Indirect: She promised that she would call me the next day."
+                        },
+                        {
+                            sentence: "Direct: 'Are you coming?' he asked. Indirect: He asked if I was coming.",
+                            khmer: "ដោយផ្ទាល់: 'តើអ្នកកំពុងមកទេ?' គាត់សួរ។ ដោយប្រយោល: គាត់សួរថា តើខ្ញុំកំពុងមកទេ? <br> Direct: 'Are you ...?' he asked. Indirect: He asked if I ... coming. <br>រចនាសម្ព័ន្ធ៖ Direct: '...' + reporting verb. Indirect: Reporting verb + (that) + changed sentence (tense, pronoun, time/place).",
+                            answer: "Direct: 'Are you coming?' he asked. Indirect: He asked if I was coming."
+                        },
+                        {
+                            sentence: "Direct: 'Where do you live?' she inquired. Indirect: She inquired where I lived.",
+                            khmer: "ដោយផ្ទាល់: 'តើអ្នករស់នៅឯណា?' នាងសួរ។ ដោយប្រយោល: នាងសួរថា តើខ្ញុំរស់នៅឯណា។ <br> Direct: 'Where do you ...?' she inquired. Indirect: She inquired where I .... <br>រចនាសម្ព័ន្ធ៖ Direct: '...' + reporting verb. Indirect: Reporting verb + (that) + changed sentence (tense, pronoun, time/place).",
+                            answer: "Direct: 'Where do you live?' she inquired. Indirect: She inquired where I lived."
+                        }
+                    ],
+                    "Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).":[
+                        {
+                            sentence: "The book was written by J.K. Rowling.",
+                            khmer: "សៀវភៅនេះត្រូវបានសរសេរដោយ J.K. Rowling។ <br> The book ... written by J.K. Rowling. <br>រចនាសម្ព័ន្ធ៖ Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).",
+                            answer: "The book was written by J.K. Rowling."
+                        },
+                        {
+                            sentence: "The cake is being made by my mother.",
+                            khmer: "នំកំពុងត្រូវបានធ្វើឡើងដោយម្តាយរបស់ខ្ញុំ។ <br> The cake ... being made by my mother. <br>រចនាសម្ព័ន្ធ៖ Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).",
+                            answer: "The cake is being made by my mother."
+                        },
+                        {
+                            sentence: "The song was sung by the choir.",
+                            khmer: "បទចម្រៀងត្រូវបានច្រៀងដោយក្រុមចម្រៀង។ <br> The song ... sung by the choir. <br>រចនាសម្ព័ន្ធ៖ Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).",
+                            answer: "The song was sung by the choir."
+                        },
+                        {
+                            sentence: "The homework is done by the students.",
+                            khmer: "ការងារផ្ទះត្រូវបានធ្វើដោយសិស្សានុសិស្ស។ <br> The homework ... done by the students. <br>រចនាសម្ព័ន្ធ៖ Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).",
+                            answer: "The homework is done by the students."
+                        },
+                        {
+                            sentence: "The project was completed on time by the team.",
+                            khmer: "គម្រោងត្រូវបានបញ្ចប់តាមពេលវេលាដោយក្រុម។ <br> The project ... completed on time by the team. <br>រចនាសម្ព័ន្ធ៖ Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).",
+                            answer: "The project was completed on time by the team."
+                        },
+                        {
+                            sentence: "The letter is being written by John.",
+                            khmer: "លិខិតកំពុងត្រូវបានសរសេរដោយ John។ <br> The letter ... being written by John. <br>រចនាសម្ព័ន្ធ៖ Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).",
+                            answer: "The letter is being written by John."
+                        }
+                    ],
+                    "Connectors & Discourse Markers": [
+                        {
+                            sentence: "He was tired. Therefore, he went to bed early.",
+                            khmer: "គាត់ហត់។ ហេតុដូច្នេះហើយ គាត់ក៏ចូលគេងលឿន។ <br> He was tired. ... , he went to bed .... <br>រចនាសម្ព័ន្ធ៖ Sentence 1 + Connector/Marker + Sentence 2; Discourse Marker at beginning of sentence/paragraph.",
+                            answer: "He was tired. Therefore, he went to bed early."
+                        },
+                        {
+                            sentence: "She likes apples. However, she prefers oranges.",
+                            khmer: "នាងចូលចិត្តផ្លែប៉ោម។ ទោះជាយ៉ាងណាក៏ដោយ នាងចូលចិត្តក្រូចច្រើនជាង។ <br> She likes apples. ... , she prefers .... <br>រចនាសម្ព័ន្ធ៖ Sentence 1 + Connector/Marker + Sentence 2; Discourse Marker at beginning of sentence/paragraph.",
+                            answer: "She likes apples. However, she prefers oranges."
+                        },
+                        {
+                            sentence: "First, prepare the ingredients. Then, mix them well.",
+                            khmer: "ដំបូង រៀបចំគ្រឿងផ្សំ។ បន្ទាប់មក លាយវាឱ្យសព្វ។ <br> ... , prepare the ingredients. ... , mix them .... <br>រចនាសម្ព័ន្ធ៖ Sentence 1 + Connector/Marker + Sentence 2; Discourse Marker at beginning of sentence/paragraph.",
+                            answer: "First, prepare the ingredients. Then, mix them well."
+                        },
+                        {
+                            sentence: "Moreover, the weather was bad. So, we stayed home.",
+                            khmer: "លើសពីនេះ អាកាសធាតុក៏អាក្រក់។ ដូច្នេះ យើងក៏នៅផ្ទះ។ <br> ... , the weather was bad. ... , we stayed .... <br>រចនាសម្ព័ន្ធ៖ Sentence 1 + Connector/Marker + Sentence 2; Discourse Marker at beginning of sentence/paragraph.",
+                            answer: "Moreover, the weather was bad. So, we stayed home."
+                        },
+                        {
+                            sentence: "In conclusion, we had a wonderful time.",
+                            khmer: "សរុបមក យើងមានពេលវេលាដ៏អស្ចារ្យ។ <br> In ... , we had a wonderful .... <br>រចនាសម្ព័ន្ធ៖ Sentence 1 + Connector/Marker + Sentence 2; Discourse Marker at beginning of sentence/paragraph.",
+                            answer: "In conclusion, we had a wonderful time."
+                        },
+                        {
+                            sentence: "For example, you can use this. Additionally, you can use that.",
+                            khmer: "ជាឧទាហរណ៍ អ្នកអាចប្រើនេះបាន។ លើសពីនេះ អ្នកក៏អាចប្រើនោះបានដែរ។ <br> For ... , you can use this. ... , you can use that. <br>រចនាសម្ព័ន្ធ៖ Sentence 1 + Connector/Marker + Sentence 2; Discourse Marker at beginning of sentence/paragraph.",
+                            answer: "For example, you can use this. Additionally, you can use that."
+                        }
+                    ],
+                     "So long as... (Condition)": [
+                        {
+                            sentence: "So long as you work hard, you will succeed.",
+                            khmer: "ដរាបណាអ្នកខិតខំ អ្នកនឹងជោគជ័យ។ <br> So long as you ... hard, you will .... <br>រចនាសម្ព័ន្ធ៖ So long as + subject + verb, result clause.",
+                            answer: "So long as you work hard, you will succeed."
+                        },
+                        {
+                            sentence: "So long as it doesn't rain, we can go for a picnic.",
+                            khmer: "ដរាបណាវាអត់ភ្លៀង យើងអាចទៅពិសាអាហារក្រៅផ្ទះបាន។ <br> So long as it ... rain, we can go for a .... <br>រចនាសម្ព័ន្ធ៖ So long as + subject + verb, result clause.",
+                            answer: "So long as it doesn't rain, we can go for a picnic."
+                        },
+                        {
+                            sentence: "You can borrow my car, so long as you fill up the tank.",
+                            khmer: "អ្នកអាចខ្ចីឡានខ្ញុំបាន ដរាបណាអ្នកចាក់សាំងឱ្យពេញ។ <br> You can borrow my car, so long as you ... up the .... <br>រចនាសម្ព័ន្ធ៖ So long as + subject + verb, result clause.",
+                            answer: "You can borrow my car, so long as you fill up the tank."
+                        },
+                        {
+                            sentence: "So long as she's happy, I'm happy.",
+                            khmer: "ដរាបណានាងសប្បាយចិត្ត ខ្ញុំក៏សប្បាយចិត្តដែរ។ <br> So long as she's ..., I'm .... <br>រចនាសម្ព័ន្ធ៖ So long as + subject + verb, result clause.",
+                            answer: "So long as she's happy, I'm happy."
+                        },
+                        {
+                            sentence: "They will support you, so long as you tell the truth.",
+                            khmer: "ពួកគេនឹងគាំទ្រអ្នក ដរាបណាអ្នកនិយាយការពិត។ <br> They will support you, so long as you ... the .... <br>រចចនាសម្ព័ន្ធ៖ So long as + subject + verb, result clause.",
+                            answer: "They will support you, so long as you tell the truth."
+                        }
+                    ],   
+                    "Suppose / Supposing that... (Hypothetical Scenarios)": [
+                        {
+                            sentence: "Suppose you win the lottery, what would you do?",
+                            khmer: "ឧបមាថាអ្នកឈ្នះឆ្នោត តើអ្នកនឹងធ្វើអ្វី? <br> Suppose ... win the lottery, what would you ...?",
+                            answer: "Suppose you win the lottery, what would you do?"
+                        },
+                        {
+                            sentence: "Supposing that she calls, tell her I'll be late.",
+                            khmer: "ឧបមាថានាងទូរស័ព្ទមក ប្រាប់នាងថាខ្ញុំនឹងមកយឺត។ <br> Supposing that she ... , tell her I'll be ....",
+                            answer: "Supposing that she calls, tell her I'll be late."
+                        },
+                        {
+                            sentence: "Suppose it rains tomorrow, should we cancel the picnic?",
+                            khmer: "ឧបមាថាស្អែកភ្លៀង តើយើងគួរលុបការពិសាអាហារក្រៅផ្ទះដែរឬទេ? <br> Suppose it ... tomorrow, should we cancel the ...?",
+                            answer: "Suppose it rains tomorrow, should we cancel the picnic?"
+                        },
+                        {
+                            sentence: "Supposing that they agree, we can proceed with the plan.",
+                            khmer: "ឧបមាថាពួកគេយល់ព្រម យើងអាចបន្តផែនការបាន។ <br> Supposing that they ... , we can proceed with the ....",
+                            answer: "Supposing that they agree, we can proceed with the plan."
+                        },
+                        {
+                            sentence: "Suppose he doesn't arrive on time, what then?",
+                            khmer: "ឧបមាថាគាត់មិនមកទាន់ពេល តើមានអ្វីកើតឡើង? <br> Suppose he ... arrive on time, what ...?",
+                            answer: "Suppose he doesn't arrive on time, what then?"
+                        },
+                        {
+                            sentence: "Supposing that you had a million dollars, how would you spend it?",
+                            khmer: "ឧបមាថាអ្នកមានប្រាក់មួយលាន ដូច្នេះអ្នកនឹងចំណាយវាដូចម្តេច? <br> Supposing that you ... a million dollars, how would you ...?",
+                            answer: "Supposing that you had a million dollars, how would you spend it?"
+                        },
+                    ],
+                    
 
 
                   
