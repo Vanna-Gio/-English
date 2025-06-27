@@ -6001,7 +6001,7 @@
                             answer: "Direct: 'Where do you live?' she inquired. Indirect: She inquired where I lived."
                         }
                     ],
-                    "Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).":[
+                    "✅Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).":[
                         {
                             sentence: "The book was written by J.K. Rowling.",
                             khmer: "សៀវភៅនេះត្រូវបានសរសេរដោយ J.K. Rowling។ <br> The book ... written by J.K. Rowling. <br>រចនាសម្ព័ន្ធ៖ Object + be (is/am/are/was/were) + Verb (past participle) + (by agent).",
@@ -6033,7 +6033,7 @@
                             answer: "The letter is being written by John."
                         }
                     ],
-                    "Connectors & Discourse Markers": [
+                    "✅Connectors & Discourse Markers": [
                         {
                             sentence: "He was tired. Therefore, he went to bed early.",
                             khmer: "គាត់ហត់។ ហេតុដូច្នេះហើយ គាត់ក៏ចូលគេងលឿន។ <br> He was tired. ... , he went to bed .... <br>រចនាសម្ព័ន្ធ៖ Sentence 1 + Connector/Marker + Sentence 2; Discourse Marker at beginning of sentence/paragraph.",
@@ -6065,7 +6065,7 @@
                             answer: "For example, you can use this. Additionally, you can use that."
                         }
                     ],
-                     "So long as... (Condition)": [
+                     " 🛠️So long as... (Condition)": [
                         {
                             sentence: "So long as you work hard, you will succeed.",
                             khmer: "ដរាបណាអ្នកខិតខំ អ្នកនឹងជោគជ័យ។ <br> So long as you ... hard, you will .... <br>រចនាសម្ព័ន្ធ៖ So long as + subject + verb, result clause.",
@@ -6092,7 +6092,7 @@
                             answer: "They will support you, so long as you tell the truth."
                         }
                     ],   
-                    "Suppose / Supposing that... (Hypothetical Scenarios)": [
+                    " 🧠 Suppose / Supposing that... (Hypothetical Scenarios)": [
                         {
                             sentence: "Suppose you win the lottery, what would you do?",
                             khmer: "ឧបមាថាអ្នកឈ្នះឆ្នោត តើអ្នកនឹងធ្វើអ្វី? <br> Suppose ... win the lottery, what would you ...?",
@@ -6124,6 +6124,272 @@
                             answer: "Supposing that you had a million dollars, how would you spend it?"
                         },
                     ],
+                         "Lest = so that...not, or to avoid":[
+                        {
+                            sentence: "She left early lest she miss the train.",
+                            khmer: "នាងចេញលឿនខ្លាចក្រែងនាងខកឡានភ្លើង។ <br> Structure: [Main clause] + lest + [subject] + [base verb]. <br> (to avoid missing the train)",
+                            answer: "She left early lest she miss the train."
+                        },
+                        {
+                            sentence: "Take an umbrella lest it rain.",
+                            khmer: "យកឆ័ត្រទៅ ក្រែងលោវាភ្លៀង។ <br> Structure: [Main clause] + lest + [subject] + [base verb]. <br> (in case it rains)",
+                            answer: "Take an umbrella lest it rain."
+                        },
+                        {
+                            sentence: "He spoke quietly lest anyone hear him.",
+                            khmer: "គាត់និយាយដោយស្ងៀមស្ងាត់ ក្រែងលោអ្នកណាម្នាក់បានលឺគាត់។ <br> Structure: [Main clause] + lest + [subject] + [base verb].",
+                            answer: "He spoke quietly lest anyone hear him."
+                        },
+                        {
+                            sentence: "I write notes lest I forget what I study.",
+                            khmer: "ខ្ញុំសរសេរកំណត់ចំណាំ ក្រែងលោខ្ញុំភ្លេចអ្វីដែលខ្ញុំរៀន។ <br> Structure: [Main clause] + lest + [subject] + [base verb].",
+                            answer: "I write notes lest I forget what I study."
+                        },
+                            {
+                                sentence: "They sealed the windows lest the cold air enter.",
+                                khmer: "ពួកគេបិទបង្អួចយ៉ាងជិត ក្រែងលោខ្យល់ត្រជាក់ចូល។ <br> Structure: [Main clause] + lest + [subject] + [base verb].",
+                                answer: "They sealed the windows lest the cold air enter."
+                            },
+                            {
+                                sentence: "He wore a mask lest he spread the virus.",
+                                khmer: "គាត់ពាក់ម៉ាស់ ក្រែងលោគាត់ឆ្លងមេរោគ។ <br> Structure: [Main clause] + lest + [subject] + [base verb].",
+                                answer: "He wore a mask lest he spread the virus."
+                            },
+                            {
+                                sentence: "She studied diligently lest she fail the exam.",
+                                khmer: "នាងរៀនយ៉ាងឧស្សាហ៍ព្យាយាម ក្រែងលោនាងធ្លាក់ប្រឡង។ <br> Structure: [Main clause] + lest + [subject] + [base verb].",
+                                answer: "She studied diligently lest she fail the exam."
+                            },
+                            {
+                                sentence: "They whispered lest they wake the baby.",
+                                khmer: "ពួកគេខ្សឹបខ្សៀវ ក្រែងលោពួកគេដាស់ទារក។ <br> Structure: [Main clause] + lest + [subject] + [base verb].",
+                                answer: "They whispered lest they wake the baby."
+                            },
+                            {
+                                sentence: "Be careful lest you slip on the ice.",
+                                khmer: "ប្រយ័ត្ន ក្រែងលោអ្នករអិលលើទឹកកក។ <br> Structure: [Main clause] + lest + [subject] + [base verb].",
+                                answer: "Be careful lest you slip on the ice."
+                            },
+                            {
+                                sentence: "He carried a flashlight lest the power go out.",
+                                khmer: "គាត់កាន់ពិល ក្រែងលោភ្លើងដាច់។ <br> Structure: [Main clause] + lest + [subject] + [base verb].",
+                                answer: "He carried a flashlight lest the power go out."
+                            }
+                    ],
+                    "⏰It's (high/about) time + subject + past simple":[
+                        {
+                            sentence: "It's time we went home.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលពួកយើងទៅផ្ទះហើយ។", // Placeholder for Khmer translation
+                            answer: "It's time we went home."
+                        },
+                        {
+                            sentence: "It's high time you started looking for a job.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលអ្នកគួរតែចាប់ផ្តើមរកការងារធ្វើហើយ។", // Placeholder for Khmer translation
+                            answer: "It's high time you started looking for a job."
+                        },
+                        {
+                            sentence: "It's about time they apologized.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលពួកគេគួរតែសុំទោសហើយ។", // Placeholder for Khmer translation
+                            answer: "It's about time they apologized."
+                        },
+                        {
+                            sentence: "It's time she learned to drive.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលនាងគួរតែរៀនបើកបរហើយ។", // Placeholder for Khmer translation
+                            answer: "It's time she learned to drive."
+                        },
+                        {
+                            sentence: "It's high time the government took action.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលរដ្ឋាភិបាលគួរតែចាត់វិធានការហើយ។", // Placeholder for Khmer translation
+                            answer: "It's high time the government took action."
+                        },
+                        {
+                            sentence: "It's time we had a serious talk.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលពួកយើងគួរតែនិយាយគ្នាឲ្យបានច្បាស់លាស់ហើយ។", // Placeholder for Khmer translation
+                            answer: "It's time we had a serious talk."
+                        },
+                        {
+                            sentence: "It's high time he paid back the money he owes.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលគាត់គួរតែសងលុយដែលគាត់ជំពាក់ហើយ។", // Placeholder for Khmer translation
+                            answer: "It's high time he paid back the money he owes."
+                        },
+                        {
+                            sentence: "It's about time you cleaned your room.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលអ្នកគួរតែសម្អាតបន្ទប់របស់អ្នកហើយ។", // Placeholder for Khmer translation
+                            answer: "It's about time you cleaned your room."
+                        },
+                        {
+                            sentence: "It's time they understood the consequences.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលពួកគេគួរតែយល់ពីផលវិបាកហើយ។", // Placeholder for Khmer translation
+                            answer: "It's time they understood the consequences."
+                        },
+                        {
+                            sentence: "It's high time we left for the airport.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលពួកយើងគួរតែចេញទៅព្រលានយន្តហោះហើយ។", // Placeholder for Khmer translation
+                            answer: "It's high time we left for the airport."
+                        },
+                        {
+                            sentence: "It's about time I got a new phone.",
+                            khmer: "Structure: It’s time + subject + past tense <br> It’s high time / about time + subject + past tense <br> ដល់ពេលដែលខ្ញុំគួរតែទូរស័ព្ទថ្មីហើយ។", // Placeholder for Khmer translation
+                            answer: "It's about time I got a new phone."
+                        }
+                    ],
+                    "🔁 Inverted Conditionals with 'Had I...'" :[
+                        {
+                            sentence: "Had I known you were coming, I would have baked a cake.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើខ្ញុំដឹងថាអ្នកមក ខ្ញុំច្បាស់ជាដុតនំខេកហើយ។", // Placeholder for Khmer translation
+                            answer: "Had I known you were coming, I would have baked a cake."
+                        },
+                        {
+                            sentence: "Had she studied harder, she would have passed the exam.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើនាងរៀនពូកែជាងនេះ នាងប្រាកដជាប្រឡងជាប់ហើយ។", // Placeholder for Khmer translation
+                            answer: "Had she studied harder, she would have passed the exam."
+                        },
+                        {
+                            sentence: "Had they left earlier, they would have caught the train.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើពួកគេចេញលឿនជាងនេះ ពួកគេប្រាកដជាទាន់រថភ្លើងហើយ។", // Placeholder for Khmer translation
+                            answer: "Had they left earlier, they would have caught the train."
+                        },
+                        {
+                            sentence: "Had he listened to my advice, he wouldn't have made that mistake.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើគាត់ស្តាប់ដំបូន្មានខ្ញុំ គាត់នឹងមិនធ្វើខុសនោះទេ។", // Placeholder for Khmer translation
+                            answer: "Had he listened to my advice, he wouldn't have made that mistake."
+                        },
+                        {
+                            sentence: "Had we arrived on time, we would have seen the beginning of the show.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើពួកយើងមកទាន់ពេល ពួកយើងប្រាកដជាបានមើលការសម្តែងតាំងពីដើមហើយ។", // Placeholder for Khmer translation
+                            answer: "Had we arrived on time, we would have seen the beginning of the show."
+                        },
+                        {
+                            sentence: "Had you told me the truth, I would have helped you.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើអ្នកប្រាប់ការពិត ខ្ញុំប្រាកដជាជួយអ្នកហើយ។", // Placeholder for Khmer translation
+                            answer: "Had you told me the truth, I would have helped you."
+                        },
+                        {
+                            sentence: "Had it rained, the plants would have grown faster.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើភ្លៀង ដំណាំប្រាកដជាលូតលាស់លឿនជាងនេះ។", // Placeholder for Khmer translation
+                            answer: "Had it rained, the plants would have grown faster."
+                        },
+                        {
+                            sentence: "Had she accepted the offer, she would have moved to another city.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើនាងទទួលយកការផ្តល់ជូន នាងប្រាកដជាផ្លាស់ទៅទីក្រុងផ្សេងហើយ។", // Placeholder for Khmer translation
+                            answer: "Had she accepted the offer, she would have moved to another city."
+                        },
+                        {
+                            sentence: "Had they invested wisely, they would have become rich.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើពួកគេវិនិយោគដោយឆ្លាតវៃ ពួកគេប្រាកដជាក្លាយជាអ្នកមានហើយ។", // Placeholder for Khmer translation
+                            answer: "Had they invested wisely, they would have become rich."
+                        },
+                        {
+                            sentence: "Had I brought my camera, I would have taken some amazing photos.",
+                            khmer: "Structure: Had + subject + past participle, + subject + would have + past participle <br> Same meaning as: If + subject + had + past participle, ... <br> បើខ្ញុំយកកាមេរ៉ាមក ខ្ញុំប្រាកដជាបានថតរូបស្អាតៗមួយចំនួនហើយ។", // Placeholder for Khmer translation
+                            answer: "Had I brought my camera, I would have taken some amazing photos."
+                        }
+                    ],
+                    "🌟Such...that" :[
+                        {
+                            sentence: "It was such a beautiful day that we decided to go for a picnic.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> វាជាថ្ងៃដ៏ស្រស់ស្អាតដែលពួកយើងសម្រេចចិត្តទៅដើរលេង។", // Placeholder for Khmer translation
+                            answer: "It was such a beautiful day that we decided to go for a picnic."
+                        },
+                        {
+                            sentence: "He has such great talent that everyone admires him.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> គាត់មានទេពកោសល្យដ៏អស្ចារ្យដែលអ្នករាល់គ្នា admires គាត់។", // Placeholder for Khmer translation
+                            answer: "He has such great talent that everyone admires him."
+                        },
+                        {
+                            sentence: "The movie was such a tragedy that it made everyone cry.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> កុននោះជាសោកនាដកម្មដែលធ្វើឲ្យអ្នករាល់គ្នាស្រក់ទឹកភ្នែក។", // Placeholder for Khmer translation
+                            answer: "The movie was such a tragedy that it made everyone cry."
+                        },
+                        {
+                            sentence: "She spoke with such clarity that everyone understood her message.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> នាងនិយាយយ៉ាងច្បាស់លាស់ដែលអ្នករាល់គ្នាបានយល់សាររបស់នាង។", // Placeholder for Khmer translation
+                            answer: "She spoke with such clarity that everyone understood her message."
+                        },
+                        {
+                            sentence: "They faced such severe challenges that they almost gave up.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> ពួកគេប្រឈមនឹងបញ្ហាធ្ងន់ធ្ងរដែលពួកគេស្ទើរតែបោះបង់ចោល។", // Placeholder for Khmer translation
+                            answer: "They faced such severe challenges that they almost gave up."
+                        },
+                        {
+                            sentence: "It was such an interesting book that I couldn't put it down.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> វាជាសៀវភៅដ៏គួរឲ្យចាប់អារម្មណ៍ដែលខ្ញុំមិនអាចដាក់ចុះបាន។", // Placeholder for Khmer translation
+                            answer: "It was such an interesting book that I couldn't put it down."
+                        },
+                        {
+                            sentence: "He showed such bravery that he became a local hero.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> គាត់បានបង្ហាញភាពក្លាហានដែលគាត់បានក្លាយជាវីរបុរសក្នុងស្រុក។", // Placeholder for Khmer translation
+                            answer: "He showed such bravery that he became a local hero."
+                        },
+                        {
+                            sentence: "They had such little time that they had to rush.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> ពួកគេមានពេលតិចណាស់ដែលពួកគេត្រូវប្រញាប់។", // Placeholder for Khmer translation
+                            answer: "They had such little time that they had to rush."
+                        },
+                        {
+                            sentence: "It was such a loud noise that it woke everyone up.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> វាជាសំឡេងដ៏ខ្លាំងដែលធ្វើឲ្យអ្នករាល់គ្នាភ្ញាក់។", // Placeholder for Khmer translation
+                            answer: "It was such a loud noise that it woke everyone up."
+                        },
+                        {
+                            sentence: "She has such a strong will that nothing can stop her.",
+                            khmer: "Structure: Such + (adjective) + noun + that + result <br> Or <br> Such + a/an + adjective + singular countable noun + that + result <br> នាងមានឆន្ទៈដ៏រឹងមាំដែលគ្មានអ្វីអាចបញ្ឈប់នាងបានឡើយ។", // Placeholder for Khmer translation
+                            answer: "She has such a strong will that nothing can stop her."
+                        }
+                    ],
+                    "✅ Only if..." :[
+                        {
+                            sentence: "Only if it stops raining, we will go outside.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែឈប់ភ្លៀង ទើបពួកយើងចេញទៅខាងក្រៅ។", // Placeholder for Khmer translation
+                            answer: "Only if it stops raining, we will go outside."
+                        },
+                        {
+                            sentence: "Only if you study hard, will you pass the test.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែអ្នករៀនពូកែ ទើបអ្នកប្រឡងជាប់។", // Placeholder for Khmer translation
+                            answer: "Only if you study hard, will you pass the test."
+                        },
+                        {
+                            sentence: "Only if he apologizes, will she forgive him.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែគាត់សុំទោស ទើបនាងអត់ទោសឲ្យគាត់។", // Placeholder for Khmer translation
+                            answer: "Only if he apologizes, will she forgive him."
+                        },
+                        {
+                            sentence: "Only if I finish my work, can I go out.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែខ្ញុំបញ្ចប់ការងារ ទើបខ្ញុំអាចចេញទៅក្រៅបាន។", // Placeholder for Khmer translation
+                            answer: "Only if I finish my work, can I go out."
+                        },
+                        {
+                            sentence: "Only if you have a valid ticket, will you be allowed to enter.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែអ្នកមានសំបុត្រត្រឹមត្រូវ ទើបអ្នកត្រូវបានអនុញ្ញាតឲ្យចូល។", // Placeholder for Khmer translation
+                            answer: "Only if you have a valid ticket, will you be allowed to enter."
+                        },
+                        {
+                            sentence: "Only if we work together, can we achieve this goal.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែពួកយើងធ្វើការជាមួយគ្នា ទើបពួកយើងអាចសម្រេចគោលដៅនេះបាន។", // Placeholder for Khmer translation
+                            answer: "Only if we work together, can we achieve this goal."
+                        },
+                        {
+                            sentence: "Only if the weather improves, will the flight depart.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែអាកាសធាតុប្រសើរឡើង ទើបជើងហោះហើរចេញដំណើរ។", // Placeholder for Khmer translation
+                            answer: "Only if the weather improves, will the flight depart."
+                        },
+                        {
+                            sentence: "Only if she asks for help, should we intervene.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែនាងសុំជំនួយ ទើបពួកយើងគួរតែអន្តរាគមន៍។", // Placeholder for Khmer translation
+                            answer: "Only if she asks for help, should we intervene."
+                        },
+                        {
+                            sentence: "Only if all conditions are met, will the contract be signed.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែលក្ខខណ្ឌទាំងអស់ត្រូវបានបំពេញ ទើបកិច្ចសន្យាត្រូវបានចុះហត្ថលេខា។", // Placeholder for Khmer translation
+                            answer: "Only if all conditions are met, will the contract be signed."
+                        },
+                        {
+                            sentence: "Only if you promise to be careful, can you borrow my car.",
+                            khmer: "Structure: Only if + subject + verb, result clause <br> Or <br> Only if + condition + auxiliary + subject + verb <br> លុះត្រាតែអ្នកសន្យាថានឹងប្រយ័ត្ន ទើបអ្នកអាចខ្ចីឡានខ្ញុំបាន។", // Placeholder for Khmer translation
+                            answer: "Only if you promise to be careful, can you borrow my car."
+                        }
+                    ],
+                        
                     
 
 
