@@ -5206,6 +5206,717 @@
                 },
 
                 listenAndType: {
+                      "✅ “Much as”": [
+                        {
+                            sentence: "Much as",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>Much as I love ...., I can't eat it .....<br>ថ្វីត្បិតតែខ្ញុំស្រឡាញ់សូកូឡាខ្លាំងណាស់ក៏ដោយ ក៏ខ្ញុំមិនអាចញ៉ាំវាជារៀងរាល់ថ្ងៃបានដែរ។",
+                            answer: "Much as I love chocolate, I can't eat it every day."
+                        },
+                        {
+                            sentence: "Much as ",
+                            answer: "Much as he tries to be a good person, his true feelings often show.",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>...he tries to be ..., his true ... often show.<br>ថ្វីត្បិតតែគាត់ព្យាយាមធ្វើជាមនុស្សសុភាពរាបសារក៏ដោយ ក៏អារម្មណ៍ពិតរបស់គាត់តែងតែបង្ហាញចេញមក។"
+                        },
+                        {
+                            sentence: "Much as ",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>....they ... to help, they were ... to.<br>ថ្វីត្បិតតែពួកគេចង់ជួយខ្លាំងណាស់ក៏ដោយ ក៏ពួកគេមិនអាចជួយបានដែរ។",
+                            answer: "Much as they wanted to help, they were unable to."
+                        },
+                        {
+                            sentence: "Much as ",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>...I ... her work, I don't ... with all her ....<br>ថ្វីត្បិតតែខ្ញុំគោរពការងាររបស់នាងក៏ដោយ ខ្ញុំមិនយល់ព្រមជាមួយគំនិតទាំងអស់របស់នាងទេ។",
+                            answer: "Much as I admire her work, I don't agree with all her opinions."
+                        },
+                        {
+                            sentence: "Much as ",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>....it ... me to say it, you are ....<br>ថ្វីត្បិតតែវាធ្វើឲ្យខ្ញុំឈឺចាប់ក្នុងការនិយាយក៏ដោយ ក៏អ្នកខុសដែរ។",
+                            answer: "Much as it pains me to say it, you are wrong."
+                        },
+                        {
+                            sentence: "Much as ",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>...she ... public speaking, she has to do it for her ...<br>ថ្វីត្បិតតែនាងមិនចូលចិត្តការនិយាយជាសាធារណៈក៏ដោយ ក៏នាងត្រូវធ្វើវាសម្រាប់ការងាររបស់នាងដែរ។"
+                        },
+                        {
+                            sentence: "Much as ",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>...he ... to hide it, his ... was ...<br>ថ្វីត្បិតតែគាត់ព្យាយាមលាក់បាំងក៏ដោយ ក៏ភាពភ័យខ្លាចរបស់គាត់គឺច្បាស់ណាស់។",
+                            answer: "Much as he tried to hide it, his fear was evident."
+                        },
+                        {
+                            sentence: "Much as ",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>...we ... your ..., we have to ....<br>ថ្វីត្បិតតែពួកយើងកោតសរសើរការផ្តល់ជូនរបស់អ្នកក៏ដោយ ក៏ពួកយើងត្រូវបដិសេធដែរ។",
+                            answer: "Much as we appreciate your offer, we have to decline."
+                        },
+                        {
+                            sentence: "Much as",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>.. I ...to stay, I had to ... early.<br>ថ្វីត្បិតតែខ្ញុំចង់នៅក៏ដោយ ក៏ខ្ញុំត្រូវចេញទៅមុនដែរ។",
+                            answer: "Much as I wanted to stay, I had to leave early."
+                        },
+                        {
+                            sentence: "Much as",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>.. the children ..., they still ... their ....<br>ថ្វីត្បិតតែក្មេងៗត្អូញត្អែរក៏ដោយ ក៏ពួកគេនៅតែញ៉ាំបន្លែរបស់ពួកគេដែរ។",
+                            answer: "Much as the children complained, they still ate their vegetables."
+                        },
+                        {
+                            sentence: "Much as",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>.. I ... the idea, I had to ... it.<br>ថ្វីត្បិតតែខ្ញុំមិនចូលចិត្តគំនិតនេះក៏ដោយ ក៏ខ្ញុំត្រូវទទួលយកវា។",
+                            answer: "Much as I disliked the idea, I had to accept it."
+                        },
+                        {
+                            sentence: "Much as",
+                            khmer: "Structure: Much as + subject + verb, contrasting clause<br>.. the weather ..., we still ... our ....<br>ថ្វីត្បិតតែអាកាសធាតុអាក្រក់ក៏ដោយ ក៏យើងនៅតែរីករាយនឹងការធ្វើដំណើររបស់យើង។",
+                            answer: "Much as the weather was bad, we still enjoyed our trip."
+                        }
+                    ],
+                    "✅ By the time…": [
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលខ្ញុំទៅដល់ ពួកគេបានញ៉ាំអាហារពេលល្ងាចរួចហើយ។ <br> By the time I ..., they had already finished .... <br>រចនាសម្ព័ន្ធ៖ By the time + past simple, past perfect.",
+                            answer: "By the time I arrived, they had already finished dinner."
+                        },
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលនាងបញ្ចប់ការសិក្សា នាងនឹងបានបញ្ចប់ការបណ្តុះបណ្តាលការងារហើយ។ <br> By the time she ..., she will have completed an .... <br>រចនាសម្ព័ន្ធ៖ By the time + present simple, future perfect.",
+                            answer: "By the time she graduates, she will have completed an internship."
+                        },
+                        {
+                            sentence: "By the time",
+                            khmer: "ពេលគាត់ភ្ញាក់ពីគេង ព្រះអាទិត្យបានរះហើយ។ <br> By the time he ... up, the sun had already .... <br>រចនាសម្ព័ន្ធ៖ By the time + past simple, past perfect.",
+                            answer: "By the time he woke up, the sun had already risen."
+                        },
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលអ្នកអាននេះ ខ្ញុំនឹងបានចេញទៅវិស្សមកាលហើយ។ <br> By the time you ... this, I will have left for .... <br>រចនាសម្ព័ន្ធ៖ By the time + present simple, future perfect.",
+                            answer: "By the time you read this, I will have left for vacation."
+                        },
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលពួកគេទៅដល់ស្ថានីយ៍ រថភ្លើងបានចេញដំណើរហើយ។ <br> By the time they ... the station, the train had .... <br>រចនាសម្ព័ន្ធ៖ By the time + past simple, past perfect.",
+                            answer: "By the time they reached the station, the train had departed."
+                        },
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលពួកយើងបញ្ចប់គម្រោងនេះ វានឹងចំណាយពេលមួយខែហើយ។ <br> By the time we ... this project, it will have been a .... <br>រចនាសម្ព័ន្ធ៖ By the time + present simple, future perfect.",
+                            answer: "By the time we finish this project, it will have been a month."
+                        },
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលប៉ូលីសទៅដល់ ចោរបានបាត់ខ្លួនបាត់ហើយ។ <br> By the time the police ..., the thieves had .... <br>រចនាសម្ព័ន្ធ៖ By the time + past simple, past perfect.",
+                            answer: "By the time the police arrived, the thieves had vanished."
+                        },
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលនាងអាយុសាមសិបឆ្នាំ នាងនឹងបានធ្វើដំណើរទៅប្រទេសជាច្រើនហើយ។ <br> By the time she ... thirty, she will have traveled to many .... <br>រចនាសម្ព័ន្ធ៖ By the time + present simple, future perfect.",
+                            answer: "By the time she turns thirty, she will have traveled to many countries."
+                        },
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលពួកគេចាប់ផ្តើមចម្អិន ខ្ញុំបានញ៉ាំរួចហើយ។ <br> By the time they ... cooking, I had already .... <br>រចនាសម្ព័ន្ធ៖ By the time + past simple, past perfect.",
+                            answer: "By the time they started cooking, I had already eaten."
+                        },
+                        {
+                            sentence: "By the time ",
+                            khmer: "ពេលអ្នកទៅដល់ផ្ទះ ខ្ញុំនឹងបានរៀបចំអាហារពេលល្ងាចហើយ។ <br> By the time you ... home, I will have prepared .... <br>រចនាសម្ព័ន្ធ៖ By the time + present simple, future perfect.",
+                            answer: "By the time you get home, I will have prepared dinner."
+                        }
+                    ],
+                    "✅ So…as to…": [
+                        {
+                            sentence: "So…as to…",
+                            khmer: "គាត់ចិត្តល្អណាស់ រហូតដល់បានជូនខ្ញុំទៅ។ <br> He was so ... as to offer me a .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "He was so kind as to offer me a ride."
+                        },
+                        {
+                            sentence: "So…as to…",
+                            khmer: "បញ្ហាគឺស្មុគស្មាញណាស់ រហូតដល់ត្រូវការដំបូន្មានពីអ្នកជំនាញ។ <br> The problem was so ... as to require expert .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "The problem was so complex as to require expert advice."
+                        },
+                        {
+                            sentence: "So…as to…",
+                            khmer: "នាងនិយាយតិចៗ រហូតស្ទើរតែស្តាប់មិនឮ។ <br> She spoke so ... as to be almost .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "She spoke so softly as to be almost inaudible."
+                        },
+                        {
+                            sentence: "So…as to…",
+                            khmer: "គាត់រត់លឿនណាស់ រហូតដល់បំបែកកំណត់ត្រាសាលា។ <br> He ran so ... as to break the school .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "He ran so fast as to break the school record."
+                        },
+                        {
+                            sentence: "So…as to…",
+                            khmer: "ព័ត៌មាននេះគួរឲ្យភ្ញាក់ផ្អើលណាស់ រហូតដល់ធ្វើឲ្យអ្នករាល់គ្នាស្ងាត់មាត់។ <br> The news was so ... as to leave everyone .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "The news was so shocking as to leave everyone speechless."
+                        },
+                        {
+                            sentence: "So…as to…",
+                            khmer: "ពួកគេរំភើបណាស់ រហូតដល់ចាប់ផ្តើមធ្វើការភ្លាមៗ។ <br> They were so ... as to start working .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "They were so eager as to start working immediately."
+                        },
+                        {
+                            sentence: "So…as to…",
+                            khmer: "បន្ទប់ងងឹតណាស់ រហូតដល់មិនអាចអានបាន។ <br> The room was so ... as to make it impossible to .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "The room was so dark as to make it impossible to read."
+                        },
+                        {
+                            sentence: "So…as to…",
+                            khmer: "គាត់សុភាពរាបសារណាស់ រហូតដល់បានកាន់ទ្វារបើកឲ្យអ្នករាល់គ្នា។ <br> He was so ... as to hold the door open for .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "He was so polite as to hold the door open for everyone."
+                        },
+                        {
+                            sentence: "So…as to….",
+                            khmer: "ទឹកត្រជាក់ណាស់ រហូតដល់ធ្វើឲ្យម្រាមដៃខ្ញុំស្ពឹក។ <br> The water was so ... as to numb my .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "The water was so cold as to numb my fingers."
+                        },
+                        {
+                            sentence: "So…as to…",
+                            khmer: "នាងក្លាហានណាស់ រហូតដល់ហ៊ានប្រឈមមុខនឹងអ្នកវាយប្រហារ។ <br> She was so ... as to confront the .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + so + adjective/adverb + as to + base verb.",
+                            answer: "She was so brave as to confront the attacker."
+                        }
+                    ],
+                    "✅ Too…to": [
+                        {
+                            sentence: "Too…to",
+                            khmer: "គាត់ក្មេងពេកមិនអាចបើកបររថយន្តបានទេ។ <br> He is too ... to drive a .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "He is too young to drive a car."
+                        },
+                        {
+                            sentence: "The coffee was too hot to drink immediately.",
+                            khmer: "កាហ្វេក្តៅពេកមិនអាចផឹកភ្លាមៗបានទេ។ <br> The coffee was too ... to drink .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "The coffee was too hot to drink immediately."
+                        },
+                        {
+                            sentence: "She was too tired to continue working.",
+                            khmer: "នាងហត់ពេកមិនអាចបន្តធ្វើការបានទេ។ <br> She was too ... to continue .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "She was too tired to continue working."
+                        },
+                        {
+                            sentence: "The box is too heavy to lift alone.",
+                            khmer: "ប្រអប់នេះធ្ងន់ពេកមិនអាចលើកម្នាក់ឯងបានទេ។ <br> The box is too ... to lift .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "The box is too heavy to lift alone."
+                        },
+                        {
+                            sentence: "He spoke too quickly to be understood.",
+                            khmer: "គាត់និយាយលឿនពេកមិនអាចយល់បានទេ។ <br> He spoke too ... to be .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "He spoke too quickly to be understood."
+                        },
+                        {
+                            sentence: "The dress was too expensive to buy.",
+                            khmer: "រ៉ូបនេះថ្លៃពេកមិនអាចទិញបានទេ។ <br> The dress was too ... to .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "The dress was too expensive to buy."
+                        },
+                        {
+                            sentence: "It's too late to change our plans now.",
+                            khmer: "វាយឺតពេលពេកមិនអាចប្តូរផែនការឥឡូវនេះបានទេ។ <br> It's too ... to change our ... now.",
+                            answer: "It's too late to change our plans now."
+                        },
+                        {
+                            sentence: "The music was too loud to have a conversation.",
+                            khmer: "តន្ត្រីលឺខ្លាំងពេកមិនអាចនិយាយគ្នាបានទេ។ <br> The music was too ... to have a .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "The music was too loud to have a conversation."
+                        },
+                        {
+                            sentence: "They are too busy to help us right now.",
+                            khmer: "ពួកគេរវល់ពេកមិនអាចជួយពួកយើងបាននៅពេលនេះទេ។ <br> They are too ... to help us right .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "They are too busy to help us right now."
+                        },
+                        {
+                            sentence: "The problem is too difficult to solve without assistance.",
+                            khmer: "បញ្ហាគឺពិបាកពេកមិនអាចដោះស្រាយដោយគ្មានជំនួយបានទេ។ <br> The problem is too ... to solve without .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + too + adjective/adverb + to + base verb.",
+                            answer: "The problem is too difficult to solve without assistance."
+                        }
+                    ],
+                    "✅ If it hadn’t been for…": [
+                        {
+                            sentence: "If it hadn’t been for your help, I would have failed the exam.",
+                            khmer: "បើមិនមែនដោយសារជំនួយរបស់អ្នកទេ ខ្ញុំប្រាកដជាធ្លាក់ប្រឡងហើយ។ <br> If it hadn’t been for ... help, I would have failed the .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for your help, I would have failed the exam."
+                        },
+                        {
+                            sentence: "If it hadn’t been for the warning, they would have entered the dangerous area.",
+                            khmer: "បើមិនមែនដោយសារការព្រមានទេ ពួកគេប្រាកដជាបានចូលទៅក្នុងតំបន់គ្រោះថ្នាក់ហើយ។ <br> If it hadn’t been for the ..., they would have entered the dangerous .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for the warning, they would have entered the dangerous area."
+                        },
+                        {
+                            sentence: "If it hadn’t been for the rain, we would have gone for a walk.",
+                            khmer: "បើមិនមែនដោយសារភ្លៀងទេ ពួកយើងប្រាកដជាបានទៅដើរលេងហើយ។ <br> If it hadn’t been for the ..., we would have gone for a .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for the rain, we would have gone for a walk."
+                        },
+                        {
+                            sentence: "If it hadn’t been for the traffic, we would have arrived on time.",
+                            khmer: "បើមិនមែនដោយសារការកកស្ទះចរាចរណ៍ទេ ពួកយើងប្រាកដជាបានទៅដល់ទាន់ពេលហើយ។ <br> If it hadn’t been for the ..., we would have arrived on .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for the traffic, we would have arrived on time."
+                        },
+                        {
+                            sentence: "If it hadn’t been for her quick thinking, the accident would have been worse.",
+                            khmer: "បើមិនមែនដោយសារគំនិតរហ័សរបស់នាងទេ គ្រោះថ្នាក់នឹងកាន់តែអាក្រក់ជាងនេះ។ <br> If it hadn’t been for her quick ..., the accident would have been .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for her quick thinking, the accident would have been worse."
+                        },
+                        {
+                            sentence: "If it hadn’t been for the strong wind, the fire would have spread faster.",
+                            khmer: "បើមិនមែនដោយសារខ្យល់ខ្លាំងទេ ភ្លើងនឹងរាលដាលលឿនជាងនេះ។ <br> If it hadn’t been for the strong ..., the fire would have spread .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for the strong wind, the fire would have spread faster."
+                        },
+                        {
+                            sentence: "If it hadn’t been for his dedication, the project would not have been completed.",
+                            khmer: "បើមិនមែនដោយសារការលះបង់របស់គាត់ទេ គម្រោងនេះនឹងមិនត្រូវបានបញ្ចប់ឡើយ។ <br> If it hadn’t been for his ..., the project would not have been .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for his dedication, the project would not have been completed."
+                        },
+                        {
+                            sentence: "If it hadn’t been for the alarm, we wouldn't have woken up.",
+                            khmer: "បើមិនមែនដោយសារសំឡេងរោទិ៍ទេ ពួកយើងនឹងមិនភ្ញាក់ពីគេងទេ។ <br> If it hadn’t been for the ..., we wouldn't have woken .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for the alarm, we wouldn't have woken up."
+                        },
+                        {
+                            sentence: "If it hadn’t been for the generous donation, the charity couldn't have continued its work.",
+                            khmer: "បើមិនមែនដោយសារការបរិច្ចាគដ៏សប្បុរសទេ អង្គការសប្បុរសធម៌នឹងមិនអាចបន្តការងាររបស់ខ្លួនបានទេ។ <br> If it hadn’t been for the generous ..., the charity couldn't have continued its .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for the generous donation, the charity couldn't have continued its work."
+                        },
+                        {
+                            sentence: "If it hadn’t been for the doctor's advice, his condition would have worsened.",
+                            khmer: "បើមិនមែនដោយសារដំបូន្មានរបស់វេជ្ជបណ្ឌិតទេ ស្ថានភាពរបស់គាត់នឹងកាន់តែអាក្រក់ទៅៗ។ <br> If it hadn’t been for the doctor's ..., his condition would have .... <br>រចនាសម្ព័ន្ធ៖ If it hadn’t been for + noun, + result (would have + past participle).",
+                            answer: "If it hadn’t been for the doctor's advice, his condition would have worsened."
+                        }
+                    ],
+                    "A. Basic Progress Updates": [
+                        {
+                            sentence: "We have completed the first phase of the project.",
+                            answer: "We have completed the first phase of the project.",
+                            khmer: "<br>Used to report something finished.<br>ពួកយើងបានបញ្ចប់ដំណាក់កាលទីមួយនៃគម្រោងហើយ។ <br> We have ... the first phase of the .... <br>រចនាសម្ព័ន្ធ៖ We have + past participle + object."
+                        },
+                        {
+                            sentence: "We are currently working on the data analysis.",
+                            answer: "We are currently working on the data analysis.",
+                            khmer: "<br>Used to talk about what your team is doing now.<br>ពួកយើងកំពុងដំណើរការការវិភាគទិន្នន័យ។ <br> We are currently ... on the data .... <br>រចនាសម្ព័ន្ធ៖ We are currently working on + noun/gerund."
+                        },
+                        {
+                            sentence: "We are still in the process of gathering feedback.",
+                            answer: "We are still in the process of gathering feedback.",
+                            khmer: "<br>Shows work is in progress but not done yet.<br>ពួកយើងនៅតែស្ថិតក្នុងដំណើរការប្រមូលមតិកែលម្អ។ <br> We are still in the process of ... feedback. <br>រចនាសម្ព័ន្ធ៖ We are still in the process of + gerund + object."
+                        },
+                        {
+                            sentence: "We’ve already finished preparing the report.",
+                            answer: "We’ve already finished preparing the report.",
+                            khmer: "<br>Emphasizes that something is done, maybe even early.<br>ពួកយើងបានបញ្ចប់ការរៀបចំរបាយការណ៍រួចហើយ។ <br> We’ve already ... preparing the .... <br>រចនាសម្ព័ន្ធ៖ We've already finished + gerund + object."
+                        },
+                        {
+                            sentence: "We haven’t started yet, but we’re planning to begin next week.",
+                            answer: "We haven’t started yet, but we’re planning to begin next week.",
+                            khmer: "<br>Shows honesty with a forward plan.<br>ពួកយើងមិនទាន់បានចាប់ផ្តើមនៅឡើយទេ ប៉ុន្តែពួកយើងកំពុងរៀបចំផែនការចាប់ផ្តើមនៅសប្តាហ៍ក្រោយ។ <br> We haven’t started yet, but we’re planning to ... next .... <br>រចនាសម្ព័ន្ធ៖ We haven't started yet, but we're planning to + base verb + time."
+                        }
+                    ],
+                    "B. Ongoing / In Progress": [
+                        {
+                            sentence: "So far, we’ve managed to solve most of the technical issues.",
+                            answer: "So far, we’ve managed to solve most of the technical issues.",
+                            khmer: "<br>📌 Pro Tip: “Managed to” = Successfully done something (especially if it was difficult).<br>👉 Use this when you're giving a progress update that shows what has been achieved up to now.<br>រហូតមកដល់ពេលនេះ ពួកយើងបានដោះស្រាយបញ្ហាបច្ចេកទេសភាគច្រើន។ <br> So far, we’ve managed to ... most of the technical .... <br>រចនាសម្ព័ន្ធ៖ So far, we've managed to + base verb + object."
+                        },
+                        {
+                            sentence: "So far, we’ve managed to complete 80% of the project.",
+                            answer: "So far, we’ve managed to complete 80% of the project.",
+                            khmer: "<br>📌 Pro Tip: “Managed to” = Successfully done something (especially if it was difficult).<br>👉 Use this when you're giving a progress update that shows what has been achieved up to now.<br>រហូតមកដល់ពេលនេះ ពួកយើងបានបញ្ចប់ 80% នៃគម្រោង។ <br> So far, we’ve managed to ... 80% of the .... <br>រចនាសម្ព័ន្ធ៖ So far, we've managed to + base verb + percentage + object."
+
+                        },
+                        {
+                            sentence: "We are currently testing the new features.",
+                            answer: "We are currently testing the new features.",
+                            khmer: "ពួកយើងកំពុងសាកល្បងមុខងារថ្មីៗ។ <br> We are currently ... the new .... <br>រចនាសម្ព័ន្ធ៖ We are currently + gerund + object."
+                        },
+                        {
+                            sentence: "So far, we’ve managed to gather all the customer feedback.",
+                            answer:" So far, we’ve managed to gather all the customer feedback.",
+                            khmer: "<br>📌 Pro Tip: “Managed to” = Successfully done something (especially if it was difficult).<br>👉 Use this when you're giving a progress update that shows what has been achieved up to now.<br>រហូតមកដល់ពេលនេះ ពួកយើងបានប្រមូលមតិគ្រប់គ្រងអតិថិជន។ <br> So far, we’ve managed to ... all the customer .... <br>រចនាសម្ព័ន្ធ៖ So far, we've managed to + base verb + object."
+                        },
+                        {
+                            sentence: "At the moment, we’re focusing on user interface improvements.",
+                            answer: "At the moment, we’re focusing on user interface improvements.",
+                            khmer: "<br>📌 Pro Tip: You can also use this to explain why you're not working on something else yet.<br>👉 Use this to explain your current task or priority.<br>បច្ចុប្បន្ន ពួកយើងកំពុងផ្តោតលើការកែលម្អចំណុចប្រទាក់អ្នកប្រើប្រាស់។ <br> At the moment, we’re focusing on user interface .... <br>រចនាសម្ព័ន្ធ៖ At the moment, we're focusing on + noun/gerund."
+                        },
+                        {
+                            sentence: "At the moment, we’re focusing on improving the mobile version.",
+                            answer: "At the moment, we’re focusing on improving the mobile version.",
+                            khmer: "<br>📌 Pro Tip: You can also use this to explain why you're not working on something else yet.<br>👉 Use this to explain your current task or priority.<br>បច្ចុប្បន្ន ពួកយើងកំពុងផ្តោតលើការកែលម្អកំណែទូរស័ព្ទ។ <br> At the moment, we’re focusing on ... the mobile .... <br>រចនាសម្ព័ន្ធ៖ At the moment, we're focusing on + gerund + object."
+                        },
+                        {
+                            sentence:"At the moment, we’re focusing on fixing the bugs from the last update.",
+                            answer: "At the moment, we’re focusing on fixing the bugs from the last update.",
+                            khmer: "<br>📌 Pro Tip: You can also use this to explain why you're not working on something else yet.<br>👉 Use this to explain your current task or priority.<br>បច្ចុប្បន្ន ពួកយើងកំពុងផ្តោតលើការជួសជុលកំហុសពីការអាប់ដេតចុងក្រោយ។ <br> At the moment, we’re focusing on ... the bugs from the last .... <br>រចនាសម្ព័ន្ធ៖ At the moment, we're focusing on + gerund + object + time phrase."
+                        },
+                        {
+                            sentence: "As of today, we have completed 70% of the testing phase.",
+                            answer: "As of today, we have completed 70% of the testing phase.",
+                            khmer: "<br>📌 You can change “today” to any time:<br>As of this morning<br>As of this week<br>As of June 28th<br>👉Use this to give a status or milestone achieved by a specific date/time.<br>គិតត្រឹមថ្ងៃនេះ ពួកយើងបានបញ្ចប់ 70% នៃដំណាក់កាលសាកល្បង។ <br> As of today, we have ... 70% of the testing .... <br>រចនាសម្ព័ន្ធ៖ As of today, we have + past participle + percentage + object."
+                        },
+                        {
+                            sentence: "As of today, we have completed the backend integration.",
+                            answer: "As of today, we have completed the backend integration.",
+                            khmer: "<br>📌 You can change “today” to any time:<br>As of this morning<br>As of this week<br>As of June 28th<br>👉Use this to give a status or milestone achieved by a specific date/time.<br>គិតត្រឹមថ្ងៃនេះ ពួកយើងបានបញ្ចប់ការរួមបញ្ចូលផ្នែកខាងក្រោយ។ <br> As of today, we have ... the backend .... <br>រចនាសម្ព័ន្ធ៖ As of today, we have + past participle + object."
+                        },
+                        {
+                            sentence: "As of today, we have contacted all the vendors.",
+                            answer: "As of today, we have contacted all the vendors.",
+                            khmer: "<br>📌 You can change “today” to any time:<br>As of this morning<br>As of this week<br>As of June 28th<br>👉Use this to give a status or milestone achieved by a specific date/time.<br>គិតត្រឹមថ្ងៃនេះ ពួកយើងបានទំនាក់ទំនងជាមួយអ្នកផ្គត់ផ្គង់ទាំងអស់។ <br> As of today, we have ... all the .... <br>រចនាសម្ព័ន្ធ៖ As of today, we have + past participle + object."
+                        }
+
+                    ],
+                    "C. Future Plans / Next Steps": [
+                        {
+                            sentence: "✅ By the end of the week, we expect to...",
+                            answer: "By the end of the week, we expect to finish testing the app.",
+                            khmer: "<br>👉 Use this to show your short-term deadline or goal.<br>នៅចុងសប្តាហ៍នេះ ពួកយើងរំពឹងថានឹងបញ្ចប់ការសាកល្បងកម្មវិធី។ <br> By the end of the week, we expect to ... testing the .... <br>រចនាសម្ព័ន្ធ៖ By the end of + time phrase, subject + expect to + base verb + object."
+                        },
+                        {
+                            sentence: "By the end of the week, we expect to ...",
+                            answer: "By the end of the week, we expect to deliver the first draft.",
+                            khmer: "<br>👉 Use this to show your short-term deadline or goal.<br>នៅចុងសប្តាហ៍នេះ ពួកយើងរំពឹងថានឹងដឹកជញ្ជូនការសរសេរដំបូង។ <br> By the end of the week, we expect to ... the first .... <br>រចនាសម្ព័ន្ធ៖ By the end of + time phrase, subject + expect to + base verb + object."
+                        },
+                        {
+                            sentence: "✅ We’re planning to.",
+                            answer: "We’re planning to meet with the client on Monday.",
+                            khmer: "<br>👉 Use this to talk about your future intention or next step.<br>ពួកយើងគ្រោងនឹងជួបជាមួយអតិថិជននៅថ្ងៃច័ន្ទ។ <br> We’re planning to ... with the client on .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + planning to + base verb + object + time phrase."
+                        },
+                        {
+                            sentence: "✅ We’re planning to.",
+                            answer: "We’re planning to start the new campaign next month.",
+                            khmer: "<br>👉 Use this to talk about your future intention or next step.<br>ពួកយើងគ្រោងនឹងចាប់ផ្តើមយុទ្ធនាការថ្មីនៅខែក្រោយ។ <br> We’re planning to ... the new campaign next .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + planning to + base verb + object + time phrase."
+                        },
+                        {
+                            sentence: "✅ Our next step is to...",
+                            answer: "Our next step is to review the customer feedback.",
+                            khmer: "<br>👉 Use this to show what your team will focus on after the current task.<br>ជំហានបន្ទាប់របស់យើងគឺពិនិត្យមតិអតិថិជន។ <br> Our next step is to ... the customer .... <br>រចនាសម្ព័ន្ធ៖ Our next step is to + base verb + object."
+                        },
+                        {
+                            sentence: "Our next step is to...",
+                            answer: "Our next step is to finalize the design.",
+                            khmer: "<br>👉 Use this to show what your team will focus on after the current task.<br>ជំហានបន្ទាប់របស់យើងគឺបញ្ចប់ការរចនា។ <br> Our next step is to ... the .... <br>រចនាសម្ព័ន្ធ៖ Our next step is to + base verb + object."
+                        },
+                        {
+                            sentence: "✅ Once we finish…, we’ll move on to...",
+                            answer: "Once we finish the testing phase, we’ll move on to deployment.",
+                            khmer: "<br>👉 This helps you explain what comes next in your process.<br>ពេលដែលពួកយើងបញ្ចប់ដំណាក់កាលសាកល្បង យើងនឹងបន្តទៅការដាក់ឱ្យដំណើរការ។ <br> Once we finish ... the testing phase, we’ll move on to ... <br>រចនាសម្ព័ន្ធ៖ Once we finish + gerund + object, subject + will move on to + base verb + object."
+                        },
+                        {
+                            sentence: "Once we finish…, we’ll move on to...",
+                            answer: "Once we finish the design review, we’ll move on to development.",
+                            khmer: "<br>👉 This helps you explain what comes next in your process.<br>ពេលដែលពួកយើងបញ្ចប់ការពិនិត្យរចនា យើងនឹងបន្តទៅការអភិវឌ្ឍ។ <br> Once we finish ... the design review, we’ll move on to ... <br>រចនាសម្ព័ន្ធ៖ Once we finish + gerund + object, subject + will move on to + base verb + object."
+                        },
+                        {
+                            sentence: "✅ Once we finish…, we’ll move on to...",
+                            answer: "Once we complete the report, we’ll move on to presenting the results.",
+                            khmer: "<br>👉 This helps you explain what comes next in your process.<br>ពេលដែលពួកយើងបញ្ចប់របាយការណ៍ យើងនឹងបន្តទៅការបង្ហាញលទ្ធផល។ <br> Once we complete the report, we’ll move on to ... the results. <br>រចនាសម្ព័ន្ធ៖ Once we complete + object, subject + will move on to + gerund + object."
+                        },
+                        {
+                            sentence: "✅ Moving forward, we will...",
+                            answer: "Moving forward, we will meet twice a week to stay on track.",
+                            khmer: "<br>👉 A formal way to show direction for the future.<br>នៅពេលអនាគត ពួកយើងនឹងជួបគ្នា២ដងក្នុងមួយសប្តាហ៍ដើម្បីរក្សាទំនាក់ទំនង។ <br> Moving forward, we will meet twice a week to ... on track. <br>រចនាសម្ព័ន្ធ៖ Moving forward, subject + will + base verb + time phrase + to + base verb."
+                        },
+                        {
+                            sentence:"Moving forward, we’ll focus more on customer engagement.",
+                            answer: "Moving forward, we’ll focus more on customer engagement.",
+                            khmer: "<br>👉 A formal way to show direction for the future.<br>នៅពេលអនាគត ពួកយើងនឹងផ្តោតលើការចូលរួមរបស់អតិថិជន។ <br> Moving forward, we’ll focus more on ... engagement. <br>រចនាសម្ព័ន្ធ៖ Moving forward, subject + will + base verb + object."
+                        },
+                        {
+                            sentence: "We plan to complete the project by next month.",
+                            answer: "We plan to complete the project by next month.",
+                            khmer: "<br>👉 Use this to show your future goal or deadline.<br>ពួកយើងគ្រោងនឹងបញ្ចប់គម្រោងនៅខែក្រោយ។ <br> We plan to ... the project by next .... <br>រចនាសម្ព័ន្ធ៖ We plan to + base verb + object + time phrase."
+                        },
+                        {
+                            sentence: "We plan to complete the project by next month.",
+                            answer: "We plan to complete the project by next month.",
+                            khmer: "ពួកយើងគ្រោងនឹងបញ្ចប់គម្រោងនៅខែក្រោយ។ <br> We plan to ... the project by next .... <br>រចនាសម្ព័ន្ធ៖ We plan to + base verb + object + time phrase."
+                        },
+                        {
+                            sentence: "Next, we will focus on improving user experience.",
+                            answer: "Next, we will focus on improving user experience.",
+                            khmer: "បន្ទាប់ ពួកយើងនឹងផ្តោតលើការកែលម្អបទពិសោធន៍អ្នកប្រើប្រាស់។ <br> Next, we will focus on ... user .... <br>រចនាសម្ព័ន្ធ៖ Next, we will focus on + gerund + object."
+                        },
+                        {
+                            sentence: "Next, we plan to implement the new features.",
+                            answer: "Next, we plan to implement the new features.",
+                            khmer: "បន្ទាប់ ពួកយើងគ្រោងនឹងអនុវត្តមុខងារថ្មីៗ។ <br> Next, we plan to ... the new .... <br>រចនាសម្ព័ន្ធ៖ Next, we plan to + base verb + object."
+                        },
+                        {
+                            sentence: "Our next step is to conduct a user acceptance test.",
+                            answer: "Our next step is to conduct a user acceptance test.",
+                            khmer: "ជំហានបន្ទាប់របស់យើងគឺធ្វើការសាកល្បងទទួលយកដោយអ្នកប្រើប្រាស់។ <br> Our next step is to ... a user acceptance .... <br>រចនាសម្ព័ន្ធ៖ Our next step is to + base verb + object."
+                        },
+                        {
+                            sentence: "We are aiming to launch the product by the end of the quarter.",
+                            answer: "We are aiming to launch the product by the end of the quarter.",
+                            khmer: "ពួកយើងមានគោលបំណងដាក់ឱ្យដំណើរការផលិតផលនៅចុងត្រីមាសនេះ។ <br> We are aiming to ... the product by the end of the .... <br>រចនាសម្ព័ន្ធ៖ We are aiming to + base verb + object + time phrase."
+                        },
+                        {
+                            sentence: "The team will start developing the mobile application next month.",
+                            answer: "The team will start developing the mobile application next month.",
+                            khmer: "ក្រុមការងារនឹងចាប់ផ្តើមបង្កើតកម្មវិធីទូរស័ព្ទនៅខែក្រោយ។ <br> The team will start ... the mobile application next .... <br>រចនាសម្ព័ន្ធ៖ The team will start + gerund + object + time."
+                        },
+                        {
+                            sentence: "Our priority for the upcoming weeks is to optimize performance.",
+                            answer: "Our priority for the upcoming weeks is to optimize performance.",
+                            khmer: "អាទិភាពរបស់យើងសម្រាប់សប្តាហ៍ខាងមុខគឺបង្កើនប្រសិទ្ធភាពនៃការអនុវត្ត។ <br> Our priority for the upcoming weeks is to ... performance. <br>រចនាសម្ព័ន្ធ៖ Our priority for + time phrase + is to + base verb + object."
+                        }
+                    ],
+                    "D. Time-based Reports": [
+                        {
+                            sentence: "As of this morning, we’ve completed about 60% of the work.",
+                            answer: "As of this morning, we’ve completed about 60% of the work.",
+                            khmer: "គិតត្រឹមព្រឹកនេះ ពួកយើងបានបញ្ចប់ប្រហែល 60% នៃការងារហើយ។ <br> As of ... morning, we’ve completed about 60% of the .... <br>រចនាសម្ព័ន្ធ៖ As of [date/time], subject + have/has + past participle + percentage + object."
+                        },
+                        {
+                            sentence: "By the end of the week, we expect to finalize the report.",
+                            answer: "By the end of the week, we expect to finalize the report.",
+                            khmer: "ត្រឹមចុងសប្តាហ៍នេះ ពួកយើងរំពឹងថានឹងបញ្ចប់របាយការណ៍។ <br> By the end of the ..., we expect to ... the .... <br>រចនាសម្ព័ន្ធ៖ By the end of [time], subject + expect to + base verb + object."
+                        },
+                        {
+                            sentence: "We’re on track to finish the project by next Friday.",
+                            answer: "We’re on track to finish the project by next Friday.",
+                            khmer: "ពួកយើងកំពុងដំណើរការទៅមុខដើម្បីបញ្ចប់គម្រោងត្រឹមថ្ងៃសុក្រសប្តាហ៍ក្រោយ។ <br> We’re on track to ... the project by next .... <br>រចនាសម្ព័ន្ធ៖ Subject + be + on track to + base verb + object + by [date/time]."
+                        },
+                        {
+                            sentence: "As of yesterday, we haven't received all the necessary documents.",
+                            answer: "As of yesterday, we haven't received all the necessary documents.",
+                            khmer: "គិតត្រឹមម្សិលមិញ ពួកយើងមិនទាន់ទទួលបានឯកសារចាំបាច់ទាំងអស់នៅឡើយទេ។ <br> As of ..., we haven't received all the necessary .... <br>រចនាសម្ព័ន្ធ៖ As of [date/time], subject + have/has + not + past participle + object."
+                        },
+                        {
+                            sentence: "By the end of the day, all tasks should be assigned.",
+                            answer: "By the end of the day, all tasks should be assigned.",
+                            khmer: "ត្រឹមចុងថ្ងៃនេះ កិច្ចការទាំងអស់គួរតែត្រូវបានចាត់តាំងរួចរាល់។ <br> By the end of the ..., all tasks should be .... <br>រចនាសម្ព័ន្ធ៖ By the end of [time], object + should be + past participle."
+                        }
+                    ],
+                    "E. Communicating Delays or Setbacks Politely": [
+                        {
+                            sentence: "There has been a slight delay due to unforeseen circumstances.",
+                            answer: "There has been a slight delay due to unforeseen circumstances.",
+                            khmer: "មានការពន្យារពេលបន្តិចបន្តួចដោយសារកាលៈទេសៈដែលមិនបានមើលឃើញទុកជាមុន។ <br> There has been a slight ... due to unforeseen .... <br>រចនាសម្ព័ន្ធ៖ There has been a slight delay due to + noun phrase."
+                        },
+                        {
+                            sentence: "We’re running slightly behind schedule because of a technical issue.",
+                            answer: "We’re running slightly behind schedule because of a technical issue.",
+                            khmer: "ពួកយើងកំពុងយឺតយ៉ាវបន្តិចបន្តួចដោយសារបញ្ហាបច្ចេកទេស។ <br> We’re running slightly behind ... because of a technical .... <br>រចនាសម្ព័ន្ធ៖ We are running slightly behind schedule because of + noun phrase."
+                        },
+                        {
+                            sentence: "We’ve encountered a minor issue, but we’re working on it.",
+                            answer: "We’ve encountered a minor issue, but we’re working on it.",
+                            khmer: "ពួកយើងបានជួបបញ្ហាតូចមួយ ប៉ុន្តែពួកយើងកំពុងដោះស្រាយវា។ <br> We’ve encountered a minor ..., but we’re working on .... <br>រចនាសម្ព័ន្ធ៖ We've encountered a minor issue, but we're working on it."
+                        },
+                        {
+                            sentence: "Unfortunately, we’ve experienced a small setback with the server migration.",
+                            answer: "Unfortunately, we’ve experienced a small setback with the server migration.",
+                            khmer: "ជាអកុសល ពួកយើងបានជួបប្រទះការរអាក់រអួលបន្តិចបន្តួចជាមួយនឹងការផ្លាស់ប្តូរម៉ាស៊ីនមេ។ <br> Unfortunately, we’ve experienced a small ... with the server .... <br>រចនាសម្ព័ន្ធ៖ Unfortunately, subject + have/has + experienced a small setback with + noun phrase."
+                        },
+                        {
+                            sentence: "The delivery of materials has been postponed, which will affect the timeline.",
+                            answer: "The delivery of materials has been postponed, which will affect the timeline.",
+                            khmer: "ការដឹកជញ្ជូនសម្ភារៈត្រូវបានពន្យារពេល ដែលនឹងប៉ះពាល់ដល់កាលកំណត់។ <br> The delivery of materials has been ..., which will affect the .... <br>រចនាសម្ព័ន្ធ៖ The delivery of [noun] has been postponed, which will affect the timeline."
+                        },
+                        {
+                            sentence: "✅ There has been a slight delay due to..",
+                            answer: "There has been a slight delay due to a technical issue.",
+                            khmer: "📌 Tip: 'slight' makes it sound less serious.<br>👉 Use this to explain a delay clearly and politely.<br>មានការពន្យារពេលបន្តិចបន្តួចដោយសារបញ្ហាបច្ចេកទេស។ <br> There has been a slight ... due to a technical .... <br>រចនាសម្ព័ន្ធ៖ There has been a slight delay due to + noun phrase."
+                        },
+                        {
+                            sentence: "There has been a slight delay due to..",
+                            answer: "There has been a slight delay due to unexpected weather conditions.",
+                            khmer: "📌 Tip: 'slight' makes it sound less serious.<br>មានការពន្យារពេលបន្តិចបន្តួចដោយសារប្រភេទអាកាសធាតុដែលមិនបានរំពឹងទុក។ <br> There has been a slight ... due to unexpected weather .... <br>រចនាសម្ព័ន្ធ៖ There has been a slight delay due to + noun phrase."
+                        },
+                        {
+                            sentence: "✅ We’re running slightly behind schedule because...",
+                            answer: "We’re running slightly behind schedule because of a delay in material delivery.",
+                            khmer: "📌 Tip: 'slight' makes it sound less serious.<br>👉 Use this if the project isn’t on time — but not very late.<br>ពួកយើងកំពុងយឺតយ៉ាវបន្តិចបន្តួចដោយសារការពន្យារពេលក្នុងការដឹកជញ្ជូនសម្ភារៈ។ <br> We’re running slightly behind ... because of a delay in material .... <br>រចនាសម្ព័ន្ធ៖ We are running slightly behind schedule because of + noun phrase."
+                        },
+                        {
+                            sentence: "✅ We’re running slightly behind schedule because...",
+                            answer: "We’re running slightly behind schedule because of unexpected feedback.",
+                            khmer: "📌 Tip: 'slight' makes it sound less serious.<br>👉 Use this if the project isn’t on time — but not very late.<br>ពួកយើងកំពុងយឺតយ៉ាវបន្តិចបន្តួចដោយសារមតិយោបល់ដែលមិនបានរំពឹងទុក។ <br> We’re running slightly behind ... because of unexpected .... <br>រចនាសម្ព័ន្ធ៖ We are running slightly behind schedule because of + noun phrase."
+                        },
+                        {
+                            sentence:"✅ We’re running slightly behind schedule because...",
+                            answer: "We’re running slightly behind schedule because a key team member is sick.",
+                            khmer: "📌 Tip: 'slight' makes it sound less serious.<br>👉 Use this if the project isn’t on time — but not very late.<br>ពួកយើងកំពុងយឺតយ៉ាវបន្តិចបន្តួចដោយសារជាសមាជិកសំខាន់ម្នាក់ក្នុងក្រុមជំងឺ។ <br> We’re running slightly behind ... because a key team member is .... <br>រចនាសម្ព័ន្ធ៖ We are running slightly behind schedule because + noun phrase."
+                        },
+                        {
+                            sentence: "✅ There has been a slight delay due to..",
+                            answer: "There has been a slight delay due to a delay in the supply chain.",
+                            khmer: " 📌 Tip: 'slight' makes it sound less serious.<br>👉 Use this to explain a delay clearly and politely.<br>មានការពន្យារពេលបន្តិចបន្តួចដោយសារការពន្យារពេលក្នុងខ្សែសង្វាក់ផ្គត់ផ្គង់។ <br> There has been a slight ... due to a delay in the supply .... <br>រចនាសម្ព័ន្ធ៖ There has been a slight delay due to + noun phrase."
+                        },
+                        {
+                            sentence: "✅ We’ve encountered a minor issue with...",
+                            answer: "We’ve encountered a minor issue, but we’re working on it.",
+                            khmer: "📌 Tip: Saying “minor issue” shows you’re handling it.<br>👉 A polite and positive way to say there's a problem.<br>ពួកយើងបានជួបបញ្ហាតូចមួយ ប៉ុន្តែពួកយើងកំពុងដោះស្រាយវា។ <br> We’ve encountered a minor ..., but we’re working on .... <br>រចនាសម្ព័ន្ធ៖ We've encountered a minor issue, but we're working on it."
+                        },
+                        {
+                            sentence: "We’ve encountered a minor issue with the software update, but we’re addressing it.",
+                            answer: "We’ve encountered a minor issue with the software update, but we’re addressing it.",
+                            khmer: "📌 Tip: Saying “minor issue” shows you’re handling it.<br>👉 A polite and positive way to say there's a problem.<br>ពួកយើងបានជួបបញ្ហាតូចមួយជាមួយនឹងការធ្វើបច្ចុប្បន្នភាពកម្មវិធី ប៉ុន្តែពួកយើងកំពុងដោះស្រាយវា។ <br> We’ve encountered a minor ... with the software ..., but we’re addressing it. <br>រចនាសម្ព័ន្ធ៖ We've encountered a minor issue with + noun phrase, but we're addressing it."
+                        },
+                        {
+                            sentence: "✅ We’ve encountered a minor issue with...",
+                            answer: "We’ve encountered a minor issue with the payment system.",
+                            khmer: "📌 Tip: Saying “minor issue” shows you’re handling it.<br>👉 A polite and positive way to say there's a problem.<br>ពួកយើងបានជួបបញ្ហាតូចមួយជាមួយនឹងប្រព័ន្ធបង់ប្រាក់ ប៉ុន្តែពួកយើងកំពុងដោះស្រាយវា។ <br> We’ve encountered a minor ... with the payment .... <br>រចនាសម្ព័ន្ធ៖ We've encountered a minor issue with + noun phrase."
+                        },
+                        
+                        {
+                            sentence: "Unfortunately, we’ve experienced a small setback with..",
+                            answer: "Unfortunately, we’ve experienced a small setback with the project timeline.",
+                            khmer: "ជាអកុសល ពួកយើងបានជួបប្រទះការរអាក់រអួលបន្តិចបន្តួចជាមួយនឹងកាលវិភាគគម្រោង។ <br> Unfortunately, we’ve experienced a small ... with the project .... <br>រចនាសម្ព័ន្ធ៖ Unfortunately, subject + have/has + experienced a small setback with + noun phrase."
+                        },
+                        {
+                            sentence: "Unfortunately, we’ve experienced a small setback with..",
+                            answer: "Unfortunately, we’ve experienced a small setback with the budget approval process.",
+                            khmer: "ជាអកុសល ពួកយើងបានជួបប្រទះការរអាក់រអួលបន្តិចបន្តួចជាមួយនឹងដំណើរការអនុម័តថវិកា។ <br> Unfortunately, we’ve experienced a small ... with the budget approval .... <br>រចនាសម្ព័ន្ធ៖ Unfortunately, subject + have/has + experienced a small setback with + noun phrase."
+                        },
+                        {
+                            sentence: "✅ There has been a slight delay due to..",
+                            answer: "There has been a slight delay due to a supplier error.",
+                            khmer: "📌 Tip: 'slight' makes it sound less serious.<br>👉 Use this to explain a delay clearly and politely.<br>មានការពន្យារពេលបន្តិចបន្តួចដោយសារកំហុសរបស់អ្នកផ្គត់ផ្គង់។ <br> There has been a slight ... due to a supplier .... <br>រចនាសម្ព័ន្ធ៖ There has been a slight delay due to + noun phrase."
+                        },
+                        {
+                           sentence: "✅ We're working to resolve this as quickly as possible.",
+                           answer: "We're working to resolve this as quickly as possible and will keep you updated.",
+                            khmer: "👉 Use this to reassure your client or team.<br>ពួកយើងកំពុងដោះស្រាយបញ្ហានេះឲ្យបានលឿនបំផុត ហើយនឹងរក្សាទំនាក់ទំនងជាមួយអ្នក។ <br> We're working to resolve this as quickly as possible and will keep you updated. <br>រចនាសម្ព័ន្ធ៖ Subject + be + working to resolve this as quickly as possible and will keep you updated."
+                        },
+                        {
+                            sentence: "✅ We're working to resolve this as quickly as possible.",
+                            answer: "We're working to resolve this as quickly as possible and will provide a new timeline soon.",
+                            khmer: "👉 Use this to reassure your client or team.<br>ពួកយើងកំពុងដោះស្រាយបញ្ហានេះឲ្យបានលឿនបំផុត ហើយនឹងផ្តល់កាលវិភាគថ្មីឲ្យអ្នកឆាប់ៗនេះ។ <br> We're working to resolve this as quickly as possible and will provide a new timeline soon. <br>រចនាសម្ព័ន្ធ៖ Subject + be + working to resolve this as quickly as possible and will provide a new timeline soon."
+                        },
+                        {
+                            sentence: "✅ We’ll keep you posted / updated.",
+                            answer: "We’ll keep you posted once it’s fixed.",
+                            khmer: "👉 A polite way to end your message and promise follow-up.<br>ពួកយើងនឹងរក្សាទំនាក់ទំនងជាមួយអ្នកនៅពេលវាត្រូវបានជួសជុល។ <br> We’ll keep you posted once it’s fixed. <br>រចនាសម្ព័ន្ធ៖ Subject + will keep you posted once it’s fixed."
+                        },
+                        {
+                            sentence: "✅ We’ll keep you posted / updated.",
+                            answer: "We’ll keep you updated on any progress.",
+                            khmer: "👉 A polite way to end your message and promise follow-up.<br>ពួកយើងនឹងរក្សាទំនាក់ទំនងជាមួយអ្នកអំពីការរីកចម្រើនណាមួយ។ <br> We’ll keep you updated on any progress. <br>រចនាសម្ព័ន្ធ៖ Subject + will keep you updated on any progress."
+                        },
+
+                    ],
+                    "F. Offering Help / Polite Closings": [
+                        {
+                            sentence: "✅ Let me know if you need anything else.",
+                            answer: "Let me know if you need anything else before the deadline.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>ប្រាប់ខ្ញុំផងបើអ្នកត្រូវការអ្វីផ្សេងទៀតមុនពេលកំណត់។ <br> Let me know if you ... anything else before the .... <br>រចនាសម្ព័ន្ធ៖ Let me know if + subject + need + object + time phrase."
+                        },
+                        {
+                            sentence: "✅ Let me know if you need anything else.",
+                            answer: "Let me know if I can clarify anything.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>ប្រាប់ខ្ញុំផងបើខ្ញុំអាចបំភ្លឺអ្វីបាន។ <br> Let me know if I can ... .... <br>រចនាសម្ព័ន្ធ៖ Let me know if + subject + can + base verb + object."
+                        },
+                        {
+                            sentence: "✅ Please feel free to reach out anytime..",
+                            answer: "Please feel free to reach out anytime if you have questions.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>សូមកុំស្ទាក់ស្ទើរក្នុងការទាក់ទងមកខ្ញុំគ្រប់ពេល ប្រសិនបើអ្នកមានសំណួរ។ <br> Please feel free to ... out anytime if you ... questions. <br>រចនាសម្ព័ន្ធ៖ Please feel free to + base verb + anytime if + subject + have + object."
+                        },
+                        {
+                            sentence: "✅ Please feel free to reach out anytime.",
+                            answer: "Feel free to contact me if anything changes.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>កុំស្ទាក់ស្ទើរក្នុងការទាក់ទងមកខ្ញុំប្រសិនបើមានអ្វីផ្លាស់ប្តូរ។ <br> Feel free to ... me if anything .... <br>រចនាសម្ព័ន្ធ៖ Feel free to + base verb + object + if + subject + changes."
+                        },
+                        {
+                            sentence: "✅ I’d be happy to assist you.",
+                            answer: "I’d be happy to assist you with the installation process.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>ខ្ញុំរីករាយនឹងជួយអ្នកក្នុងការដំឡើង។ <br> I’d be happy to ... you with the installation .... <br>រចនាសម្ព័ន្ធ៖ I'd be happy to + base verb + object + with + noun phrase."
+                        },
+                        {
+                            sentence: "✅ I’d be happy to assist you.",
+                            answer: "I’d be happy to help you review the documents.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>ខ្ញុំរីករាយនឹងជួយអ្នកពិនិត្យឯកសារ។ <br> I’d be happy to ... you review the .... <br>រចនាសម្ព័ន្ធ៖ I'd be happy to + help + object + base verb + object."
+                        },
+                        {
+                            sentence: "✅ I’ll be here if you have any questions.",
+                            answer: "I’ll be here if you have any questions during the demo.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>ខ្ញុំនឹងនៅទីនេះប្រសិនបើអ្នកមានសំណួរណាមួយក្នុងអំឡុងពេលបង្ហាញ។ <br> I’ll be here if you ... any questions during the .... <br>រចនាសម្ព័ន្ធ៖ I'll be here if + subject + have + any questions + during + noun."
+                        },
+                        {
+                            sentence: "✅ I’ll be here if you have any questions.",
+                            answer: "I’ll be available this afternoon in case anything comes up.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>ខ្ញុំនឹងទំនេររសៀលនេះក្នុងករណីមានអ្វីកើតឡើង។ <br> I’ll be available this ... in case anything ... up. <br>រចនាសម្ព័ន្ធ៖ I'll be available + time phrase + in case + subject + comes up."
+                        },
+                        {
+                            sentence: "✅ Don’t hesitate to get in touch.",
+                            answer: "Don’t hesitate to get in touch if you experience any issues.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>កុំស្ទាក់ស្ទើរក្នុងការទាក់ទងមកប្រសិនបើអ្នកជួបបញ្ហាណាមួយ។ <br> Don’t hesitate to ... in touch if you ... any .... <br>រចនាសម្ព័ន្ធ៖ Don't hesitate to + base verb + if + subject + experience + any issues."
+                        },
+                        {
+                            sentence: "✅ Don’t hesitate to get in touch.",
+                            answer: "Don’t hesitate to call me if you need support.",
+                            khmer: "🧠 These phrases are great for:<br>Ending emails politely<br>Closing phone or video calls<br>Wrapping up meetings or support conversations<br>កុំស្ទាក់ស្ទើរក្នុងការទូរស័ព្ទមកខ្ញុំប្រសិនបើអ្នកត្រូវការជំនួយ។ <br> Don’t hesitate to ... me if you ... support. <br>រចនាសម្ព័ន្ធ៖ Don't hesitate to + base verb + object + if + subject + need + object."
+                        }
+                    ],
+                   
+                    
+                    "Ways to say 'I understand'":[
+                        {sentence: "I see what you mean.",
+                            khmer: "ខ្ញុំយល់ថាអ្នកមានអ្វីក្នុងចិត្ត។ <br> For Example: <br> Structure: I see what you mean about [Topic].<br> I see what you mean about the weather.", 
+                            answer: "I see what you mean about the weather."},
+                        {sentence: "I get it.",
+                            khmer: "ខ្ញុំយល់ហើយ។ <br> For Example: <br> Structure: I get it, [Name].<br> I get it, John.", 
+                            answer: "I get it, John."},
+                        {sentence: "I understand.",
+                            khmer: "ខ្ញុំយល់។ <br> For Example: <br> Structure: I understand your point about [Topic].<br> I understand your point about the project.",
+                             answer: "I understand your point about the project."},
+                        {sentence: "That makes sense.",
+                            khmer: "វាមានអត្ថន័យ។ <br> For Example: <br> Structure: That makes sense, [Name].<br> That makes sense, Sarah.",
+                            answer: "That makes sense, Sarah."},
+                        {sentence: "I follow you.",
+                            khmer: "ខ្ញុំតាមអ្នក។ <br> For Example: <br> Structure: I follow you on that, [Name].<br> I follow you on that, Mike.",
+                            answer: "I follow you on that, Mike."},
+                        {sentence: "I catch your drift.",
+                            khmer: "ខ្ញុំចាប់យកការប្រាប់របស់អ្នក។ <br> For Example: <br> Structure: I catch your drift about [Topic].<br> I catch your drift about the new policy.",
+                            answer: "I catch your drift about the new policy."},
+                        {sentence: "I comprehend.",
+                            khmer: "ខ្ញុំយល់។ <br> For Example: <br> Structure: I comprehend your explanation about [Topic].<br> I comprehend your explanation about the rules.",
+                            answer: "I comprehend your explanation about the rules."},
+                        {sentence: "I grasp it.",
+                            khmer: "ខ្ញុំចាប់យកវា។ <br> For Example: <br> Structure: I grasp it, [Name].<br> I grasp it, Lisa.",
+                            answer: "I grasp it, Lisa."},
+                        {sentence: "I acknowledge.",
+                            khmer: "ខ្ញុំទទួលស្គាល់។ <br> For Example: <br> Structure: I acknowledge your concerns about [Topic].<br> I acknowledge your concerns about the budget.",
+                            answer: "I acknowledge your concerns about the budget."},
+                        {sentence: "I recognize.",
+                            khmer: "ខ្ញុំស្គាល់។ <br> For Example: <br> Structure: I recognize the importance of [Topic].<br> I recognize the importance of teamwork.",
+                            answer: "I recognize the importance of teamwork."},
+                        { sentence:"I got it! I'll do it now.",
+                            khmer: "ខ្ញុំបានវា។ <br> For Example: <br> Structure: I got it, [Name].<br> I got it, Tom.",
+                            answer: "I got it! I'll do it now."},
+                        { sentence:"I understand what you’re saying, ",
+                            khmer: "ខ្ញុំយល់ថាអ្នកកំពុងនិយាយអំពីអ្វី។ <br> For Example: <br> Structure: I understand what you’re saying about [Topic].<br> I understand what you’re saying about the project.",
+                            answer: "I understand what you’re saying about the project."},
+                        { sentence:"I see your point, ",
+                            khmer: "ខ្ញុំមើលឃើញចំណុចរបស់អ្នក។ <br> For Example: <br> Structure: I see your point about [Topic].<br> I see your point about the new rules.",
+                            answer: "I see your point about the new rules."},
+                        {sentence:"I understand your perspective, ",
+                            khmer: "ខ្ញុំយល់ពីទស្សនៈរបស់អ្នក។ <br> For Example: <br> Structure: I understand your perspective on [Topic].<br> I understand your perspective on the situation.",
+                            answer: "I understand your perspective on the situation."},
+                        {sentence:"I’m with you on this, ",
+                            khmer: "ខ្ញុំជាមួយអ្នកលើនេះ។ <br> For Example: <br> Structure: I’m with you on this, [Name].<br> I’m with you on this, Alex.",
+                            answer: "I’m with you on this, Alex."},
+                        {sentence:"I’m on the same page, ",
+                            khmer: "ខ្ញុំស្ថិតនៅលើទំព័រដូចគ្នា។ <br> For Example: <br> Structure: I’m on the same page about [Topic].<br> I’m on the same page about the plan.",
+                            answer: "I’m on the same page about the plan."},
+                        {sentence:"I’m in agreement, ",
+                            khmer: "ខ្ញុំយល់ព្រម។ <br> For Example: <br> Structure: I’m in agreement with you on [Topic].<br> I’m in agreement with you on the decision.",
+                            answer: "I’m in agreement with you on the decision."},
+                        {sentence:"I’m aligned with you, ",
+                            khmer: "ខ្ញុំសម្របសម្រួលជាមួយអ្នក។ <br> For Example: <br> Structure: I’m aligned with you on [Topic].<br> I’m aligned with you on the strategy.",
+                            answer: "I’m aligned with you on the strategy."},
+                        {sentence:"I’m on board, ",
+                            khmer: "ខ្ញុំស្ថិតនៅលើកប៉ាល់។ <br> For Example: <br> Structure: I’m on board with your idea about [Topic].<br> I’m on board with your idea about the project.",
+                            answer: "I’m on board with your idea about the project."},
+                        {sentence:"I’m in sync with you, ",
+                            khmer: "ខ្ញុំស្ថិតនៅក្នុងការសម្របសម្រួលជាមួយអ្នក។ <br> For Example: <br> Structure: I’m in sync with you on [Topic].<br> I’m in sync with you on the timeline.",
+                            answer: "I’m in sync with you on the timeline."},
+                        {sentence:"I’m on the same wavelength, ",
+                            khmer: "ខ្ញុំស្ថិតនៅលើវ៉ែលវេនដូចគ្នា។ <br> For Example: <br> Structure: I’m on the same wavelength about [Topic].<br> I’m on the same wavelength about the project.",
+                            answer: "I’m on the same wavelength about the project."},
+                        {sentence:"I’m in tune with you, ",
+                            khmer: "ខ្ញុំស្ថិតនៅក្នុងតន្ត្រីជាមួយអ្នក។ <br> For Example: <br> Structure: I’m in tune with you on [Topic].<br> I’m in tune with you on the plan.",
+                            answer: "I’m in tune with you on the plan."},
+                        {sentence:"I’m on the same track, ",
+                            khmer: "ខ្ញុំស្ថិតនៅលើផ្លូវដូចគ្នា។ <br> For Example: <br> Structure: I’m on the same track about [Topic].<br> I’m on the same track about the project.",
+                            answer: "I’m on the same track about the project."},
+
+
+                    ],
+                   
                     "Words": [
                         { sentence: "apple", khmer: "ផ្លែប៉ោម (noun) <br> For Example: <br> Structure: This is a/an [Noun].<br> This is an apple.", answer: "This is an apple." },
                         { sentence: "banana", khmer: "ចេក (noun) <br> For Example: <br> Structure: I like [Noun]s.<br> I like bananas.", answer: "I like bananas." },
