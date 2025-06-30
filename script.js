@@ -4700,13 +4700,7 @@
                         { sentence: "Thanks for your help! / Okay, thanks! = polite responses", khmer: "" },
                         { sentence: "Let me check. / Maybe we can ask. / I’ll find out. = ways to find the answer", khmer: "" },
                         { sentence: "I’m not sure = I don’t know exactly", khmer: "" },
-                        { sentence: "", khmer: "" },
-                        { sentence: "", khmer: "" },
-                        { sentence: "", khmer: "" },
-                        { sentence: "", khmer: "" },
-                        { sentence: "", khmer: "" },
-                        { sentence: "", khmer: "" }
-
+                       
 
                     ],
                     "Idioms": [
@@ -5206,6 +5200,102 @@
                 },
 
                 listenAndType: {
+                        "A1. Would you mind...?": [
+                            {
+                                sentence: "Would you mind sending me the report by noon?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​ផ្ញើ​របាយការណ៍​មក​ខ្ញុំ​នៅ​ពេល​ថ្ងៃត្រង់​ទេ? <br> Sentence: Would you mind ... me the ... by noon? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind sending me the report by noon?"
+                            },
+                            {
+                                sentence: "Would you mind reviewing this document?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​ពិនិត្យ​មើល​ឯកសារ​នេះ​ទេ? <br> Sentence: Would you mind ... this ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind reviewing this document?"
+                            },
+                            {
+                                sentence: "Would you mind if I used the conference room at 3?",
+                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ប្រើ​បន្ទប់​ប្រជុំ​នៅ​ម៉ោង 3? <br> Sentence: Would you mind if I ... the ... at 3? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind if I used the conference room at 3?"
+                            },
+                            {
+                                sentence: "Would you mind helping me with this task?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​ជួយ​ខ្ញុំ​ក្នុង​កិច្ចការ​នេះ​ទេ? <br> Sentence: Would you mind ... me with this ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind helping me with this task?"
+                            },
+                            {
+                                sentence: "Would you mind closing the window?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​បិទ​បង្អួច​ទេ? <br> Sentence: Would you mind ... the ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind closing the window?"
+                            },
+                            {
+                                sentence: "Would you mind if I sat here?",
+                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​អង្គុយ​ទីនេះ? <br> Sentence: Would you mind if I ... here? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind if I sat here?"
+                            },
+                            {
+                                sentence: "Would you mind explaining that again?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​ពន្យល់​រឿង​នោះ​ម្តង​ទៀត​ទេ? <br> Sentence: Would you mind ... that again? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind explaining that again?"
+                            },
+                            {
+                                sentence: "Would you mind if I borrowed your pen?",
+                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ខ្ចី​ប៊ិច​របស់​អ្នក? <br> Sentence: Would you mind if I ... your ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind if I borrowed your pen?"
+                            },
+                            {
+                                sentence: "Would you mind holding this for a moment?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​កាន់​របស់​នេះ​មួយ​ភ្លែត​ទេ? <br> Sentence: Would you mind ... this for a ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind holding this for a moment?"
+                            },
+                            {
+                                sentence: "Would you mind if I left early today?",
+                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ចេញ​ទៅ​មុន​ថ្ងៃ​នេះ? <br> Sentence: Would you mind if I ... early ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind if I left early today?"
+                            }
+                        ],
+                    "A2. Polite Requests / Appreciations": [
+                            {
+                                sentence: "I’d appreciate it if you could send me the final draft by Friday.",
+                                answer: "I’d appreciate it if you could send me the final draft by Friday.",
+                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចផ្ញើឯកសារចុងក្រោយមកខ្ញុំត្រឹមថ្ងៃសុក្រ។ <br> Sentence: I’d appreciate it if you could ... me the final draft by .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object + time phrase. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "I’d appreciate it if you could confirm your attendance.",
+                                answer: "I’d appreciate it if you could confirm your attendance.",
+                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចបញ្ជាក់ការចូលរួមរបស់អ្នក។ <br> Sentence: I’d appreciate it if you could ... your .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "I’d appreciate it if you could review the attached file.",
+                                answer: "I’d appreciate it if you could review the attached file.",
+                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចពិនិត្យមើលឯកសារភ្ជាប់។ <br> Sentence: I’d appreciate it if you could ... the attached .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "I’d appreciate it if you could keep me updated on the progress.",
+                                answer: "I’d appreciate it if you could keep me updated on the progress.",
+                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចបន្តផ្តល់ព័ត៌មានថ្មីៗអំពីវឌ្ឍនភាពដល់ខ្ញុំ។ <br> Sentence: I’d appreciate it if you could ... me updated on the .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + keep + object + updated on + noun. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            // New sentences added below
+                            {
+                                sentence: "I would be grateful if you could provide more details.",
+                                answer: "I would be grateful if you could provide more details.",
+                                khmer: "Khmer: ខ្ញុំនឹងដឹងគុណប្រសិនបើអ្នកអាចផ្តល់ព័ត៌មានលម្អិតបន្ថែម។ <br> Sentence: I would be grateful if you could ... more .... <br>រចនាសម្ព័ន្ធ៖ I would be grateful if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "I would be grateful if you could assist us with this task.",
+                                answer: "I would be grateful if you could assist us with this task.",
+                                khmer: "Khmer: ខ្ញុំនឹងដឹងគុណប្រសិនបើអ្នកអាចជួយពួកយើងក្នុងការងារនេះ។ <br> Sentence: I would be grateful if you could ... us with this .... <br>រចនាសម្ព័ន្ធ៖ I would be grateful if you could + base verb + object + with + noun. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "Please let me know if you’re available to discuss this further.",
+                                answer: "Please let me know if you’re available to discuss this further.",
+                                khmer: "Khmer: សូមប្រាប់ខ្ញុំផងប្រសិនបើអ្នកទំនេរដើម្បីពិភាក្សារឿងនេះបន្ត។ <br> Sentence: Please let me know if you’re available to ... this .... <br>រចនាសម្ព័ន្ធ៖ Please let me know if you're available to + base verb + object + adverb. <br> Meaning: (= a polite way to ask about availability or to request information)"
+                            },
+                            {
+                                sentence: "Please let me know if you’re available to join the meeting.",
+                                answer: "Please let me know if you’re available to join the meeting.",
+                                khmer: "Khmer: សូមប្រាប់ខ្ញុំផងប្រសិនបើអ្នកទំនេរដើម្បីចូលរួមការប្រជុំ។ <br> Sentence: Please let me know if you’re available to ... the .... <br>រចនាសម្ព័ន្ធ៖ Please let me know if you're available to + base verb + object. <br> Meaning: (= a polite way to ask about availability or to request information)"
+                            }
+                        ],
+                    
                       "✅ “Much as”": [
                         {
                             sentence: "Much as",
