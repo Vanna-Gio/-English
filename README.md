@@ -62,58 +62,6 @@ When you’re ready, I can move on to:
 
 ////////////////
 
-"Would you mind...?":[
-  {
-    sentence: "Would you mind sending me the report by noon?",
-    khmer: "Structure: Would you mind + -ing verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​ចង់​ផ្ញើ​របាយការណ៍​មក​ខ្ញុំ​នៅ​ពេល​ថ្ងៃត្រង់​ទេ? <br> Would you mind ...... me the ....by noon?",
-    answer: "Would you mind sending me the report by noon?"
-  },
-  {
-    sentence: "Would you mind reviewing this document?",
-    khmer: "Structure: Would you mind + -ing verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​ចង់​ពិនិត្យ​មើល​ឯកសារ​នេះ​ទេ? <br> Would you mind ...... this ....?",
-    answer: "Would you mind reviewing this document?"
-  },
-  {
-    sentence: "Would you mind if I used the conference room at 3?",
-    khmer: "Structure: Would you mind if I + past verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ប្រើ​បន្ទប់​ប្រជុំ​នៅ​ម៉ោង 3? <br> Would you mind if I ...... the .... at 3?",
-    answer: "Would you mind if I used the conference room at 3?"
-  },
-  {
-    sentence: "Would you mind helping me with this task?",
-    khmer: "Structure: Would you mind + -ing verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​ចង់​ជួយ​ខ្ញុំ​ក្នុង​កិច្ចការ​នេះ​ទេ? <br> Would you mind ...... me with this ....?",
-    answer: "Would you mind helping me with this task?"
-  },
-  {
-    sentence: "Would you mind closing the window?",
-    khmer: "Structure: Would you mind + -ing verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​ចង់​បិទ​បង្អួច​ទេ? <br> Would you mind ...... the ....?",
-    answer: "Would you mind closing the window?"
-  },
-  {
-    sentence: "Would you mind if I sat here?",
-    khmer: "Structure: Would you mind if I + past verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​អង្គុយ​ទីនេះ? <br> Would you mind if I ...... here?",
-    answer: "Would you mind if I sat here?"
-  },
-  {
-    sentence: "Would you mind explaining that again?",
-    khmer: "Structure: Would you mind + -ing verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​ចង់​ពន្យល់​រឿង​នោះ​ម្តង​ទៀត​ទេ? <br> Would you mind ...... that again?",
-    answer: "Would you mind explaining that again?"
-  },
-  {
-    sentence: "Would you mind if I borrowed your pen?",
-    khmer: "Structure: Would you mind if I + past verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ខ្ចី​ប៊ិច​របស់​អ្នក? <br> Would you mind if I ...... your ....?",
-    answer: "Would you mind if I borrowed your pen?"
-  },
-  {
-    sentence: "Would you mind holding this for a moment?",
-    khmer: "Structure: Would you mind + -ing verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​ចង់​កាន់​របស់​នេះ​មួយ​ភ្លែត​ទេ? <br> Would you mind ...... this for a ....?",
-    answer: "Would you mind holding this for a moment?"
-  },
-  {
-    sentence: "Would you mind if I left early today?",
-    khmer: "Structure: Would you mind if I + past verb...? <br> Meaning: You're making a polite request. It sounds more respectful than direct commands.<br> Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ចេញ​ទៅ​មុន​ថ្ងៃ​នេះ? <br> Would you mind if I ...... early ....?",
-    answer: "Would you mind if I left early today?"
-  }
-]
 
 ///////
 import React, { useState } from 'react';
