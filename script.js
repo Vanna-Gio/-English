@@ -5200,7 +5200,7 @@
                 },
 
                 listenAndType: {
-                        "A1. Would you mind...?": [
+                        "🧩 A1. Would you mind...?": [
                             {
                                 sentence: "Would you mind sending me the report by noon?",
                                 khmer: "Khmer: តើ​អ្នក​ចង់​ផ្ញើ​របាយការណ៍​មក​ខ្ញុំ​នៅ​ពេល​ថ្ងៃត្រង់​ទេ? <br> Sentence: Would you mind ... me the ... by noon? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
@@ -5252,7 +5252,7 @@
                                 answer: "Would you mind if I left early today?"
                             }
                         ],
-                    "A2. Polite Requests / Appreciations": [
+                    "🧩 A2. Polite Requests / Appreciations": [
                             {
                                 sentence: "I’d appreciate it if you could send me the final draft by Friday.",
                                 answer: "I’d appreciate it if you could send me the final draft by Friday.",
@@ -5565,7 +5565,7 @@
                             answer: "If it hadn’t been for the doctor's advice, his condition would have worsened."
                         }
                     ],
-                    "A. Basic Progress Updates": [
+                    "🧪 A. Basic Progress Updates": [
                         {
                             sentence: "We have completed the first phase of the project.",
                             answer: "We have completed the first phase of the project.",
@@ -5592,7 +5592,7 @@
                             khmer: "<br>Shows honesty with a forward plan.<br>ពួកយើងមិនទាន់បានចាប់ផ្តើមនៅឡើយទេ ប៉ុន្តែពួកយើងកំពុងរៀបចំផែនការចាប់ផ្តើមនៅសប្តាហ៍ក្រោយ។ <br> We haven’t started yet, but we’re planning to ... next .... <br>រចនាសម្ព័ន្ធ៖ We haven't started yet, but we're planning to + base verb + time."
                         }
                     ],
-                    "B. Ongoing / In Progress": [
+                    "🧪 B. Ongoing / In Progress": [
                         {
                             sentence: "So far, we’ve managed to solve most of the technical issues.",
                             answer: "So far, we’ve managed to solve most of the technical issues.",
@@ -5646,7 +5646,7 @@
                         }
 
                     ],
-                    "C. Future Plans / Next Steps": [
+                    " 🧪 C. Future Plans / Next Steps": [
                         {
                             sentence: "✅ By the end of the week, we expect to...",
                             answer: "By the end of the week, we expect to finish testing the app.",
@@ -5743,7 +5743,7 @@
                             khmer: "អាទិភាពរបស់យើងសម្រាប់សប្តាហ៍ខាងមុខគឺបង្កើនប្រសិទ្ធភាពនៃការអនុវត្ត។ <br> Our priority for the upcoming weeks is to ... performance. <br>រចនាសម្ព័ន្ធ៖ Our priority for + time phrase + is to + base verb + object."
                         }
                     ],
-                    "D. Time-based Reports": [
+                    " 🧪 D. Time-based Reports": [
                         {
                             sentence: "As of this morning, we’ve completed about 60% of the work.",
                             answer: "As of this morning, we’ve completed about 60% of the work.",
@@ -5770,7 +5770,7 @@
                             khmer: "ត្រឹមចុងថ្ងៃនេះ កិច្ចការទាំងអស់គួរតែត្រូវបានចាត់តាំងរួចរាល់។ <br> By the end of the ..., all tasks should be .... <br>រចនាសម្ព័ន្ធ៖ By the end of [time], object + should be + past participle."
                         }
                     ],
-                    "E. Communicating Delays or Setbacks Politely": [
+                    " 🧪 E. Communicating Delays or Setbacks Politely": [
                         {
                             sentence: "There has been a slight delay due to unforeseen circumstances.",
                             answer: "There has been a slight delay due to unforeseen circumstances.",
@@ -5879,7 +5879,7 @@
                         },
 
                     ],
-                    "F. Offering Help / Polite Closings": [
+                    "🧪 F. Offering Help / Polite Closings": [
                         {
                             sentence: "✅ Let me know if you need anything else.",
                             answer: "Let me know if you need anything else before the deadline.",
@@ -5933,7 +5933,7 @@
                     ],
                    
                     
-                    "Ways to say 'I understand'":[
+                    "🔁 Ways to say 'I understand'":[
                         {sentence: "I see what you mean.",
                             khmer: "ខ្ញុំយល់ថាអ្នកមានអ្វីក្នុងចិត្ត។ <br> For Example: <br> Structure: I see what you mean about [Topic].<br> I see what you mean about the weather.", 
                             answer: "I see what you mean about the weather."},
