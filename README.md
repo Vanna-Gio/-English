@@ -1,5 +1,5 @@
-https://chatgpt.com/share/685e3f2a-17bc-8004-ad6d-317e79a3db13 ///<br>////
-https://chatgpt.com/share/686382d9-a2c4-8004-aa29-84f9e46e8b50
+https://chatgpt.com/share/685e3f2a-17bc-8004-ad6d-317e79a3db13 <br>
+https://chatgpt.com/share/686382d9-a2c4-8004-aa29-84f9e46e8b50 <br>
 /////////
 Great! Let’s practice a **workplace conversation** using **“Would you mind...?”** in a natural, professional tone.
 
