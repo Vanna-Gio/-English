@@ -141,6 +141,7 @@
 
 
 //////////////////
+ natural small talk examples using the phrase "in order to..."-> https://chatgpt.com/share/6864d7af-b3fc-8004-acf0-6edfd41f97c5
 
 Great choice! You're building **professional fluency** fast. Now let's add another formal and **very useful structure**, especially in written communication at work:
 
