@@ -5200,6 +5200,112 @@
                 },
 
                 listenAndType: {
+                        "✍️ Should you…":[
+                                  {
+                                    sentence: "Should you have any questions, feel free to contact me.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកមានសំណួរណាមួយ សូមទាក់ទងមកខ្ញុំ។ <br> Should you ...... any questions, feel free to ...... me.",
+                                    answer: "Should you have any questions, feel free to contact me."
+                                  },
+                                  {
+                                    sentence: "Should you need further assistance, let me know.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកត្រូវការជំនួយបន្ថែម សូមប្រាប់ខ្ញុំ។ <br> Should you ...... further assistance, ...... me know.",
+                                    answer: "Should you need further assistance, let me know."
+                                  },
+                                  {
+                                    sentence: "Should the situation change, we will inform you immediately.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើស្ថានភាពផ្លាស់ប្តូរ ពួកយើងនឹងជូនដំណឹងអ្នកភ្លាមៗ។ <br> Should the situation ......, we will ...... you immediately.",
+                                    answer: "Should the situation change, we will inform you immediately."
+                                  },
+                                  {
+                                    sentence: "Should you decide to accept the offer, please sign below.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកសម្រេចចិត្តទទួលយកការផ្តល់ជូន សូមចុះហត្ថលេខាខាងក្រោម។ <br> Should you ...... to ...... the offer, please ...... below.",
+                                    answer: "Should you decide to accept the offer, please sign below."
+                                  },
+                                  {
+                                    sentence: "Should you require more details, I can provide them.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកត្រូវការព័ត៌មានលម្អិតបន្ថែម ខ្ញុំអាចផ្តល់ជូនបាន។ <br> Should you ...... more details, I can ...... them.",
+                                    answer: "Should you require more details, I can provide them."
+                                  },
+                                  {
+                                    sentence: "Should there be any issues, please report them to me.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើមានបញ្ហាណាមួយ សូមរាយការណ៍មកខ្ញុំ។ <br> Should there ...... any issues, please ...... them to me.",
+                                    answer: "Should there be any issues, please report them to me."
+                                  },
+                                  {
+                                    sentence: "Should you wish to proceed, let us know by end of day.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកចង់បន្ត សូមប្រាប់ពួកយើងត្រឹមចុងថ្ងៃ។ <br> Should you ...... to proceed, ...... us know by end of day.",
+                                    answer: "Should you wish to proceed, let us know by end of day."
+                                  },
+                                  {
+                                    sentence: "Should the client approve, we can start immediately.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអតិថិជនយល់ព្រម ពួកយើងអាចចាប់ផ្តើមភ្លាមៗ។ <br> Should the client ......, we can ...... immediately.",
+                                    answer: "Should the client approve, we can start immediately."
+                                  },
+                                  {
+                                    sentence: "Should you encounter any problems, our support team is available.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកជួបបញ្ហាណាមួយ ក្រុមជំនួយរបស់យើងគឺអាចរកបាន។ <br> Should you ...... any problems, our support team ...... available.",
+                                    answer: "Should you encounter any problems, our support team is available."
+                                  },
+                                  {
+                                    sentence: "Should you change your mind, the offer is still valid.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកប្តូរចិត្ត ការផ្តល់ជូននៅតែមានសុពលភាព។ <br> Should you ...... your mind, the offer ...... still valid.",
+                                    answer: "Should you change your mind, the offer is still valid."
+                                  }
+                                ],
+
+                        "✍️ in order to..":[
+                                  {
+                                    sentence: "In order to meet the deadline, we worked overtime.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: ដើម្បីបំពេញតាមកាលកំណត់ យើងធ្វើការថែមម៉ោង។ <br> In order to ....the deadline, we ..... overtime.",
+                                    answer: "In order to meet the deadline, we worked overtime."
+                                  },
+                                  {
+                                    sentence: "She studies hard in order to pass her exams.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: នាងរៀនពូកែដើម្បីប្រឡងជាប់។ <br> She studies hard in order to .... her exams.",
+                                    answer: "She studies hard in order to pass her exams."
+                                  },
+                                  {
+                                    sentence: "He saved money in order to buy a new car.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: គាត់សន្សំលុយដើម្បីទិញឡានថ្មី។ <br> He saved money in order to .... a new ....",
+                                    answer: "He saved money in order to buy a new car."
+                                  },
+                                  {
+                                    sentence: "In order to improve his English, he practices daily.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: ដើម្បីបង្កើនភាសាអង់គ្លេសរបស់គាត់ គាត់ហាត់រៀនជារៀងរាល់ថ្ងៃ។ <br> In order to .... his English, he ..... daily.",
+                                    answer: "In order to improve his English, he practices daily."
+                                  },
+                                  {
+                                    sentence: "They left early in order to avoid the traffic.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: ពួកគេចេញទៅមុនដើម្បីជៀសវាងការកកស្ទះចរាចរណ៍។ <br> They left early in order to .... the ....",
+                                    answer: "They left early in order to avoid the traffic."
+                                  },
+                                  {
+                                    sentence: "In order to stay healthy, you should exercise regularly.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: ដើម្បីរក្សាបាននូវសុខភាពល្អ អ្នកគួរតែហាត់ប្រាណទៀងទាត់។ <br> In order to .... healthy, you .... regularly.",
+                                    answer: "In order to stay healthy, you should exercise regularly."
+                                  },
+                                  {
+                                    sentence: "We held a meeting in order to discuss the new proposal.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: ពួកយើងបានរៀបចំកិច្ចប្រជុំដើម្បីពិភាក្សាអំពីសំណើថ្មី។ <br> We held a meeting in order to .... the new ....",
+                                    answer: "We held a meeting in order to discuss the new proposal."
+                                  },
+                                  {
+                                    sentence: "In order to get a good seat, we arrived an hour early.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: ដើម្បីទទួលបានកៅអីល្អ ពួកយើងបានមកដល់មួយម៉ោងមុន។ <br> In order to .... a good ...., we .... an hour early.",
+                                    answer: "In order to get a good seat, we arrived an hour early."
+                                  },
+                                  {
+                                    sentence: "He works hard in order to support his family.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: គាត់ធ្វើការយ៉ាងលំបាកដើម្បីចិញ្ចឹមគ្រួសាររបស់គាត់។ <br> He works hard in order to .... his ....",
+                                    answer: "He works hard in order to support his family."
+                                  },
+                                  {
+                                    sentence: "In order to understand the concept, you need to read the chapter carefully.",
+                                    khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: ដើម្បីយល់ពីគំនិតនេះ អ្នកត្រូវអានជំពូកនេះដោយប្រុងប្រយ័ត្ន។ <br> In order to .... the ...., you .... to read the chapter carefully.",
+                                    answer: "In order to understand the concept, you need to read the chapter carefully."
+                                  }
+                                ],
+
                         "🧩 A1. Would you mind...?": [
                             {
                                 sentence: "Would you mind sending me the report by noon?",
