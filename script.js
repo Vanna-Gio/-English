@@ -4710,6 +4710,112 @@
                 },
 
                 conversation: {
+                        "💼 Work setting: In order to…": [
+                            { "speaker": "A", "text": "Hey, are you updating the project timeline?", "khmer": "ហេ៎! អ្នកកំពុងកែសម្រួលកាលវិភាគគម្រោងមែនទេ?" },
+                            { "speaker": "B", "text": " Yeah, just adjusting it in order to stay on track for the deadline.", "khmer": "បាទ/ចាស! កំពុងកែសម្រួលវាដើម្បីឲ្យទាន់ពេលវេលាកំណត់។" }
+                          ],
+                          "👩‍🎓 School or group project: In order to…": [
+                            { "speaker": "A", "text": "Why did you move that slide to the beginning?", "khmer": "ហេតុអ្វីអ្នកផ្លាស់ប្ដូរស្លាយនោះទៅខាងមុខ?" },
+                            { "speaker": "B", "text": "I did that in order to give more context before we present the details.", "khmer": "ខ្ញុំធ្វើដូច្នេះដើម្បីផ្ដល់បរិបទបន្ថែម មុនពេលយើងបង្ហាញព័ត៌មានលម្អិត។" }
+                          ],
+                          "☕ Breakroom chat: In order to…": [
+                            { "speaker": "You", "text": "You’re here early today!", "khmer": "អ្នកមកដល់លឿនម្ល៉េះថ្ងៃនេះ!" },
+                            { "speaker": "Them", "text": "Yep! I came in early in order to finish some emails before the meetings start.", "khmer": "បាទ/ចាស! ខ្ញុំមកលឿនដើម្បីបញ្ចប់ការងារអ៊ីមែលខ្លះ មុនពេលកិច្ចប្រជុំចាប់ផ្ដើម។" }
+                          ],
+                          "💻 Tech help: In order to…": [
+                            { "speaker": "You", "text": "My app isn’t syncing properly.", "khmer": "កម្មវិធីរបស់ខ្ញុំមិនធ្វើសមកាលកម្មត្រឹមត្រូវទេ។" },
+                            { "speaker": "Them", "text": "You might need to log out and back in in order to reset the connection.", "khmer": "អ្នកប្រហែលជាត្រូវចេញពីគណនី ហើយចូលម្ដងទៀត ដើម្បីកំណត់ការតភ្ជាប់ឡើងវិញ។" }
+                          ],
+                          "🧳 Travel or planning: In order to…": [
+                            { "speaker": "You", "text": "You’re packing already? The trip is next week!", "khmer": "អ្នកវេចខ្ចប់ហើយមែនទេ? ការធ្វើដំណើរនៅសប្ដាហ៍ក្រោយឯណោះ!" },
+                            { "speaker": "Them", "text": "Yeah, I’m starting now in order to avoid last-minute stress.", "khmer": "បាទ/ចាស! ខ្ញុំចាប់ផ្ដើមឥឡូវនេះ ដើម្បីជៀសវាងភាពតានតឹងនៅនាទីចុងក្រោយ។" }
+                          ],
+                          "💼 Work setting (email or meeting): Should you…": [
+                            { "speaker": "You", "text": "I’ve shared the draft with the team.", "khmer": "ខ្ញុំបានចែករំលែកសេចក្តីព្រាងជាមួយក្រុមហើយ។" },
+                            { "speaker": "Them", "text": "Great! Should you have any feedback, feel free to drop it in the doc.", "khmer": "ល្អណាស់! ប្រសិនបើអ្នកមានមតិកែលម្អណាមួយ សូមដាក់វានៅក្នុងឯកសារ។" }
+                          ],
+                          "💬 Polite offering: Should you…": [
+                            { "speaker": "You", "text": "I might need help with the charts later.", "khmer": "ខ្ញុំប្រហែលជាត្រូវការជំនួយជាមួយគំនូសតាងនៅពេលក្រោយ។" },
+                            { "speaker": "Them", "text": "Of course! Should you need anything, just let me know — happy to help.", "khmer": "ពិតណាស់! ប្រសិនបើអ្នកត្រូវការអ្វី សូមប្រាប់ខ្ញុំ – រីករាយនឹងជួយ។" }
+                          ],
+                          "📁 Project handoff: Should you…": [
+                            { "speaker": "You", "text": "Thanks for handing over those files.", "khmer": "អរគុណសម្រាប់ការប្រគល់ឯកសារទាំងនោះ។" },
+                            { "speaker": "Them", "text": "No problem. Should you run into any issues, I’m around this week.", "khmer": "គ្មានបញ្ហាទេ។ ប្រសិនបើអ្នកជួបបញ្ហាណាមួយ ខ្ញុំនៅទីនេះសប្ដាហ៍នេះ។" }
+                          ],
+                          "🧑‍🏫 Teacher or mentor style: Should you…": [
+                            { "speaker": "You", "text": "I’m not sure I’ll remember everything for the test.", "khmer": "ខ្ញុំមិនប្រាកដថាខ្ញុំនឹងចាំអ្វីៗទាំងអស់សម្រាប់កិច្ចការប្រឡងនោះទេ។" },
+                            { "speaker": "Them", "text": "Should you have questions while studying, don’t hesitate to email me.", "khmer": "ប្រសិនបើអ្នកមានសំណួរពេលកំពុងសិក្សា សូមកុំស្ទាក់ស្ទើរក្នុងការផ្ញើអ៊ីមែលមកខ្ញុំ។" }
+                          ],
+                          "📞 Phone or client chat: Should you…": [
+                            { "speaker": "You", "text": "Thanks for explaining the contract terms.", "khmer": "អរគុណសម្រាប់ការបកស្រាយលក្ខខណ្ឌកិច្ចសន្យា។" },
+                            { "speaker": "Them", "text": "Absolutely. Should you decide to move forward, just give me a call.", "khmer": "ពិតណាស់។ ប្រសិនបើអ្នកសម្រេចចិត្តបន្តទៅមុខ សូមទូរស័ព្ទមកខ្ញុំ។" }
+                          ],
+                          "🌼 Friendly Work Setting: I’d appreciate it if you could...": [
+                            { "speaker": "You", "text": "Hey! I’m wrapping up the report.", "khmer": "ហេ៎! ខ្ញុំកំពុងបញ្ចប់របាយការណ៍។" },
+                            { "speaker": "Them", "text": "Nice! Let me know if you need anything.", "khmer": "ល្អណាស់! ប្រាប់ខ្ញុំផងបើអ្នកត្រូវការអ្វី។" },
+                            { "speaker": "You", "text": "Thanks! I’d appreciate it if you could give it a quick read before tomorrow, just to catch any typos.", "khmer": "អរគុណ! ខ្ញុំនឹងពេញចិត្តណាស់ ប្រសិនបើអ្នកអាចអានវាបន្តិចមុនថ្ងៃស្អែក ដើម្បីចាប់កំហុសអក្ខរាវិរុទ្ធណាមួយ។" }
+                          ],
+                          "📧 Email or Chat Message: I’d appreciate it if you could...": [
+                            { "speaker": "Hi [Name],", "text": "I hope your day’s going well!", "khmer": "សួស្ដី [ឈ្មោះ]!" },
+                            { "speaker": "", "text": "I hope your day’s going well!", "khmer": "ខ្ញុំសង្ឃឹមថាថ្ងៃរបស់អ្នកដំណើរការល្អ!" },
+                            { "speaker": "", "text": "I’d appreciate it if you could take a quick look at the budget section when you have a moment. Thanks so much!", "khmer": "ខ្ញុំនឹងពេញចិត្តណាស់ ប្រសិនបើអ្នកអាចមើលផ្នែកថវិកាបន្តិចបន្តួចនៅពេលអ្នកមានពេល។ អរគុណច្រើន!" }
+                          ],
+                          "👩‍💻 Group Project: I’d appreciate it if you could...": [
+                            { "speaker": "You", "text": "Hey, I’m finalizing the slides.", "khmer": "ហេ៎! ខ្ញុំកំពុងបញ្ចប់ស្លាយ។" },
+                            { "speaker": "Them", "text": "Cool — how’s it going?", "khmer": "ល្អណាស់ – យ៉ាងម៉េចហើយ?" },
+                            { "speaker": "You", "text": "Pretty good! I’d appreciate it if you could double-check the conclusion slide to make sure we didn’t miss anything.", "khmer": "ល្អណាស់! ខ្ញុំនឹងពេញចិត្តណាស់ ប្រសិនបើអ្នកអាចពិនិត្យមើលស្លាយសេចក្តីសន្និដ្ឋានឡើងវិញ ដើម្បីប្រាកដថាយើងមិនបានខកខានអ្វីនោះទេ។" }
+                          ],
+                          "🧊 Slightly More Casual: I’d appreciate it if you could...": [
+                            { "speaker": "You", "text": "I’d really appreciate it if you could save me a seat in the meeting room — I might be a couple of minutes late!", "khmer": "ខ្ញុំនឹងពេញចិត្តណាស់ ប្រសិនបើអ្នកអាចទុកកៅអីមួយឱ្យខ្ញុំនៅក្នុងបន្ទប់ប្រជុំ – ខ្ញុំប្រហែលជាយឺតបន្តិច!" }
+                          ],
+                          "💇 Casual / personal life: have/get something done": [
+                            { "speaker": "You", "text": "Your hair looks great!", "khmer": "សក់របស់អ្នកមើលទៅស្អាតណាស់!" },
+                            { "speaker": "Them", "text": "Thanks! I had it done yesterday at a new salon downtown.", "khmer": "អរគុណ! ខ្ញុំបានធ្វើវាកាលពីម្សិលមិញនៅហាងសាឡនថ្មីមួយនៅកណ្តាលក្រុង។" }
+                          ],
+                          "🚗 Car repair: have/get something done": [
+                            { "speaker": "You", "text": "Your car’s back! What was the issue?", "khmer": "ឡានរបស់អ្នកមកវិញហើយ! តើមានបញ្ហាអ្វី?" },
+                            { "speaker": "Them", "text": "Just needed an oil change. I got it done this morning.", "khmer": "គ្រាន់តែត្រូវការប្តូរប្រេងម៉ាស៊ីន។ ខ្ញុំបានធ្វើវាពេលព្រឹកនេះ។" }
+                          ],
+                          "🏠 Home repair: have/get something done": [
+                            { "speaker": "You", "text": "Your kitchen looks different!", "khmer": "ផ្ទះបាយរបស់អ្នកមើលទៅប្លែក!" },
+                            { "speaker": "Them", "text": "Yeah, we had the cabinets painted last week — totally freshened up the space.", "khmer": "បាទ/ចាស! យើងបានលាបពណ៌ទូដាក់ចានកាលពីសប្តាហ៍មុន – វាធ្វើឱ្យកន្លែងនេះស្រស់ថ្លាឡើងវិញ។" }
+                          ],
+                          "💼 Office setting: have/get something done": [
+                            { "speaker": "You", "text": "Is the presentation ready?", "khmer": "បទបង្ហាញរួចរាល់ហើយឬនៅ?" },
+                            { "speaker": "Them", "text": "Not yet, but I’ll get it done by lunch — just need to tweak a few slides.", "khmer": "មិនទាន់ទេ ប៉ុន្តែខ្ញុំនឹងធ្វើវាឱ្យរួចរាល់ត្រឹមពេលបាយថ្ងៃត្រង់ – គ្រាន់តែត្រូវការកែសម្រួលស្លាយមួយចំនួន។" }
+                          ],
+                          "👩‍🎓 Study / student life: have/get something done": [
+                            { "speaker": "You", "text": "Did you finish the assignment?", "khmer": "តើអ្នកបានបញ្ចប់កិច្ចការដែលបានផ្ដល់ឱ្យហើយឬនៅ?" },
+                            { "speaker": "Them", "text": "I’m trying to get it done tonight so I can relax tomorrow.", "khmer": "ខ្ញុំកំពុងព្យាយាមធ្វើវាឱ្យរួចរាល់យប់នេះ ដើម្បីខ្ញុំអាចសម្រាកនៅថ្ងៃស្អែក។" }
+                          ],
+                          "💻 Tech help: have/get something done": [
+                            { "speaker": "You", "text": "My laptop’s acting up again.", "khmer": "កុំព្យូទ័រយួរដៃរបស់ខ្ញុំមានបញ្ហាទៀតហើយ។" },
+                            { "speaker": "Them", "text": "Same here. I’m going to have IT look at it tomorrow.", "khmer": "ដូចគ្នាដែរ។ ខ្ញុំនឹងឱ្យផ្នែក IT ពិនិត្យមើលវាថ្ងៃស្អែក។" }
+                          ],
+                        "☕ Casual work chat: Due to…": [
+    { "speaker": "You", "text": "Hey, where’s Sarah today?", "khmer": "ហេ៎! សារ៉ានៅឯណាថ្ងៃនេះ?" },
+    { "speaker": "Them", "text": "She’s working from home due to a dentist appointment.", "khmer": "នាងធ្វើការពីផ្ទះដោយសារមានណាត់ជួបពេទ្យធ្មេញ។" }
+  ],
+  "💼 Office situation: Due to…": [
+    { "speaker": "You", "text": "Are we still having the team meeting?", "khmer": "តើយើងនៅតែមានកិច្ចប្រជុំក្រុមដែរឬទេ?" },
+    { "speaker": "Them", "text": "Nope, it was cancelled due to a scheduling conflict.", "khmer": "អត់ទេ វាត្រូវបានលុបចោលដោយសារតែមានបញ្ហាការកំណត់ពេល។" }
+  ],
+  "🌧 Weather-related: Due to…": [
+    { "speaker": "You", "text": "The roads are so quiet today.", "khmer": "ផ្លូវស្ងាត់ណាស់ថ្ងៃនេះ។" },
+    { "speaker": "Them", "text": "Yeah, probably owing to the heavy rain this morning.", "khmer": "បាទ/ចាស! ប្រហែលជាដោយសារតែភ្លៀងធ្លាក់ខ្លាំងកាលពីព្រឹកមិញ។" }
+  ],
+  "📉 Project update: Due to…": [
+    { "speaker": "You", "text": "The timeline got pushed back, right?", "khmer": "កាលវិភាគត្រូវបានរុញទៅក្រោយមែនទេ?" },
+    { "speaker": "Them", "text": "Yes — due to some unexpected delays with the vendor.", "khmer": "បាទ/ចាស! ដោយសារតែការពន្យារពេលដែលមិនបានរំពឹងទុកជាមួយអ្នកផ្គត់ផ្គង់។" }
+  ],
+  "🧑‍🎓 School or studying: Due to…": [
+    { "speaker": "You", "text": "Did they extend the deadline?", "khmer": "តើពួកគេបានពន្យារពេលកំណត់ទេ?" },
+    { "speaker": "Them", "text": "Yep, owing to some technical issues with the submission portal.", "khmer": "បាទ/ចាស! ដោយសារតែបញ្ហាបច្ចេកទេសមួយចំនួនជាមួយវិបផតថលដាក់ស្នើ។" }
+  ],
+  "💬 Friendly explanation: Due to…": [
+    { "speaker": "You", "text": "Sorry I missed the call!", "khmer": "សុំទោសដែលខ្ញុំខកខានការហៅទូរស័ព្ទ!" },
+    { "speaker": "Them", "text": "No worries — I figured it was due to your Wi-Fi issues earlier.", "khmer": "មិនអីទេ – ខ្ញុំគិតថាវាដោយសារតែបញ្ហា Wi-Fi របស់អ្នកកាលពីមុន។" }
+  ],
                     "Routines": [
                         { speaker: "A", text: "Hi! What time do you usually wake up in the morning?", khmer: "សួស្ដី! តើអ្នកជាធម្មតាភ្ញាក់ពីគេងនៅម៉ោងប៉ុន្មាន?" },
                         { speaker: "B", text: "I usually wake up at 6 o’clock.", khmer: "ខ្ញុំជាធម្មតាភ្ញាក់ពីគេងនៅម៉ោង ៦" },
@@ -5200,6 +5306,111 @@
                 },
 
                 listenAndType: {
+                        
+                        "✍️ Have/get something done":[
+                                  {
+                                    sentence: "I had my computer fixed yesterday.",
+                                    khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ខ្ញុំបានជួសជុលកុំព្យូទ័ររបស់ខ្ញុំកាលពីម្សិលមិញ។ <br> I had my computer ...... yesterday.",
+                                    answer: "I had my computer fixed yesterday."
+                                  },
+                                  {
+                                    sentence: "She’s getting her hair done this afternoon.",
+                                    khmer: "Structure: <br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: នាងនឹងធ្វើសក់របស់នាងនៅរសៀលនេះ។ <br> She’s getting her hair ...... this afternoon.",
+                                    answer: "She’s getting her hair done this afternoon."
+                                  },
+                                  {
+                                    sentence: "We had the office cleaned before the meeting.",
+                                    khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ពួកយើងបានសម្អាតការិយាល័យមុនពេលប្រជុំ។ <br> We had the office ...... before the meeting.",
+                                    answer: "We had the office cleaned before the meeting."
+                                  },
+                                  {
+                                    sentence: "They got the report printed at the last minute.",
+                                    khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ពួកគេបានបោះពុម្ពរបាយការណ៍នៅនាទីចុងក្រោយ។ <br> They got the report ...... at the last minute.",
+                                    answer: "They got the report printed at the last minute."
+                                  },
+                                  {
+                                    sentence: "We had the website redesigned.",
+                                    khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ពួកយើងបានរចនាគេហទំព័រឡើងវិញ។ <br> We had the website ...... .",
+                                    answer: "We had the website redesigned."
+                                  },
+                                  {
+                                    sentence: "The manager got the proposal reviewed by legal.",
+                                    khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: អ្នកគ្រប់គ្រងបានឲ្យផ្នែកច្បាប់ពិនិត្យមើលសំណើនេះ។ <br> The manager got the proposal ...... by legal.",
+                                    answer: "The manager got the proposal reviewed by legal."
+                                  },
+                                  {
+                                    sentence: "Let’s have the documents signed before noon.",
+                                    khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: តោះឲ្យឯកសារចុះហត្ថលេខាមុនពេលថ្ងៃត្រង់។ <br> Let’s have the documents ...... before noon.",
+                                    answer: "Let’s have the documents signed before noon."
+                                  },
+                                  {
+                                    sentence: "I need to get my car serviced next week.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ខ្ញុំត្រូវឲ្យគេជួសជុលឡានរបស់ខ្ញុំនៅសប្តាហ៍ក្រោយ។ <br> I need to get my car ...... next week.",
+                                    answer: "I need to get my car serviced next week."
+                                  },
+                                  {
+                                    sentence: "She had her portrait painted by a famous artist.",
+                                    khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: នាងបានឲ្យវិចិត្រករល្បីម្នាក់គូររូបនាង។ <br> She had her portrait ...... by a famous artist.",
+                                    answer: "She had her portrait painted by a famous artist."
+                                  },
+                                  {
+                                    sentence: "They are having a new fence built around their house.",
+                                    khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ពួកគេកំពុងឲ្យគេសង់របងថ្មីជុំវិញផ្ទះរបស់ពួកគេ។ <br> They are having a new fence ...... around their house.",
+                                    answer: "They are having a new fence built around their house."
+                                  }
+                                ],
+                        "🧠 Due to / Owing to…":[
+                                  {
+                                    sentence: "Due to heavy traffic, the meeting started late.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារ​ការ​កកស្ទះ​ចរាចរណ៍​ខ្លាំង ការ​ប្រជុំ​បាន​ចាប់​ផ្តើម​យឺត។ <br> Due to ...... traffic, the meeting ...... late.",
+                                    answer: "Due to heavy traffic, the meeting started late."
+                                  },
+                                  {
+                                    sentence: "Owing to technical issues, we had to postpone the call.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារបញ្ហាបច្ចេកទេស ពួកយើងត្រូវពន្យារពេលការហៅទូរស័ព្ទ។ <br> Owing to ...... issues, we had to ...... the call.",
+                                    answer: "Owing to technical issues, we had to postpone the call."
+                                  },
+                                  {
+                                    sentence: "The project was delayed due to a lack of resources.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: គម្រោងត្រូវបានពន្យារពេលដោយសារកង្វះធនធាន។ <br> The project was ...... due to a ...... of resources.",
+                                    answer: "The project was delayed due to a lack of resources."
+                                  },
+                                  {
+                                    sentence: "They lost the data owing to a server failure.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ពួកគេបានបាត់បង់ទិន្នន័យដោយសារការបរាជ័យម៉ាស៊ីនមេ។ <br> They lost the data ...... to a ...... failure.",
+                                    answer: "They lost the data owing to a server failure."
+                                  },
+                                  {
+                                    sentence: "Due to unforeseen circumstances, the event was cancelled.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារ​កាលៈទេសៈ​ដែល​មិន​បាន​មើល​ឃើញ​ទុក​មុន ព្រឹត្តិការណ៍​ត្រូវ​បាន​លុប​ចោល។ <br> Due to ...... circumstances, the event was ...... .",
+                                    answer: "Due to unforeseen circumstances, the event was cancelled."
+                                  },
+                                  {
+                                    sentence: "Owing to her illness, she couldn't attend the conference.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារជំងឺរបស់នាង នាងមិនអាចចូលរួមសន្និសីទបានទេ។ <br> Owing to her ......, she couldn't ...... the conference.",
+                                    answer: "Owing to her illness, she couldn't attend the conference."
+                                  },
+                                  {
+                                    sentence: "The flight was delayed due to bad weather.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ជើងហោះហើរត្រូវបានពន្យារពេលដោយសារអាកាសធាតុអាក្រក់។ <br> The flight was ...... due to ...... weather.",
+                                    answer: "The flight was delayed due to bad weather."
+                                  },
+                                  {
+                                    sentence: "He resigned owing to personal reasons.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: គាត់បានលាលែងពីតំណែងដោយសារហេតុផលផ្ទាល់ខ្លួន។ <br> He resigned ...... to ...... reasons.",
+                                    answer: "He resigned owing to personal reasons."
+                                  },
+                                  {
+                                    sentence: "Due to high demand, the product is currently out of stock.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារតម្រូវការខ្ពស់ ផលិតផលបច្ចុប្បន្នអស់ពីស្តុកហើយ។ <br> Due to ...... demand, the product is currently ...... of stock.",
+                                    answer: "Due to high demand, the product is currently out of stock."
+                                  },
+                                  {
+                                    sentence: "The concert was cancelled owing to a lack of ticket sales.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ការប្រគុំតន្ត្រីត្រូវបានលុបចោលដោយសារកង្វះការលក់សំបុត្រ។ <br> The concert was ...... owing to a ...... of ticket sales.",
+                                    answer: "The concert was cancelled owing to a lack of ticket sales."
+                                  }
+                                ],
                         "✍️ Should you…":[
                                   {
                                     sentence: "Should you have any questions, feel free to contact me.",
