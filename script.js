@@ -4710,6 +4710,33 @@
                 },
 
                 conversation: {
+                        "🗂️ Example Workplace Conversation Using Should you…": [
+                            { "speaker": "👨‍💼 You", "text": "Welcome aboard, Nina! Let me know if you need anything.", "khmer": "សូមស្វាគមន៍ នីណា! ប្រាប់ខ្ញុំផងបើអ្នកត្រូវការអ្វី។" },
+                            { "speaker": "👩‍💼 Nina", "text": "Thanks so much! I’m still getting used to the system.", "khmer": "អរគុណច្រើន! ខ្ញុំនៅតែរៀនប្រើប្រព័ន្ធនេះនៅឡើយ។" },
+                            { "speaker": "👨‍💼 You", "text": "No worries. Should you have any trouble logging in, just reach out to IT support.", "khmer": "កុំបារម្ភ។ ប្រសិនបើអ្នកមានបញ្ហាក្នុងការចូលគណនី សូមទាក់ទងផ្នែកជំនួយបច្ចេកទេស។" },
+                            { "speaker": "👩‍💼 Nina", "text": "Okay, will do.", "khmer": "យល់ព្រម! ខ្ញុំនឹងធ្វើតាម។" },
+                            { "speaker": "👨‍💼 You", "text": "Also, should you need access to any files, let me know and I’ll grant permission.", "khmer": "ម្យ៉ាងទៀត ប្រសិនបើអ្នកត្រូវការចូលប្រើឯកសារណាមួយ សូមប្រាប់ខ្ញុំ ហើយខ្ញុំនឹងផ្តល់សិទ្ធិ។" },
+                            { "speaker": "👩‍💼 Nina", "text": "Thanks, I really appreciate it!", "khmer": "អរគុណ! ខ្ញុំពិតជាពេញចិត្តណាស់!" }
+                          ],
+                        "🗂️ Team Meeting Preparation: <b>Would you mind...?<b>": [
+                                    { "speaker": "Scenario:", "text": "You're preparing for a team meeting tomorrow. You need help from a colleague named Sarah. ", "khmer": "" },
+                                    
+                                    { "speaker": "🧑‍💼 You", "text": "Hi Sarah, would you mind helping me prepare the slides for tomorrow's meeting?", "khmer": "សួស្ដីសារ៉ា! តើអ្នកជួយខ្ញុំរៀបចំស្លាយសម្រាប់កិច្ចប្រជុំថ្ងៃស្អែកបានទេ?" },
+                                    { "speaker": "👩‍💼 Sarah", "text": "Sure, I can help. What exactly do you need?", "khmer": "បាន! ខ្ញុំអាចជួយបាន។ តើអ្នកត្រូវការអ្វីឲ្យប្រាកដ?" },
+                                    { "speaker": "🧑‍💼 You", "text": "Would you mind reviewing the financial data section? I want to make sure everything is accurate.", "khmer": "តើអ្នកជួយពិនិត្យមើលផ្នែកទិន្នន័យហិរញ្ញវត្ថុបានទេ? ខ្ញុំចង់ប្រាកដថាអ្វីៗទាំងអស់ត្រឹមត្រូវ។" },
+                                    { "speaker": "👩‍💼 Sarah", "text": "No problem. Do you want me to add any comments?", "khmer": "គ្មានបញ្ហាទេ។ តើអ្នកចង់ឲ្យខ្ញុំបន្ថែមមតិយោបល់ទេ?" },
+                                    { "speaker": "🧑‍💼 You", "text": "Yes, please. And would you mind sending it back to me before 4 PM?", "khmer": "បាទ/ចាស! សូមមេត្តា។ ហើយតើអ្នកជួយផ្ញើវាត្រឡប់មកខ្ញុំវិញមុនម៉ោង ៤ ល្ងាចបានទេ?" },
+                                    { "speaker": "👩‍💼 Sarah", "text": "Of course! I’ll get started right away.", "khmer": "ពិតណាស់! ខ្ញុំនឹងចាប់ផ្ដើមភ្លាមៗ។" }
+                                  ],
+                        "🗂️ Scenario: A team member is explaining a project delay during a meeting.<b>Due to / Owing to<b>": [
+                                    { "speaker": "👨‍💼 You", "text": "Hi everyone, just a quick update on the project timeline.", "khmer": "ជំរាបសួរអ្នកទាំងអស់គ្នា! គ្រាន់តែធ្វើបច្ចុប្បន្នភាពខ្លីៗអំពីកាលវិភាគគម្រោង។" },
+                                    { "speaker": "👩‍💼 Sarah", "text": "Sure, go ahead.", "khmer": "បាទ/ចាស! សូមបន្តទៅមុខ។" },
+                                    { "speaker": "👨‍💼 You", "text": "The final report will be submitted by Friday due to a delay in receiving the client feedback.", "khmer": "របាយការណ៍ចុងក្រោយនឹងត្រូវដាក់ជូននៅត្រឹមថ្ងៃសុក្រ ដោយសារតែការពន្យារពេលក្នុងការទទួលមតិកែលម្អពីអតិថិជន។" },
+                                    { "speaker": "👩‍💼 Sarah", "text": "Got it. Was the feedback expected earlier?", "khmer": "យល់ហើយ។ តើគេរំពឹងថានឹងទទួលបានមតិកែលម្អមុននេះទេ?" },
+                                    { "speaker": "👨‍💼 You", "text": "Yes, but owing to a system outage on their end, they couldn’t send it on time.", "khmer": "បាទ/ចាស! ប៉ុន្តែដោយសារតែប្រព័ន្ធរបស់ពួកគេមានបញ្ហា ពួកគេមិនអាចផ្ញើវាបានទាន់ពេលទេ។" },
+                                    { "speaker": "👩‍💼 Sarah", "text": "Understood. Will this affect the launch?", "khmer": "យល់ហើយ។ តើនេះនឹងប៉ះពាល់ដល់ការដាក់ឱ្យដំណើរការដែរឬទេ?" },
+                                    { "speaker": "👨‍💼 You", "text": "No, we’ve adjusted our schedule slightly, so the launch will stay on track.", "khmer": "ទេ! យើងបានកែសម្រួលកាលវិភាគរបស់យើងបន្តិចបន្តួច ដូច្នេះការដាក់ឱ្យដំណើរការនឹងនៅតែដំណើរការតាមផែនការ។" }
+                                  ],
                         "💼 Work setting: In order to…": [
                             { "speaker": "A", "text": "Hey, are you updating the project timeline?", "khmer": "ហេ៎! អ្នកកំពុងកែសម្រួលកាលវិភាគគម្រោងមែនទេ?" },
                             { "speaker": "B", "text": " Yeah, just adjusting it in order to stay on track for the deadline.", "khmer": "បាទ/ចាស! កំពុងកែសម្រួលវាដើម្បីឲ្យទាន់ពេលវេលាកំណត់។" }
@@ -5308,7 +5335,48 @@
                 listenAndType: {
                         
                         "✍️ Have/get something done":[
+                                
                                   {
+                                    sentence: "They are having a new fence built around their house.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ពួកគេកំពុងឲ្យគេសង់របងថ្មីជុំវិញផ្ទះរបស់ពួកគេ។ <br> They are having a new fence ...... around their house.",
+                                    answer: "They are having a new fence built around their house."
+                                  },
+                                  {
+                                    sentence: "I had the printer repaired.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ខ្ញុំបានជួសជុលម៉ាស៊ីនបោះពុម្ព។ <br> I had the printer ...... . <br>(Someone else repaired it for me.)",
+                                    answer: "I had the printer repaired."
+                                  },
+                                  {
+                                    sentence: "We got the office painted.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ពួកយើងបានឲ្យគេលាបពណ៌ការិយាល័យ។ <br> We got the office ...... .<br> (We hired someone to paint it.)",
+                                    answer: "We got the office painted."
+                                  },
+                                  {
+                                    sentence: "We need to get the contracts signed before 5 PM.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ពួកយើងត្រូវឲ្យគេចុះហត្ថលេខាលើកិច្ចសន្យាមុនម៉ោង 5 ល្ងាច។ <br> We need to get the contracts ...... before 5 PM.",
+                                    answer: "We need to get the contracts signed before 5 PM."
+                                  },
+                                  {
+                                    sentence: "I had the team photos updated on the website.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ខ្ញុំបានឲ្យគេធ្វើបច្ចុប្បន្នភាពរូបថតក្រុមនៅលើគេហទំព័រ។ <br> I had the team photos ...... on the website.",
+                                    answer: "I had the team photos updated on the website."
+                                  },
+                                  {
+                                    sentence: "She got the meeting notes emailed to all participants.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: នាងបានឲ្យគេផ្ញើកំណត់ហេតុកិច្ចប្រជុំទៅអ្នកចូលរួមទាំងអស់តាមអ៊ីមែល។ <br> She got the meeting notes ...... to all participants.",
+                                    answer: "She got the meeting notes emailed to all participants."
+                                  },
+                                  {
+                                    sentence: "They’re having the room cleaned before the event.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ពួកគេកំពុងឲ្យគេសម្អាតបន្ទប់មុនពេលព្រឹត្តិការណ៍។ <br> They’re having the room ...... before the event.",
+                                    answer: "They’re having the room cleaned before the event."
+                                  },
+                                  {
+                                    sentence: "I’ll get the logo redesigned by our freelancer.",
+                                    khmer: "Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ខ្ញុំនឹងឲ្យអ្នកឯករាជ្យរបស់យើងរចនាឡូហ្គោឡើងវិញ។ <br> I’ll get the logo ...... by our freelancer.",
+                                    answer: "I’ll get the logo redesigned by our freelancer."
+                                  },
+                                                          {
                                     sentence: "I had my computer fixed yesterday.",
                                     khmer: "<br>🧠 Quick Tips:<br>Due to' is often used after a form of “be”<br>👉 The cancellation was due to bad weather.<br>Owing to' is more flexible and works great at the start of a sentence<br>👉 Owing to budget cuts, hiring was frozen.Structure: Subject + have/get + object + past participle <br> Meaning: Use this to talk about a service or action you asked for or arranged — you don’t do it yourself, but it gets done for you.<br> Khmer: ខ្ញុំបានជួសជុលកុំព្យូទ័ររបស់ខ្ញុំកាលពីម្សិលមិញ។ <br> I had my computer ...... yesterday.",
                                     answer: "I had my computer fixed yesterday."
@@ -5360,6 +5428,41 @@
                                   }
                                 ],
                         "🧠 Due to / Owing to…":[
+                                {
+                                    sentence: "Owing to increased demand, we’re extending the deadline.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារតម្រូវការកើនឡើង ពួកយើងកំពុងពង្រីកកាលកំណត់។ <br> Owing to ...... demand, we’re ...... the deadline.",
+                                    answer: "Owing to increased demand, we’re extending the deadline."
+                                  },
+                                  {
+                                    sentence: "The meeting was postponed due to scheduling conflicts.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ការប្រជុំត្រូវបានពន្យារពេលដោយសារជម្លោះកាលវិភាគ។ <br> The meeting was ...... due to ...... conflicts.",
+                                    answer: "The meeting was postponed due to scheduling conflicts."
+                                  },
+                                  {
+                                    sentence: "The system went down due to a server issue.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ប្រព័ន្ធបានធ្លាក់ចុះដោយសារបញ្ហាម៉ាស៊ីនមេ។ <br> The system went ...... due to a ...... issue.",
+                                    answer: "The system went down due to a server issue."
+                                  },
+                                  {
+                                    sentence: "The low attendance was due to short notice.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ការចូលរួមតិចតួចគឺដោយសារការជូនដំណឹងខ្លី។ <br> The low attendance was ...... to ...... notice.",
+                                    answer: "The low attendance was due to short notice."
+                                  },
+                                  {
+                                    sentence: "Owing to bad weather, we had to reschedule the event.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារអាកាសធាតុអាក្រក់ ពួកយើងត្រូវរៀបចំកាលវិភាគព្រឹត្តិការណ៍ឡើងវិញ។ <br> Owing to ...... weather, we had to ...... the event.",
+                                    answer: "Owing to bad weather, we had to reschedule the event."
+                                  },
+                                  {
+                                    sentence: "Owing to a last-minute change, the agenda has been updated.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារការផ្លាស់ប្តូរនាទីចុងក្រោយ របៀបវារៈត្រូវបានធ្វើបច្ចុប្បន្នភាព។ <br> Owing to a ......-minute change, the agenda has been ...... .",
+                                    answer: "Owing to a last-minute change, the agenda has been updated."
+                                  },
+                                  {
+                                    sentence: "Owing to increased demand, we’re extending the deadline.",
+                                    khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារតម្រូវការកើនឡើង ពួកយើងកំពុងពង្រីកកាលកំណត់។ <br> Owing to ...... demand, we’re ...... the deadline.",
+                                    answer: "Owing to increased demand, we’re extending the deadline."
+                                  },
                                   {
                                     sentence: "Due to heavy traffic, the meeting started late.",
                                     khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារ​ការ​កកស្ទះ​ចរាចរណ៍​ខ្លាំង ការ​ប្រជុំ​បាន​ចាប់​ផ្តើម​យឺត។ <br> Due to ...... traffic, the meeting ...... late.",
@@ -5411,7 +5514,27 @@
                                     answer: "The concert was cancelled owing to a lack of ticket sales."
                                   }
                                 ],
-                        "✍️ Should you…":[
+                        "💼 Workplace Uses of Should you…":[
+                                {
+                                    sentence: "Should you have any questions, feel free to contact me.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកមានសំណួរណាមួយ សូមទាក់ទងមកខ្ញុំ។ <br> Should you ...... any questions, feel free to ...... me.",
+                                    answer: "Should you have any questions, feel free to contact me."
+                                  },
+                                  {
+                                    sentence: "Should you require further assistance, I’d be happy to help.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកត្រូវការជំនួយបន្ថែម ខ្ញុំរីករាយនឹងជួយ។ <br> Should you ...... further assistance, I’d be ...... to help.",
+                                    answer: "Should you require further assistance, I’d be happy to help."
+                                  },
+                                  {
+                                    sentence: "Should you need more time, let us know by Friday.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកត្រូវការពេលបន្ថែម សូមប្រាប់ពួកយើងត្រឹមថ្ងៃសុក្រ។ <br> Should you ...... more time, ...... us know by Friday.",
+                                    answer: "Should you need more time, let us know by Friday."
+                                  },
+                                  {
+                                    sentence: "Should you decide to join the meeting, here's the link.",
+                                    khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកសម្រេចចិត្តចូលរួមប្រជុំ នេះជាតំណភ្ជាប់។ <br> Should you ...... to ...... the meeting, here's the ...... .",
+                                    answer: "Should you decide to join the meeting, here's the link."
+                                  },
                                   {
                                     sentence: "Should you have any questions, feel free to contact me.",
                                     khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកមានសំណួរណាមួយ សូមទាក់ទងមកខ្ញុំ។ <br> Should you ...... any questions, feel free to ...... me.",
