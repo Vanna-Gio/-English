@@ -5334,8 +5334,103 @@
                 },
 
                 listenAndType: {
-                        
-                        "✍️ Have/get something done":[
+                         //🧩 All A1-..    
+                    "🧩A1. Would you mind...?": [
+                            {
+                                sentence: "Would you mind sending me the report by noon?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​ផ្ញើ​របាយការណ៍​មក​ខ្ញុំ​នៅ​ពេល​ថ្ងៃត្រង់​ទេ? <br> Sentence: Would you mind ... me the ... by noon? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind sending me the report by noon?"
+                            },
+                            {
+                                sentence: "Would you mind reviewing this document?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​ពិនិត្យ​មើល​ឯកសារ​នេះ​ទេ? <br> Sentence: Would you mind ... this ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind reviewing this document?"
+                            },
+                            {
+                                sentence: "Would you mind if I used the conference room at 3?",
+                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ប្រើ​បន្ទប់​ប្រជុំ​នៅ​ម៉ោង 3? <br> Sentence: Would you mind if I ... the ... at 3? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind if I used the conference room at 3?"
+                            },
+                            {
+                                sentence: "Would you mind helping me with this task?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​ជួយ​ខ្ញុំ​ក្នុង​កិច្ចការ​នេះ​ទេ? <br> Sentence: Would you mind ... me with this ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind helping me with this task?"
+                            },
+                            {
+                                sentence: "Would you mind closing the window?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​បិទ​បង្អួច​ទេ? <br> Sentence: Would you mind ... the ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind closing the window?"
+                            },
+                            {
+                                sentence: "Would you mind if I sat here?",
+                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​អង្គុយ​ទីនេះ? <br> Sentence: Would you mind if I ... here? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind if I sat here?"
+                            },
+                            {
+                                sentence: "Would you mind explaining that again?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​ពន្យល់​រឿង​នោះ​ម្តង​ទៀត​ទេ? <br> Sentence: Would you mind ... that again? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind explaining that again?"
+                            },
+                            {
+                                sentence: "Would you mind if I borrowed your pen?",
+                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ខ្ចី​ប៊ិច​របស់​អ្នក? <br> Sentence: Would you mind if I ... your ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind if I borrowed your pen?"
+                            },
+                            {
+                                sentence: "Would you mind holding this for a moment?",
+                                khmer: "Khmer: តើ​អ្នក​ចង់​កាន់​របស់​នេះ​មួយ​ភ្លែត​ទេ? <br> Sentence: Would you mind ... this for a ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind holding this for a moment?"
+                            },
+                            {
+                                sentence: "Would you mind if I left early today?",
+                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ចេញ​ទៅ​មុន​ថ្ងៃ​នេះ? <br> Sentence: Would you mind if I ... early ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
+                                answer: "Would you mind if I left early today?"
+                            }
+                        ],
+                    "🧩A2. Polite Requests / Appreciations": [
+                            {
+                                sentence: "I’d appreciate it if you could send me the final draft by Friday.",
+                                answer: "I’d appreciate it if you could send me the final draft by Friday.",
+                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចផ្ញើឯកសារចុងក្រោយមកខ្ញុំត្រឹមថ្ងៃសុក្រ។ <br> Sentence: I’d appreciate it if you could ... me the final draft by .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object + time phrase. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "I’d appreciate it if you could confirm your attendance.",
+                                answer: "I’d appreciate it if you could confirm your attendance.",
+                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចបញ្ជាក់ការចូលរួមរបស់អ្នក។ <br> Sentence: I’d appreciate it if you could ... your .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "I’d appreciate it if you could review the attached file.",
+                                answer: "I’d appreciate it if you could review the attached file.",
+                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចពិនិត្យមើលឯកសារភ្ជាប់។ <br> Sentence: I’d appreciate it if you could ... the attached .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "I’d appreciate it if you could keep me updated on the progress.",
+                                answer: "I’d appreciate it if you could keep me updated on the progress.",
+                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចបន្តផ្តល់ព័ត៌មានថ្មីៗអំពីវឌ្ឍនភាពដល់ខ្ញុំ។ <br> Sentence: I’d appreciate it if you could ... me updated on the .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + keep + object + updated on + noun. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            // New sentences added below
+                            {
+                                sentence: "I would be grateful if you could provide more details.",
+                                answer: "I would be grateful if you could provide more details.",
+                                khmer: "Khmer: ខ្ញុំនឹងដឹងគុណប្រសិនបើអ្នកអាចផ្តល់ព័ត៌មានលម្អិតបន្ថែម។ <br> Sentence: I would be grateful if you could ... more .... <br>រចនាសម្ព័ន្ធ៖ I would be grateful if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "I would be grateful if you could assist us with this task.",
+                                answer: "I would be grateful if you could assist us with this task.",
+                                khmer: "Khmer: ខ្ញុំនឹងដឹងគុណប្រសិនបើអ្នកអាចជួយពួកយើងក្នុងការងារនេះ។ <br> Sentence: I would be grateful if you could ... us with this .... <br>រចនាសម្ព័ន្ធ៖ I would be grateful if you could + base verb + object + with + noun. <br> Meaning: (= a polite and formal way to ask someone to do something)"
+                            },
+                            {
+                                sentence: "Please let me know if you’re available to discuss this further.",
+                                answer: "Please let me know if you’re available to discuss this further.",
+                                khmer: "Khmer: សូមប្រាប់ខ្ញុំផងប្រសិនបើអ្នកទំនេរដើម្បីពិភាក្សារឿងនេះបន្ត។ <br> Sentence: Please let me know if you’re available to ... this .... <br>រចនាសម្ព័ន្ធ៖ Please let me know if you're available to + base verb + object + adverb. <br> Meaning: (= a polite way to ask about availability or to request information)"
+                            },
+                            {
+                                sentence: "Please let me know if you’re available to join the meeting.",
+                                answer: "Please let me know if you’re available to join the meeting.",
+                                khmer: "Khmer: សូមប្រាប់ខ្ញុំផងប្រសិនបើអ្នកទំនេរដើម្បីចូលរួមការប្រជុំ។ <br> Sentence: Please let me know if you’re available to ... the .... <br>រចនាសម្ព័ន្ធ៖ Please let me know if you're available to + base verb + object. <br> Meaning: (= a polite way to ask about availability or to request information)"
+                            }
+                        ],
+                    "🧩A3. Have/get something done":[
                                 
                                   {
                                     sentence: "They are having a new fence built around their house.",
@@ -5428,7 +5523,7 @@
                                     answer: "They are having a new fence built around their house."
                                   }
                                 ],
-                        "🧠 Due to / Owing to…":[
+                    "🧩A4. Due to / Owing to…":[
                                 {
                                     sentence: "Owing to increased demand, we’re extending the deadline.",
                                     khmer: "Structure: Due to / Owing to + noun/noun phrase, + main clause <br> Or <br> Main clause + due to / owing to + noun/noun phrase <br> Meaning: These are used to explain why something happened — more formal than “because of.” <br> Khmer: ដោយសារតម្រូវការកើនឡើង ពួកយើងកំពុងពង្រីកកាលកំណត់។ <br> Owing to ...... demand, we’re ...... the deadline.",
@@ -5515,7 +5610,7 @@
                                     answer: "The concert was cancelled owing to a lack of ticket sales."
                                   }
                                 ],
-                        "💼 Workplace Uses of Should you…":[
+                    "🧩A5. Workplace Uses of Should you…":[
                                 {
                                     sentence: "Should you have any questions, feel free to contact me.",
                                     khmer: "Structure: Should + subject + base verb, + result clause <br> Meaning: This is an inverted conditional used to sound more formal and polite — especially useful in business communication.<br> Khmer: បើអ្នកមានសំណួរណាមួយ សូមទាក់ទងមកខ្ញុំ។ <br> Should you ...... any questions, feel free to ...... me.",
@@ -5588,7 +5683,7 @@
                                   }
                                 ],
 
-                        "✍️ in order to..":[
+                    "🧩A6. in order to..":[
                                   {
                                     sentence: "In order to meet the deadline, we worked overtime.",
                                     khmer: "Structure: In order to + base verb, + result or Subject + verb + in order to + base verb <br> Meaning: Use “in order to” to say why you're doing something — it sounds more formal than just 'to'.<br> Khmer: ដើម្បីបំពេញតាមកាលកំណត់ យើងធ្វើការថែមម៉ោង។ <br> In order to ....the deadline, we ..... overtime.",
@@ -5641,103 +5736,195 @@
                                   }
                                 ],
 
-                        "🧩 A1. Would you mind...?": [
-                            {
-                                sentence: "Would you mind sending me the report by noon?",
-                                khmer: "Khmer: តើ​អ្នក​ចង់​ផ្ញើ​របាយការណ៍​មក​ខ្ញុំ​នៅ​ពេល​ថ្ងៃត្រង់​ទេ? <br> Sentence: Would you mind ... me the ... by noon? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind sending me the report by noon?"
-                            },
-                            {
-                                sentence: "Would you mind reviewing this document?",
-                                khmer: "Khmer: តើ​អ្នក​ចង់​ពិនិត្យ​មើល​ឯកសារ​នេះ​ទេ? <br> Sentence: Would you mind ... this ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind reviewing this document?"
-                            },
-                            {
-                                sentence: "Would you mind if I used the conference room at 3?",
-                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ប្រើ​បន្ទប់​ប្រជុំ​នៅ​ម៉ោង 3? <br> Sentence: Would you mind if I ... the ... at 3? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind if I used the conference room at 3?"
-                            },
-                            {
-                                sentence: "Would you mind helping me with this task?",
-                                khmer: "Khmer: តើ​អ្នក​ចង់​ជួយ​ខ្ញុំ​ក្នុង​កិច្ចការ​នេះ​ទេ? <br> Sentence: Would you mind ... me with this ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind helping me with this task?"
-                            },
-                            {
-                                sentence: "Would you mind closing the window?",
-                                khmer: "Khmer: តើ​អ្នក​ចង់​បិទ​បង្អួច​ទេ? <br> Sentence: Would you mind ... the ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind closing the window?"
-                            },
-                            {
-                                sentence: "Would you mind if I sat here?",
-                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​អង្គុយ​ទីនេះ? <br> Sentence: Would you mind if I ... here? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind if I sat here?"
-                            },
-                            {
-                                sentence: "Would you mind explaining that again?",
-                                khmer: "Khmer: តើ​អ្នក​ចង់​ពន្យល់​រឿង​នោះ​ម្តង​ទៀត​ទេ? <br> Sentence: Would you mind ... that again? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind explaining that again?"
-                            },
-                            {
-                                sentence: "Would you mind if I borrowed your pen?",
-                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ខ្ចី​ប៊ិច​របស់​អ្នក? <br> Sentence: Would you mind if I ... your ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind if I borrowed your pen?"
-                            },
-                            {
-                                sentence: "Would you mind holding this for a moment?",
-                                khmer: "Khmer: តើ​អ្នក​ចង់​កាន់​របស់​នេះ​មួយ​ភ្លែត​ទេ? <br> Sentence: Would you mind ... this for a ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind + -ing verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind holding this for a moment?"
-                            },
-                            {
-                                sentence: "Would you mind if I left early today?",
-                                khmer: "Khmer: តើ​អ្នក​នឹង​គិត​យ៉ាង​ណា​បើ​ខ្ញុំ​ចេញ​ទៅ​មុន​ថ្ងៃ​នេះ? <br> Sentence: Would you mind if I ... early ...? <br>រចនាសម្ព័ន្ធ៖ Would you mind if I + past verb...? <br> Meaning: (= You're making a polite request. It sounds more respectful than direct commands.)",
-                                answer: "Would you mind if I left early today?"
-                            }
+                        //"✅ “Much as"
+                    "✅ Much as (with 'as')": [
+        {
+            sentence: "Much as I like spicy food, I can't eat it every day.",
+            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំចូលចិត្តម្ហូបហឹរខ្លាំងក៏ដោយ ខ្ញុំមិនអាចញ៉ាំវាជារៀងរាល់ថ្ងៃបានទេ។ <br> Sentence: Much as I ... spicy food, I can't eat it every day. <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, result clause. <br> Meaning: (= although, even though, to acknowledge a strong feeling or fact before presenting a contrasting one)",
+            answer: "Much as I like spicy food, I can't eat it every day."
+        },
+        {
+            sentence: "Much as she admires her boss, she disagrees with his decision.",
+            khmer: "Khmer: ថ្វីត្បិតតែនាងគោរពថ្នាក់លើក៏ដោយ នាងមិនយល់ព្រមនឹងសេចក្តីសម្រេចរបស់គាត់ទេ។ <br> Sentence: Much as she ... her boss, she disagrees with his .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, result clause. <br> Meaning: (= although, even though, to acknowledge a strong feeling or fact before presenting a contrasting one)",
+            answer: "Much as she admires her boss, she disagrees with his decision."
+        },
+        {
+            sentence: "Much as we want to help, we simply don't have the resources.",
+            khmer: "Khmer: ថ្វីត្បិតតែពួកយើងចង់ជួយក៏ដោយ ពួកយើងគ្រាន់តែគ្មានធនធានទេ។ <br> Sentence: Much as we ... to help, we simply don't have the .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, result clause. <br> Meaning: (= although, even though, to acknowledge a strong feeling or fact before presenting a contrasting one)",
+            answer: "Much as we want to help, we simply don't have the resources."
+        }
+    ],
+                    "✅ Much as (with 'though')": [
+                        {
+                            sentence: "Much as I tried, though, I couldn't solve the puzzle.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំបានព្យាយាមក៏ដោយ ខ្ញុំមិនអាចដោះស្រាយបញ្ហានោះបានទេ។ <br> Sentence: Much as I ..., though, I couldn't solve the .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, though, result clause. <br> Meaning: (= despite the fact that; used for contrast, often with emphasis)",
+                            answer: "Much as I tried, though, I couldn't solve the puzzle."
+                        },
+                        {
+                            sentence: "Much as he wanted to join, though, he was too busy.",
+                            khmer: "Khmer: ថ្វីត្បិតតែគាត់ចង់ចូលរួមក៏ដោយ គាត់រវល់ពេក។ <br> Sentence: Much as he ... to join, though, he was too .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, though, result clause. <br> Meaning: (= despite the fact that; used for contrast, often with emphasis)",
+                            answer: "Much as he wanted to join, though, he was too busy."
+                        },
+                        {
+                            sentence: "Much as they planned, though, the event was canceled.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកគេបានរៀបចំផែនការក៏ដោយ ព្រឹត្តិការណ៍ត្រូវបានលុបចោល។ <br> Sentence: Much as they ..., though, the event was .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, though, result clause. <br> Meaning: (= despite the fact that; used for contrast, often with emphasis)",
+                            answer: "Much as they planned, though, the event was canceled."
+                        }
+                    ],
+                    "✅ Much as (with 'although')": [
+                        {
+                            sentence: "Much as I love traveling, although I rarely have time for it.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំស្រឡាញ់ធ្វើដំណើរក៏ដោយ ខ្ញុំក៏មិនសូវមានពេលវេលាទេ។ <br> Sentence: Much as I ... traveling, although I rarely have time for .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, although + subject + verb. <br> Meaning: (= despite the fact that; similar to 'as', but 'although' can introduce a full clause)",
+                            answer: "Much as I love traveling, although I rarely have time for it."
+                        },
+                        {
+                            sentence: "Much as she enjoys singing, although she is shy on stage.",
+                            khmer: "Khmer: ថ្វីត្បិតតែនាងចូលចិត្តច្រៀងក៏ដោយ នាងខ្មាស់អៀននៅលើឆាក។ <br> Sentence: Much as she ... singing, although she is shy on .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, although + subject + verb. <br> Meaning: (= despite the fact that; similar to 'as', but 'although' can introduce a full clause)",
+                            answer: "Much as she enjoys singing, although she is shy on stage."
+                        },
+                        {
+                            sentence: "Much as we appreciate your offer, although we must decline.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកយើងកោតសរសើរការផ្តល់ជូនរបស់អ្នកក៏ដោយ ពួកយើងត្រូវបដិសេធ។ <br> Sentence: Much as we ... your offer, although we must .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, although + subject + verb. <br> Meaning: (= despite the fact that; similar to 'as', but 'although' can introduce a full clause)",
+                            answer: "Much as we appreciate your offer, although we must decline."
+                        }
+                    ],
+                    "✅ Much as (with 'even though')": [
+                        {
+                            sentence: "Much as I wanted to stay, even though I had to leave early.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំចង់នៅក៏ដោយ ខ្ញុំត្រូវចេញទៅមុន។ <br> Sentence: Much as I ... to stay, even though I had to leave .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, even though + subject + verb. <br> Meaning: (= despite the strong desire/fact; emphasizes the contrast more strongly than 'although')",
+                            answer: "Much as I wanted to stay, even though I had to leave early."
+                        },
+                        {
+                            sentence: "Much as he tried to explain, even though no one understood.",
+                            khmer: "Khmer: ថ្វីត្បិតតែគាត់ព្យាយាមពន្យល់ក៏ដោយ គ្មាននរណាយល់ទេ។ <br> Sentence: Much as he ... to explain, even though no one .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, even though + subject + verb. <br> Meaning: (= despite the strong desire/fact; emphasizes the contrast more strongly than 'although')",
+                            answer: "Much as he tried to explain, even though no one understood."
+                        },
+                        {
+                            sentence: "Much as they prepared, even though the results were disappointing.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកគេរៀបចំខ្លួនក៏ដោយ លទ្ធផលគួរឱ្យខកចិត្ត។ <br> Sentence: Much as they ..., even though the results were .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, even though + subject + verb. <br> Meaning: (= despite the strong desire/fact; emphasizes the contrast more strongly than 'although')",
+                            answer: "Much as they prepared, even though the results were disappointing."
+                        }
+                    ],
+                    "✅ Much as (with 'while')": [
+                        {
+                            sentence: "Much as I enjoy reading, while I rarely have free time.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំចូលចិត្តអានសៀវភៅក៏ដោយ ខ្ញុំមិនសូវមានពេលទំនេរទេ។ <br> Sentence: Much as I ... reading, while I rarely have free .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, while + subject + verb. <br> Meaning: (= introduces a contrasting idea, often a simultaneous one)",
+                            answer: "Much as I enjoy reading, while I rarely have free time."
+                        },
+                        {
+                            sentence: "Much as she likes sports, while she doesn't play often.",
+                            khmer: "Khmer: ថ្វីត្បិតតែនាងចូលចិត្តកីឡាក៏ដោយ នាងមិនសូវលេងជាញឹកញាប់ទេ។ <br> Sentence: Much as she ... sports, while she doesn't play .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, while + subject + verb. <br> Meaning: (= introduces a contrasting idea, often a simultaneous one)",
+                            answer: "Much as she likes sports, while she doesn't play often."
+                        },
+                        {
+                            sentence: "Much as we respect the rules, while we sometimes disagree.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកយើងគោរពច្បាប់ក៏ដោយ ពួកយើងពេលខ្លះមិនយល់ព្រម។ <br> Sentence: Much as we ... the rules, while we sometimes .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, while + subject + verb. <br> Meaning: (= introduces a contrasting idea, often a simultaneous one)",
+                            answer: "Much as we respect the rules, while we sometimes disagree."
+                        }
+                    ],
+                    "✅ Much as (with 'whereas')": [
+                        {
+                            sentence: "Much as I prefer tea, whereas my friend prefers coffee.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំចូលចិត្តតែក៏ដោយ មិត្តរបស់ខ្ញុំចូលចិត្តកាហ្វេ។ <br> Sentence: Much as I ... tea, whereas my friend prefers .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, whereas + subject + verb. <br> Meaning: (= used to compare or contrast two facts or ideas)",
+                            answer: "Much as I prefer tea, whereas my friend prefers coffee."
+                        },
+                        {
+                            sentence: "Much as she enjoys city life, whereas her family likes the countryside.",
+                            khmer: "Khmer: ថ្វីត្បិតតែនាងចូលចិត្តជីវិតក្នុងទីក្រុងក៏ដោយ គ្រួសាររបស់នាងចូលចិត្តជីវិតជនបទ។ <br> Sentence: Much as she ... city life, whereas her family likes the .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, whereas + subject + verb. <br> Meaning: (= used to compare or contrast two facts or ideas)",
+                            answer: "Much as she enjoys city life, whereas her family likes the countryside."
+                        },
+                        {
+                            sentence: "Much as we want to relax, whereas work keeps us busy.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកយើងចង់សម្រាកក៏ដោយ ការងារធ្វើឲ្យពួកយើងរវល់។ <br> Sentence: Much as we ... to relax, whereas work keeps us .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, whereas + subject + verb. <br> Meaning: (= used to compare or contrast two facts or ideas)",
+                            answer: "Much as we want to relax, whereas work keeps us busy."
+                        }
+                    ],
+                    "✅ Much as (with 'despite')": [
+                        {
+                            sentence: "Much as I tried to finish early, despite many interruptions.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំព្យាយាមបញ្ចប់ឲ្យបានលឿនក៏ដោយ ទោះបីមានការរំខានច្រើនក៏ដោយ។ <br> Sentence: Much as I ... to finish early, despite many .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, despite + noun/gerund. <br> Meaning: (= in spite of; used to show a contrast that is surprising)",
+                            answer: "Much as I tried to finish early, despite many interruptions."
+                        },
+                        {
+                            sentence: "Much as she wanted to win, despite her best efforts she lost.",
+                            khmer: "Khmer: ថ្វីត្បិតតែនាងចង់ឈ្នះក៏ដោយ ទោះបីនាងខិតខំប្រឹងប្រែងក៏ដោយ នាងនៅតែចាញ់។ <br> Sentence: Much as she ... to win, despite her best efforts she .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, despite + noun/gerund. <br> Meaning: (= in spite of; used to show a contrast that is surprising)",
+                            answer: "Much as she wanted to win, despite her best efforts she lost."
+                        },
+                        {
+                            sentence: "Much as we hoped for sunshine, despite the forecast it rained.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកយើងសង្ឃឹមថានឹងមានថ្ងៃភ្លឺក៏ដោយ ទោះបីការព្យាករណ៍អាកាសធាតុបង្ហាញថាមានភ្លៀងក៏ដោយ។ <br> Sentence: Much as we ... for sunshine, despite the forecast it .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, despite + noun/gerund. <br> Meaning: (= in spite of; used to show a contrast that is surprising)",
+                            answer: "Much as we hoped for sunshine, despite the forecast it rained."
+                        }
+                    ],
+                    "✅ Much as (with 'in spite of')": [
+                        {
+                            sentence: "Much as I wanted to go, in spite of my illness I stayed home.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំចង់ទៅក៏ដោយ ទោះបីខ្ញុំឈឺក៏ដោយ ខ្ញុំនៅផ្ទះ។ <br> Sentence: Much as I ... to go, in spite of my illness I stayed .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, in spite of + noun/gerund. <br> Meaning: (= despite; emphasizes a contrasting situation or obstacle)",
+                            answer: "Much as I wanted to go, in spite of my illness I stayed home."
+                        },
+                        {
+                            sentence: "Much as he tried to help, in spite of his efforts nothing changed.",
+                            khmer: "Khmer: ថ្វីត្បិតតែគាត់ព្យាយាមជួយក៏ដោយ ទោះបីគាត់ខិតខំក៏ដោយ មិនមានអ្វីផ្លាស់ប្តូរឡើយ។ <br> Sentence: Much as he ... to help, in spite of his efforts nothing .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, in spite of + noun/gerund. <br> Meaning: (= despite; emphasizes a contrasting situation or obstacle)",
+                            answer: "Much as he tried to help, in spite of his efforts nothing changed."
+                        },
+                        {
+                            sentence: "Much as they planned carefully, in spite of this, problems arose.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកគេរៀបចំផែនការយ៉ាងប្រុងប្រយ័ត្នក៏ដោយ ទោះបីជាយ៉ាងណាក៏ដោយ បញ្ហានៅតែមាន។ <br> Sentence: Much as they ... carefully, in spite of this, problems .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, in spite of + noun/pronoun. <br> Meaning: (= despite; emphasizes a contrasting situation or obstacle)",
+                            answer: "Much as they planned carefully, in spite of this, problems arose."
+                        }
+                    ],
+                    "✅ Much as (with 'regardless of')": [
+                        {
+                            sentence: "Much as I wanted to succeed, regardless of the obstacles I faced.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំចង់ជោគជ័យក៏ដោយ មិនថាមានឧបសគ្គប៉ុនណាក៏ដោយ។ <br> Sentence: Much as I ... to succeed, regardless of the obstacles I .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, regardless of + noun/noun phrase. <br> Meaning: (= without being affected by; emphasizes that something happens despite a factor)",
+                            answer: "Much as I wanted to succeed, regardless of the obstacles I faced."
+                        },
+                        {
+                            sentence: "Much as she tried to be friendly, regardless of others' reactions.",
+                            khmer: "Khmer: ថ្វីត្បិតតែនាងព្យាយាមជាអ្នករួសរាយរាក់ទាក់ក៏ដោយ មិនថាប្រតិកម្មរបស់អ្នកដទៃយ៉ាងណាក៏ដោយ។ <br> Sentence: Much as she ... to be friendly, regardless of others' .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, regardless of + noun/noun phrase. <br> Meaning: (= without being affected by; emphasizes that something happens despite a factor)",
+                            answer: "Much as she tried to be friendly, regardless of others' reactions."
+                        },
+                        {
+                            sentence: "Much as we prepared, regardless of our efforts, the plan failed.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកយើងរៀបចំខ្លួនក៏ដោយ មិនថាពួកយើងខិតខំយ៉ាងណាក៏ដោយ ផែនការនោះបរាជ័យ។ <br> Sentence: Much as we ..., regardless of our efforts, the plan .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, regardless of + noun/noun phrase. <br> Meaning: (= without being affected by; emphasizes that something happens despite a factor)",
+                            answer: "Much as we prepared, regardless of our efforts, the plan failed."
+                        }
+                    ],
+                    "✅ Much as (with 'notwithstanding')": [
+                        {
+                            sentence: "Much as I respect his opinion, notwithstanding our differences.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំគោរពមតិយោបល់របស់គាត់ក៏ដោយ ទោះបីមានភាពខុសគ្នារវាងយើងក៏ដោយ។ <br> Sentence: Much as I ... his opinion, notwithstanding our .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, notwithstanding + noun/noun phrase. <br> Meaning: (= despite; a more formal way to express concession)",
+                            answer: "Much as I respect his opinion, notwithstanding our differences."
+                        },
+                        {
+                            sentence: "Much as she wanted to stay, notwithstanding her desire, she left.",
+                            khmer: "Khmer: ថ្វីត្បិតតែនាងចង់នៅក៏ដោយ ទោះបីនាងចង់យ៉ាងណាក៏ដោយ នាងនៅតែចេញទៅ។ <br> Sentence: Much as she ... to stay, notwithstanding her ..., she .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, notwithstanding + noun/noun phrase. <br> Meaning: (= despite; a more formal way to express concession)",
+                            answer: "Much as she wanted to stay, notwithstanding her desire, she left."
+                        },
+                        {
+                            sentence: "Much as we tried to finish on time, notwithstanding delays, we were late.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកយើងព្យាយាមបញ្ចប់ឲ្យទាន់ពេលក៏ដោយ ទោះបីមានការពន្យារពេលក៏ដោយ ពួកយើងនៅតែមកយឺត។ <br> Sentence: Much as we ... to finish on time, notwithstanding ..., we were .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, notwithstanding + noun/noun phrase. <br> Meaning: (= despite; a more formal way to express concession)",
+                            answer: "Much as we tried to finish on time, notwithstanding delays, we were late."
+                        }
+                    ],
+                    "✅ Much as (with 'even if')": [
+                        {
+                            sentence: "Much as I want to help, even if I could, I don't have time.",
+                            khmer: "Khmer: ថ្វីត្បិតតែខ្ញុំចង់ជួយក៏ដោយ ទោះបីខ្ញុំអាចជួយក៏ដោយ ខ្ញុំមិនមានពេលវេលាទេ។ <br> Sentence: Much as I ... to help, even if I ..., I don't have .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, even if + subject + verb. <br> Meaning: (= introduces a hypothetical condition that doesn't change the main point)",
+                            answer: "Much as I want to help, even if I could, I don't have time."
+                        },
+                        {
+                            sentence: "Much as she loves music, even if she practices, she can't play well.",
+                            khmer: "Khmer: ថ្វីត្បិតតែនាងស្រឡាញ់តន្ត្រីក៏ដោយ ទោះបីនាងហាត់ប្រាណក៏ដោយ នាងមិនអាចលេងបានល្អទេ។ <br> Sentence: Much as she ... music, even if she ..., she can't play .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, even if + subject + verb. <br> Meaning: (= introduces a hypothetical condition that doesn't change the main point)",
+                            answer: "Much as she loves music, even if she practices, she can't play well."
+                        },
+                        {
+                            sentence: "Much as we want to travel, even if we save money, it's not enough.",
+                            khmer: "Khmer: ថ្វីត្បិតតែពួកយើងចង់ធ្វើដំណើរក៏ដោយ ទោះបីពួកយើងសន្សំលុយក៏ដោយ វានៅតែមិនគ្រប់គ្រាន់។ <br> Sentence: Much as we ... to travel, even if we ... money, it's not .... <br>រចនាសម្ព័ន្ធ៖ Much as + subject + verb, even if + subject + verb. <br> Meaning: (= introduces a hypothetical condition that doesn't change the main point)",
+                            answer: "Much as we want to travel, even if we save money, it's not enough."
+                        }
                         ],
-                    "🧩 A2. Polite Requests / Appreciations": [
-                            {
-                                sentence: "I’d appreciate it if you could send me the final draft by Friday.",
-                                answer: "I’d appreciate it if you could send me the final draft by Friday.",
-                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចផ្ញើឯកសារចុងក្រោយមកខ្ញុំត្រឹមថ្ងៃសុក្រ។ <br> Sentence: I’d appreciate it if you could ... me the final draft by .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object + time phrase. <br> Meaning: (= a polite and formal way to ask someone to do something)"
-                            },
-                            {
-                                sentence: "I’d appreciate it if you could confirm your attendance.",
-                                answer: "I’d appreciate it if you could confirm your attendance.",
-                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចបញ្ជាក់ការចូលរួមរបស់អ្នក។ <br> Sentence: I’d appreciate it if you could ... your .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
-                            },
-                            {
-                                sentence: "I’d appreciate it if you could review the attached file.",
-                                answer: "I’d appreciate it if you could review the attached file.",
-                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចពិនិត្យមើលឯកសារភ្ជាប់។ <br> Sentence: I’d appreciate it if you could ... the attached .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
-                            },
-                            {
-                                sentence: "I’d appreciate it if you could keep me updated on the progress.",
-                                answer: "I’d appreciate it if you could keep me updated on the progress.",
-                                khmer: "Khmer: ខ្ញុំសូមអរគុណប្រសិនបើអ្នកអាចបន្តផ្តល់ព័ត៌មានថ្មីៗអំពីវឌ្ឍនភាពដល់ខ្ញុំ។ <br> Sentence: I’d appreciate it if you could ... me updated on the .... <br>រចនាសម្ព័ន្ធ៖ I'd appreciate it if you could + keep + object + updated on + noun. <br> Meaning: (= a polite and formal way to ask someone to do something)"
-                            },
-                            // New sentences added below
-                            {
-                                sentence: "I would be grateful if you could provide more details.",
-                                answer: "I would be grateful if you could provide more details.",
-                                khmer: "Khmer: ខ្ញុំនឹងដឹងគុណប្រសិនបើអ្នកអាចផ្តល់ព័ត៌មានលម្អិតបន្ថែម។ <br> Sentence: I would be grateful if you could ... more .... <br>រចនាសម្ព័ន្ធ៖ I would be grateful if you could + base verb + object. <br> Meaning: (= a polite and formal way to ask someone to do something)"
-                            },
-                            {
-                                sentence: "I would be grateful if you could assist us with this task.",
-                                answer: "I would be grateful if you could assist us with this task.",
-                                khmer: "Khmer: ខ្ញុំនឹងដឹងគុណប្រសិនបើអ្នកអាចជួយពួកយើងក្នុងការងារនេះ។ <br> Sentence: I would be grateful if you could ... us with this .... <br>រចនាសម្ព័ន្ធ៖ I would be grateful if you could + base verb + object + with + noun. <br> Meaning: (= a polite and formal way to ask someone to do something)"
-                            },
-                            {
-                                sentence: "Please let me know if you’re available to discuss this further.",
-                                answer: "Please let me know if you’re available to discuss this further.",
-                                khmer: "Khmer: សូមប្រាប់ខ្ញុំផងប្រសិនបើអ្នកទំនេរដើម្បីពិភាក្សារឿងនេះបន្ត។ <br> Sentence: Please let me know if you’re available to ... this .... <br>រចនាសម្ព័ន្ធ៖ Please let me know if you're available to + base verb + object + adverb. <br> Meaning: (= a polite way to ask about availability or to request information)"
-                            },
-                            {
-                                sentence: "Please let me know if you’re available to join the meeting.",
-                                answer: "Please let me know if you’re available to join the meeting.",
-                                khmer: "Khmer: សូមប្រាប់ខ្ញុំផងប្រសិនបើអ្នកទំនេរដើម្បីចូលរួមការប្រជុំ។ <br> Sentence: Please let me know if you’re available to ... the .... <br>រចនាសម្ព័ន្ធ៖ Please let me know if you're available to + base verb + object. <br> Meaning: (= a polite way to ask about availability or to request information)"
-                            }
-                        ],
-                    
-                      "✅ “Much as”": [
+                    "✅ “Much as": [
                         {
                             sentence: "Much as",
                             khmer: "Structure: Much as + subject + verb, contrasting clause<br>Much as I love ...., I can't eat it .....<br>ថ្វីត្បិតតែខ្ញុំស្រឡាញ់សូកូឡាខ្លាំងណាស់ក៏ដោយ ក៏ខ្ញុំមិនអាចញ៉ាំវាជារៀងរាល់ថ្ងៃបានដែរ។",
@@ -6006,6 +6193,7 @@
                             answer: "If it hadn’t been for the doctor's advice, his condition would have worsened."
                         }
                     ],
+                    //🧪A-F Basic Progress Updates
                     "🧪 A. Basic Progress Updates": [
                         {
                             sentence: "We have completed the first phase of the project.",
@@ -6727,7 +6915,7 @@
                             { sentence: "So, to sum it up, it's about speaking, listening, learning vocabulary in phrases, using techniques like shadowing, and being consistent every single day.", khmer: "ដូច្នេះ សរុបមក វាគឺអំពីការនិយាយ ការស្តាប់ ការរៀនវាក្យសព្ទជាឃ្លា ការប្រើប្រាស់បច្ចេកទេសដូចជាការត្រាប់តាម និងការមានភាពទៀងទាត់ជារៀងរាល់ថ្ងៃ។ <br>So, to sum it ..., it's about speaking, listening, learning ... in phrases, using techniques like ..., and being ... every single ....", answer: "So, to sum it up, it's about speaking, listening, learning vocabulary in phrases, using techniques like shadowing, and being consistent every single day." }
                         
                    ],
-                    
+                    //All Structure
                    "Subject Should (auxiliary) + main verb base": [
                         {sentence:"He should be more careful.", khmer:"គាត់គួរតែប្រុងប្រយ័ត្នជាងនេះ។ <br>He should be more ...", answer:"He should be more careful."},
                         {sentence:"You should try to understand the rules.", khmer:"អ្នកគួរតែព្យាយាមយល់ពីច្បាប់។ <br>You should try to ... the ...", answer:"You should try to understand the rules."},
@@ -7634,21 +7822,37 @@
                     ],
                         
                    
+                   
 
 
                   
                 
                 },
-                 // NEW TOP-LEVEL KEY FOR COMBINED SETS
+                
+                // NEW TOP-LEVEL KEY FOR COMBINED SETS
                  combinedListenAndTypeSets: {
                     "All Common English phrases": [],
-                    "All daily conversation": []
+                    "All daily conversation": [],
+                    "🧪A-F Basic Progress Updates":[],
+                    "✅ Much as ": [],
+                    "🧩 All A1-.. ": [],
+                    "All Structures": [],
+
                 }
 
                     
             } 
   
             // Populate combinedListenAndTypeSets dynamically after gameData definition
+            
+            // Populate combinedListenAndTypeSets dynamically after gameData definition
+            gameData.combinedListenAndTypeSets["🧩 All A1-.. "] = [
+                ...gameData.listenAndType["🧩A1. Would you mind...?"],
+                ...gameData.listenAndType["🧩A2. Polite Requests / Appreciations"],
+                ...gameData.listenAndType[ "🧩A3. Have/get something done"],
+                ...gameData.listenAndType["🧩A4. Workplace Uses of Would you mind...?"],
+                ...gameData.listenAndType[ "🧩A5. Workplace Uses of Should you…"],
+            ];
             gameData.combinedListenAndTypeSets["All Common English phrases"] = [
                 ...gameData.listenAndType["Words"],
                 ...gameData.listenAndType["Common English phrases"]
@@ -7659,6 +7863,55 @@
                 ...gameData.listenAndType["Morning Routine"],
                 ...gameData.listenAndType["How can I improve my English speaking?"]
             ];
+            gameData.combinedListenAndTypeSets["All Structures"] = [
+                ...gameData.listenAndType["Used to / Would (Past Habits)"],
+                ...gameData.listenAndType["Expressing Likes & Dislikes"],
+                ...gameData.listenAndType["Present Perfect (Experiences & Unfinished Actions)"],
+                ...gameData.listenAndType["Reporting Verbs (Direct & Indirect Speech)"],
+                ...gameData.listenAndType["✅Object + be (is/am/are/was/were) + Verb (past participle) + (by agent)."],
+                ...gameData.listenAndType["Such...that (Strong Cause-Effect)"],
+                ...gameData.listenAndType["Inverted Conditionals with 'Had I...'"],
+                ...gameData.listenAndType["No matter how / what / where / who / when / why.."],
+                ...gameData.listenAndType["passiveActiveConditional"],
+                ...gameData.listenAndType["passiveActiveSentences"],
+                ...gameData.listenAndType["✅ Only if..."],
+                ...gameData.listenAndType["🌟Such...that"],
+                ...gameData.listenAndType[ "🔁 Inverted Conditionals with 'Had I...'"],
+                ...gameData.listenAndType["⏰It's (high/about) time + subject + past simple"],
+                ...gameData.listenAndType[ "Lest = so that...not, or to avoid"],
+                ...gameData.listenAndType[" 🧠 Suppose / Supposing that... (Hypothetical Scenarios)"],
+                ...gameData.listenAndType[" 🛠️So long as... (Condition)"],
+                ...gameData.listenAndType["✅Connectors & Discourse Markers"],
+            ];
+            gameData.combinedListenAndTypeSets["🧪A-F Basic Progress Updates"] = [
+                ...gameData.listenAndType["🧪 A. Basic Progress Updates"],
+                ...gameData.listenAndType["🧪 B. Ongoing / In Progress"],
+                ...gameData.listenAndType[" 🧪 C. Future Plans / Next Steps"],
+                ...gameData.listenAndType[" 🧪 D. Time-based Reports"],
+                ...gameData.listenAndType[" 🧪 E. Communicating Delays or Setbacks Politely"],
+                ...gameData.listenAndType["🧪 F. Offering Help / Polite Closings"]
+                
+            ];
+            gameData.combinedListenAndTypeSets["✅ Much as "] = [
+                ...gameData.listenAndType["✅ Much as "],
+                ...gameData.listenAndType["✅ Much as (with 'as')"],
+                ...gameData.listenAndType["✅ Much as (with 'though')"],
+                ...gameData.listenAndType["✅ Much as (with 'although')"],
+                ...gameData.listenAndType["✅ Much as (with 'even though')"],
+                ...gameData.listenAndType["✅ Much as (with 'while')"],
+                ...gameData.listenAndType["✅ Much as (with 'whereas')"],
+                ...gameData.listenAndType["✅ Much as (with 'despite')"],
+                ...gameData.listenAndType["✅ Much as (with 'in spite of')"],
+                ...gameData.listenAndType["✅ Much as (with 'regardless of')"],
+                ...gameData.listenAndType["✅ Much as (with 'notwithstanding')"],
+                ...gameData.listenAndType["✅ Much as (with 'even if')"],
+                ...gameData.listenAndType["✅ By the time…"],
+                ...gameData.listenAndType["✅ So…as to…"],
+                ...gameData.listenAndType["✅ Too…to"],
+                ...gameData.listenAndType["✅ If it hadn’t been for…"],
+
+            ];
+
 
 
             // Game State Management
