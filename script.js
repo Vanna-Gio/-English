@@ -6447,7 +6447,7 @@
 
 
                     ],
-                   
+                   //Common English phrases
                     "Words": [
                         { sentence: "apple", khmer: "ផ្លែប៉ោម (noun) <br> For Example: <br> Structure: This is a/an [Noun].<br> This is an apple.", answer: "This is an apple." },
                         { sentence: "banana", khmer: "ចេក (noun) <br> For Example: <br> Structure: I like [Noun]s.<br> I like bananas.", answer: "I like bananas." },
@@ -6646,7 +6646,7 @@
                         { sentence: "Don’t worry.", khmer: "កុំបារម្ភ។ (Command/Reassurance) <br> For Example: <br> Structure: Don't worry <br> Example: Don't worry, everything will be fine.", answer: "Don’t worry, everything will be fine." }
                     ],
 
-                    
+                    //daily conversation
                     "General Confidence Statements": [
                         { sentence: "You know, I'm really starting to believe in myself more these days.", khmer: "អ្នកដឹងទេ, ខ្ញុំចាប់ផ្តើមជឿជាក់លើខ្លួនឯងកាន់តែច្រើនក្នុងពេលនេះ។ <br> You ..., I'm really ... to ... in myself more these days.", answer: "You know, I'm really starting to believe in myself more these days." },
                         { sentence: "It's a good feeling!", khmer: "វាជាអារម្មណ៍ល្អ!", answer: "It's a good feeling!" },
@@ -6727,7 +6727,8 @@
                             { sentence: "So, to sum it up, it's about speaking, listening, learning vocabulary in phrases, using techniques like shadowing, and being consistent every single day.", khmer: "ដូច្នេះ សរុបមក វាគឺអំពីការនិយាយ ការស្តាប់ ការរៀនវាក្យសព្ទជាឃ្លា ការប្រើប្រាស់បច្ចេកទេសដូចជាការត្រាប់តាម និងការមានភាពទៀងទាត់ជារៀងរាល់ថ្ងៃ។ <br>So, to sum it ..., it's about speaking, listening, learning ... in phrases, using techniques like ..., and being ... every single ....", answer: "So, to sum it up, it's about speaking, listening, learning vocabulary in phrases, using techniques like shadowing, and being consistent every single day." }
                         
                    ],
-                    "Subject Should (auxiliary) + main verb base": [
+                    
+                   "Subject Should (auxiliary) + main verb base": [
                         {sentence:"He should be more careful.", khmer:"គាត់គួរតែប្រុងប្រយ័ត្នជាងនេះ។ <br>He should be more ...", answer:"He should be more careful."},
                         {sentence:"You should try to understand the rules.", khmer:"អ្នកគួរតែព្យាយាមយល់ពីច្បាប់។ <br>You should try to ... the ...", answer:"You should try to understand the rules."},
                         {sentence:"They should not be late for the meeting.", khmer:"ពួកគេគួរតែមិនយឺតសម្រាប់ការប្រជុំទេ។ <br>They should not be ... for the ...", answer:"They should not be late for the meeting."},
@@ -7632,19 +7633,31 @@
                         }
                     ],
                         
-                    
+                   
 
 
                   
                 
+                },
+                 // NEW TOP-LEVEL KEY FOR COMBINED SETS
+                 combinedListenAndTypeSets: {
+                    "All Common English phrases": [],
+                    "All daily conversation": []
                 }
 
                     
             } 
-        // Populate "All Listen & Type" dynamically
- gameData.listenAndType["All Listen & Type"] = [
+  
+            // Populate combinedListenAndTypeSets dynamically after gameData definition
+            gameData.combinedListenAndTypeSets["All Common English phrases"] = [
                 ...gameData.listenAndType["Words"],
                 ...gameData.listenAndType["Common English phrases"]
+            ];
+
+            gameData.combinedListenAndTypeSets["All daily conversation"] = [
+                ...gameData.listenAndType["General Confidence Statements"],
+                ...gameData.listenAndType["Morning Routine"],
+                ...gameData.listenAndType["How can I improve my English speaking?"]
             ];
 
 
@@ -7840,9 +7853,7 @@
                     case 'shadowing': headingText = '🗣️ Shadowing Practice'; break;
                     case 'conversation': headingText = '💬 Conversation Activity'; break;
                     case 'listen-type': headingText = '👂 Listen & Type Challenge'; break; // New mode
-                    case 'qna-html': headingText = '❓ HTML Quiz'; break;
-                    case 'qna-css': headingText = '❓ CSS Quiz'; break;
-                    case 'qna-js': headingText = '❓ JavaScript Quiz'; break;
+                    case 'allListenAndType': headingText = '🔗 All Listen And Type Sets'; break; // New heading for the new mode
                     default: headingText = 'Interactive Learning Journey';
                 }
                 elements.mainHeading.textContent = `Master English: ${headingText}`; // Update H1
@@ -7863,6 +7874,8 @@
                         initConversationGame();
                     } else if (mode === "listen-type") { // New mode initialization
                         initListenAndTypeGame();
+                    } else if (mode === "allListenAndType") { // Handle the new mode
+                        initAllListenAndTypeSetsSelection(); // Call new function for sub-selection
                     }
                     else if (mode.startsWith("qna-")) {
                         initQnAGame(mode);
@@ -7878,8 +7891,8 @@
                 let finalScore = gameState.score;
                 const totalItems = gameState.currentPool.length;
 
-                if (gameState.mode === 'vocab' || gameState.mode.startsWith('qna-') || gameState.mode === 'listen-type') { // Added listen-type
-                    message = `You completed the ${gameState.mode === 'listen-type' ? 'Listen & Type' : gameState.mode.replace('qna-', '').toUpperCase()} Challenge!`;
+                if (gameState.mode === 'vocab' || gameState.mode.startsWith('qna-') || gameState.mode === 'listen-type' || gameState.mode === 'allListenAndType') { // Added allListenAndType
+                    message = `You completed the ${gameState.mode === 'listen-type' ? 'Listen & Type' : gameState.mode === 'allListenAndType' ? 'All Listen & Type' : gameState.mode.replace('qna-', '').toUpperCase()} Challenge!`;
                     message += `<p>Your final score is: <span class="score-display">${finalScore} / ${totalItems}</span></p>`;
                     if (totalItems > 0) {
                         const percentage = (finalScore / totalItems) * 100;
@@ -7945,6 +7958,9 @@
                 } else if (currentMode === 'listen-type') {
                     // Go back to the limit selection for the *same* listen-type category
                     displayListenAndTypeLimitSelection(currentCategory);
+                } else if (currentMode === 'allListenAndType') {
+                    // Go back to the combined sets selection
+                    initAllListenAndTypeSetsSelection();
                 }
                 else {
                     selectMode(currentMode); // Start the game again in the same mode
@@ -8741,7 +8757,14 @@
             // Listen & Type Game Functions
             function initListenAndTypeGame() {
                 console.log("Initializing Listen & Type Game...");
-                const listenTypeCategories = Object.keys(gameData.listenAndType);
+                // Filter out the combined sets when displaying individual categories
+                const listenTypeCategories = Object.keys(gameData.listenAndType).filter(key => 
+                    !gameData.combinedListenAndTypeSets.hasOwnProperty(key) &&
+                    key !== "General Confidence Statements" && // Exclude raw categories that are part of combined sets
+                    key !== "Morning Routine" &&
+                    key !== "How can I improve my English speaking?"
+                );
+
                 elements.gameArea.innerHTML = `
                     <div class="container listen-type-selection">
                         <h2 class="text-center text-blue-600">Select Listen & Type Category</h2>
@@ -8750,7 +8773,7 @@
                                 <div class="card bg-purple-100 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
                                     <h5 class="text-xl font-semibold text-purple-800 mb-2">${cat}</h5>
                                     <p class="text-gray-700 text-sm mb-4">Practice typing ${cat.toLowerCase()}.</p>
-                                    <button class="btn btn-primary w-full" onclick="displayListenAndTypeLimitSelection('${cat}')">Select Category</button>
+                                    <button class="btn btn-primary w-full" onclick="displayListenAndTypeLimitSelection('${cat}', gameData.listenAndType)">Select Category</button>
                                 </div>
                             `).join('')}
                         </div>
@@ -8759,32 +8782,52 @@
                 `;
             }
 
-            function displayListenAndTypeLimitSelection(category) {
-                gameState.currentListenAndTypeCategory = category;
-                const totalItems = gameData.listenAndType[category].length;
+            // New function to handle the "All Listen And Type" button click
+            function initAllListenAndTypeSetsSelection() {
+                console.log("Initializing All Listen & Type Sets Selection...");
+                const combinedSets = Object.keys(gameData.combinedListenAndTypeSets);
+
                 elements.gameArea.innerHTML = `
-                    <div class="container listen-type-limit-selection">
-                        <h2 class="text-center text-blue-600">How many items from "${category}" do you want to practice?</h2>
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-                            <button class="btn btn-primary btn-lg" onclick="startListenAndTypeGameWithLimit('${category}', 10)">10 Items</button>
-                            <button class="btn btn-primary btn-lg" onclick="startListenAndTypeGameWithLimit('${category}', 30)">30 Items</button>
-                            <button class="btn btn-primary btn-lg" onclick="startListenAndTypeGameWithLimit('${category}', 'all')">All Items (${totalItems})</button>
+                    <div class="container listen-type-selection">
+                        <h2 class="text-center text-blue-600">Select a Combined Listen & Type Set</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                            ${combinedSets.map(set => `
+                                <div class="card bg-green-100 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+                                    <h5 class="text-xl font-semibold text-green-800 mb-2">${set}</h5>
+                                    <p class="text-gray-700 text-sm mb-4">Practice typing all sentences from ${set.toLowerCase()}.</p>
+                                    <button class="btn btn-success w-full" onclick="startListenAndTypeGameWithLimit('${set}', 'all', gameData.combinedListenAndTypeSets)">Start All</button>
+                                </div>
+                            `).join('')}
                         </div>
-                        <button class="btn btn-secondary mt-8" onclick="initListenAndTypeGame()">Back to Categories</button>
+                        <button class="btn btn-secondary mt-8" onclick="goHome()">Back to Home</button>
                     </div>
                 `;
             }
 
-            function startListenAndTypeGameWithLimit(category, limit) {
-                console.log(`Starting Listen & Type Game for category "${category}" with ${limit === 'all' ? 'all' : limit} items...`);
-                let itemsToUse = gameData.listenAndType[category];
+
+            // Modified startListenAndTypeGameWithLimit function signature and logic
+            function startListenAndTypeGameWithLimit(categoryName, limit, sourceObject) {
+                console.log(`Starting Listen & Type Game for category "${categoryName}" with ${limit === 'all' ? 'all' : limit} items...`);
+                let itemsToUse;
+
+                // Determine the correct array of items based on the sourceObject and categoryName
+                if (sourceObject[categoryName]) {
+                    itemsToUse = sourceObject[categoryName];
+                    gameState.currentListenAndTypeCategory = categoryName; // Store for play again
+                } else {
+                    elements.gameArea.innerHTML = `
+                        <div class="container">
+                            <h2 class="text-center text-red-600">Error: Listen & Type category "${categoryName}" not found!</h2>
+                            <button class="btn btn-secondary mt-4" onclick="goHome()">Back to Home</button>
+                        </div>
+                    `;
+                    return;
+                }
 
                 if (limit !== 'all' && typeof limit === 'number') {
-                    // Shuffle the entire category pool first, then slice
-                    itemsToUse = shuffleArray(gameData.listenAndType[category]).slice(0, limit);
+                    itemsToUse = shuffleArray(itemsToUse).slice(0, limit);
                 } else {
-                    // If 'all' or invalid number, use all items and shuffle
-                    itemsToUse = shuffleArray(gameData.listenAndType[category]);
+                    itemsToUse = shuffleArray(itemsToUse);
                 }
 
                 // Ensure the pool is not empty
@@ -8792,7 +8835,7 @@
                     elements.gameArea.innerHTML = `
                         <div class="container">
                             <h2 class="text-center text-red-600">No items available for this category!</h2>
-                            <button class="btn btn-secondary mt-4" onclick="displayListenAndTypeLimitSelection('${category}')">Back to Item Selection</button>
+                            <button class="btn btn-secondary mt-4" onclick="${gameState.mode === 'allListenAndType' ? 'initAllListenAndTypeSetsSelection()' : 'initListenAndTypeGame()'}">Back to Selection</button>
                             <button class="btn btn-secondary mt-4" onclick="goHome()">Back to Home</button>
                         </div>
                     `;
@@ -9016,6 +9059,5 @@
 
             // Initial call to set up the game
             document.addEventListener("DOMContentLoaded", goHome);
-
 
             
