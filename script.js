@@ -1,4 +1,5 @@
 
+    
         // Game Data - Moved to separate object for better organization
         const gameData = {
             vocab: [
@@ -7640,6 +7641,11 @@
 
                     
             } 
+        // Populate "All Listen & Type" dynamically
+ gameData.listenAndType["All Listen & Type"] = [
+                ...gameData.listenAndType["Words"],
+                ...gameData.listenAndType["Common English phrases"]
+            ];
 
 
             // Game State Management
@@ -8205,7 +8211,7 @@
                 const currentQuestion = gameState.currentPool[gameState.currentIndex];
                 let questionContent = '';
                 let answerArea = '';
-                let timerDuration = 100; // Longer timer for grammar questions
+                let timerDuration = 45; // Longer timer for grammar questions
 
                 if (currentQuestion.type === "multiple-choice") {
                     questionContent = `<h3 class="text-lg font-semibold text-gray-800 mb-4">${currentQuestion.question}</h3>`;
@@ -8807,7 +8813,7 @@
                 }
 
                 const currentItem = gameState.currentPool[gameState.currentIndex];
-                const timerDuration = 100; // Time for listening and typing
+                const timerDuration = 45; // Time for listening and typing
 
                 elements.gameArea.innerHTML = `
                     <div class="container listen-type-game">
@@ -9010,4 +9016,6 @@
 
             // Initial call to set up the game
             document.addEventListener("DOMContentLoaded", goHome);
-   
+
+
+            
