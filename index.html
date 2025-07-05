@@ -19,18 +19,20 @@
         </nav>
     </header>
 
-    <main class="flex-grow">
+   <main class="flex-grow">
         <h1 class="text-center my-6 text-blue-800">Master English: Your Interactive Learning Journey</h1>
 
         <div id="modeSelection" class="container">
             <h2 class="text-blue-600 mb-6">Choose Your Learning Mode</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div id="modeButtons" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="vocab">📚 Vocabulary Challenge</button>
                 <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="grammar">📝 Grammar Guru</button>
                 <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="shadowing">🗣️ Shadowing Practice</button>
                 <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="conversation">💬 Conversation Activity</button>
-               <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="listen-type">👂 Listen & Type</button> 
-            </div>
+                <button class="btn btn-primary p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="listen-type">👂 Listen & Type</button>
+                <!-- New button for "All Listen and Type" -->
+                <button class="btn btn-success p-4 text-xl shadow-lg hover:shadow-xl transition-all duration-200 sub-menu-btn" data-mode="allListenAndType">🔗 All Listen And Type</button>
+                </div>
         </div>
 
         <div id="gameArea" class="container hidden">
