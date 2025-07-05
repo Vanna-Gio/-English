@@ -7893,7 +7893,7 @@
                 
             ];
             gameData.combinedListenAndTypeSets["✅ Much as "] = [
-                ...gameData.listenAndType["✅ Much as "],
+                ...gameData.listenAndType[ "✅ “Much as"],
                 ...gameData.listenAndType["✅ Much as (with 'as')"],
                 ...gameData.listenAndType["✅ Much as (with 'though')"],
                 ...gameData.listenAndType["✅ Much as (with 'although')"],
