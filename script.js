@@ -9110,7 +9110,7 @@
                 }
 
                 const currentItem = gameState.currentPool[gameState.currentIndex];
-                const timerDuration = 45; // Time for listening and typing
+                const timerDuration = 100; // Time for listening and typing
 
                 elements.gameArea.innerHTML = `
                     <div class="container listen-type-game">
