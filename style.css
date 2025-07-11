@@ -34,9 +34,6 @@ body::-webkit-scrollbar-thumb {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    text-align: center;
-    width: 100%; /* Ensure it takes full width on small screens */
-    box-sizing: border-box; /* Include padding in width */
 }
 
 /* Navigation Bar */
@@ -50,267 +47,228 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     border-radius: 0 0 12px 12px;
 }
-
-.nav-link {
+.nav-container a, .nav-container .profile-image {
     margin: 0 1rem;
-    color: #4a5568; /* Darker gray */
+    color: #4a5568; /* Darker gray text */
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.3s ease, transform 0.2s ease;
-    padding: 0.5rem 0.75rem; /* Add padding for better touch targets */
-    border-radius: 6px;
+    transition: color 0.3s ease;
 }
-
-.nav-link:hover, .nav-link:focus {
-    color: #2b6cb0; /* Blue-600 on hover/focus */
-    transform: translateY(-2px); /* Slight lift effect */
-    background-color: #cbd5e1; /* Light background on hover */
-    outline: none; /* Remove default focus outline */
+.nav-container a:hover {
+    color: #2b6cb0; /* Darker blue on hover */
 }
-
-/* Profile Image (if used) */
 .profile-image {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #a0aec0;
-    transition: transform 0.3s ease;
-}
-
-.profile-image:hover {
-    transform: scale(1.1);
 }
 
 /* Headings */
 h1 {
-    font-size: 2.5rem; /* Larger H1 */
-    font-weight: 800; /* Extra bold */
-    color: #1a365d; /* Darker blue */
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c5282; /* Darker blue */
     margin-bottom: 1.5rem;
 }
-
 h2 {
-    font-size: 2rem; /* Larger H2 */
-    font-weight: 700; /* Bold */
-    color: #2b6cb0; /* Blue-600 */
-    margin-bottom: 1.25rem;
-}
-
-h3 {
-    font-size: 1.5rem; /* Medium H3 */
-    font-weight: 600; /* Semi-bold */
-    color: #2d3748; /* Dark gray */
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3182ce; /* Medium blue */
     margin-bottom: 1rem;
 }
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748; /* Very dark gray */
+}
 
-/* Buttons (General) */
+/* Buttons */
 .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.75rem 1.5rem;
-    border-radius: 0.75rem; /* More rounded corners */
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    border: 2px solid transparent; /* Default transparent border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    text-decoration: none; /* Ensure no underline for anchor buttons */
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* Space between icon and text */
 }
 
-.btn:hover {
-    transform: translateY(-2px); /* Subtle lift on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
-}
-
-.btn:active {
-    transform: translateY(0); /* Press down effect */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* Blue focus ring */
-}
-
-/* Primary Button */
 .btn-primary {
-    background-color: #4299e1; /* Blue-500 */
+    background-color: #3490dc; /* Tailwind blue-600 */
     color: #fff;
-    border-color: #4299e1;
+    box-shadow: 0 4px 6px rgba(52, 144, 220, 0.3);
 }
-
 .btn-primary:hover {
-    background-color: #3182ce; /* Blue-600 */
-    border-color: #3182ce;
+    background-color: #2779bd; /* Darker blue */
+    box-shadow: 0 6px 8px rgba(52, 144, 220, 0.4);
+    transform: translateY(-2px);
 }
 
-/* Secondary Button */
 .btn-secondary {
-    background-color: #a0aec0; /* Gray-400 */
+    background-color: #a0aec0; /* Tailwind gray-500 */
     color: #fff;
-    border-color: #a0aec0;
+    box-shadow: 0 4px 6px rgba(160, 174, 192, 0.3);
 }
-
 .btn-secondary:hover {
-    background-color: #718096; /* Gray-500 */
-    border-color: #718096;
+    background-color: #718096; /* Darker gray */
+    box-shadow: 0 6px 8px rgba(160, 174, 192, 0.4);
+    transform: translateY(-2px);
 }
 
-/* Success Button */
-.btn-success {
-    background-color: #48bb78; /* Green-500 */
-    color: #fff;
-    border-color: #48bb78;
-}
-
-.btn-success:hover {
-    background-color: #38a169; /* Green-600 */
-    border-color: #38a169;
-}
-
-/* Danger Button */
-.btn-danger {
-    background-color: #f56565; /* Red-500 */
-    color: #fff;
-    border-color: #f56565;
-}
-
-.btn-danger:hover {
-    background-color: #e53e3e; /* Red-600 */
-    border-color: #e53e3e;
-}
-
-/* Info Button */
 .btn-info {
-    background-color: #38b2ac; /* Teal-500 */
+    background-color: #38b2ac; /* Tailwind teal-500 */
     color: #fff;
-    border-color: #38b2ac;
+    box-shadow: 0 4px 6px rgba(56, 178, 172, 0.3);
 }
-
 .btn-info:hover {
-    background-color: #319795; /* Teal-600 */
-    border-color: #319795;
+    background-color: #319795; /* Darker teal */
+    box-shadow: 0 6px 8px rgba(56, 178, 172, 0.4);
+    transform: translateY(-2px);
 }
 
-/* Warning Button */
-.btn-warning {
-    background-color: #ecc94b; /* Yellow-400 */
+.btn-success {
+    background-color: #48bb78; /* Tailwind green-500 */
     color: #fff;
-    border-color: #ecc94b;
+    box-shadow: 0 4px 6px rgba(72, 187, 120, 0.3);
+}
+.btn-success:hover {
+    background-color: #38a169; /* Darker green */
+    box-shadow: 0 6px 8px rgba(72, 187, 120, 0.4);
+    transform: translateY(-2px);
 }
 
-.btn-warning:hover {
-    background-color: #d69e2e; /* Yellow-500 */
-    border-color: #d69e2e;
+.btn-danger {
+    background-color: #f56565; /* Tailwind red-500 */
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(245, 101, 101, 0.3);
+}
+.btn-danger:hover {
+    background-color: #e53e3e; /* Darker red */
+    box-shadow: 0 6px 8px rgba(245, 101, 101, 0.4);
+    transform: translateY(-2px);
 }
 
-/* Outline Button */
 .btn-outline-primary {
     background-color: transparent;
-    color: #4299e1; /* Blue-500 text */
-    border-color: #4299e1;
+    border: 2px solid #3490dc; /* Tailwind blue-600 */
+    color: #3490dc;
 }
-
 .btn-outline-primary:hover {
-    background-color: #ebf8ff; /* Light blue background */
-    color: #2b6cb0; /* Blue-600 text */
-    border-color: #2b6cb0;
+    background-color: #e0f2f7; /* Light blue background on hover */
+    color: #2779bd;
+    transform: translateY(-2px);
 }
 
-/* Form Inputs */
+/* Form Elements */
 .form-input, .form-textarea {
     border: 1px solid #cbd5e1; /* Light gray border */
-    border-radius: 0.5rem; /* Slightly rounded */
+    border-radius: 6px;
     padding: 0.75rem 1rem;
     font-size: 1rem;
-    color: #2d3748;
+    color: #4a5568;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 .form-input:focus, .form-textarea:focus {
-    border-color: #4299e1; /* Blue focus border */
-    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* Blue focus ring */
     outline: none;
+    border-color: #63b3ed; /* Blue on focus */
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* Blue glow */
+}
+.form-input::placeholder, .form-textarea::placeholder {
+    color: #a0aec0; /* Lighter gray placeholder */
 }
 
 /* Game Specific Styles */
+.game-area {
+    min-height: 400px; /* Ensure game area has some height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-/* Score and Timer Display */
+.question-box {
+    background-color: #f7fafc; /* Lightest gray */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 700px;
+    margin: 1.5rem auto;
+}
+
+.option-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words */
+}
+
+/* Specific style for conversation scenario buttons */
+.conversation-scenario-btn {
+    min-height: 120px; /* Ensures consistent height for all scenario buttons */
+    /* Flex properties are inherited from .btn, ensuring content is centered */
+}
+
+
 .score-timer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 700px;
     margin-bottom: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: #edf2f7; /* Light gray-blue */
+    background-color: #ebf8ff; /* Light blue background */
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
     font-weight: 600;
-    color: #2d3748;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+    color: #2b6cb0;
 }
 
-.score, .timer {
-    font-size: 1.25rem;
+.score-timer-container .score,
+.score-timer-container .timer {
+    font-size: 1.1rem;
 }
 
 .score-display {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2b6cb0; /* Blue-600 */
+    color: #38a169; /* Green for score */
 }
 
-/* Question Box */
-.question-box {
-    background-color: #f7fafc; /* Lighter white */
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-    margin-bottom: 2rem;
-}
-
-.khmer-meaning {
-    font-size: 0.95rem;
-    color: #6a7a8e; /* Muted gray */
-    margin-top: 0.5rem;
-    font-style: italic;
-}
-
-/* Audio Controls */
-.audio-controls {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 1.5rem;
-}
-
-/* Options Grid (for multiple choice) */
-.options-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
-    gap: 1rem;
-    margin-top: 1.5rem;
-}
-
-.option-btn {
-    width: 100%; /* Ensure buttons take full width in their grid cell */
-    padding: 1rem;
-    font-size: 1.1rem;
-    border-radius: 0.75rem;
-}
-
-/* Feedback Message */
+/* Feedback Messages */
 .feedback-message {
     padding: 1rem;
     border-radius: 8px;
-    font-weight: 600;
     margin-top: 1.5rem;
-    opacity: 0; /* Initially hidden */
-    transform: translateY(10px); /* Slightly move down */
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .feedback-message.show {
     opacity: 1;
     transform: translateY(0);
@@ -319,94 +277,84 @@ h3 {
 .success-message {
     background-color: #e6fffa; /* Light green */
     color: #2c7a7b; /* Dark teal */
-    border: 1px solid #38b2ac;
+    border: 1px solid #81e6d9;
 }
 
 .error-message {
     background-color: #fff5f5; /* Light red */
     color: #c53030; /* Dark red */
-    border: 1px solid #f56565;
+    border: 1px solid #feb2b2;
 }
 
 .info-message {
     background-color: #ebf8ff; /* Light blue */
-    color: #2b6cb0; /* Blue-600 */
-    border: 1px solid #4299e1;
+    color: #2b6cb0; /* Dark blue */
+    border: 1px solid #90cdf4;
 }
 
 /* Specific Game Mode Styles */
 
 /* Vocabulary Game */
-.vocab-game .question-box {
-    min-height: 150px; /* Ensure consistent height */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.vocab-game .khmer-meaning {
+    font-size: 1rem;
+    color: #718096; /* Gray */
+    margin-top: 0.5rem;
 }
-.vocab-game .question-box h3 {
-    text-align: center;
-}
-.vocab-game .question-box .khmer-meaning {
-    text-align: center;
-}
-
 
 /* Grammar Game */
-.grammar-game .question-box {
-    min-height: 200px;
-}
 .grammar-game .khmer-meaning {
-    font-size: 1rem; /* Slightly larger for grammar hints */
+    font-size: 0.95rem;
+    color: #718096;
+    line-height: 1.4;
 }
 
 /* Shadowing Game */
-.shadowing-game .question-box {
-    min-height: 250px;
-}
-.shadowing-game #phraseToShadow {
-    min-height: 50px; /* Ensure phrase area has some height */
+.shadowing-game .audio-controls {
     display: flex;
-    align-items: center;
     justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 /* Conversation Game */
 .conversation-game .conversation-line {
     text-align: left;
-    margin-bottom: 1rem;
-    padding: 0.8rem 1.2rem;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    background-color: #f7fafc; /* Light background for lines */
-    min-height: 80px; /* Ensure lines have some height */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-out; /* Fade in animation for each line */
 }
+
 .conversation-game .conversation-line.speaker-A {
     background-color: #e0f2f7; /* Light blue */
-    border-left: 5px solid #38b2ac; /* Teal border */
+    border-left: 6px solid #38b2ac; /* Teal border */
+    margin-right: auto; /* Align left */
+    max-width: 85%; /* Limit width */
 }
+
 .conversation-game .conversation-line.speaker-B {
-    background-color: #fefcbf; /* Light yellow */
-    border-right: 5px solid #ecc94b; /* Yellow border */
-    text-align: right; /* Align speaker B to the right */
-}
-.conversation-game .conversation-line.speaker-B .speaker-label {
-    text-align: right;
-    width: 100%;
-}
-.conversation-game .conversation-line.speaker-A .speaker-label {
-    text-align: left;
-    width: 100%;
+    background-color: #f0f4f8; /* Lighter gray-blue */
+    border-right: 6px solid #3490dc; /* Blue border */
+    margin-left: auto; /* Align right */
+    max-width: 85%; /* Limit width */
 }
 
 .conversation-game .speaker-label {
     font-weight: 700;
     color: #2d3748;
     margin-bottom: 0.5rem;
-    display: block; /* Ensure label takes full width */
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.conversation-game .conversation-line.speaker-B .speaker-label {
+    text-align: right;
+}
+.conversation-game .conversation-line.speaker-A .speaker-label {
+    text-align: left;
 }
 
 /* Listen & Type Game */
@@ -414,8 +362,84 @@ h3 {
     min-height: 200px;
 }
 
+/* Match the Words Game (if implemented) */
+.match-the-words-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for stems and options */
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
 
-/* Responsive Adjustments */
+.stem-column, .options-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f7fafc;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.stem-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ebf8ff;
+    border: 1px solid #bee3f8;
+    padding: 0.8rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #2b6cb0;
+}
+
+.dropzone {
+    width: 150px; /* Fixed width for dropzone */
+    height: 40px;
+    border: 2px dashed #a0aec0;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a0aec0;
+    font-size: 0.9rem;
+    background-color: #fdfdfe;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dropzone.drag-over {
+    background-color: #e2e8f0;
+    border-color: #4299e1;
+}
+
+.draggable-option {
+    background-color: #90cdf4; /* Light blue for draggable options */
+    color: #2b6cb0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 6px;
+    cursor: grab;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.draggable-option:active {
+    cursor: grabbing;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Feedback for dropped items */
+.draggable-option.correct {
+    background-color: #48bb78; /* Green */
+    color: #fff;
+}
+.draggable-option.incorrect {
+    background-color: #f56565; /* Red */
+    color: #fff;
+}
+
+/* Responsive adjustments */
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
@@ -437,35 +461,33 @@ h3 {
     .score-timer-container {
         flex-direction: column;
         gap: 0.5rem;
+        padding: 0.5rem 1rem;
     }
-    .score, .timer {
-        font-size: 1rem;
+    .match-the-words-grid {
+        grid-template-columns: 1fr; /* Stack columns on small screens */
     }
-    .audio-controls {
-        flex-direction: column;
-        gap: 0.75rem;
+    .stem-item {
+        flex-direction: column; /* Stack stem and dropzone vertically */
+        align-items: flex-start;
+        gap: 0.5rem;
     }
-    .audio-controls .btn {
-        width: 100%;
+    .dropzone {
+        width: 100%; /* Full width dropzone */
+        margin-left: 0;
+    }
+    .conversation-game .conversation-line {
+        max-width: 95%; /* Adjust width for smaller screens */
     }
 }
 
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.75rem;
+/* Keyframe Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
     }
-    h2 {
-        font-size: 1.5rem;
-    }
-    .container {
-        padding: 1rem;
-    }
-    .btn {
-        padding: 0.5rem 1rem;
-        font-size: 0.85rem;
-    }
-    .option-btn {
-        font-size: 1rem;
-        padding: 0.8rem;
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
