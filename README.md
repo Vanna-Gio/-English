@@ -316,7 +316,7 @@ When you’re ready, I can move on to:
 
 
 
-
+https://g.co/gemini/share/011e4c4d86cc
 
 
 
