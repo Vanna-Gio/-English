@@ -38,8 +38,6 @@
         currentRule: null, // Specific rule for grammar mode
         currentLevel: null, // Specific level for grammar/other modes
         currentListenAndTypeCategory: null, // Category for Listen & Type mode
-        currentShadowingCategory: null, // Category for Shadowing mode
-        currentConversationScenario: null, // Scenario for Conversation mode
         timerInterval: null, // Interval ID for the game timer
         timeLeft: 0, // Remaining time in seconds for timed challenges
         synth: window.speechSynthesis, // Web Speech API SpeechSynthesis object
@@ -50,6 +48,7 @@
         audioContext: null, // AudioContext for playback
         audioSource: null // AudioBufferSourceNode for playback
     };
+
 
     // --- Game Data ---
     // All game content (vocabulary, grammar rules, conversations, Q&A sets).
@@ -3459,7 +3458,7 @@
         }
     };
 
-    // --- Utility Functions ---
+  // --- Utility Functions ---
 
     /**
      * Shuffles an array in place using the Fisher-Yates (Knuth) algorithm.
@@ -3551,7 +3550,8 @@
             if (gameState.mode === 'shadowing') {
                 checkShadowingAnswer(transcript);
             } else if (gameState.mode === 'listen-type') {
-                checkListenAndTypeAnswer(transcript);
+                // For listen-type, automatically submit the recognized text
+                handleListenAndTypeAnswer(null, transcript); // Pass transcript directly
             }
         };
 
@@ -3789,12 +3789,23 @@
             message += `<p class="info-message">Great job practicing your conversational English!</p>`;
         }
 
+        let backToCategoryButtonHtml = '';
+        if (gameState.mode === 'grammar') {
+            backToCategoryButtonHtml = '<button id="backToGrammarRulesBtn" class="btn btn-secondary mt-6 mr-4">Back to Grammar Rules</button>';
+        } else if (gameState.mode === 'conversation') {
+            backToCategoryButtonHtml = '<button id="backToConversationScenariosBtn" class="btn btn-secondary mt-6 mr-4">Back to Conversation Scenarios</button>';
+        } else if (gameState.mode === 'listen-type') {
+            backToCategoryButtonHtml = '<button id="backToListenTypeCategoriesBtn" class="btn btn-secondary mt-6 mr-4">Back to Listen & Type Categories</button>';
+        }
+
+
         elements.gameArea.innerHTML = `
             <div class="container text-center py-8">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">Game Over!</h2>
                 <div class="bg-white p-6 rounded-lg shadow-md max-w-md mx-auto">
                     ${message}
                     <button id="playAgainBtn" class="btn btn-primary mt-6 mr-4">Play Again</button>
+                    ${backToCategoryButtonHtml}
                     <button id="homeBtnEndScreen" class="btn btn-secondary mt-6">Back to Home</button>
                 </div>
             </div>
@@ -3805,13 +3816,13 @@
             if (gameState.mode === 'vocab') {
                 initVocabGame();
             } else if (gameState.mode === 'grammar') {
-                initGrammarGame();
+                initGrammarRuleGame(gameState.currentRule); // Play again for the *same* rule
             } else if (gameState.mode === 'shadowing') {
-                initShadowingGame();
+                initShadowingCategoryGame(gameState.currentShadowingCategory); // Re-init specific category
             } else if (gameState.mode === 'conversation') {
-                initConversationGame();
+                initConversationScenarioGame(gameState.currentConversationScenario); // Re-init specific scenario
             } else if (gameState.mode === 'listen-type') {
-                initListenAndTypeGame();
+                initListenAndTypeCategoryGame(gameState.currentListenAndTypeCategory); // Re-init specific category
             } else if (gameState.mode === 'allListenAndType') {
                 initAllListenAndTypeSetsSelection(); // Go back to category selection for all listen & type
             } else if (gameState.mode.startsWith('qna-')) {
@@ -3819,6 +3830,15 @@
             }
         });
         document.getElementById('homeBtnEndScreen').addEventListener('click', goHome);
+
+        // Add event listeners for the new back buttons
+        if (gameState.mode === 'grammar') {
+            document.getElementById('backToGrammarRulesBtn').addEventListener('click', initGrammarGame);
+        } else if (gameState.mode === 'conversation') {
+            document.getElementById('backToConversationScenariosBtn').addEventListener('click', initConversationGame);
+        } else if (gameState.mode === 'listen-type') {
+            document.getElementById('backToListenTypeCategoriesBtn').addEventListener('click', initListenAndTypeGame);
+        }
     }
 
     // --- Vocabulary Game Functions ---
@@ -3837,28 +3857,32 @@
      * Displays the current vocabulary question.
      */
     function displayVocabQuestion() {
+        stopTimer(); // Ensure timer is reset for each question
         if (gameState.currentIndex >= gameState.currentPool.length) {
             displayGameEndScreen();
             return;
         }
 
         const currentWord = gameState.currentPool[gameState.currentIndex];
-        const shuffledOptions = shuffleArray([...currentWord.options]); // Shuffle options for each question
+        // Shuffle options to ensure random order each time
+        const shuffledOptions = shuffleArray(currentWord.options);
 
         elements.gameArea.innerHTML = `
             <div class="container vocab-game">
                 <div class="score-timer-container">
                     <div class="score">Score: <span id="score" class="text-blue-600">${gameState.score}</span></div>
+                    <div class="timer">Time Left: <span id="timeLeft">30s</span></div>
                 </div>
                 <div class="question-box text-left">
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">What is the meaning of: <span class="text-blue-700">${currentWord.word}</span>?</h3>
                     <p class="khmer-meaning">(${currentWord.khmer})</p>
                     <div class="audio-controls mt-3">
-                        <button class="btn btn-info btn-lg" id="playVocabAudioBtn"><i class="fas fa-volume-up mr-2"></i> Listen</button>
+                        <button class="btn btn-info btn-lg" id="playVocabPronounceBtn"><i class="fas fa-volume-up mr-2"></i>Pronounce (EN)</button>
+                        ${currentWord.audio ? `<button class="btn btn-info btn-lg" id="playVocabAudioBtn"><i class="fas fa-headphones mr-2"></i>Listen Audio</button>` : ''}
                     </div>
                 </div>
                 <div class="options-grid mt-4">
-                    ${shuffledOptions.map(option => `
+                    ${shuffledOptions.map((option) => `
                         <button class="option-btn btn btn-outline-primary" data-option="${option}">${option}</button>
                     `).join('')}
                 </div>
@@ -3866,17 +3890,45 @@
             </div>
         `;
 
-        document.getElementById('playVocabAudioBtn').addEventListener('click', () => playAudio(currentWord.audio));
+        document.getElementById('playVocabPronounceBtn').addEventListener('click', () => speakText(currentWord.word));
+        if (currentWord.audio) {
+            document.getElementById('playVocabAudioBtn').addEventListener('click', () => playAudio(currentWord.audio));
+        }
         elements.gameArea.querySelectorAll('.option-btn').forEach(button => {
             button.addEventListener('click', handleVocabAnswer);
+        });
+
+        // Autoplay audio for vocabulary
+        playAudio(currentWord.audio);
+
+        startTimer(30, (timeLeft) => { // 30 seconds per vocabulary question
+            document.getElementById('timeLeft').textContent = `${timeLeft}s`;
+        }, () => {
+            const feedbackElement = document.getElementById('feedback');
+            feedbackElement.innerHTML = `<p class="error-message">Time's up! The correct answer was: <strong>${currentWord.Answer}</strong></p>`; // Corrected to .Answer
+            // Disable all options
+            elements.gameArea.querySelectorAll('.option-btn').forEach(btn => btn.disabled = true); // Corrected class
+            // Highlight the correct answer
+            elements.gameArea.querySelectorAll('.option-btn').forEach(btn => { // Corrected class
+                if (btn.dataset.option === currentWord.Answer) { // Corrected to .Answer
+                    btn.classList.add('btn-success');
+                }
+            });
+            feedbackElement.classList.add('show'); // Show feedback message
+            setTimeout(() => {
+                feedbackElement.classList.remove('show');
+                gameState.currentIndex++;
+                displayVocabQuestion();
+            }, 2000);
         });
     }
 
     /**
-     * Handles the user's Answer for the Vocabulary game.
+     * Handles the user's answer for the Vocabulary game.
      * @param {Event} event The click event from the option button.
      */
     function handleVocabAnswer(event) {
+        stopTimer(); // Stop the timer as soon as an answer is submitted
         const selectedOption = event.target.dataset.option;
         const currentWord = gameState.currentPool[gameState.currentIndex];
         const feedbackElement = document.getElementById('feedback');
@@ -3890,8 +3942,8 @@
             feedbackElement.innerHTML = `<p class="success-message">Correct! 🎉</p>`;
         } else {
             event.target.classList.add('btn-danger');
-            feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct Answer was: <strong>${currentWord.Answer}</strong>.</p>`;
-            // Highlight the correct Answer
+            feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct answer was: <strong>${currentWord.Answer}</strong>.</p>`;
+            // Highlight the correct answer
             elements.gameArea.querySelectorAll('.option-btn').forEach(btn => {
                 if (btn.textContent === currentWord.Answer) {
                     btn.classList.add('btn-success');
@@ -3954,7 +4006,7 @@
         }
 
         const currentSentence = gameState.currentPool[gameState.currentIndex];
-        // For grammar, the user types the Answer. The question is the sentence itself.
+        // For grammar, the user types the answer. The question is the sentence itself.
         // The `khmer` field often contains the structure and hint.
         elements.gameArea.innerHTML = `
             <div class="container grammar-game">
@@ -3965,7 +4017,10 @@
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">Complete the sentence:</h3>
                     <p class="text-xl font-bold text-blue-700 mb-3">${currentSentence.sentence}</p>
                     <p class="khmer-meaning text-gray-600 italic mb-4">${currentSentence.khmer}</p>
-                    <input type="text" id="grammarInput" class="form-input w-full p-3 border rounded-md" placeholder="Type your Answer here...">
+                    <div class="audio-controls mt-3">
+                        <button class="btn btn-info btn-lg" id="playGrammarAudioBtn"><i class="fas fa-volume-up mr-2"></i> Listen</button>
+                    </div>
+                    <input type="text" id="grammarInput" class="form-input w-full p-3 border rounded-md" placeholder="Type your answer here...">
                     <button id="submitGrammarBtn" class="btn btn-primary mt-4">Submit Answer</button>
                 </div>
                 <div id="feedback" class="feedback-message mt-4"></div>
@@ -3979,10 +4034,15 @@
             }
         });
         document.getElementById('grammarInput').focus(); // Focus on input for quick typing
+        // Autoplay text for grammar sentences
+        speakText(currentSentence.sentence, 'en-US');
+
+        // Add event listener for the new audio button
+        document.getElementById('playGrammarAudioBtn').addEventListener('click', () => speakText(currentSentence.sentence, 'en-US'));
     }
 
     /**
-     * Handles the user's Answer for the Grammar game.
+     * Handles the user's answer for the Grammar game.
      */
     function handleGrammarAnswer() {
         const userInput = document.getElementById('grammarInput').value.trim();
@@ -4000,7 +4060,7 @@
             gameState.score++;
             feedbackElement.innerHTML = `<p class="success-message">Correct! 🎉</p>`;
         } else {
-            feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct Answer was: <strong>${currentSentence.Answer}</strong>.</p>`;
+            feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct answer was: <strong>${currentSentence.Answer}</strong>.</p>`;
         }
         document.getElementById('score').textContent = gameState.score;
         feedbackElement.classList.add('show');
@@ -4041,6 +4101,7 @@
      * @param {string} category The selected shadowing category.
      */
     function initShadowingCategoryGame(category) {
+        gameState.currentShadowingCategory = category; // Store selected category
         gameState.currentPool = [...gameData.shadowing[category]]; // No need to shuffle if sequential practice
         gameState.currentIndex = 0;
         displayShadowingPhrase();
@@ -4084,10 +4145,13 @@
         if (!gameState.recognition) {
             gameState.recognition = initSpeechRecognition();
         }
+
+        // Autoplay audio for shadowing
+        playAudio(currentPhrase.audio);
     }
 
     /**
-     * Checks the recorded/transcribed Answer for shadowing.
+     * Checks the recorded/transcribed answer for shadowing.
      * @param {string} transcript The transcribed text from speech recognition.
      */
     function checkShadowingAnswer(transcript) {
@@ -4137,6 +4201,7 @@
      * @param {string} scenario The selected conversation scenario.
      */
     function initConversationScenarioGame(scenario) {
+        gameState.currentConversationScenario = scenario; // Store selected scenario
         gameState.currentPool = [...gameData.conversation[scenario]];
         gameState.currentIndex = 0;
         displayConversationLine();
@@ -4185,6 +4250,13 @@
             gameState.currentIndex++;
             displayConversationLine();
         });
+
+        // Autoplay audio for conversation
+        if (audioPath) {
+            playAudio(audioPath);
+        } else {
+            speakText(utteranceText, 'en-US');
+        }
     }
 
     // --- Listen & Type Game Functions ---
@@ -4241,7 +4313,7 @@
             <div class="container listen-type-game">
                 <div class="score-timer-container">
                     <div class="score">Score: <span id="score" class="text-blue-600">${gameState.score}</span></div>
-                    <div class="timer">Time Left: <span id="timeLeft" class="text-blue-600">${timerDuration}s</span></div>
+                    <div class="timer">Time Left: <span id="timeLeft">${timerDuration}s</span></div>
                 </div>
                 <div class="question-box text-left">
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">Listen carefully and type what you hear:</h3>
@@ -4257,9 +4329,15 @@
             </div>
         `;
 
-        document.getElementById('listenBtn').addEventListener('click', () => playAudio(currentItem.audio));
+        document.getElementById('listenBtn').addEventListener('click', () => {
+            if (currentItem.audio) {
+                playAudio(currentItem.audio);
+            } else {
+                speakText(currentItem.text, 'en-US');
+            }
+        });
         document.getElementById('recordBtn').addEventListener('click', toggleSpeechRecognition);
-        document.getElementById('submitListenAndTypeBtn').addEventListener('click', handleListenAndTypeAnswer);
+        document.getElementById('submitListenAndTypeBtn').addEventListener('click', () => handleListenAndTypeAnswer()); // No event object needed here
         document.getElementById('listenTypeInput').addEventListener('keypress', (e) => {
             if (e.key === 'Enter') {
                 handleListenAndTypeAnswer();
@@ -4271,6 +4349,13 @@
             gameState.recognition = initSpeechRecognition();
         }
 
+        // Autoplay audio for Listen & Type
+        if (currentItem.audio) {
+            playAudio(currentItem.audio);
+        } else {
+            speakText(currentItem.text, 'en-US');
+        }
+
         // Start the timer for this question
         startTimer(timerDuration,
             (timeLeft) => {
@@ -4279,7 +4364,7 @@
             () => {
                 // Timer ran out
                 const feedbackElement = document.getElementById('feedback');
-                feedbackElement.innerHTML = `<p class="error-message">Time's up! The correct Answer was: <strong>${currentItem.Answer}</strong>.</p>`;
+                feedbackElement.innerHTML = `<p class="error-message">Time's up! The correct answer was: <strong>${currentItem.text}</strong>.</p>`;
                 feedbackElement.classList.add('show');
                 document.getElementById('listenTypeInput').disabled = true;
                 document.getElementById('submitListenAndTypeBtn').disabled = true;
@@ -4295,13 +4380,14 @@
     }
 
     /**
-     * Handles the user's Answer for the Listen & Type game.
+     * Handles the user's answer for the Listen & Type game.
      * @param {Event} [event] The click event (optional, for Enter key).
+     * @param {string} [transcript] Optional: The transcript from speech recognition.
      */
-    function handleListenAndTypeAnswer(event) {
-        stopTimer(); // Stop the timer as soon as an Answer is submitted
+    function handleListenAndTypeAnswer(event, transcript = null) {
+        stopTimer(); // Stop the timer as soon as an answer is submitted
 
-        const userInput = document.getElementById('listenTypeInput').value.trim();
+        const userInput = transcript || document.getElementById('listenTypeInput').value.trim();
         const currentItem = gameState.currentPool[gameState.currentIndex];
         const feedbackElement = document.getElementById('feedback');
         const submitButton = document.getElementById('submitListenAndTypeBtn');
@@ -4315,13 +4401,13 @@
         const normalizeString = (str) => str.toLowerCase().replace(/[.,!?'"‘’“”]/g, '').replace(/\s+/g, ' ').trim();
 
         const normalizedUserInput = normalizeString(userInput);
-        const normalizedCorrectAnswer = normalizeString(currentItem.Answer);
+        const normalizedCorrectAnswer = normalizeString(currentItem.text); // Corrected: Use currentItem.text
 
         if (normalizedUserInput === normalizedCorrectAnswer) {
             gameState.score++;
             feedbackElement.innerHTML = `<p class="success-message">Correct! 🎉</p>`;
         } else {
-            feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct Answer was: <strong>"${currentItem.Answer}"</strong>.</p>`;
+            feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct answer was: <strong>"${currentItem.text}"</strong>.</p>`; // Corrected: Use currentItem.text
         }
         document.getElementById('score').textContent = gameState.score;
         feedbackElement.classList.add('show');
@@ -4417,10 +4503,13 @@
         elements.gameArea.querySelectorAll('.option-btn').forEach(button => {
             button.addEventListener('click', handleQnAGameAnswer);
         });
+
+        // Autoplay text for Q&A questions
+        speakText(currentQuestion.question, 'en-US');
     }
 
     /**
-     * Handles the user's Answer for the Q&A game.
+     * Handles the user's answer for the Q&A game.
      * @param {Event} event The click event from the option button.
      */
     function handleQnAGameAnswer(event) {
@@ -4431,16 +4520,16 @@
         // Disable all buttons to prevent multiple clicks
         elements.gameArea.querySelectorAll('.option-btn').forEach(btn => btn.disabled = true);
 
-        if (selectedOption === currentQuestion.Answer) { // Changed from currentQuestion.answer
+        if (selectedOption === currentQuestion.answer) { // Note: Q&A uses 'answer' key
             gameState.score++;
             event.target.classList.add('btn-success');
             feedbackElement.innerHTML = `<p class="success-message">Correct! 🎉 ${currentQuestion.explanation}</p>`;
         } else {
             event.target.classList.add('btn-danger');
-            feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct Answer was: <strong>${currentQuestion.Answer}</strong>. ${currentQuestion.explanation}</p>`; // Changed from currentQuestion.answer
-            // Highlight correct Answer
+            feedbackElement.innerHTML = `<p class="error-message">Incorrect. The correct answer was: <strong>${currentQuestion.answer}</strong>. ${currentQuestion.explanation}</p>`;
+            // Highlight correct answer
             elements.gameArea.querySelectorAll('.option-btn').forEach(btn => {
-                if (btn.textContent === currentQuestion.Answer) { // Changed from currentQuestion.answer
+                if (btn.textContent === currentQuestion.answer) {
                     btn.classList.add('btn-success');
                 }
             });
@@ -4484,3 +4573,4 @@
     });
 
 })(); // End of IIFE
+
