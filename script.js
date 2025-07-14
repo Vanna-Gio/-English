@@ -3409,27 +3409,27 @@
                         { speaker: "Person B", text: "Sure! I’d like that.", khmer: "ប្រាកដហើយ! ខ្ញុំចង់បានដូចនោះ។" }
                     ],
         },
-        listenAndType: {
+         listenAndType: {
             "Basic Phrases": [
-                { text: "Hello, how are you?", khmer: "សួស្ដី សុខសប្បាយជាទេ?", audio: "audio/listen_type/hello_how_are_you.mp3" },
-                { text: "Thank you very much.", khmer: "អរគុណច្រើន។", audio: "audio/listen_type/thank_you_very_much.mp3" },
-                { text: "Please come in.", khmer: "សូមអញ្ជើញចូល។", audio: "audio/listen_type/please_come_in.mp3" },
-                { text: "I don't understand.", khmer: "ខ្ញុំមិនយល់ទេ។", audio: "audio/listen_type/i_dont_understand.mp3" },
-                { text: "Can you help me?", khmer: "អ្នកអាចជួយខ្ញុំបានទេ?", audio: "audio/listen_type/can_you_help_me.mp3" }
+                { text: "Hello, how are you?", khmer: "សួស្ដី សុខសប្បាយជាទេ?" },
+                { text: "Thank you very much.", khmer: "អរគុណច្រើន។" },
+                { text: "Please come in.", khmer: "សូមអញ្ជើញចូល។"},
+                { text: "I don't understand.", khmer: "ខ្ញុំមិនយល់ទេ។"},
+                { text: "Can you help me?", khmer: "អ្នកអាចជួយខ្ញុំបានទេ?" }
             ],
             "Common Questions": [
-                { text: "What is your name?", khmer: "តើអ្នកឈ្មោះអ្វី?", audio: "audio/listen_type/what_is_your_name.mp3" },
-                { text: "Where are you from?", khmer: "តើអ្នកមកពីណា?", audio: "audio/listen_type/where_are_you_from.mp3" },
-                { text: "How old are you?", khmer: "តើអ្នកអាយុប៉ុន្មានហើយ?", audio: "audio/listen_type/how_old_are_you.mp3" },
-                { text: "What do you do?", khmer: "តើអ្នកធ្វើការអ្វី?", audio: "audio/listen_type/what_do_you_do.mp3" },
-                { text: "How much is this?", khmer: "តម្លៃប៉ុន្មាន?", audio: "audio/listen_type/how_much_is_this.mp3" }
+                { text: "What is your name?", khmer: "តើអ្នកឈ្មោះអ្វី?" },
+                { text: "Where are you from?", khmer: "តើអ្នកមកពីណា?" },
+                { text: "How old are you?", khmer: "តើអ្នកអាយុប៉ុន្មានហើយ?" },
+                { text: "What do you do?", khmer: "តើអ្នកធ្វើការអ្វី?" },
+                { text: "How much is this?", khmer: "តម្លៃប៉ុន្មាន?" }
             ],
             "Daily Expressions": [
-                { text: "Good morning.", khmer: "អរុណសួស្តី។", audio: "audio/listen_type/good_morning.mp3" },
-                { text: "Good night.", khmer: "រាត្រីសួស្តី។", audio: "audio/listen_type/good_night.mp3" },
-                { text: "See you later.", khmer: "ជួបគ្នាពេលក្រោយ។", audio: "audio/listen_type/see_you_later.mp3" },
-                { text: "Have a good day.", khmer: "សូមឱ្យមានថ្ងៃល្អ។", audio: "audio/listen_type/have_a_good_day.mp3" },
-                { text: "No problem.", khmer: "គ្មានបញ្ហាទេ។", audio: "audio/listen_type/no_problem.mp3" },
+                { text: "Good morning.", khmer: "អរុណសួស្តី។"  },
+                { text: "Good night.", khmer: "រាត្រីសួស្តី។"  },
+                { text: "See you later.", khmer: "ជួបគ្នាពេលក្រោយ។"  },
+                { text: "Have a good day.", khmer: "សូមឱ្យមានថ្ងៃល្អ។" },
+                { text: "No problem.", khmer: "គ្មានបញ្ហាទេ។" },
                 { text: "I’ll grant permission.", khmer: "— usually referring to systems, files, or actions that require authorization.<br>ខ្ញុំនឹងអនុញ្ញាតឲ្យអ្នក (ប្រើឯកសារ/ចូលប្រើប្រព័ន្ធ)។ <br> ខ្ញុំនឹងផ្តល់ការអនុញ្ញាត។"},
                 { text: "I will allow you to do something", khmer: "I’ll grant permission." },
                 { text: "I will give you access or approval.", khmer: "I’ll grant permission." },
@@ -3438,24 +3438,22 @@
                 { text: "Should you have any questions, feel free to contact me."},
                 { text: " If you want to cancel the meeting, let me know."},
                 {text: "If you face any issues, contact support. "},
-            ]
-        },
-        qna: {
-            "qna-basic": [
-                { question: "What is the capital of France?", options: ["Berlin", "Madrid", "Paris", "Rome"], answer: "Paris", explanation: "Paris is the capital and most populous city of France." },
-                { question: "Which planet is known as the Red Planet?", options: ["Earth", "Mars", "Jupiter", "Venus"], answer: "Mars", explanation: "Mars is often referred to as the Red Planet due to its reddish appearance, which is caused by iron oxide (rust) on its surface." },
-                { question: "What is the largest ocean on Earth?", options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"], answer: "Pacific Ocean", explanation: "The Pacific Ocean is the largest and deepest of Earth's five oceans." },
-                { question: "Who painted the Mona Lisa?", options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"], answer: "Leonardo da Vinci", explanation: "The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci." },
-                { question: "What is the chemical symbol for water?", options: ["O2", "H2O", "CO2", "N2"], answer: "H2O", explanation: "H2O is the chemical formula for water, meaning each molecule of water contains two hydrogen atoms and one oxygen atom." }
             ],
-            "qna-advanced": [
-                { question: "Which theory did Albert Einstein develop?", options: ["Theory of Evolution", "Theory of Relativity", "Quantum Theory", "Big Bang Theory"], answer: "Theory of Relativity", explanation: "Albert Einstein developed the theory of relativity, which includes special relativity and general relativity." },
-                { question: "What is the smallest prime number?", options: ["0", "1", "2", "3"], answer: "2", explanation: "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. The smallest prime number is 2." },
-                { question: "What is the process by which plants make their own food?", options: ["Respiration", "Transpiration", "Photosynthesis", "Germination"], answer: "Photosynthesis", explanation: "Photosynthesis is the process used by plants, algae, and cyanobacteria to convert light energy into chemical energy." },
-                { question: "Who wrote 'To Kill a Mockingbird'?", options: ["Harper Lee", "Mark Twain", "F. Scott Fitzgerald", "Ernest Hemingway"], answer: "Harper Lee", explanation: "To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was instantly successful and won the Pulitzer Prize." },
-                { question: "What is the capital of Canada?", options: ["Toronto", "Vancouver", "Ottawa", "Montreal"], answer: "Ottawa", explanation: "Ottawa is the capital city of Canada. It is located on the south bank of the Ottawa River in the eastern part of Southern Ontario." }
-            ]
-        }
+            "Make your Sentences": [
+                { text: "It's too hot to go outside.", khmer: "Structure: Subject + be + too + adjective/adverb + to + base verb. <br>"},
+                { text: "She doesn't like spicy food.", khmer: "Structure: Subject + do/does + not + base verb. <br>"},,
+                { text: "She doesn't like to play football.", khmer: "like + V-ing or to + verb <br>"},
+                { text: "I have seen that movie before.", khmer: "Have seen is present perfect --used when you don't mention when."},
+                { text: "I saw that movie yesterday.", khmer: "when you use a specific time (yesterday), you should use the past simple. <br>"},
+                { text: "I can't make the sentence because I freeze when I think about it.", khmer: ""},
+                { text:"I freeze when I try to make a sentence.", khmer: ""},
+
+            ],
+            
+            
+        
+        },
+        
     };
 
   // --- Utility Functions ---
