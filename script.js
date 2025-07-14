@@ -3430,7 +3430,15 @@
                 { text: "Good night.", khmer: "រាត្រីសួស្តី។", audio: "audio/listen_type/good_night.mp3" },
                 { text: "See you later.", khmer: "ជួបគ្នាពេលក្រោយ។", audio: "audio/listen_type/see_you_later.mp3" },
                 { text: "Have a good day.", khmer: "សូមឱ្យមានថ្ងៃល្អ។", audio: "audio/listen_type/have_a_good_day.mp3" },
-                { text: "No problem.", khmer: "គ្មានបញ្ហាទេ។", audio: "audio/listen_type/no_problem.mp3" }
+                { text: "No problem.", khmer: "គ្មានបញ្ហាទេ។", audio: "audio/listen_type/no_problem.mp3" },
+                { text: "I’ll grant permission.", khmer: "— usually referring to systems, files, or actions that require authorization.<br>ខ្ញុំនឹងអនុញ្ញាតឲ្យអ្នក (ប្រើឯកសារ/ចូលប្រើប្រព័ន្ធ)។ <br> ខ្ញុំនឹងផ្តល់ការអនុញ្ញាត។"},
+                { text: "I will allow you to do something", khmer: "I’ll grant permission." },
+                { text: "I will give you access or approval.", khmer: "I’ll grant permission." },
+                { text: "I’m still getting used to the system.", khmer: "This means the speaker is still learning or adjusting to how the system works — it’s not fully comfortable or familiar yet, but they’re in the process of adapting.<br>getting used to = becoming familiar with<br>the system = likely referring to software, procedures, or workflow in the workplace<br>still = continuing; not finished<br>🔹 Khmer Translation:<br>Literal: ខ្ញុំកំពុងទទួលស្គាល់ប្រព័ន្ធ។<br>Natural: ខ្ញុំនៅតែស្ថិតក្នុងដំណើរការរៀនស្គាល់ប្រព័ន្ធ។<br>More casual: ខ្ញុំទើបចាប់ផ្តើមស្គាល់ប្រព័ន្ធនេះ។", audio: "audio/listen_type/have_a_good_day.mp3" },
+                { text: "If you have questions, email me.", khmer: "Should you have any questions, feel free to contact me." },
+                { text: "Should you have any questions, feel free to contact me."},
+                { text: " If you want to cancel the meeting, let me know."},
+                {text: "If you face any issues, contact support. "},
             ]
         },
         qna: {
