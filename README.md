@@ -1,6 +1,20 @@
 Of course! Let’s keep it clear and simple.
 
 https://chatgpt.com/s/t_687ed2f8be2081919b3aaadf3bfb37f8
+Uncaught runtime errors:
+×
+ERROR
+Network Error
+AxiosError: Network Error
+    at XMLHttpRequest.handleError (http://localhost:3000/static/js/bundle.js:873:14)
+    at Axios.request (http://localhost:3000/static/js/bundle.js:1323:41)
+    at async loadProducts (http://localhost:3000/static/js/bundle.js:36231:17)
+ERROR
+Network Error
+AxiosError: Network Error
+    at XMLHttpRequest.handleError (http://localhost:3000/static/js/bundle.js:873:14)
+    at Axios.request (http://localhost:3000/static/js/bundle.js:1323:41)
+    at async loadProducts (http://localhost:3000/static/js/bundle.js:36231:17)
 
 📊 Summary applications of a portfolio analysis for an example B2B company
 
