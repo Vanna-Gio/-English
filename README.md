@@ -1,7 +1,6 @@
 Of course! Let’s keep it clear and simple.
 
-https://docs.google.com/document/d/1ccwDzUg7TVslT9sR4XoOpXG7HEo-r6-CnJ4zQFYc6cU/edit?tab=t.0
----
+https://chatgpt.com/s/t_687ed2f8be2081919b3aaadf3bfb37f8
 
 📊 Summary applications of a portfolio analysis for an example B2B company
 
