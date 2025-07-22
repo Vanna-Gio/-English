@@ -2,6 +2,43 @@ Of course! Let’s keep it clear and simple.
 http://localhost:8080
 https://chatgpt.com/s/t_687ed2f8be2081919b3aaadf3bfb37f8
 Uncaught runtime errors:
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import SupplierList from './components/Supplier/SupplierList';
+import AddSupplier from './components/Supplier/AddSupplier';
+import EditSupplier from './components/Supplier/EditSupplier';
+import ProductList from './components/Product/ProductList';
+import AddProduct from './components/Product/AddProduct';
+import EditProduct from './components/Product/EditProduct';
+import AddPurchase from './components/Purchase/AddPurchase';
+import PurchaseOrders from './components/Supplier/PurchaseOrders';
+import PurchaseOrderDetails from './components/Supplier/PurchaseOrderDetails';
+import Navbar from './components/Navbar';  // <-- import Navbar
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+function App() {
+  return (
+    <Router>
+      <Navbar /> {/* <-- include Navbar here */}
+      <div className="container mt-4">
+        <Routes>
+          <Route path="/" element={<SupplierList />} />
+          <Route path="/add-supplier" element={<AddSupplier />} />
+          <Route path="/edit-supplier/:id" element={<EditSupplier />} />
+          <Route path="/products" element={<ProductList />} />
+          <Route path="/add-product" element={<AddProduct />} />
+          <Route path="/edit-product/:id" element={<EditProduct />} />
+          <Route path="/add-purchase" element={<AddPurchase />} />
+          <Route path="/purchase-orders" element={<PurchaseOrders />} />
+          <Route path="/purchase-orders/:id" element={<PurchaseOrderDetails />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
+
 ×import React, { useEffect, useState } from 'react';
 import { getProducts, deleteProduct } from '../../services/productService';
 import { useNavigate } from 'react-router-dom';
