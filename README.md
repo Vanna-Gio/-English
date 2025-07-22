@@ -1,8 +1,8 @@
 Of course! Let’s keep it clear and simple.
 http://localhost:8080
-https://chatgpt.com/s/t_687ed2f8be2081919b3aaadf3bfb37f8
 
-https://chatgpt.com/share/687ed67a-a340-8004-ba9b-74d0cd9baa72
+https://chatgpt.com/share/687ef164-5560-8008-aeef-ea516cff57e5
+
 
 This part is showing how a B2B company (business that sells to other businesses) can use portfolio analysis to decide which information systems should get more attention, money, and resources.
 
