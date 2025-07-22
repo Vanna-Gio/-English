@@ -2,21 +2,58 @@ Of course! Let’s keep it clear and simple.
 http://localhost:8080
 https://chatgpt.com/s/t_687ed2f8be2081919b3aaadf3bfb37f8
 Uncaught runtime errors:
-×
-ERROR
-Network Error
-AxiosError: Network Error
-    at XMLHttpRequest.handleError (http://localhost:3000/static/js/bundle.js:873:14)
-    at Axios.request (http://localhost:3000/static/js/bundle.js:1323:41)
-    at async loadProducts (http://localhost:3000/static/js/bundle.js:36231:17)
-ERROR
-Network Error
-AxiosError: Network Error
-    at XMLHttpRequest.handleError (http://localhost:3000/static/js/bundle.js:873:14)
-    at Axios.request (http://localhost:3000/static/js/bundle.js:1323:41)
-    at async loadProducts (http://localhost:3000/static/js/bundle.js:36231:17)
+×import React, { useEffect, useState } from 'react';
+import { getProducts, deleteProduct } from '../../services/productService';
+import { useNavigate } from 'react-router-dom';
 
-📊 Summary applications of a portfolio analysis for an example B2B company
+const ProductList = () => {
+  const [products, setProducts] = useState([]);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    loadProducts();
+  }, []);
+
+  const loadProducts = async () => {
+    const res = await getProducts();
+    setProducts(res.data);
+  };
+
+  const handleDelete = async (id) => {
+    await deleteProduct(id);
+    loadProducts();
+  };
+
+  return (
+    <div>
+      <h2>Products</h2>
+      <button onClick={() => navigate('/add-product')} className="btn btn-primary mb-2">
+        Add Product
+      </button>
+      <table className="table table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th><th>Price</th><th>Stock</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {products.map((p) => (
+            <tr key={p.id}>
+              <td>{p.name}</td><td>{p.price}</td><td>{p.quantityInStock}</td>
+              <td>
+                <button className="btn btn-warning me-2" onClick={() => navigate(`/edit-product/${p.id}`)}>Edit</button>
+                <button className="btn btn-danger" onClick={() => handleDelete(p.id)}>Delete</button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default ProductList;
+
 
 This part is showing how a B2B company (business that sells to other businesses) can use portfolio analysis to decide which information systems should get more attention, money, and resources.
 
